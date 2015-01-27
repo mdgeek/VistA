@@ -36,6 +36,7 @@ usage()
     DEFAULTS:
       Alternate VistA-M repo = https://github.com/OSEHRA/VistA-M.git
       Install EWD.js = false
+      Install CWF = false
       Create Development Directories = false
       Instance Name = OSEHRA
       Post Install hook = none
@@ -44,6 +45,7 @@ usage()
     OPTIONS:
       -h    Show this message
       -a    Alternate VistA-M repo (Must be in OSEHRA format)
+      -c    Install CareWeb Framework (assumes development directories)
       -e    Install EWD.js (assumes development directories)
       -d    Create development directories (s & p)
       -i    Instance name
@@ -53,7 +55,7 @@ usage()
 EOF
 }
 
-while getopts ":ha:edi:p:s" option
+while getopts ":ha:cedi:p:s" option
 do
     case $option in
         h)
@@ -64,6 +66,10 @@ do
             repoPath=$OPTARG
             ;;
         d)
+            developmentDirectories=true
+            ;;
+        c)
+            installCWF=true
             developmentDirectories=true
             ;;
         e)
@@ -92,6 +98,10 @@ if [[ -z $developmentDirectories ]]; then
     developmentDirectories=false
 fi
 
+if [[ -z $installCWF ]]; then
+    installCWF=false
+fi
+
 if [[ -z $installEWD ]]; then
     installEWD=false
 fi
@@ -112,6 +122,7 @@ fi
 echo "Using $repoPath for routines and globals"
 echo "Create development directories: $developmentDirectories"
 echo "Installing an instance named: $instance"
+echo "Installing CWF: $installCWF"
 echo "Installing EWD.js: $installEWD"
 echo "Post install hook: $postInstall"
 echo "Skip Testing: $skipTests"
@@ -228,6 +239,13 @@ service xinetd restart
 if $developmentDirectories; then
     su $instance -c "mkdir $basedir/{p,p/$gtmver,s,s/$gtmver}"
     perl -pi -e 's#export gtmroutines=\"#export gtmroutines=\"\$basedir/p/\$gtmver\(\$basedir/p\) \$basedir/s/\$gtmver\(\$basedir/s\) #' $basedir/etc/env
+fi
+
+# Install CWF
+if $installCWF; then
+    cd $scriptdir/CWF
+    ./cwf.sh
+    cd $basedir
 fi
 
 # Install EWD.js

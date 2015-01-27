@@ -26,4 +26,10 @@ apt-get -y -qq update > /dev/null
 apt-get -y -qq upgrade > /dev/null
 
 # Install baseline packages
-apt-get install -y -qq git xinetd perl wget curl python ssh mysql-server openjdk-7-jdk maven sshpass > /dev/null
+apt-get install -y -qq git xinetd perl wget curl python ssh mysql-server openjdk-7-jdk maven sshpass tomcat7 tomcat7-admin > /dev/null
+
+#Configure tomcat7
+cp ./Ubuntu/tomcat-users.xml /etc/tomcat7
+cat /etc/tomcat7/server.xml | sed 's/8080/8180/g' | sed 's/8005/8105/g' | sed 's/8443/8543/g' > /tmp/server.xml
+cp /tmp/server.xml /etc/tomcat7/server.xml
+service tomcat7 restart
