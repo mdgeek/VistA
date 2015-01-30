@@ -1,0 +1,26 @@
+%RO Routine Output Utility
+GT.M 30-JAN-2015 15:52:33
+RGZINIT
+RGZINIT        ;RG/IND/DKM - Set up user access ;30-Jan-2015 15:50;DKM
+        ;=================================================================
+        ;;1.0;CAREWEB FRAMEWORK;;30-Jan-2015 15:25
+        ;=================================================================
+        N DUZ,NAM
+        S NAM=$ZCM
+        S DUZ=$$FIND1^DIC(200,,"X",NAM)
+        I 'DUZ W "User not found: ",NAM,!!,"Exiting...",!!! Q
+        W "Configuring user: ",NAM,!
+        D ADDSK("RGCWF DESIGNER"),ADDSK("RGCWF COMPOSER"),ADDSK("RGCWPT PATIENT SELECT")
+        D ADDXP("RGCWENCX CREATE VISIT"),ADDXP("RGCWENCX PROVIDER")
+        Q
+ADDSK(X)        W ?5,"Assigning security key: ",X,!
+        S ^XUSEC(X,DUZ)=""
+        Q
+ADDXP(X)        N ERR
+        W ?5,"Adding permission: ",X,!
+        D ADD^XPAR("USR",X,1,1,.ERR)
+        W:ERR ?7,"Error adding permission.",!
+        Q
+
+
+

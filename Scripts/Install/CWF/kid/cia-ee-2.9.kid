@@ -1,11 +1,11 @@
-KIDS Distribution saved on Jan 23, 2015@14:43:52
+KIDS Distribution saved on Jan 30, 2015@11:09:45
 XTENSIBLE EDITOR 2.9
 **KIDS**:XTENSIBLE EDITOR 2.9^
 
 **INSTALL NAME**
 XTENSIBLE EDITOR 2.9
 "BLD",8494,0)
-XTENSIBLE EDITOR 2.9^XTENSIBLE EDITOR^0^3150123^n
+XTENSIBLE EDITOR 2.9^XTENSIBLE EDITOR^0^3150130^n
 "BLD",8494,1,0)
 ^^1^1^3011129.213128
 "BLD",8494,1,1,0)
@@ -27,7 +27,7 @@ y^y^f^^n^^y^a^n
 "BLD",8494,4,"B",19940.1,19940.1)
 
 "BLD",8494,6.3)
-9
+11
 "BLD",8494,"ABPKG")
 n
 "BLD",8494,"INI")
@@ -887,7 +887,7 @@ CIAXCMP^^0^B9366921
 "BLD",8494,"KRN",9.8,"NM",10,0)
 CIAXED^^0^B15340559
 "BLD",8494,"KRN",9.8,"NM",11,0)
-CIAXEDIT^^0^B27616011
+CIAXEDIT^^0^B27702495
 "BLD",8494,"KRN",9.8,"NM",12,0)
 CIAXF^^0^B7091991
 "BLD",8494,"KRN",9.8,"NM",13,0)
@@ -901,7 +901,7 @@ CIAXKD^^0^B2048334
 "BLD",8494,"KRN",9.8,"NM",17,0)
 CIAXS^^0^B21616447
 "BLD",8494,"KRN",9.8,"NM",18,0)
-CIAXTMPL^^0^B449942
+CIAXTMPL^^0^B297275
 "BLD",8494,"KRN",9.8,"NM",19,0)
 CIAXX1^^0^B595984
 "BLD",8494,"KRN",9.8,"NM",20,0)
@@ -3495,7 +3495,7 @@ S X=$D(^XMB(3.7,"M",%S,DUZ))
 "DATA",19940,10,0)
 INQUIRY^^^1.5^^^^3140319
 "DATA",19940,10,.25)
-Displays imbedded format controls
+Displays embedded format controls
 "DATA",19940,10,1,0)
 ^19940.01^2^2
 "DATA",19940,10,1,1,0)
@@ -83763,9 +83763,9 @@ CIA
 "PKG",221,22,0)
 ^9.49I^1^1
 "PKG",221,22,1,0)
-2.9^3150123
+2.9^3150130
 "PKG",221,22,1,1,0)
-^^1^1^3150123
+^^1^1^3150130
 "PKG",221,22,1,1,1,0)
 Fully extensible, screen-oriented text editor for VistA/RPMS.
 "PKG",221,"DEV")
@@ -83851,7 +83851,7 @@ D XPZ2^XPDIQ
 "RTN","CIAX0",1,0)
 CIAX0 ;MSC/IND/DKM - Continuation of CIAX;20-Jan-2015 13:23;DKM
 "RTN","CIAX0",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAX0",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAX0",4,0)
@@ -84085,7 +84085,7 @@ ERROR Q:$G(DTOUT)
 "RTN","CIAX1",1,0)
 CIAX1 ;MSC/IND/DKM - Continuation of CIAX;04-May-2006 08:19;DKM
 "RTN","CIAX1",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAX1",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAX1",4,0)
@@ -84403,7 +84403,7 @@ BMFND I $G(CIABMR) D MOVETO^CIAX2(CIABMR,CIABMC) Q
 "RTN","CIAX2",1,0)
 CIAX2 ;MSC/IND/DKM - Continuation of CIAX;04-May-2006 08:19;DKM
 "RTN","CIAX2",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAX2",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAX2",4,0)
@@ -84775,7 +84775,7 @@ PRMPT(CIAPRMPT,CIALEN,CIAFLG,CIAVALID,CIADATA) ;
 "RTN","CIAX3",1,0)
 CIAX3 ;MSC/IND/DKM - Continuation of CIAX;04-May-2006 08:19;DKM
 "RTN","CIAX3",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAX3",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAX3",4,0)
@@ -84947,7 +84947,7 @@ MS1 F CIACNT=0:1 S CIAMACRO=$O(^CIAXED("M",CIACF,DUZ,CIAMACRO)) Q:CIAMACRO=""  D
 "RTN","CIAX4",1,0)
 CIAX4 ;MSC/IND/DKM - Continuation of CIAX;04-May-2006 08:19;DKM
 "RTN","CIAX4",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAX4",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAX4",4,0)
@@ -85107,7 +85107,7 @@ LKP(CIADIC,CIAOPT,CIAPRMPT,CIAXRF,CIADATA,CIASCN,CIAMUL,CIAX,CIAY,CIASID,CIATRP,
 "RTN","CIAX5",1,0)
 CIAX5 ;MSC/IND/DKM - Continuation of CIAX;04-May-2006 08:19;DKM
 "RTN","CIAX5",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAX5",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAX5",4,0)
@@ -85287,7 +85287,7 @@ BDEL(CIANEW) ;
 "RTN","CIAX6",1,0)
 CIAX6 ;MSC/IND/DKM - Continuation of CIAX;04-May-2006 08:19;DKM
 "RTN","CIAX6",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAX6",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAX6",4,0)
@@ -85525,7 +85525,7 @@ IMPTMP(CIAZ) ;
 "RTN","CIAXBRS",1,0)
 CIAXBRS ;MSC/IND/DKM - Text file browser;04-May-2006 08:19;DKM
 "RTN","CIAXBRS",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAXBRS",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAXBRS",4,0)
@@ -85637,7 +85637,7 @@ SETPAR(CIANAME,CIAVAL) ;
 "RTN","CIAXCMP",1,0)
 CIAXCMP ;MSC/IND/DKM - Initialize key map table ;04-May-2006 08:19;DKM
 "RTN","CIAXCMP",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAXCMP",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAXCMP",4,0)
@@ -85779,7 +85779,7 @@ ERROR W ?3,"Compilation aborted: "_$$EC^%ZOSV,!
 "RTN","CIAXED",1,0)
 CIAXED ;MSC/IND/DKM - Extensible Editor ;20-Jan-2015 13:23;DKM
 "RTN","CIAXED",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAXED",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAXED",4,0)
@@ -85925,11 +85925,11 @@ RESET X ^%ZOSF("EON"),^%ZOSF("TRMOFF")
 "RTN","CIAXED",74,0)
  Q
 "RTN","CIAXEDIT")
-0^11^B27616011
+0^11^B27702495
 "RTN","CIAXEDIT",1,0)
-CIAXEDIT ;MSC/IND/DKM - M routine editor ;23-Jan-2015 14:42;DKM
+CIAXEDIT ;MSC/IND/DKM - M routine editor ;30-Jan-2015 10:07;DKM
 "RTN","CIAXEDIT",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAXEDIT",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAXEDIT",4,0)
@@ -85969,7 +85969,7 @@ ENTRY(CIAS,CIAB) ;
 "RTN","CIAXEDIT",21,0)
  N CIAT
 "RTN","CIAXEDIT",22,0)
- S U="^",CIAS=$G(CIAS),CIAB=+$G(CIAB),DTIME=$G(DTIME,999999)
+ S U="^",CIAS=$G(CIAS),CIAB=+$G(CIAB),DTIME=$G(DTIME,999999),DT=$$DT^XLFDT
 "RTN","CIAXEDIT",23,0)
  S CIAT=$S(CIAS&CIAB:"search/browse",CIAS:"search",CIAB:"browse",1:"")
 "RTN","CIAXEDIT",24,0)
@@ -86183,7 +86183,7 @@ GET(CIAP,CIAD) ;
 "RTN","CIAXF",1,0)
 CIAXF ;MSC/IND/DKM - Continuation of CIAX;04-May-2006 08:19;DKM
 "RTN","CIAXF",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAXF",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAXF",4,0)
@@ -86295,7 +86295,7 @@ REPLACE(CIAITER) ;
 "RTN","CIAXFIL",1,0)
 CIAXFIL ;MSC/IND/DKM - Text file editor ;20-Jan-2015 13:23;DKM
 "RTN","CIAXFIL",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAXFIL",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAXFIL",4,0)
@@ -86379,7 +86379,7 @@ ERROR U IO
 "RTN","CIAXH",1,0)
 CIAXH ;MSC/IND/DKM - Continuation of CIAX;04-May-2006 08:19;DKM
 "RTN","CIAXH",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAXH",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAXH",4,0)
@@ -86587,7 +86587,7 @@ PARSE() N CIAZ,CIAZ1,CIAZ2,CIAZ3
 "RTN","CIAXINIT",1,0)
 CIAXINIT ;MSC/IND/DKM - Extensible Editor Inits;04-May-2006 08:19;DKM
 "RTN","CIAXINIT",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAXINIT",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAXINIT",4,0)
@@ -86799,7 +86799,7 @@ DEVICE ;; Setups for browser device
 "RTN","CIAXKD",1,0)
 CIAXKD ;MSC/IND/DKM - Create keystroke macros ;20-Jan-2015 13:23;DKM
 "RTN","CIAXKD",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAXKD",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAXKD",4,0)
@@ -86867,7 +86867,7 @@ FND S ^CIAXCFG(CIACF,3,"B",X,CIAZ)=""
 "RTN","CIAXS",1,0)
 CIAXS ;MSC/IND/DKM - Continuation of CIAX;04-May-2006 08:19;DKM
 "RTN","CIAXS",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAXS",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAXS",4,0)
@@ -87089,25 +87089,23 @@ RV1 S $X=CIAZX,$Y=CIAZY
 "RTN","CIAXS",112,0)
  Q ""
 "RTN","CIAXTMPL")
-0^18^B449942
+0^18^B297275
 "RTN","CIAXTMPL",1,0)
  ;%ROUTINE TEMPLATE%;z
 "RTN","CIAXTMPL",2,0)
-zCIAZz ;z$P($$SITE^VASITE,U,3)z/z$$GET^CIAXEDIT("Initials",$P($G(^VA(200,+$G(DUZ),0)),U,2))z - z$$GET^CIAXEDIT("Brief description")z ; z$$ENTRY^CIAUDT($H)z;;;;Build 9
+zCIAZz ;z$P($$SITE^VASITE,U,3)z/z$$GET^CIAXEDIT("Initials",$P($G(^VA(200,+$G(DUZ),0)),U,2))z - z$$GET^CIAXEDIT("Brief description")z ; z$$ENTRY^CIAUDT($H)z;;;;Build 11
 "RTN","CIAXTMPL",3,0)
- ;;Copyright 2000-2006, Medsphere Systems Corporation
-"RTN","CIAXTMPL",4,0)
  ;=================================================================
-"RTN","CIAXTMPL",5,0)
+"RTN","CIAXTMPL",4,0)
  ;;z$$GET^CIAXEDIT("Version","1.0")z;z$$GET^CIAXEDIT("Package")z;;z$$ENTRY^CIAUDT($H)z
-"RTN","CIAXTMPL",6,0)
+"RTN","CIAXTMPL",5,0)
  ;=================================================================
 "RTN","CIAXX1")
 0^19^B595984
 "RTN","CIAXX1",1,0)
 CIAXX1 ;MSC/IND/DKM - Maintenance utilities ;04-May-2006 08:19;DKM
 "RTN","CIAXX1",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAXX1",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAXX1",4,0)
@@ -87131,7 +87129,7 @@ USRPCIA N CIAZ,CIAX,CIAY
 "RTN","CIAXX2",1,0)
 CIAXX2 ;MSC/IND/DKM - Programmer extensions ;04-May-2006 08:19;DKM
 "RTN","CIAXX2",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAXX2",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAXX2",4,0)
@@ -87323,7 +87321,7 @@ SYNTAX(CIAL1,CIAL2) ;
 "RTN","CIAXX3",1,0)
 CIAXX3 ;MSC/IND/DKM - Spell checking extension ;04-May-2006 08:19;DKM
 "RTN","CIAXX3",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAXX3",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAXX3",4,0)
@@ -87463,7 +87461,7 @@ LKP(X) Q:X="" 1
 "RTN","CIAXX4",1,0)
 CIAXX4 ;MSC/IND/DKM - Help frame editor ;20-Jan-2015 13:23;DKM
 "RTN","CIAXX4",2,0)
- ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 9
+ ;;2.9;XTENSIBLE EDITOR;;Jan 23, 2015;Build 11
 "RTN","CIAXX4",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAXX4",4,0)
@@ -88277,7 +88275,7 @@ CHARACTER SEQUENCE SUB-FIELD^^1^2
 "^DD",19940,19940.011,0,"UP")
 19940.01
 "^DD",19940,19940.011,.01,0)
-KEY SEQUENCE^MF^^0;1^K:$L(X)>200!($L(X)<1) X
+CHARACTER SEQUENCE^MF^^0;1^K:$L(X)>200!($L(X)<1) X
 "^DD",19940,19940.011,.01,1,0)
 ^.1
 "^DD",19940,19940.011,.01,1,1,0)
@@ -88311,7 +88309,7 @@ match the keystroke sequence generated by pressing the PF1 key (which must
 "^DD",19940,19940.011,.01,21,10,0)
 be defined in the key macro subfile) followed by a "B".
 "^DD",19940,19940.011,.01,"DT")
-2930910
+3150127
 "^DD",19940,19940.011,1,0)
 EXECUTABLE CODE^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
 "^DD",19940,19940.011,1,3)
