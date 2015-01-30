@@ -24,3 +24,6 @@ python /scripts/Scripts/DefaultKIDSBuildInstaller.py ./kid/cia-ee-2.9.kid -S 2
 # Setup user(s)
 python /scripts/Scripts/VistARoutineImport.py ./rou/RGZINIT.rou -S 2 -o /home/osehra/r
 gtm -run ^RGZINIT "MANAGER,SYSTEM"
+gtm -run ^RGZINIT "USER,ONE"
+gtm -run ^RGZINIT "USER,TWO"
+gtm -run ^RGZINIT "USER,THREE"

@@ -1,14 +1,16 @@
 %RO Routine Output Utility
-GT.M 30-JAN-2015 15:52:33
+GT.M 30-JAN-2015 21:01:45
 RGZINIT
-RGZINIT        ;RG/IND/DKM - Set up user access ;30-Jan-2015 15:50;DKM
+RGZINIT ;RG/IND/DKM - Set up user access ;30-Jan-2015 21:01;DKM
         ;=================================================================
         ;;1.0;CAREWEB FRAMEWORK;;30-Jan-2015 15:25
         ;=================================================================
-        N DUZ,NAM
-        S NAM=$ZCM
-        S DUZ=$$FIND1^DIC(200,,"X",NAM)
-        I 'DUZ W "User not found: ",NAM,!!,"Exiting...",!!! Q
+        D INIT($ZCM)
+        Q
+INIT(NAM)       ;
+        N DUZ
+        S DUZ=+$S(NAM=+NAM:NAM,1:$$FIND1^DIC(200,,"X",NAM))
+        I '$D(^VA(200,DUZ,0)) W "User not found: ",NAM,!!,"Exiting...",!!! Q
         W "Configuring user: ",NAM,!
         D ADDSK("RGCWF DESIGNER"),ADDSK("RGCWF COMPOSER"),ADDSK("RGCWPT PATIENT SELECT")
         D ADDXP("RGCWENCX CREATE VISIT"),ADDXP("RGCWENCX PROVIDER")
