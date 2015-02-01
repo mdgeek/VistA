@@ -9,9 +9,9 @@ Health Information Systems and Technology Architecture.  It is maintained by
 OSEHRA, the Open Source Electronic Health Record Agent.
 
 This version of VistA includes Open Source Community contributions accepted
-by OSEHRA.  It also includes the `CareWeb Framework`_ and several plugins
-adapted from RPMS (IHS) and RMRS (Regenstrief).  The application may be
-accessed from http://localhost:8180/cwf-vista.
+by OSEHRA.  **Note:**  This fork also includes the `CareWeb Framework`_ and 
+several plugins adapted from RPMS (IHS) and RMRS (Regenstrief).  Once started,
+the application may be accessed from http://localhost:8180/cwf-vista.
 
 -------
 Purpose
