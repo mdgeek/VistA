@@ -82,4 +82,4 @@ Links
 
 .. _`Packages/Order Entry Results Reporting/CPRS`: Packages/Order%20Entry%20Results%20Reporting/CPRS
 .. _`Packages/RPC Broker/BDK`: Packages/RPC%20Broker/BDK
-.. _`CareWeb Framework`: www.carewebframework.org
+.. _`CareWeb Framework`: http://www.carewebframework.org
