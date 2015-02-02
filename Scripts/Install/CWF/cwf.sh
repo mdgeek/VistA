@@ -18,7 +18,7 @@ sudo ln -s /vagrant/CWF/www/cwf-vista.war /var/lib/tomcat7/webapps/cwf-vista.war
 # Install CWF KIDS builds
 #
 python /scripts/Scripts/DefaultKIDSBuildInstaller.py ./kid/cwf-vista-1.0.kid -S 2
-python /scripts/Scripts/DefaultKIDSBuildInstaller.py ./kid/cia-ee-2.9.kid -S 2
+python /scripts/Scripts/DefaultKIDSBuildInstaller.py ./kid/rged-3.0.kid -S 2
 
 #
 # Setup user(s)
