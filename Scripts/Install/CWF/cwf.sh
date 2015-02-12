@@ -23,13 +23,19 @@ python /scripts/Scripts/DefaultKIDSBuildInstaller.py ./kid/rged-3.0.kid -S 2
 #
 # Setup user(s)
 #
-python /scripts/Scripts/VistARoutineImport.py ./rou/RGZINIT.rou -S 2 -o /home/osehra/r
+python /scripts/Scripts/VistARoutineImport.py ./rou/RGZINIT.RSA -S 2 -o /home/osehra/r
 gtm -run ^RGZINIT "MANAGER,SYSTEM"
 gtm -run ^RGZINIT "USER,ONE"
 gtm -run ^RGZINIT "USER,TWO"
 gtm -run ^RGZINIT "USER,THREE"
 
 #
+# Install M Web Server (with mods)
+#
+sudo curl -L https://raw.github.com/shabiel/M-Web-Server/0.1.1/dist/WWWINIT.RSA > ./rou/WWWINIT.RSA
+python /scripts/Scripts/VistARoutineImport.py ./rou/WWWINIT.RSA -S 2 -o /home/osehra/r < ./www/wwwinit.inp
+python /scripts/Scripts/VistARoutineImport.py ./rou/VPRJRSP.RSA -S 2 -o /home/osehra/r
+
 # Run TaskMan
 gtm -run ^ZTMB
 
