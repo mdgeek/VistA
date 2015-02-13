@@ -34,9 +34,9 @@ gtm -run ^RGZINIT "USER,THREE"
 #
 sudo curl -L https://raw.github.com/shabiel/M-Web-Server/0.1.1/dist/WWWINIT.RSA > ./rou/WWWINIT.RSA
 python /scripts/Scripts/VistARoutineImport.py ./rou/WWWINIT.RSA -S 2 -o /home/osehra/r
-python /scripts/Scripts/VistARoutineImport.py ./rou/VPRJRSP.RSA -S 2 -o /home/osehra/r
 gtm -run ^WWWINIT < ./www/wwwinit.inp
 gtm -run WWWINIT^RGZINIT
+python /scripts/Scripts/VistARoutineImport.py ./rou/VPRJRSP.RSA -S 2 -o /home/osehra/r
 
 # Run TaskMan
 gtm -run ^ZTMB
