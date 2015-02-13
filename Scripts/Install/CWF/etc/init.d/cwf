@@ -1,0 +1,45 @@
+#!/usr/bin/env bash
+
+# init script for CareWeb Framework
+
+# Debian LSB info
+### BEGIN INIT INFO
+# Provides:          cwf
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Start CWF services at boot time
+# Description:       Starts/Stops CWF services.
+#                    Includes starting M Web Server.
+### END INIT INFO
+
+# Setup environment variables
+source /home/osehra/etc/env
+
+# Start VistA background tasks
+start() {
+    # Start M Web Server
+    echo "Starting M Web Server"
+    su $instance -c "source $basedir/etc/env && cd $basedir/tmp && $gtm_dist/mumps -run ^VPRJREQ"
+}
+stop() {
+    # Stop M Web Server
+    su $instance -c "source $basedir/etc/env && mumps -run STOP^VPRJREQ"
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart}"
+        ;;
+esac

@@ -2,7 +2,8 @@
 #
 #  CIA broker configuration
 #
-sudo ln -s /vagrant/CWF/etc/xinetd.d/osehra-vista-ciabroker /etc/xinetd.d/osehra-vista-ciabroker
+sudo cp -r /vagrant/CWF/etc/xinetd.d/osehra-vista-ciabroker /home/osehra/etc/xinetd.d/osehra-vista-ciabroker
+sudo ln -s /home/osehra/etc/xinetd.d/osehra-vista-ciabroker /etc/xinetd.d/osehra-vista-ciabroker
 sudo cp ./etc/xinetd.d/ciabroker.sh /home/osehra/bin
 sudo chown osehra /home/osehra/bin/ciabroker.sh
 sudo chgrp osehra /home/osehra/bin/ciabroker.sh
@@ -12,7 +13,7 @@ sudo service xinetd restart
 #
 # Web app installation
 #
-sudo ln -s /vagrant/CWF/www/cwf-vista.war /var/lib/tomcat7/webapps/cwf-vista.war
+sudo cp /vagrant/CWF/www/cwf-vista.war /var/lib/tomcat7/webapps/cwf-vista.war
 
 #
 # Install CWF KIDS builds
@@ -38,6 +39,10 @@ gtm -run ^WWWINIT < ./www/wwwinit.inp
 gtm -run WWWINIT^RGZINIT
 python /scripts/Scripts/VistARoutineImport.py ./rou/VPRJRSP.RSA -S 2 -o /home/osehra/r
 
-# Run TaskMan
-gtm -run ^ZTMB
+#
+# Install/Start CareWeb Services
+sudo cp -r /vagrant/CWF/etc/init.d/cwf /home/osehra/etc/init.d/cwf
+sudo ln -s /home/osehra/etc/init.d/cwf /etc/init.d/cwf
+sudo update-rc.d cwf defaults 99
+sudo service cwf start
 
