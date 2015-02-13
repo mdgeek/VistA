@@ -1,7 +1,7 @@
 %RO Routine Output Utility
-GT.M 30-JAN-2015 21:01:45
+GT.M 13-FEB-2015 03:51:50
 RGZINIT
-RGZINIT ;RG/IND/DKM - Set up user access ;30-Jan-2015 21:01;DKM
+RGZINIT ;RG/IND/DKM - Set up user access ;13-Feb-2015 03:51;SM
         ;=================================================================
         ;;1.0;CAREWEB FRAMEWORK;;30-Jan-2015 15:25
         ;=================================================================
@@ -22,6 +22,17 @@ ADDXP(X)        N ERR
         W ?5,"Adding permission: ",X,!
         D ADD^XPAR("USR",X,1,1,.ERR)
         W:ERR ?7,"Error adding permission.",!
+        Q
+WWWINIT N FDA
+        D FDASET("FHIR/*","+1,",.FDA)
+        D FDASET("VISTA/*","+2,",.FDA)
+        D:$D(FDA) UPDATE^DIE("E","FDA")
+        Q
+FDASET(URI,IENS,FDA)    ;
+        I '$D(^%W(17.6001,"B","GET",URI)) D
+        .S FDA(17.6001,IENS,.01)="GET"
+        .S FDA(17.6001,IENS,1)=URI
+        .S FDA(17.6001,IENS,2)="MSERVER^RGCWSER"
         Q
 
 
