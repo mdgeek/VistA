@@ -2,14 +2,12 @@
 #
 # Fix line endings
 #
-if [ -d /vagrant ]; then
-    dos2unix /vagrant/CWF/etc/init.d/cwf
-    dos2unix /vagrant/CWF/etc/xinetd.d/osehra-vista-ciabroker
-    dos2unix /vagrant/CWF/kid/*.kid
-    dos2unix /vagrant/CWF/rou/*.RSA
-    dos2unix /vagrant/CWF/www/*.xml
-    dos2unix /vagrant/CWF/www/*.inp
-fi
+dos2unix /vagrant/CWF/etc/init.d/cwf
+dos2unix /vagrant/CWF/etc/xinetd.d/osehra-vista-ciabroker
+dos2unix /vagrant/CWF/kid/*.kid
+dos2unix /vagrant/CWF/rou/*.RSA
+dos2unix /vagrant/CWF/www/*.xml
+dos2unix /vagrant/CWF/www/*.inp
 #
 #  CIA broker configuration
 #
