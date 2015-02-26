@@ -1,13 +1,13 @@
-KIDS Distribution saved on Feb 23, 2015@18:16:07
+KIDS Distribution saved on Feb 26, 2015@13:10:44
 CAREWEB DISTRIBUTION (VISTA) 1.0
 **KIDS**:CAREWEB DISTRIBUTION (VISTA) 1.0^CIA UTILITIES 1.2^RG UTILITIES 3.0^CIA RPC BROKER 1.3^CAREWEB FRAMEWORK 1.0^CAREWEB NOTIFICATION 1.0^CAREWEB CONTEXT 1.0^CAREWEB CWADF 1.0^CAREWEB ALLERGY COVERSHEET 1.0^CAREWEB CONSULT COVERSHEET 1.0^CAREWEB LAB COVERSHEET 1.0^CAREWEB VITALS 1.0^CAREWEB SMART ADAPTER 1.0^
 
 **INSTALL NAME**
 CAREWEB DISTRIBUTION (VISTA) 1.0
 "BLD",8492,0)
-CAREWEB DISTRIBUTION (VISTA) 1.0^^1^3150223^n
+CAREWEB DISTRIBUTION (VISTA) 1.0^^1^3150226^n
 "BLD",8492,6.3)
-117
+118
 "BLD",8492,10,0)
 ^9.63^15^12
 "BLD",8492,10,10,0)
@@ -223,7 +223,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWFUTL",1,0)
 RGCWFUTL ;RI/CBMI/DKM CareWeb Management Utilites;02-Feb-2015 10:15;DKM
 "RTN","RGCWFUTL",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 117
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 118
 "RTN","RGCWFUTL",3,0)
  ; Initiate shutdown sequence for applications
 "RTN","RGCWFUTL",4,0)
@@ -359,7 +359,7 @@ SHOWSESS() ;
 **INSTALL NAME**
 CIA UTILITIES 1.2
 "BLD",8482,0)
-CIA UTILITIES 1.2^CIA UTILITIES^0^3150223^n
+CIA UTILITIES 1.2^CIA UTILITIES^0^3150226^n
 "BLD",8482,1,0)
 ^^3^3^3030224^^
 "BLD",8482,1,1,0)
@@ -371,7 +371,7 @@ They perform generic functions.
 "BLD",8482,4,0)
 ^9.64PA^^
 "BLD",8482,6.3)
-128
+129
 "BLD",8482,"ABNS",0)
 ^9.66A^1^1
 "BLD",8482,"ABNS",1,0)
@@ -805,9 +805,9 @@ CIA
 "PKG",218,22,0)
 ^9.49I^1^1
 "PKG",218,22,1,0)
-1.2^3150223^3140319^1
+1.2^3150226^3140319^1
 "PKG",218,22,1,1,0)
-^^3^3^3150223
+^^3^3^3150226
 "PKG",218,22,1,1,1,0)
 This is the set of routines common to all modules occupying the CIA namespace.  
 "PKG",218,22,1,1,2,0)
@@ -895,7 +895,7 @@ D XPZ2^XPDIQ
 "RTN","CIAU",1,0)
 CIAU ;MSC/IND/DKM - General purpose utilities;20-Jan-2015 13:23;DKM
 "RTN","CIAU",2,0)
- ;;1.2;CIA UTILITIES;**1**;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;**1**;Mar 20, 2007;Build 129
 "RTN","CIAU",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAU",4,0)
@@ -1307,7 +1307,7 @@ DTT(X) S X=X*86400
 "RTN","CIAU1",1,0)
 CIAU1 ;MSC/IND/PLS - General Purpose Utilites - Con't ;04-May-2006 08:19;DKM
 "RTN","CIAU1",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAU1",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAU1",4,0)
@@ -1377,7 +1377,7 @@ ASKDATE(PMT,DFL,MIN,OPT) ;
 "RTN","CIAUALR",1,0)
 CIAUALR ;MSC/IND/DKM - Send alert to user(s) via kernel or mail;04-May-2006 08:19;DKM
 "RTN","CIAUALR",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUALR",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUALR",4,0)
@@ -1437,7 +1437,7 @@ MAIL(CIAMSG,XMY,XMSUB,XMDUZ) ;
 "RTN","CIAUBC28",1,0)
 CIAUBC28 ;MSC/IND/DKM/PLS - Convert 128 barcode to HPCL-compatible form ;04-May-2006 08:19;DKM
 "RTN","CIAUBC28",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUBC28",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUBC28",4,0)
@@ -1773,7 +1773,7 @@ BC(TXT,ORN,HGT,HOR,VER,WID) ;
 "RTN","CIAUBC39",1,0)
 CIAUBC39 ;MSC/IND/PLS - Converts barcode 39 to HPCL-compatible format ;04-May-2006 08:19;DKM
 "RTN","CIAUBC39",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUBC39",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUBC39",4,0)
@@ -1967,7 +1967,7 @@ CHK(X) ;CALCULATE CHECK DIGIT AND RETURN STRING TO PRINT
 "RTN","CIAUBCDA",1,0)
 CIAUBCDA ;MSC/IND/PLS - Converts barcode CODABAR to HPCL-compatible format ;04-May-2006 08:19;DKM
 "RTN","CIAUBCDA",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUBCDA",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUBCDA",4,0)
@@ -2121,7 +2121,7 @@ CHK(X) ;CALCULATE CHECK DIGIT AND RETURN STRING TO PRINT
 "RTN","CIAUBIG",1,0)
 CIAUBIG ;MSC/IND/PLS - Print a banner in large letters;04-May-2006 08:19;DKM
 "RTN","CIAUBIG",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUBIG",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUBIG",4,0)
@@ -2289,7 +2289,7 @@ TBL ;; Table of character "raster images"
 "RTN","CIAUDAT",1,0)
 CIAUDAT ;MSC/IND/DKM - Date range input;20-Jan-2015 13:23;DKM
 "RTN","CIAUDAT",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUDAT",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUDAT",4,0)
@@ -2441,7 +2441,7 @@ PAUSE(%CIAZ) ;
 "RTN","CIAUDDR",1,0)
 CIAUDDR ;MSC/IND/DKM - FileMan RPC Extensions ;04-May-2006 08:19;DKM
 "RTN","CIAUDDR",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUDDR",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUDDR",4,0)
@@ -2957,7 +2957,7 @@ XREFFLD(FNUM,XREF) ;EP
 "RTN","CIAUDIC",1,0)
 CIAUDIC ;MSC/IND/DKM - Encapsulated FileMan API;15-Feb-2007 10:32;DKM
 "RTN","CIAUDIC",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUDIC",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUDIC",4,0)
@@ -3289,7 +3289,7 @@ DA N %CIAZ,%CIAZ1,%CIAZ2
 "RTN","CIAUDT",1,0)
 CIAUDT ;MSC/IND/DKM - FM date to formatted date;04-May-2006 08:19;DKM
 "RTN","CIAUDT",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUDT",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUDT",4,0)
@@ -3367,7 +3367,7 @@ ENTRY(CIADAT,CIAFMT) ; EP
 "RTN","CIAUEDT",1,0)
 CIAUEDT ;MSC/IND/DKM - Screen-oriented line editor;20-Jan-2015 13:23;DKM
 "RTN","CIAUEDT",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUEDT",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUEDT",4,0)
@@ -3711,7 +3711,7 @@ ERROR W CIABEL                                                               ; S
 "RTN","CIAUHFS",1,0)
 CIAUHFS ;MSC/IND/DKM - Host IO Support ;04-May-2006 08:19;DKM
 "RTN","CIAUHFS",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUHFS",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUHFS",4,0)
@@ -3825,7 +3825,7 @@ STRIP N I,J,K,X
 "RTN","CIAUIMP",1,0)
 CIAUIMP ;MSC/IND/DKM - Import text into FileMan file;04-May-2006 08:19;DKM
 "RTN","CIAUIMP",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUIMP",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUIMP",4,0)
@@ -3989,7 +3989,7 @@ ERR(CIAMSG,CIAX) ;
 "RTN","CIAUIN0",1,0)
 CIAUIN0 ;MSC/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
 "RTN","CIAUIN0",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUIN0",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUIN0",4,0)
@@ -4049,7 +4049,7 @@ OPENX(X1,X2) ;EP
 "RTN","CIAUIN16",1,0)
 CIAUIN16 ;MSC/IND/DKM - Inits for VMS;04-May-2006 08:19;DKM
 "RTN","CIAUIN16",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUIN16",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUIN16",4,0)
@@ -4217,7 +4217,7 @@ CLIENTIP() ;EP
 "RTN","CIAUIN18",1,0)
 CIAUIN18 ;MSC/IND/DKM - Inits for Cache (Windows);04-May-2006 08:19;DKM
 "RTN","CIAUIN18",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUIN18",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUIN18",4,0)
@@ -4405,7 +4405,7 @@ CLIENTIP() ;EP
 "RTN","CIAUIN58",1,0)
 CIAUIN58 ;MSC/IND/DKM/PLS - Inits for MSM-UNIX;04-May-2006 08:19;DKM
 "RTN","CIAUIN58",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUIN58",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUIN58",4,0)
@@ -4619,7 +4619,7 @@ JW(ZOSHC) ;msm extrinsic
 "RTN","CIAUIN68",1,0)
 CIAUIN68 ;MSC/IND/DKM - Inits for Cache (Unix);04-May-2006 08:19;DKM
 "RTN","CIAUIN68",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUIN68",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUIN68",4,0)
@@ -4807,7 +4807,7 @@ CLIENTIP() ;EP
 "RTN","CIAUIN8",1,0)
 CIAUIN8 ;MSC/IND/DKM - Inits for MSM;04-May-2006 08:19;DKM
 "RTN","CIAUIN8",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUIN8",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUIN8",4,0)
@@ -4993,7 +4993,7 @@ CLIENTIP() ;EP
 "RTN","CIAUINIT",1,0)
 CIAUINIT ;MSC/IND/DKM - Platform specific inits;04-May-2006 08:19;DKM
 "RTN","CIAUINIT",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUINIT",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUINIT",4,0)
@@ -5107,7 +5107,7 @@ DEVICE ; Device setup
 "RTN","CIAULK2",1,0)
 CIAULK2 ;MSC/IND/DKM - Continuation of CIAULKP;20-Jan-2015 13:23;DKM
 "RTN","CIAULK2",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAULK2",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAULK2",4,0)
@@ -5511,7 +5511,7 @@ XY(X,Y) ;I %CIARS W:'X *13 S $X=X,$Y=Y Q ""
 "RTN","CIAULKP",1,0)
 CIAULKP ;MSC/IND/DKM - File lookup utility;20-Jan-2015 13:23;DKM
 "RTN","CIAULKP",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAULKP",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAULKP",4,0)
@@ -5809,7 +5809,7 @@ ERROR W:'%CIAHTML $$XY(0,%CIAY+1),*7,%CIAEOL,$$EC^%ZOSV
 "RTN","CIAUMTL",1,0)
 CIAUMTL ;MSC/IND/DKM - Multi-term lookup support ;04-May-2006 08:19;DKM
 "RTN","CIAUMTL",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUMTL",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUMTL",4,0)
@@ -6029,7 +6029,7 @@ STEM(CIALAST,CIASTEM,CIAF) ;
 "RTN","CIAUNTEG",1,0)
 CIAUNTEG ;ISC/XTSUMBLD KERNEL - Package checksum checker ;3070531.172703
 "RTN","CIAUNTEG",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20,2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20,2007;Build 129
 "RTN","CIAUNTEG",3,0)
  ;;7.3;3070531.172703
 "RTN","CIAUNTEG",4,0)
@@ -6123,7 +6123,7 @@ CIAU1 ;;508281
 "RTN","CIAUOS",1,0)
 CIAUOS ;MSC/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
 "RTN","CIAUOS",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUOS",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUOS",4,0)
@@ -6365,7 +6365,7 @@ CLIENTIP() ;EP
 "RTN","CIAUOS1",1,0)
 CIAUOS ;MSC/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
 "RTN","CIAUOS1",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUOS1",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUOS1",4,0)
@@ -6597,7 +6597,7 @@ ERRDSM S X1=$P($P(X,", ",2),"-",3),X2=$P($P(X,", "),":"),X3=$$TRIM^CIAU($P(X,", 
 "RTN","CIAUREG",1,0)
 CIAUREG ;MSC/IND/DKM - Various registration actions ;04-May-2006 08:19;DKM
 "RTN","CIAUREG",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUREG",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUREG",4,0)
@@ -6635,7 +6635,7 @@ REGPROT(P,C,ERR) ;
 "RTN","CIAURPC",1,0)
 CIAURPC ;MSC/IND/DKM - RPC Encapsulations for CIAU routines ;04-May-2006 08:19;DKM
 "RTN","CIAURPC",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAURPC",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAURPC",4,0)
@@ -6921,7 +6921,7 @@ GETRPC(X) ;EP
 "RTN","CIAURPRT",1,0)
 CIAURPRT ;MSC/IND/DKM - Routine Pretty Print Program ;20-Jan-2015 13:23;DKM
 "RTN","CIAURPRT",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAURPRT",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAURPRT",4,0)
@@ -7003,7 +7003,7 @@ RJ(X) W ?(IOM-$L(X)),X
 "RTN","CIAUSTX",1,0)
 CIAUSTX ;MSC/IND/DKM - M syntax analyzer;04-May-2006 08:19;DKM
 "RTN","CIAUSTX",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUSTX",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUSTX",4,0)
@@ -7289,7 +7289,7 @@ ERRORS ;;*Error messages*
 "RTN","CIAUSTX0",1,0)
 CIAUSTX0 ;MSC/IND/DKM - Continuation of CIAUSTX;04-May-2006 08:19;DKM
 "RTN","CIAUSTX0",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUSTX0",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUSTX0",4,0)
@@ -7619,7 +7619,7 @@ NEXT(CIAC,CIAI) ;
 "RTN","CIAUSTX1",1,0)
 CIAUSTX1 ;MSC/IND/DKM - Continuation of CIAUSTX;04-May-2006 08:19;DKM
 "RTN","CIAUSTX1",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUSTX1",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUSTX1",4,0)
@@ -7957,7 +7957,7 @@ NEXT(CIAC,CIAI) ;
 "RTN","CIAUTSK",1,0)
 CIAUTSK ;MSC/IND/DKM - Encapsulates TaskMan API ;04-May-2006 08:19;DKM
 "RTN","CIAUTSK",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUTSK",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUTSK",4,0)
@@ -7991,7 +7991,7 @@ QUEUE(ZTRTN,ZTDESC,ZTDTH,ZTSAVE,ZTIO,ZTUCI,ZTPRI) ;
 "RTN","CIAUUSR",1,0)
 CIAUUSR ;MSC/IND/DKM - Parse recipient list;04-May-2006 08:19;DKM
 "RTN","CIAUUSR",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUUSR",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUUSR",4,0)
@@ -8105,7 +8105,7 @@ MGRP2(CIAMGRP) ;
 "RTN","CIAUUU",1,0)
 CIAUUU ;MSC/IND/DKM - UUEncode and UUDecode functions.;04-May-2006 08:19;DKM
 "RTN","CIAUUU",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 128
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 129
 "RTN","CIAUUU",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUUU",4,0)
@@ -8163,7 +8163,7 @@ INIT() Q "=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
 **INSTALL NAME**
 RG UTILITIES 3.0
 "BLD",8503,0)
-RG UTILITIES 3.0^RUN TIME LIBRARY^0^3150223^n
+RG UTILITIES 3.0^RUN TIME LIBRARY^0^3150226^n
 "BLD",8503,1,0)
 ^^3^3^3150202^^^
 "BLD",8503,1,1,0)
@@ -8175,7 +8175,7 @@ They perform generic functions.
 "BLD",8503,4,0)
 ^9.64PA^^
 "BLD",8503,6.3)
-123
+124
 "BLD",8503,"ABNS",0)
 ^9.66A^1^1
 "BLD",8503,"ABNS",1,0)
@@ -8665,9 +8665,9 @@ RUN TIME LIBRARY^RGUT^RUN TIME LIBRARY
 "PKG",172,22,0)
 ^9.49I^1^1
 "PKG",172,22,1,0)
-3.0^3150223^3150202^1
+3.0^3150226^3150202^1
 "PKG",172,22,1,1,0)
-^^3^3^3150223
+^^3^3^3150226
 "PKG",172,22,1,1,1,0)
 This is the set of routines common to all modules occupying the RG namespace.  
 "PKG",172,22,1,1,2,0)
@@ -8777,7 +8777,7 @@ D XPZ2^XPDIQ
 "RTN","RGUT",1,0)
 RGUT ;RG/IND/DKM - General purpose utilities;20-Jan-2015 13:23;DKM
 "RTN","RGUT",2,0)
- ;;3.0;RG UTILITIES;**1**;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;**1**;Mar 20, 2007;Build 124
 "RTN","RGUT",3,0)
  ;;
 "RTN","RGUT",4,0)
@@ -9189,7 +9189,7 @@ DTT(X) S X=X*86400
 "RTN","RGUT1",1,0)
 RGUT1 ;RG/IND/PLS - General Purpose Utilites - Con't ;04-May-2006 08:19;DKM
 "RTN","RGUT1",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUT1",3,0)
  ;;
 "RTN","RGUT1",4,0)
@@ -9259,7 +9259,7 @@ ASKDATE(PMT,DFL,MIN,OPT) ;
 "RTN","RGUTALR",1,0)
 RGUTALR ;RG/IND/DKM - Send alert to user(s) via kernel or mail;04-May-2006 08:19;DKM
 "RTN","RGUTALR",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTALR",3,0)
  ;;
 "RTN","RGUTALR",4,0)
@@ -9319,7 +9319,7 @@ MAIL(CIAMSG,XMY,XMSUB,XMDUZ) ;
 "RTN","RGUTBC28",1,0)
 RGUTBC28 ;RG/IND/DKM/PLS - Convert 128 barcode to HPCL-compatible form ;04-May-2006 08:19;DKM
 "RTN","RGUTBC28",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTBC28",3,0)
  ;;
 "RTN","RGUTBC28",4,0)
@@ -9655,7 +9655,7 @@ BC(TXT,ORN,HGT,HOR,VER,WID) ;
 "RTN","RGUTBC39",1,0)
 RGUTBC39 ;RG/IND/PLS - Converts barcode 39 to HPCL-compatible format ;04-May-2006 08:19;DKM
 "RTN","RGUTBC39",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTBC39",3,0)
  ;;
 "RTN","RGUTBC39",4,0)
@@ -9849,7 +9849,7 @@ CHK(X) ;CALCULATE CHECK DIGIT AND RETURN STRING TO PRINT
 "RTN","RGUTBCDA",1,0)
 RGUTBCDA ;RG/IND/PLS - Converts barcode CODABAR to HPCL-compatible format ;04-May-2006 08:19;DKM
 "RTN","RGUTBCDA",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTBCDA",3,0)
  ;;
 "RTN","RGUTBCDA",4,0)
@@ -10003,7 +10003,7 @@ CHK(X) ;CALCULATE CHECK DIGIT AND RETURN STRING TO PRINT
 "RTN","RGUTBIG",1,0)
 RGUTBIG ;RG/IND/PLS - Print a banner in large letters;04-May-2006 08:19;DKM
 "RTN","RGUTBIG",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTBIG",3,0)
  ;;
 "RTN","RGUTBIG",4,0)
@@ -10171,7 +10171,7 @@ TBL ;; Table of character "raster images"
 "RTN","RGUTDAT",1,0)
 RGUTDAT ;RG/IND/DKM - Date range input;20-Jan-2015 13:23;DKM
 "RTN","RGUTDAT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTDAT",3,0)
  ;;
 "RTN","RGUTDAT",4,0)
@@ -10323,7 +10323,7 @@ PAUSE(%CIAZ) ;
 "RTN","RGUTDDR",1,0)
 RGUTDDR ;RG/IND/DKM - FileMan RPC Extensions ;04-May-2006 08:19;DKM
 "RTN","RGUTDDR",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTDDR",3,0)
  ;;
 "RTN","RGUTDDR",4,0)
@@ -10839,7 +10839,7 @@ XREFFLD(FNUM,XREF) ;EP
 "RTN","RGUTDIC",1,0)
 RGUTDIC ;RG/IND/DKM - Encapsulated FileMan API;15-Feb-2007 10:32;DKM
 "RTN","RGUTDIC",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTDIC",3,0)
  ;;
 "RTN","RGUTDIC",4,0)
@@ -11171,7 +11171,7 @@ DA N %CIAZ,%CIAZ1,%CIAZ2
 "RTN","RGUTDT",1,0)
 RGUTDT ;RG/IND/DKM - FM date to formatted date;04-May-2006 08:19;DKM
 "RTN","RGUTDT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTDT",3,0)
  ;;
 "RTN","RGUTDT",4,0)
@@ -11249,7 +11249,7 @@ ENTRY(CIADAT,CIAFMT) ; EP
 "RTN","RGUTEDT",1,0)
 RGUTEDT ;RG/IND/DKM - Screen-oriented line editor;20-Jan-2015 13:23;DKM
 "RTN","RGUTEDT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTEDT",3,0)
  ;;
 "RTN","RGUTEDT",4,0)
@@ -11593,7 +11593,7 @@ ERROR W CIABEL                                                               ; S
 "RTN","RGUTHFS",1,0)
 RGUTHFS ;RG/IND/DKM - Host IO Support ;04-May-2006 08:19;DKM
 "RTN","RGUTHFS",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTHFS",3,0)
  ;;
 "RTN","RGUTHFS",4,0)
@@ -11707,7 +11707,7 @@ STRIP N I,J,K,X
 "RTN","RGUTIMP",1,0)
 RGUTIMP ;RG/IND/DKM - Import text into FileMan file;04-May-2006 08:19;DKM
 "RTN","RGUTIMP",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTIMP",3,0)
  ;;
 "RTN","RGUTIMP",4,0)
@@ -11871,7 +11871,7 @@ ERR(CIAMSG,CIAX) ;
 "RTN","RGUTIN0",1,0)
 RGUTIN0 ;RG/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
 "RTN","RGUTIN0",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTIN0",3,0)
  ;;
 "RTN","RGUTIN0",4,0)
@@ -11931,7 +11931,7 @@ OPENX(X1,X2) ;EP
 "RTN","RGUTIN16",1,0)
 RGUTIN16 ;RG/IND/DKM - Inits for VMS;04-May-2006 08:19;DKM
 "RTN","RGUTIN16",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTIN16",3,0)
  ;;
 "RTN","RGUTIN16",4,0)
@@ -12099,7 +12099,7 @@ CLIENTIP() ;EP
 "RTN","RGUTIN18",1,0)
 RGUTIN18 ;RG/IND/DKM - Inits for Cache (Windows);04-May-2006 08:19;DKM
 "RTN","RGUTIN18",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTIN18",3,0)
  ;;
 "RTN","RGUTIN18",4,0)
@@ -12287,7 +12287,7 @@ CLIENTIP() ;EP
 "RTN","RGUTIN58",1,0)
 RGUTIN58 ;RG/IND/DKM/PLS - Inits for MSM-UNIX;04-May-2006 08:19;DKM
 "RTN","RGUTIN58",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTIN58",3,0)
  ;;
 "RTN","RGUTIN58",4,0)
@@ -12501,7 +12501,7 @@ JW(ZOSHC) ;msm extrinsic
 "RTN","RGUTIN68",1,0)
 RGUTIN68 ;RG/IND/DKM - Inits for Cache (Unix);04-May-2006 08:19;DKM
 "RTN","RGUTIN68",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTIN68",3,0)
  ;;
 "RTN","RGUTIN68",4,0)
@@ -12689,7 +12689,7 @@ CLIENTIP() ;EP
 "RTN","RGUTIN8",1,0)
 RGUTIN8 ;RG/IND/DKM - Inits for MSM;04-May-2006 08:19;DKM
 "RTN","RGUTIN8",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTIN8",3,0)
  ;;
 "RTN","RGUTIN8",4,0)
@@ -12875,7 +12875,7 @@ CLIENTIP() ;EP
 "RTN","RGUTINIT",1,0)
 RGUTINIT ;RG/IND/DKM - Platform specific inits;04-May-2006 08:19;DKM
 "RTN","RGUTINIT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTINIT",3,0)
  ;;
 "RTN","RGUTINIT",4,0)
@@ -12989,7 +12989,7 @@ DEVICE ; Device setup
 "RTN","RGUTLK2",1,0)
 RGUTLK2 ;RG/IND/DKM - Continuation of RGUTLKP;20-Jan-2015 13:23;DKM
 "RTN","RGUTLK2",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTLK2",3,0)
  ;;
 "RTN","RGUTLK2",4,0)
@@ -13393,7 +13393,7 @@ XY(X,Y) ;I %CIARS W:'X *13 S $X=X,$Y=Y Q ""
 "RTN","RGUTLKP",1,0)
 RGUTLKP ;RG/IND/DKM - File lookup utility;20-Jan-2015 13:23;DKM
 "RTN","RGUTLKP",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTLKP",3,0)
  ;;
 "RTN","RGUTLKP",4,0)
@@ -13691,7 +13691,7 @@ ERROR W:'%CIAHTML $$XY(0,%CIAY+1),*7,%CIAEOL,$$EC^%ZOSV
 "RTN","RGUTMTL",1,0)
 RGUTMTL ;RG/IND/DKM - Multi-term lookup support ;04-May-2006 08:19;DKM
 "RTN","RGUTMTL",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTMTL",3,0)
  ;;
 "RTN","RGUTMTL",4,0)
@@ -13911,7 +13911,7 @@ STEM(CIALAST,CIASTEM,CIAF) ;
 "RTN","RGUTNTEG",1,0)
 RGUTNTEG ;ISC/XTSUMBLD KERNEL - Package checksum checker ;3070531.172703
 "RTN","RGUTNTEG",2,0)
- ;;3.0;RG UTILITIES;;Mar 20,2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20,2007;Build 124
 "RTN","RGUTNTEG",3,0)
  ;;7.3;3070531.172703
 "RTN","RGUTNTEG",4,0)
@@ -14005,7 +14005,7 @@ RGUT1 ;;508281
 "RTN","RGUTOS",1,0)
 RGUTOS ;RG/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
 "RTN","RGUTOS",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTOS",3,0)
  ;;
 "RTN","RGUTOS",4,0)
@@ -14247,7 +14247,7 @@ CLIENTIP() ;EP
 "RTN","RGUTOS1",1,0)
 RGUTOS ;RG/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
 "RTN","RGUTOS1",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTOS1",3,0)
  ;;
 "RTN","RGUTOS1",4,0)
@@ -14479,7 +14479,7 @@ ERRDSM S X1=$P($P(X,", ",2),"-",3),X2=$P($P(X,", "),":"),X3=$$TRIM^RGUT($P(X,", 
 "RTN","RGUTREG",1,0)
 RGUTREG ;RG/IND/DKM - Various registration actions ;04-May-2006 08:19;DKM
 "RTN","RGUTREG",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTREG",3,0)
  ;;
 "RTN","RGUTREG",4,0)
@@ -14517,7 +14517,7 @@ REGPROT(P,C,ERR) ;
 "RTN","RGUTRPC",1,0)
 RGUTRPC ;RG/IND/DKM - RPC Encapsulations for RGUT routines ;04-May-2006 08:19;DKM
 "RTN","RGUTRPC",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTRPC",3,0)
  ;;
 "RTN","RGUTRPC",4,0)
@@ -14803,7 +14803,7 @@ GETRPC(X) ;EP
 "RTN","RGUTRPRT",1,0)
 RGUTRPRT ;RG/IND/DKM - Routine Pretty Print Program ;20-Jan-2015 13:23;DKM
 "RTN","RGUTRPRT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTRPRT",3,0)
  ;;
 "RTN","RGUTRPRT",4,0)
@@ -14885,7 +14885,7 @@ RJ(X) W ?(IOM-$L(X)),X
 "RTN","RGUTSTX",1,0)
 RGUTSTX ;RG/IND/DKM - M syntax analyzer;04-May-2006 08:19;DKM
 "RTN","RGUTSTX",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTSTX",3,0)
  ;;
 "RTN","RGUTSTX",4,0)
@@ -15171,7 +15171,7 @@ ERRORS ;;*Error messages*
 "RTN","RGUTSTX0",1,0)
 RGUTSTX0 ;RG/IND/DKM - Continuation of RGUTSTX;04-May-2006 08:19;DKM
 "RTN","RGUTSTX0",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTSTX0",3,0)
  ;;
 "RTN","RGUTSTX0",4,0)
@@ -15501,7 +15501,7 @@ NEXT(CIAC,CIAI) ;
 "RTN","RGUTSTX1",1,0)
 RGUTSTX1 ;RG/IND/DKM - Continuation of RGUTSTX;04-May-2006 08:19;DKM
 "RTN","RGUTSTX1",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTSTX1",3,0)
  ;;
 "RTN","RGUTSTX1",4,0)
@@ -15839,7 +15839,7 @@ NEXT(CIAC,CIAI) ;
 "RTN","RGUTTSK",1,0)
 RGUTTSK ;RG/IND/DKM - Encapsulates TaskMan API ;04-May-2006 08:19;DKM
 "RTN","RGUTTSK",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTTSK",3,0)
  ;;
 "RTN","RGUTTSK",4,0)
@@ -15873,7 +15873,7 @@ QUEUE(ZTRTN,ZTDESC,ZTDTH,ZTSAVE,ZTIO,ZTUCI,ZTPRI) ;
 "RTN","RGUTUSR",1,0)
 RGUTUSR ;RG/IND/DKM - Parse recipient list;04-May-2006 08:19;DKM
 "RTN","RGUTUSR",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTUSR",3,0)
  ;;
 "RTN","RGUTUSR",4,0)
@@ -15987,7 +15987,7 @@ MGRP2(CIAMGRP) ;
 "RTN","RGUTUU",1,0)
 RGUTUU ;RG/IND/DKM - UUEncode and UUDecode functions.;04-May-2006 08:19;DKM
 "RTN","RGUTUU",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 123
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 124
 "RTN","RGUTUU",3,0)
  ;;
 "RTN","RGUTUU",4,0)
@@ -16049,7 +16049,7 @@ INIT() Q "=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
 **INSTALL NAME**
 CIA RPC BROKER 1.3
 "BLD",8484,0)
-CIA RPC BROKER 1.3^^0^3150223^n
+CIA RPC BROKER 1.3^^0^3150226^n
 "BLD",8484,1,0)
 ^9.61A^1^1^3101115^^^^
 "BLD",8484,1,1,0)
@@ -16087,7 +16087,7 @@ y^y^f^^^^n
 "BLD",8484,4,"B",19941.24,19941.24)
 
 "BLD",8484,6.3)
-172
+173
 "BLD",8484,"INI")
 PRE^CIANBINI
 "BLD",8484,"INIT")
@@ -17357,7 +17357,7 @@ D XPZ2^XPDIQ
 "RTN","CIANBACT",1,0)
 CIANBACT ;MSC/IND/DKM - MSC RPC Broker Actions;29-Jan-2015 12:27;DKM
 "RTN","CIANBACT",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 172
+ ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 173
 "RTN","CIANBACT",3,0)
  ;;Copyright 2000-2008, Medsphere Systems Corporation
 "RTN","CIANBACT",4,0)
@@ -17687,7 +17687,7 @@ AUTHMETH(UCI) ;
 "RTN","CIANBASY",1,0)
 CIANBASY ;MSC/IND/DKM - Asynchronous RPC calls ;26-Jan-2015 14:18;DKM
 "RTN","CIANBASY",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 172
+ ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 173
 "RTN","CIANBASY",3,0)
  ;;Copyright 2000-2012, Medsphere Systems Corporation
 "RTN","CIANBASY",4,0)
@@ -17817,7 +17817,7 @@ STOPALL N ZTSK
 "RTN","CIANBEVT",1,0)
 CIANBEVT ;MSC/IND/DKM - Event Support ;26-Jan-2015 14:18;DKM
 "RTN","CIANBEVT",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 172
+ ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 173
 "RTN","CIANBEVT",3,0)
  ;;Copyright 2000-2008, Medsphere Systems Corporation
 "RTN","CIANBEVT",4,0)
@@ -18361,7 +18361,7 @@ RELATES(EVA,EVB) ;EP
 "RTN","CIANBINI",1,0)
 CIANBINI ;MSC/IND/DKM - MSC RPC Broker Installation ;26-Jan-2015 14:18;DKM
 "RTN","CIANBINI",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 172
+ ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 173
 "RTN","CIANBINI",3,0)
  ;;Copyright 2000-2012, Medsphere Systems Corporation
 "RTN","CIANBINI",4,0)
@@ -18583,7 +18583,7 @@ OBJINST ; EP
 "RTN","CIANBLIS",1,0)
 CIANBLIS ;MSC/IND/DKM - MSC RPC Broker ;29-Jan-2015 12:27;DKM
 "RTN","CIANBLIS",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 172
+ ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 173
 "RTN","CIANBLIS",3,0)
  ;;Copyright 2000-2011, Medsphere Systems Corporation
 "RTN","CIANBLIS",4,0)
@@ -19279,7 +19279,7 @@ CHPRN(X) D SETNM^%ZOSV($E(X,1,15))
 "RTN","CIANBLOG",1,0)
 CIANBLOG ;MSC/IND/DKM - MSC RPC Broker Activity Log Support ;26-Jan-2015 14:18;DKM
 "RTN","CIANBLOG",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Jan 3, 2008;Build 172
+ ;;1.3;CIA NETWORK COMPONENTS;;Jan 3, 2008;Build 173
 "RTN","CIANBLOG",3,0)
  ;;Copyright 2000-2008, Medsphere Systems Corporation
 "RTN","CIANBLOG",4,0)
@@ -19467,7 +19467,7 @@ ISACTIVE() ;
 "RTN","CIANBRPC",1,0)
 CIANBRPC ;MSC/IND/DKM - MSC RPC Broker Privileged RPCs;29-Jan-2015 08:41;DKM
 "RTN","CIANBRPC",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 172
+ ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 173
 "RTN","CIANBRPC",3,0)
  ;;Copyright 2000-2008, Medsphere Systems Corporation
 "RTN","CIANBRPC",4,0)
@@ -20017,7 +20017,7 @@ TMPGBL(X) ;
 "RTN","CIANBUTL",1,0)
 CIANBUTL ;MSC/IND/DKM - MSC RPC Broker Utilities ;26-Jan-2015 14:18;DKM
 "RTN","CIANBUTL",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 172
+ ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 173
 "RTN","CIANBUTL",3,0)
  ;;Copyright 2000-2008, Medsphere Systems Corporation
 "RTN","CIANBUTL",4,0)
@@ -21137,7 +21137,7 @@ This file logs session activities such as RPC calls and remote events.
 **INSTALL NAME**
 CAREWEB FRAMEWORK 1.0
 "BLD",8485,0)
-CAREWEB FRAMEWORK 1.0^CAREWEB FRAMEWORK^0^3150223^n
+CAREWEB FRAMEWORK 1.0^CAREWEB FRAMEWORK^0^3150226^n
 "BLD",8485,4,0)
 ^9.64PA^19941.1^3
 "BLD",8485,4,999.1,0)
@@ -21165,7 +21165,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8485,4,"B",19941.21,19941.21)
 
 "BLD",8485,6.3)
-149
+150
 "BLD",8485,"ABPKG")
 n
 "BLD",8485,"INI")
@@ -21205,11 +21205,11 @@ RGCWFUSR^^0^B13581745
 "BLD",8485,"KRN",9.8,"NM",5,0)
 RGCWFUTL^^0^B7704054
 "BLD",8485,"KRN",9.8,"NM",6,0)
-RGCWSEFR^^0^B40610762
+RGCWSEFR^^0^B40580756
 "BLD",8485,"KRN",9.8,"NM",7,0)
 RGCWSEJN^^0^B3886991
 "BLD",8485,"KRN",9.8,"NM",8,0)
-RGCWSER^^0^B277276358
+RGCWSER^^0^B285513777
 "BLD",8485,"KRN",9.8,"NM",9,0)
 RGCWSERD^^0^B6264901
 "BLD",8485,"KRN",9.8,"NM",10,0)
@@ -21501,7 +21501,7 @@ PRETRANS^RGCWKDTP
 "BLD",8485,"REQB",0)
 ^9.611^^
 "DATA",999.1,1,0)
-FHIR^text/xml^RGCWSEFR
+DSTU1^text/xml^RGCWSEFR
 "DATA",999.1,1,10,0)
 ^999.11^40^40
 "DATA",999.1,1,10,1,0)
@@ -21531,7 +21531,7 @@ D ADDTAG(PN)
 "DATA",999.1,1,10,3,30,3,0)
 coding^.01^O^20.1
 "DATA",999.1,1,10,3,30,3,10)
-FHIR/ICD9
+*/ICD9
 "DATA",999.1,1,10,3,30,4,0)
 code:end^.05^C^20.2
 "DATA",999.1,1,10,3,30,4,10)
@@ -21593,7 +21593,7 @@ D PUTDT(PN(1),VL("I")),ENDTAG("context")
 "DATA",999.1,1,10,4,30,9,0)
 location^.001^C^130
 "DATA",999.1,1,10,4,30,9,10)
-D PUT(PN,$$HOST^RGCWSER_"/FHIR/Binary/8925:"_VL("I"))
+D PUT(PN,$$HOST^RGCWSER("*/Binary/8925:"_VL("I")))
 "DATA",999.1,1,10,4,30,10,0)
 masterIdentifier^.001^C^140
 "DATA",999.1,1,10,4,30,10,10)
@@ -21655,7 +21655,7 @@ D ADDTAG(PN),ADDTAG("coding"),PUT("system",$$LOCALSYS^RGCWSER("types/visits")),P
 "DATA",999.1,1,10,5,30,9,0)
 participant^^C^90
 "DATA",999.1,1,10,5,30,9,10)
-N PRV F PRV=0:0 S PRV=$O(^AUPNVPRV("AD",IEN,PRV)) Q:'PRV  D FETCH^RGCWSER(.DATA,"FHIR/Encounter_Participant",PRV,PN)
+N PRV F PRV=0:0 S PRV=$O(^AUPNVPRV("AD",IEN,PRV)) Q:'PRV  D FETCH^RGCWSER(.DATA,"*/Encounter_Participant",PRV,PN)
 "DATA",999.1,1,10,5,40,0)
 ^999.13I^5^5
 "DATA",999.1,1,10,5,40,1,0)
@@ -21805,7 +21805,7 @@ D PUT(PN,"true")
 "DATA",999.1,1,10,10,30,3,0)
 address^.001^O^40
 "DATA",999.1,1,10,10,30,3,10)
-FHIR/Organization_Address
+*/Organization_Address
 "DATA",999.1,1,10,11,0)
 Organization_Address^1^4
 "DATA",999.1,1,10,11,30,0)
@@ -21857,7 +21857,7 @@ D IDENT("@identifiers/patients",$$HRN^RGCWPTCX(IEN),PN)
 "DATA",999.1,1,10,13,30,6,0)
 managingOrganization^^C^80
 "DATA",999.1,1,10,13,30,6,10)
-D FETCH^RGCWSER(.DATA,"FHIR/Organization_Reference",DUZ(2),PN)
+D FETCH^RGCWSER(.DATA,"*/Organization_Reference",DUZ(2),PN)
 "DATA",999.1,1,10,13,30,7,0)
 photo^^C^80
 "DATA",999.1,1,10,13,30,7,10)
@@ -21877,7 +21877,7 @@ D TELECOM
 "DATA",999.1,1,10,13,30,11,0)
 address^.001^O^130
 "DATA",999.1,1,10,13,30,11,10)
-FHIR/Patient_Address_Home
+*/Patient_Address_Home
 "DATA",999.1,1,10,13,30,12,0)
 telecom:fax:home^.136^C^140
 "DATA",999.1,1,10,13,30,12,10)
@@ -21885,7 +21885,7 @@ D TELECOM
 "DATA",999.1,1,10,13,30,13,0)
 extension url="http\://hl7.org/fhir/Profile/us-core#race"^2^M^1
 "DATA",999.1,1,10,13,30,13,10)
-FHIR/Patient_Race
+*/Patient_Race
 "DATA",999.1,1,10,13,30,14,0)
 SSN^.09^C^60
 "DATA",999.1,1,10,13,30,14,10)
@@ -22049,7 +22049,7 @@ S IENS=IENS_DATA("SER")_","
 "DATA",999.1,1,10,22,30,1,0)
 define^.01^C^100
 "DATA",999.1,1,10,22,30,1,10)
-D ADDTAG(PN),FETCH^RGCWSER(.DATA,"FHIR/"_VL("E"),,"concept"),ENDTAG(PN)
+D ADDTAG(PN),FETCH^RGCWSER(.DATA,"*/"_VL("E"),,"concept"),ENDTAG(PN)
 "DATA",999.1,1,10,22,30,2,0)
 identifier^^F^10
 "DATA",999.1,1,10,22,30,3,0)
@@ -22167,17 +22167,17 @@ D ENDTAG(PN)
 "DATA",999.1,1,10,26,30,7,0)
 @text^10.2^M^90.001
 "DATA",999.1,1,10,26,30,7,10)
-FHIR/MedicationPrescription_Sig
+*/MedicationPrescription_Sig
 "DATA",999.1,1,10,26,30,8,0)
 @dosing^113^M^90.002
 "DATA",999.1,1,10,26,30,8,10)
-FHIR/MedicationPrescription_Dosing
+*/MedicationPrescription_Dosing
 "DATA",999.1,1,10,26,40,0)
 ^999.13I^2^2
 "DATA",999.1,1,10,26,40,1,0)
 patient^2^R^10
 "DATA",999.1,1,10,26,40,1,20)
-S X=$$COHORT(PN,$NA(^PSRX("ACP")),2)
+S X=$$COHORT(PN,$NA(^PS(55,"*","P","A")),1)
 "DATA",999.1,1,10,26,40,2,0)
 _id^.001^N^20
 "DATA",999.1,1,10,27,0)
@@ -22197,7 +22197,7 @@ D:VL ADDTAG(PN),CODING^RGCWSEFR("@medication_route",VL("E")),ENDTAG(PN)
 "DATA",999.1,1,10,29,0)
 Patient/#/MedicationPrescription
 "DATA",999.1,1,10,29,10)
-D COMPRT($$COHORT2($P(PATH,"/",3),$NA(^PSRX("ACP")),2),1)
+D COMPRT($$COHORT2($P(PATH,"/",3),$NA(^PS(55,"*","P","A")),1),1)
 "DATA",999.1,1,10,30,0)
 AdverseReaction^^120.8
 "DATA",999.1,1,10,30,30,0)
@@ -22221,7 +22221,7 @@ D REF(PN,"Practitioner",.VL)
 "DATA",999.1,1,10,30,30,6,0)
 symptom^10^M^60
 "DATA",999.1,1,10,30,30,6,10)
-FHIR/AdverseReaction_Symptom
+*/AdverseReaction_Symptom
 "DATA",999.1,1,10,30,30,9,0)
 exposure^1,.02^C^70.2
 "DATA",999.1,1,10,30,30,9,10)
@@ -23099,7 +23099,7 @@ RI/CBMI
 "PKG",220,22,0)
 ^9.49I^1^1
 "PKG",220,22,1,0)
-1.0^3150223^3140319^1
+1.0^3150226^3140319^1
 "PKG",220,"DEV")
 DKM/RI/CBMI
 "PKG",220,"VERSION")
@@ -23183,7 +23183,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWFPAR",1,0)
 RGCWFPAR ;RI/CBMI/DKM - Parameter management ;18-Mar-2014 17:24;DKM
 "RTN","RGCWFPAR",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 149
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 150
 "RTN","RGCWFPAR",3,0)
  ; Load a parameter template
 "RTN","RGCWFPAR",4,0)
@@ -23383,7 +23383,7 @@ SETPAR(DATA,PARAM,VAL,ENT,INST) ;
 "RTN","RGCWFRPC",1,0)
 RGCWFRPC ;RI/CBMI/DKM - Miscellaneous RPC calls ;15-Mar-2014 11:56;DKM
 "RTN","RGCWFRPC",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 149
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 150
 "RTN","RGCWFRPC",3,0)
  ; RPC: Get/set DISV entry for selected file/IEN
 "RTN","RGCWFRPC",4,0)
@@ -23501,7 +23501,7 @@ TMPGBL(X) ;EP
 "RTN","RGCWFUSR",1,0)
 RGCWFUSR ;RI/CBMI/DKM - User utility methods;14-Feb-2015 17:34;DKM
 "RTN","RGCWFUSR",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 149
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 150
 "RTN","RGCWFUSR",3,0)
  ; Returns true if user has key
 "RTN","RGCWFUSR",4,0)
@@ -23735,7 +23735,7 @@ NAMEITER(CTX) ;
 "RTN","RGCWFUTL",1,0)
 RGCWFUTL ;RI/CBMI/DKM CareWeb Management Utilites;02-Feb-2015 10:15;DKM
 "RTN","RGCWFUTL",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 149
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 150
 "RTN","RGCWFUTL",3,0)
  ; Initiate shutdown sequence for applications
 "RTN","RGCWFUTL",4,0)
@@ -23871,7 +23871,7 @@ SHOWSESS() ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 149
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 150
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -24195,9 +24195,9 @@ MES(MSG,QUIT) ;
 "RTN","RGCWSEF0")
 0^10^B2599920
 "RTN","RGCWSEF0",1,0)
-RGCWSEF0 ;RI/CBMI/DKM - Return observations in FHIR format. ;21-Feb-2015 13:02;DKM
+RGCWSEF0 ;RI/CBMI/DKM - Return observations in FHIR format. ;26-Feb-2015 08:50;DKM
 "RTN","RGCWSEF0",2,0)
- ;=================================================================;;;;;Build 149
+ ;=================================================================;;;;;Build 150
 "RTN","RGCWSEF0",3,0)
  ;;1.0;CAREWEB FRAMEWORK;;07-Feb-2015 08:51
 "RTN","RGCWSEF0",4,0)
@@ -24293,7 +24293,7 @@ PUT(NAME,INTERNAL,EXTERNAL) ;
 "RTN","RGCWSEFL",1,0)
 RGCWSEFL ;RI/CBMI/DKM - Return lab observations. ;10-Feb-2015 23:51;DKM
 "RTN","RGCWSEFL",2,0)
- ;=================================================================;;;;;Build 149
+ ;=================================================================;;;;;Build 150
 "RTN","RGCWSEFL",3,0)
  ;;1.0;CAREWEB FRAMEWORK;;07-Feb-2015 08:51
 "RTN","RGCWSEFL",4,0)
@@ -24501,11 +24501,11 @@ PUT(NAME,INTERNAL,EXTERNAL) ;
 "RTN","RGCWSEFL",105,0)
  Q
 "RTN","RGCWSEFR")
-0^6^B40610762
+0^6^B40580756
 "RTN","RGCWSEFR",1,0)
-RGCWSEFR ;RI/CBMI/DKM - XML FHIR Support ;23-Feb-2015 10:14;DKM
+RGCWSEFR ;RI/CBMI/DKM - XML FHIR Support ;26-Feb-2015 08:50;DKM
 "RTN","RGCWSEFR",2,0)
- ;;1.0;RGCW;;14-March-2014;Build 149
+ ;;1.0;RGCW;;14-March-2014;Build 150
 "RTN","RGCWSEFR",3,0)
  ;=================================================================
 "RTN","RGCWSEFR",4,0)
@@ -24529,7 +24529,7 @@ PSTLIST I TOP,$$INFEED,'$$ISERR^RGCWSER D ENDFEED
 "RTN","RGCWSEFR",13,0)
 COMPOSE N ENTRY,TAG,ATR
 "RTN","RGCWSEFR",14,0)
- S TAG=$S($L(PNAME):PNAME,$E(PATH,1,11)="FHIR/Binary":"Binary",1:$P(PATH,"/",$L(PATH,"/")))
+ S TAG=$S($L(PNAME):PNAME,$P(PATH,"/",2)="Binary":"Binary",1:$P(PATH,"/",$L(PATH,"/")))
 "RTN","RGCWSEFR",15,0)
  S ENTRY='$L($G(PNAME))&$$INFEED&'$$HASFLAG^RGCWSER("S")
 "RTN","RGCWSEFR",16,0)
@@ -24967,7 +24967,7 @@ ITER(CTX,ROOT) ;
 "RTN","RGCWSEFV",1,0)
 RGCWSEFV ;RI/CBMI/DKM - Return vital observations. ;10-Feb-2015 23:51;DKM
 "RTN","RGCWSEFV",2,0)
- ;=================================================================;;;;;Build 149
+ ;=================================================================;;;;;Build 150
 "RTN","RGCWSEFV",3,0)
  ;;1.0;CAREWEB FRAMEWORK;;07-Feb-2015 08:51
 "RTN","RGCWSEFV",4,0)
@@ -25173,7 +25173,7 @@ RANGES N VAL
 "RTN","RGCWSEJN",1,0)
 RGCWSEJN ;RI/CBMI/DKM - JSON Serialization Support ;23-Feb-2015 18:15;DKM
 "RTN","RGCWSEJN",2,0)
- ;;1.0;RGCW;;14-March-2014;Build 149
+ ;;1.0;RGCW;;14-March-2014;Build 150
 "RTN","RGCWSEJN",3,0)
  ;=================================================================
 "RTN","RGCWSEJN",4,0)
@@ -25339,11 +25339,11 @@ ADD(X) D ADD^RGCWSER(X)
 "RTN","RGCWSEJN",84,0)
  Q
 "RTN","RGCWSER")
-0^8^B277276358
+0^8^B285513777
 "RTN","RGCWSER",1,0)
-RGCWSER ;RI/CBMI/DKM - Core Serialization Support ;23-Feb-2015 17:47;DKM
+RGCWSER ;RI/CBMI/DKM - Core Serialization Support ;26-Feb-2015 12:59;DKM
 "RTN","RGCWSER",2,0)
- ;;1.0;RGCW;;14-March-2014;Build 149
+ ;;1.0;RGCW;;14-March-2014;Build 150
 "RTN","RGCWSER",3,0)
  ;=================================================================
 "RTN","RGCWSER",4,0)
@@ -25823,715 +25823,743 @@ ENDREST(STATUS) ;
 "RTN","RGCWSER",241,0)
 GETSER(PATH,DATA) ;
 "RTN","RGCWSER",242,0)
- N TYPE,START,LEN,LP,MATCH,MTYPE,PTRN,BADTP,ACCPT,REJECT,D1,D2,SER,N0
+ N SER,SERNM,START,LEN,LP,MATCH,MTYPE,PTRN,BADTP,ACCPT,REJECT,D1,D2,N0
 "RTN","RGCWSER",243,0)
- S TYPE=$P(PATH,"/"),START=$P(PATH,"/",2),PATH=$P(PATH,"/",2,999)
+ S SERNM=$P(PATH,"/"),START=$P(PATH,"/",2),PATH=$P(PATH,"/",2,999)
 "RTN","RGCWSER",244,0)
  S LEN=$L(START),ACCPT=$G(DATA("HDR","ACCEPT")),(MATCH,REJECT)=0,SER=+$G(DATA("SER"))
 "RTN","RGCWSER",245,0)
- I $L(TYPE),LEN F D1=0:0 S D1=$S(SER:SER,1:$O(^RGCWF(999.1,"B",TYPE,D1))) Q:'D1  D GS1  Q:MATCH!SER
+ I SER,SERNM="*" S SERNM=DATA("SERNM")
 "RTN","RGCWSER",246,0)
- I MATCH D  Q N0
+ I $L(SERNM),LEN F D1=0:0 S D1=$S(SER:SER,1:$O(^RGCWF(999.1,"B",SERNM,D1))) Q:'D1  D GS1  Q:MATCH!SER
 "RTN","RGCWSER",247,0)
- .S:'SER N0=^RGCWF(999.1,D1,0),DATA("CTYPE")=$P(N0,U,2),DATA("INTF")=$P(N0,U,3),DATA("SER")=D1
+ I MATCH D  Q N0
 "RTN","RGCWSER",248,0)
- .S N0=$NA(^RGCWF(999.1,D1,10,D2))
+ .S:'SER N0=^RGCWF(999.1,D1,0),DATA("CTYPE")=$P(N0,U,2),DATA("INTF")=$P(N0,U,3),DATA("SER")=D1,DATA("SERNM")=SERNM
 "RTN","RGCWSER",249,0)
- D SETERR($S('REJECT:"404^Not Found",1:"406^Not acceptable"))
+ .S N0=$NA(^RGCWF(999.1,D1,10,D2))
 "RTN","RGCWSER",250,0)
- Q ""
+ D SETERR($S('REJECT:"404^Not Found",1:"406^Not acceptable"))
 "RTN","RGCWSER",251,0)
-GS1 S LP=START,MATCH=0,MTYPE=$P(^RGCWF(999.1,D1,0),U,2),BADTP='$$ISTYPE(MTYPE,ACCPT)
+ Q ""
 "RTN","RGCWSER",252,0)
- F  D  Q:MATCH  S LP=$O(^RGCWF(999.1,D1,10,"B",LP)) Q:$E(LP,1,LEN)'=START
+GS1 S LP=START,MATCH=0,MTYPE=$P(^RGCWF(999.1,D1,0),U,2),BADTP='$$ISTYPE(MTYPE,ACCPT)
 "RTN","RGCWSER",253,0)
- .F D2=0:0 S D2=$O(^RGCWF(999.1,D1,10,"B",LP,D2)) Q:'D2  S PTRN=^(D2) D  Q:MATCH
+ F  D  Q:MATCH  S LP=$O(^RGCWF(999.1,D1,10,"B",LP)) Q:$E(LP,1,LEN)'=START
 "RTN","RGCWSER",254,0)
- ..S MATCH=$S($L(PTRN):$$ISMATCH(PATH,PTRN),1:LP=PATH)
+ .F D2=0:0 S D2=$O(^RGCWF(999.1,D1,10,"B",LP,D2)) Q:'D2  S PTRN=^(D2) D  Q:MATCH
 "RTN","RGCWSER",255,0)
- ..I MATCH,BADTP S REJECT=1,MATCH=0
+ ..S MATCH=$S($L(PTRN):$$ISMATCH(PATH,PTRN),1:LP=PATH)
 "RTN","RGCWSER",256,0)
- Q
+ ..I MATCH,BADTP S REJECT=1,MATCH=0
 "RTN","RGCWSER",257,0)
- ; Returns true if path matches specified pattern
+ Q
 "RTN","RGCWSER",258,0)
-ISMATCH(PATH,PTRN) ;
+ ; Returns true if path matches specified pattern
 "RTN","RGCWSER",259,0)
- Q $TR(PATH,"-_","XX")?@PTRN
+ISMATCH(PATH,PTRN) ;
 "RTN","RGCWSER",260,0)
- ; Returns true if content type matches an accepted type
+ Q $TR(PATH,"-_","XX")?@PTRN
 "RTN","RGCWSER",261,0)
-ISTYPE(MTYPE,ACCPT) ;
+ ; Returns true if content type matches an accepted type
 "RTN","RGCWSER",262,0)
- Q:'$L(ACCPT) 1
+ISTYPE(MTYPE,ACCPT) ;
 "RTN","RGCWSER",263,0)
- Q:ACCPT["*/*" 1
+ Q:'$L(ACCPT) 1
 "RTN","RGCWSER",264,0)
- Q:ACCPT[MTYPE 1
+ Q:ACCPT["*/*" 1
 "RTN","RGCWSER",265,0)
- Q:ACCPT[($P(MTYPE,"/")_"/*") 1
+ Q:ACCPT[MTYPE 1
 "RTN","RGCWSER",266,0)
- Q:ACCPT[("*/"_$P(MTYPE,"/",2)) 1
+ Q:ACCPT[($P(MTYPE,"/")_"/*") 1
 "RTN","RGCWSER",267,0)
- Q 0
+ Q:ACCPT[("*/"_$P(MTYPE,"/",2)) 1
 "RTN","RGCWSER",268,0)
- ; Convert to pattern (Used by APTRN xref)
+ Q 0
 "RTN","RGCWSER",269,0)
-TOPTRN(NM) ;
+ ; Convert to pattern (Used by APTRN xref)
 "RTN","RGCWSER",270,0)
- N P,C,X,L
+TOPTRN(NM) ;
 "RTN","RGCWSER",271,0)
- S (L,P)=""
+ N P,C,X,L
 "RTN","RGCWSER",272,0)
- F X=1:1:$L(NM) D
+ S (L,P)=""
 "RTN","RGCWSER",273,0)
- .S C=$E(NM,X)
+ F X=1:1:$L(NM) D
 "RTN","RGCWSER",274,0)
- .I C="*" D TOPTRN2("1.AN") Q
+ .S C=$E(NM,X)
 "RTN","RGCWSER",275,0)
- .I C="#" D TOPTRN2("1.N") Q
+ .I C="*" D TOPTRN2("1.AN") Q
 "RTN","RGCWSER",276,0)
- .S L=L_C
+ .I C="#" D TOPTRN2("1.N") Q
 "RTN","RGCWSER",277,0)
- D:$L(P) TOPTRN2("")
+ .S L=L_C
 "RTN","RGCWSER",278,0)
- Q P
+ D:$L(P) TOPTRN2("")
 "RTN","RGCWSER",279,0)
-TOPTRN2(X) ;
+ Q P
 "RTN","RGCWSER",280,0)
- S:$L(L) P=P_"1"""_L_"""",L=""
+TOPTRN2(X) ;
 "RTN","RGCWSER",281,0)
- S P=P_X
+ S:$L(L) P=P_"1"""_L_"""",L=""
 "RTN","RGCWSER",282,0)
- Q
+ S P=P_X
 "RTN","RGCWSER",283,0)
-BLDFLDS(SRC,FLD) ;
+ Q
 "RTN","RGCWSER",284,0)
- N PC,LP,FN,FNS
+BLDFLDS(SRC,FLD) ;
 "RTN","RGCWSER",285,0)
- F LP=0:0 S LP=$O(SRC(LP)) Q:'LP  D
+ N PC,LP,FN,FNS
 "RTN","RGCWSER",286,0)
- .S FNS=$P(SRC(LP,0),U,2)
+ F LP=0:0 S LP=$O(SRC(LP)) Q:'LP  D
 "RTN","RGCWSER",287,0)
- .F PC=1:1:$L(FNS,",") D
+ .S FNS=$P(SRC(LP,0),U,2)
 "RTN","RGCWSER",288,0)
- ..S FN=$P(FNS,",",PC)
+ .F PC=1:1:$L(FNS,",") D
 "RTN","RGCWSER",289,0)
- ..Q:'$L(FN)!(FN=.001)
+ ..S FN=$P(FNS,",",PC)
 "RTN","RGCWSER",290,0)
- ..I 'FN,FILE S FN=$$FLDNUM^DILFD(FILE,FN),$P(FNS,",",PC)=FN
+ ..Q:'$L(FN)!(FN=.001)
 "RTN","RGCWSER",291,0)
- ..S:'$D(FLD(FN)) FLD=FLD_$S($L(FLD):";",1:"")_FN,FLD(FN)=1
+ ..I 'FN,FILE S FN=$$FLDNUM^DILFD(FILE,FN),$P(FNS,",",PC)=FN
 "RTN","RGCWSER",292,0)
- .S $P(SRC(LP,0),U,2)=FNS
+ ..S:'$D(FLD(FN)) FLD=FLD_$S($L(FLD):";",1:"")_FN,FLD(FN)=1
 "RTN","RGCWSER",293,0)
- Q
+ .S $P(SRC(LP,0),U,2)=FNS
 "RTN","RGCWSER",294,0)
- ; Add to output buffer
+ Q
 "RTN","RGCWSER",295,0)
-ADD(X) N Y
+ ; Add to output buffer
 "RTN","RGCWSER",296,0)
- S:'$$ISERR Y=$O(@DATA@(""),-1)+1,@DATA@(Y)=X,DATA("LEN")=$G(DATA("LEN"))+$L(X)
+ADD(X) N Y
 "RTN","RGCWSER",297,0)
- Q
+ S:'$$ISERR Y=$O(@DATA@(""),-1)+1,@DATA@(Y)=X,DATA("LEN")=$G(DATA("LEN"))+$L(X)
 "RTN","RGCWSER",298,0)
- ; Add HTTP header to output buffer
+ Q
 "RTN","RGCWSER",299,0)
-ADDHDR(X) ;
+ ; Add HTTP header to output buffer
 "RTN","RGCWSER",300,0)
- N Y
+ADDHDR(X) ;
 "RTN","RGCWSER",301,0)
- S Y=$O(@DATA@(0,""),-1)+1,@DATA@(0,Y)=X_$C(13,10)
+ N Y
 "RTN","RGCWSER",302,0)
- Q
+ S Y=$O(@DATA@(0,""),-1)+1,@DATA@(0,Y)=X_$C(13,10)
 "RTN","RGCWSER",303,0)
- ; Add array of values to output buffer.
+ Q
 "RTN","RGCWSER",304,0)
- ; AR may be by reference or indirection
+ ; Add array of values to output buffer.
 "RTN","RGCWSER",305,0)
- ; FLG: B = encode as binary, L = add CRLF.
+ ; AR may be by reference or indirection
 "RTN","RGCWSER",306,0)
-ADDARY(AR,FLG) ;
+ ; FLG: B = encode as binary, L = add CRLF.
 "RTN","RGCWSER",307,0)
- N LP,RT,VL,B,L
+ADDARY(AR,FLG) ;
 "RTN","RGCWSER",308,0)
- S RT=$S($D(AR)=1:AR,1:$NA(AR)),FLG=$G(FLG),B=FLG["B",L=$S(FLG["L":$C(13,10),1:"")
+ N LP,RT,VL,B,L
 "RTN","RGCWSER",309,0)
- D ADDTXT(RT,L):'B,ADDBIN(RT,L):B
+ S RT=$S($D(AR)=1:AR,1:$NA(AR)),FLG=$G(FLG),B=FLG["B",L=$S(FLG["L":$C(13,10),1:"")
 "RTN","RGCWSER",310,0)
- Q
+ D ADDTXT(RT,L):'B,ADDBIN(RT,L):B
 "RTN","RGCWSER",311,0)
-ADDTXT(RT,L) ;
+ Q
 "RTN","RGCWSER",312,0)
- N LP
+ADDTXT(RT,L) ;
 "RTN","RGCWSER",313,0)
- S LP=""
+ N LP
 "RTN","RGCWSER",314,0)
- F  S LP=$O(@RT@(LP)) Q:'$L(LP)  D
+ S LP=""
 "RTN","RGCWSER",315,0)
- .D ADD($$ESC(@RT@(LP)_L))
-"RTN","RGCWSER",316,0)
- Q
-"RTN","RGCWSER",317,0)
-ADDBIN(RT,L) ;
-"RTN","RGCWSER",318,0)
- N X,Z,VL,LP,I
-"RTN","RGCWSER",319,0)
- S Z="=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",(VL,LP,X)=""
-"RTN","RGCWSER",320,0)
  F  S LP=$O(@RT@(LP)) Q:'$L(LP)  D
+"RTN","RGCWSER",316,0)
+ .D ADD($$ESC(@RT@(LP)_L))
+"RTN","RGCWSER",317,0)
+ Q
+"RTN","RGCWSER",318,0)
+ADDBIN(RT,L) ;
+"RTN","RGCWSER",319,0)
+ N X,Z,VL,LP,I
+"RTN","RGCWSER",320,0)
+ S Z="=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/",(VL,LP,X)=""
 "RTN","RGCWSER",321,0)
- .S X=X_@RT@(LP)_L
+ F  S LP=$O(@RT@(LP)) Q:'$L(LP)  D
 "RTN","RGCWSER",322,0)
- .F  Q:$L(X)<3  D
+ .S X=X_@RT@(LP)_L
 "RTN","RGCWSER",323,0)
- ..S VL=VL_$$B64ENC($E(X,1,3)),X=$E(X,4,9999)
+ .F  Q:$L(X)<3  D
 "RTN","RGCWSER",324,0)
- .I $L(VL)>131 D ADD(VL) S VL=""
+ ..S VL=VL_$$B64ENC($E(X,1,3)),X=$E(X,4,9999)
 "RTN","RGCWSER",325,0)
- S:$L(X) VL=VL_$$B64ENC(X)
+ .I $L(VL)>131 D ADD(VL) S VL=""
 "RTN","RGCWSER",326,0)
- D:$L(VL) ADD(VL)
+ S:$L(X) VL=VL_$$B64ENC(X)
 "RTN","RGCWSER",327,0)
- Q
+ D:$L(VL) ADD(VL)
 "RTN","RGCWSER",328,0)
-B64ENC(X) N Z1,Z2,Z3,Z4
+ Q
 "RTN","RGCWSER",329,0)
- S Z3=0,Z1=""
+B64ENC(X) N Z1,Z2,Z3,Z4
 "RTN","RGCWSER",330,0)
- F Z4=1:1:3 S Z2=$A(X,Z4),Z3=Z3*256+$S(Z2<0:0,1:Z2)
+ S Z3=0,Z1=""
 "RTN","RGCWSER",331,0)
- F Z4=1:1:4 S Z1=$E(Z,Z3#64+2)_Z1,Z3=Z3\64
+ F Z4=1:1:3 S Z2=$A(X,Z4),Z3=Z3*256+$S(Z2<0:0,1:Z2)
 "RTN","RGCWSER",332,0)
- Q Z1
+ F Z4=1:1:4 S Z1=$E(Z,Z3#64+2)_Z1,Z3=Z3\64
 "RTN","RGCWSER",333,0)
- ; Parse query string into PARAMS array.
+ Q Z1
 "RTN","RGCWSER",334,0)
-PARSEQS(VALUE,ARY) ;
+ ; Parse query string into PARAMS array.
 "RTN","RGCWSER",335,0)
- N X,Y,Z,N,V,M
+PARSEQS(VALUE,ARY) ;
 "RTN","RGCWSER",336,0)
- F X=1:1:$L(VALUE,"&") D
+ N X,Y,Z,N,V,M
 "RTN","RGCWSER",337,0)
- .S Y=$P(VALUE,"&",X),N=$$UNESCAPE($P(Y,"=")),V=$$UNESCAPE($P(Y,"=",2,9999)),M=""
+ F X=1:1:$L(VALUE,"&") D
 "RTN","RGCWSER",338,0)
- .I $L(N) D
+ .S Y=$P(VALUE,"&",X),N=$$UNESCAPE($P(Y,"=")),V=$$UNESCAPE($P(Y,"=",2,9999)),M=""
 "RTN","RGCWSER",339,0)
- ..S Z=$L(N,":")
+ .I $L(N) D
 "RTN","RGCWSER",340,0)
- ..I Z>1 D
+ ..S Z=$L(N,":")
 "RTN","RGCWSER",341,0)
- ...S Y=$P(N,":",Z)
+ ..I Z>1 D
 "RTN","RGCWSER",342,0)
- ...S M=$S(Y="missing":"m",Y="exact":"e",Y="text":"t",1:"")
+ ...S Y=$P(N,":",Z)
 "RTN","RGCWSER",343,0)
- ...S:$L(M) N=$P(N,":",1,Z-1)
+ ...S M=$S(Y="missing":"m",Y="exact":"e",Y="text":"t",1:"")
 "RTN","RGCWSER",344,0)
- ..S Y=1+$O(ARY(N,""),-1)
+ ...S:$L(M) N=$P(N,":",1,Z-1)
 "RTN","RGCWSER",345,0)
- ..F Z=1:1:$L(V,",") D
+ ..S Y=1+$O(ARY(N,""),-1)
 "RTN","RGCWSER",346,0)
- ...S ARY(N,Y,Z)=$P(V,",",Z)
+ ..F Z=1:1:$L(V,",") D
 "RTN","RGCWSER",347,0)
- ...S ARY(N,Y,Z,"OPR")=M
+ ...S ARY(N,Y,Z)=$P(V,",",Z)
 "RTN","RGCWSER",348,0)
- Q
+ ...S ARY(N,Y,Z,"OPR")=M
 "RTN","RGCWSER",349,0)
- ; Parse http header
+ Q
 "RTN","RGCWSER",350,0)
-PARSEHDR(VALUE,ARY) ;
+ ; Parse http header
 "RTN","RGCWSER",351,0)
- N N,V
+PARSEHDR(VALUE,ARY) ;
 "RTN","RGCWSER",352,0)
- S N=$$UP^XLFSTR($P(VALUE,":")),V=$$TRIM^XLFSTR($P(VALUE,":",2,999))
+ N N,V
 "RTN","RGCWSER",353,0)
- S:$L(N) ARY("HDR",N)=V
+ S N=$$UP^XLFSTR($P(VALUE,":")),V=$$TRIM^XLFSTR($P(VALUE,":",2,999))
 "RTN","RGCWSER",354,0)
- Q
+ S:$L(N) ARY("HDR",N)=V
 "RTN","RGCWSER",355,0)
- ; Escape reserved characters
-"RTN","RGCWSER",356,0)
-ESC(X) N Y,Z,C
-"RTN","RGCWSER",357,0)
- F Z=1:1 S Y=$P($T(ESCMAP+Z),";;",2) Q:'$L(Y)  D
-"RTN","RGCWSER",358,0)
- .S C=$P(Y,";")
-"RTN","RGCWSER",359,0)
- .S:X[C X=$$SUBST^RGUT(X,C,$P(Y,";",2))
-"RTN","RGCWSER",360,0)
- Q X
-"RTN","RGCWSER",361,0)
-ESCMAP ;;Map for characters to escape
-"RTN","RGCWSER",362,0)
- ;;&;amp
-"RTN","RGCWSER",363,0)
- ;;";qt
-"RTN","RGCWSER",364,0)
- ;;<;lt
-"RTN","RGCWSER",365,0)
- ;;>;gt
-"RTN","RGCWSER",366,0)
- ;;
-"RTN","RGCWSER",367,0)
- ; Replace escaped characters in URL.
-"RTN","RGCWSER",368,0)
-UNESCAPE(X) ;
-"RTN","RGCWSER",369,0)
- I X["%"!(X["+") D
-"RTN","RGCWSER",370,0)
- .N P,C,H
-"RTN","RGCWSER",371,0)
- .F P=1:1 S C=$E(X,P) Q:'$L(C)  D
-"RTN","RGCWSER",372,0)
- ..I C="+" S $E(X,P)=" "
-"RTN","RGCWSER",373,0)
- ..E  I C="%" S H=$E(X,P+1,P+2),$E(X,P,P+2)=$$UNHEX^XTHCUTL(H)
-"RTN","RGCWSER",374,0)
- Q X
-"RTN","RGCWSER",375,0)
-TABLE(T) Q $S(T=+T:T,1:+$O(^DIC("B",TABLE,0)))
-"RTN","RGCWSER",376,0)
- ; Format system attribute
-"RTN","RGCWSER",377,0)
-SYSTEM(SYSTEM) ;
-"RTN","RGCWSER",378,0)
- N PATH
-"RTN","RGCWSER",379,0)
- S:'($D(SYSTEM)#10) SYSTEM="@"
-"RTN","RGCWSER",380,0)
- S PATH=$P(SYSTEM,"/",2,999),SYSTEM=$P(SYSTEM,"/")
-"RTN","RGCWSER",381,0)
- S:$E(SYSTEM)="#" SYSTEM="@"_$TR($P(^DIC($E(SYSTEM,2,9999),0),U)," /","__")
-"RTN","RGCWSER",382,0)
- S:$E(SYSTEM)="@" SYSTEM=$$LOCALSYS($E(SYSTEM,2,9999))
-"RTN","RGCWSER",383,0)
- Q SYSTEM_$S($L(PATH):"/"_PATH,1:"")
-"RTN","RGCWSER",384,0)
- ; Returns the host url
-"RTN","RGCWSER",385,0)
-HOST(PATH) ;
-"RTN","RGCWSER",386,0)
- Q $$CONCAT($G(DATA("HOST"),"http://broker/"),.PATH)
-"RTN","RGCWSER",387,0)
- ; Prepend local system root to path
-"RTN","RGCWSER",388,0)
-LOCALSYS(PATH) ;
-"RTN","RGCWSER",389,0)
- Q $$CONCAT("http://"_$$LOW^XLFSTR($$KSP^XUPARAM("WHERE")),.PATH)
-"RTN","RGCWSER",390,0)
- ; Concatenate path to url.
-"RTN","RGCWSER",391,0)
-CONCAT(URL,PATH) ;
-"RTN","RGCWSER",392,0)
- Q:'$D(PATH) URL
-"RTN","RGCWSER",393,0)
- F  Q:$E(URL,$L(URL))'="/"  S $E(URL,$L(URL))=""
-"RTN","RGCWSER",394,0)
- F  Q:$E(PATH)'="/"  S $E(PATH)=""
-"RTN","RGCWSER",395,0)
- Q URL_"/"_PATH
-"RTN","RGCWSER",396,0)
-SYSUUID() ; Return UUID for this system
-"RTN","RGCWSER",397,0)
- S:'$L($G(^RGCWF("SYS"))) ^("SYS")=$$UUID
-"RTN","RGCWSER",398,0)
- Q ^("SYS")
-"RTN","RGCWSER",399,0)
- ; Generates a random UUID using $H as a seed.
-"RTN","RGCWSER",400,0)
-UUID() N R,I,N,S
-"RTN","RGCWSER",401,0)
- S (R,N)="",S=+$TR($H,",")
-"RTN","RGCWSER",402,0)
- F  S N=N_$R(S) Q:$L(N)>64
-"RTN","RGCWSER",403,0)
- F I=1:2:64 S R=R_$E("0123456789abcdef",$E(N,I,I+1)#16+1)
-"RTN","RGCWSER",404,0)
- Q $E(R,1,8)_"-"_$E(R,9,12)_"-4"_$E(R,14,16)_"-"_$E("89ab",$E(N,17)#4+1)_$E(R,18,20)_"-"_$E(R,21,32)
-"RTN","RGCWSER",405,0)
- ; Search/filter logic.  Returns true if successful match.
-"RTN","RGCWSER",406,0)
-FILTER() N LP,SQ,PR,MATCH
-"RTN","RGCWSER",407,0)
- S MATCH=1
-"RTN","RGCWSER",408,0)
- F SQ=0:0 Q:'MATCH  S SQ=$O(PARM("ASEQ",SQ)) Q:'SQ  D
-"RTN","RGCWSER",409,0)
- .F LP=0:0 Q:'MATCH  S LP=$O(PARM("ASEQ",SQ,LP)) Q:'LP  D
-"RTN","RGCWSER",410,0)
- ..N PN,PN1,PN2,FN,TP,VL,CTL
-"RTN","RGCWSER",411,0)
- ..D EXTRP(.PARM,LP)
-"RTN","RGCWSER",412,0)
- ..S PN=PN(-1)
-"RTN","RGCWSER",413,0)
- ..I PN="@selector" X CTL Q
-"RTN","RGCWSER",414,0)
- ..F PN1=0:0 Q:'MATCH  S PN1=$O(PARAMS(PN,PN1)) Q:'PN1  D
-"RTN","RGCWSER",415,0)
- ...S MATCH=1
-"RTN","RGCWSER",416,0)
- ...F PN2=0:0 S PN2=$O(PARAMS(PN,PN1,PN2)) Q:'PN2  D  Q:MATCH
-"RTN","RGCWSER",417,0)
- ....N PVAL
-"RTN","RGCWSER",418,0)
- ....M PVAL=PARAMS(PN,PN1,PN2)
-"RTN","RGCWSER",419,0)
- ....I '$D(PVAL("I")) D
-"RTN","RGCWSER",420,0)
- .....S PVAL("I")=1
-"RTN","RGCWSER",421,0)
- .....D:$L(TP) @("INIT"_TP)
-"RTN","RGCWSER",422,0)
- .....M PARAMS(PN,PN1,PN2)=PVAL
-"RTN","RGCWSER",423,0)
- ....X CTL
-"RTN","RGCWSER",424,0)
- ....D:$L(TP)&$D(PVAL) @("FILTER"_TP)
-"RTN","RGCWSER",425,0)
- Q MATCH
-"RTN","RGCWSER",426,0)
- ; Number
-"RTN","RGCWSER",427,0)
-INITN D EXTOPR("<>m")
-"RTN","RGCWSER",428,0)
  Q
+"RTN","RGCWSER",356,0)
+ ; Escape reserved characters
+"RTN","RGCWSER",357,0)
+ESC(X) N Y,Z,C
+"RTN","RGCWSER",358,0)
+ F Z=1:1 S Y=$P($T(ESCMAP+Z),";;",2) Q:'$L(Y)  D
+"RTN","RGCWSER",359,0)
+ .S C=$P(Y,";")
+"RTN","RGCWSER",360,0)
+ .S:X[C X=$$SUBST^RGUT(X,C,$P(Y,";",2))
+"RTN","RGCWSER",361,0)
+ Q X
+"RTN","RGCWSER",362,0)
+ESCMAP ;;Map for characters to escape
+"RTN","RGCWSER",363,0)
+ ;;&;amp
+"RTN","RGCWSER",364,0)
+ ;;";qt
+"RTN","RGCWSER",365,0)
+ ;;<;lt
+"RTN","RGCWSER",366,0)
+ ;;>;gt
+"RTN","RGCWSER",367,0)
+ ;;
+"RTN","RGCWSER",368,0)
+ ; Replace escaped characters in URL.
+"RTN","RGCWSER",369,0)
+UNESCAPE(X) ;
+"RTN","RGCWSER",370,0)
+ I X["%"!(X["+") D
+"RTN","RGCWSER",371,0)
+ .N P,C,H
+"RTN","RGCWSER",372,0)
+ .F P=1:1 S C=$E(X,P) Q:'$L(C)  D
+"RTN","RGCWSER",373,0)
+ ..I C="+" S $E(X,P)=" "
+"RTN","RGCWSER",374,0)
+ ..E  I C="%" S H=$E(X,P+1,P+2),$E(X,P,P+2)=$$UNHEX^XTHCUTL(H)
+"RTN","RGCWSER",375,0)
+ Q X
+"RTN","RGCWSER",376,0)
+TABLE(T) Q $S(T=+T:T,1:+$O(^DIC("B",TABLE,0)))
+"RTN","RGCWSER",377,0)
+ ; Format system attribute
+"RTN","RGCWSER",378,0)
+SYSTEM(SYSTEM) ;
+"RTN","RGCWSER",379,0)
+ N PATH
+"RTN","RGCWSER",380,0)
+ S:'($D(SYSTEM)#10) SYSTEM="@"
+"RTN","RGCWSER",381,0)
+ S PATH=$P(SYSTEM,"/",2,999),SYSTEM=$P(SYSTEM,"/")
+"RTN","RGCWSER",382,0)
+ S:$E(SYSTEM)="#" SYSTEM="@"_$TR($P(^DIC($E(SYSTEM,2,9999),0),U)," /","__")
+"RTN","RGCWSER",383,0)
+ S:$E(SYSTEM)="@" SYSTEM=$$LOCALSYS($E(SYSTEM,2,9999))
+"RTN","RGCWSER",384,0)
+ Q SYSTEM_$S($L(PATH):"/"_PATH,1:"")
+"RTN","RGCWSER",385,0)
+ ; Returns the host url
+"RTN","RGCWSER",386,0)
+HOST(PATH) ;
+"RTN","RGCWSER",387,0)
+ S PATH=$G(PATH)
+"RTN","RGCWSER",388,0)
+ S:$E(PATH)="*" PATH=DATA("SERNM")_$E(PATH,2,9999)
+"RTN","RGCWSER",389,0)
+ Q $$CONCAT($G(DATA("HOST"),"http://broker/"),PATH)
+"RTN","RGCWSER",390,0)
+ ; Prepend local system root to path
+"RTN","RGCWSER",391,0)
+LOCALSYS(PATH) ;
+"RTN","RGCWSER",392,0)
+ Q $$CONCAT("http://"_$$LOW^XLFSTR($$KSP^XUPARAM("WHERE")),.PATH)
+"RTN","RGCWSER",393,0)
+ ; Concatenate path to url.
+"RTN","RGCWSER",394,0)
+CONCAT(URL,PATH) ;
+"RTN","RGCWSER",395,0)
+ Q:'$D(PATH) URL
+"RTN","RGCWSER",396,0)
+ F  Q:$E(URL,$L(URL))'="/"  S $E(URL,$L(URL))=""
+"RTN","RGCWSER",397,0)
+ F  Q:$E(PATH)'="/"  S $E(PATH)=""
+"RTN","RGCWSER",398,0)
+ Q URL_"/"_PATH
+"RTN","RGCWSER",399,0)
+SYSUUID() ; Return UUID for this system
+"RTN","RGCWSER",400,0)
+ S:'$L($G(^RGCWF("SYS"))) ^("SYS")=$$UUID
+"RTN","RGCWSER",401,0)
+ Q ^("SYS")
+"RTN","RGCWSER",402,0)
+ ; Generates a random UUID using $H as a seed.
+"RTN","RGCWSER",403,0)
+UUID() N R,I,N,S
+"RTN","RGCWSER",404,0)
+ S (R,N)="",S=+$TR($H,",")
+"RTN","RGCWSER",405,0)
+ F  S N=N_$R(S) Q:$L(N)>64
+"RTN","RGCWSER",406,0)
+ F I=1:2:64 S R=R_$E("0123456789abcdef",$E(N,I,I+1)#16+1)
+"RTN","RGCWSER",407,0)
+ Q $E(R,1,8)_"-"_$E(R,9,12)_"-4"_$E(R,14,16)_"-"_$E("89ab",$E(N,17)#4+1)_$E(R,18,20)_"-"_$E(R,21,32)
+"RTN","RGCWSER",408,0)
+ ; Search/filter logic.  Returns true if successful match.
+"RTN","RGCWSER",409,0)
+FILTER() N LP,SQ,PR,MATCH
+"RTN","RGCWSER",410,0)
+ S MATCH=1
+"RTN","RGCWSER",411,0)
+ F SQ=0:0 Q:'MATCH  S SQ=$O(PARM("ASEQ",SQ)) Q:'SQ  D
+"RTN","RGCWSER",412,0)
+ .F LP=0:0 Q:'MATCH  S LP=$O(PARM("ASEQ",SQ,LP)) Q:'LP  D
+"RTN","RGCWSER",413,0)
+ ..N PN,PN1,PN2,FN,TP,VL,CTL
+"RTN","RGCWSER",414,0)
+ ..D EXTRP(.PARM,LP)
+"RTN","RGCWSER",415,0)
+ ..S PN=PN(-1)
+"RTN","RGCWSER",416,0)
+ ..I PN="@selector" X CTL Q
+"RTN","RGCWSER",417,0)
+ ..F PN1=0:0 Q:'MATCH  S PN1=$O(PARAMS(PN,PN1)) Q:'PN1  D
+"RTN","RGCWSER",418,0)
+ ...S MATCH=1
+"RTN","RGCWSER",419,0)
+ ...F PN2=0:0 S PN2=$O(PARAMS(PN,PN1,PN2)) Q:'PN2  D  Q:MATCH
+"RTN","RGCWSER",420,0)
+ ....N PVAL
+"RTN","RGCWSER",421,0)
+ ....M PVAL=PARAMS(PN,PN1,PN2)
+"RTN","RGCWSER",422,0)
+ ....I '$D(PVAL("I")) D
+"RTN","RGCWSER",423,0)
+ .....S PVAL("I")=1
+"RTN","RGCWSER",424,0)
+ .....D:$L(TP) @("INIT"_TP)
+"RTN","RGCWSER",425,0)
+ .....M PARAMS(PN,PN1,PN2)=PVAL
+"RTN","RGCWSER",426,0)
+ ....X CTL
+"RTN","RGCWSER",427,0)
+ ....D:$L(TP)&$D(PVAL) @("FILTER"_TP)
+"RTN","RGCWSER",428,0)
+ Q MATCH
 "RTN","RGCWSER",429,0)
-FILTERN I PVAL'=+PVAL S MATCH=0
+ ; Number
 "RTN","RGCWSER",430,0)
- E  D DOCOMP("I")
+INITN D EXTOPR("<>m")
 "RTN","RGCWSER",431,0)
  Q
 "RTN","RGCWSER",432,0)
- ; Date
+FILTERN I PVAL'=+PVAL S MATCH=0
 "RTN","RGCWSER",433,0)
-INITD D EXTOPR("<>m")
+ E  D DOCOMP("I")
 "RTN","RGCWSER",434,0)
- N DAT,TIM,TZ,X
-"RTN","RGCWSER",435,0)
- I PVAL?4N1"-"2N1"-"2N.E D
-"RTN","RGCWSER",436,0)
- .S TIM=$P(PVAL,"T",2,9999),DAT=$P(PVAL,"T"),DAT=$P(DAT,"-",2,3)_"-"_$P(DAT,"-")
-"RTN","RGCWSER",437,0)
- .S X=$S($E(TIM,$L(TIM))="Z":"Z",TIM["-":"-",TIM["+":"+",1:"")
-"RTN","RGCWSER",438,0)
- .S TZ=X_$P(TIM,X,2,9999),TIM=$P(TIM,X),PVAL=DAT
-"RTN","RGCWSER",439,0)
- .S:$L(TIM) PVAL=PVAL_"@"_TIM
-"RTN","RGCWSER",440,0)
- .I $L(TIM),$L(TZ) D
-"RTN","RGCWSER",441,0)
- ..S X=$$TZ^XLFDT,TZ=X-$TR(TZ,":"),TZ(0)=TZ\100,TZ(1)=TZ-(TZ(0)*100)
-"RTN","RGCWSER",442,0)
- D DT^DILF($S(PVAL["@":"TS",1:""),PVAL,.DAT)
-"RTN","RGCWSER",443,0)
- I DAT>0,$D(TZ)>1 D
-"RTN","RGCWSER",444,0)
- .S DAT=$$FMADD^XLFDT(DAT,0,TZ(0),TZ(1),0)
-"RTN","RGCWSER",445,0)
- S PVAL=DAT
-"RTN","RGCWSER",446,0)
  Q
+"RTN","RGCWSER",435,0)
+ ; Date
+"RTN","RGCWSER",436,0)
+INITD D EXTOPR("<>m")
+"RTN","RGCWSER",437,0)
+ N DAT,TIM,TZ,X
+"RTN","RGCWSER",438,0)
+ I PVAL?4N1"-"2N1"-"2N.E D
+"RTN","RGCWSER",439,0)
+ .S TIM=$P(PVAL,"T",2,9999),DAT=$P(PVAL,"T"),DAT=$P(DAT,"-",2,3)_"-"_$P(DAT,"-")
+"RTN","RGCWSER",440,0)
+ .S X=$S($E(TIM,$L(TIM))="Z":"Z",TIM["-":"-",TIM["+":"+",1:"")
+"RTN","RGCWSER",441,0)
+ .S TZ=X_$P(TIM,X,2,9999),TIM=$P(TIM,X),PVAL=DAT
+"RTN","RGCWSER",442,0)
+ .S:$L(TIM) PVAL=PVAL_"@"_TIM
+"RTN","RGCWSER",443,0)
+ .I $L(TIM),$L(TZ) D
+"RTN","RGCWSER",444,0)
+ ..S X=$$TZ^XLFDT,TZ=X-$TR(TZ,":"),TZ(0)=TZ\100,TZ(1)=TZ-(TZ(0)*100)
+"RTN","RGCWSER",445,0)
+ D DT^DILF($S(PVAL["@":"TS",1:""),PVAL,.DAT)
+"RTN","RGCWSER",446,0)
+ I DAT>0,$D(TZ)>1 D
 "RTN","RGCWSER",447,0)
-FILTERD I '$D(VL(2)) D DOCOMP("I") Q
+ .S DAT=$$FMADD^XLFDT(DAT,0,TZ(0),TZ(1),0)
 "RTN","RGCWSER",448,0)
- D DOCOMPP("I")
+ S PVAL=DAT
 "RTN","RGCWSER",449,0)
  Q
 "RTN","RGCWSER",450,0)
- ; String
+FILTERD I '$D(VL(2)) D DOCOMP("I") Q
 "RTN","RGCWSER",451,0)
-INITS D EXTOPR("me","s")
+ D DOCOMPP("I")
 "RTN","RGCWSER",452,0)
- S:PVAL("OPR")="s" PVAL=$$UP^XLFSTR(PVAL)
+ Q
 "RTN","RGCWSER",453,0)
- Q
+ ; String
 "RTN","RGCWSER",454,0)
-FILTERS D DOCOMP("E")
+INITS D EXTOPR("me","s")
 "RTN","RGCWSER",455,0)
- Q
+ S:PVAL("OPR")="s" PVAL=$$UP^XLFSTR(PVAL)
 "RTN","RGCWSER",456,0)
- ; Token
+ Q
 "RTN","RGCWSER",457,0)
-INITT D EXTOPR("mt")
+FILTERS D DOCOMP("E")
 "RTN","RGCWSER",458,0)
- S:PVAL["|" PVAL(0)=$P(PVAL,"|"),PVAL=$P(PVAL,"|",2)
+ Q
 "RTN","RGCWSER",459,0)
- S:PVAL("OPR")="t" PVAL=$$UP^XLFSTR(PVAL)
+ ; Token
 "RTN","RGCWSER",460,0)
- Q
+INITT D EXTOPR("mt")
 "RTN","RGCWSER",461,0)
-FILTERT D DOCOMP($S(PVAL("OPR")="t":"E",1:"I"))
+ S:PVAL["|" PVAL(0)=$P(PVAL,"|"),PVAL=$P(PVAL,"|",2)
 "RTN","RGCWSER",462,0)
- Q
+ S:PVAL("OPR")="t" PVAL=$$UP^XLFSTR(PVAL)
 "RTN","RGCWSER",463,0)
- ; Reference
+ Q
 "RTN","RGCWSER",464,0)
-INITR D EXTOPR("m")
+FILTERT D DOCOMP($S(PVAL("OPR")="t":"E",1:"I"))
 "RTN","RGCWSER",465,0)
  Q
 "RTN","RGCWSER",466,0)
-FILTERR D DOCOMP("I")
+ ; Reference
 "RTN","RGCWSER",467,0)
- Q
+INITR D EXTOPR("m")
 "RTN","RGCWSER",468,0)
- ; Quantity
+ Q
 "RTN","RGCWSER",469,0)
-INITQ D EXTOPR("<>m~")
+FILTERR D DOCOMP("I")
 "RTN","RGCWSER",470,0)
  Q
 "RTN","RGCWSER",471,0)
-FILTERQ D FILTERN
+ ; Quantity
 "RTN","RGCWSER",472,0)
- Q
+INITQ D EXTOPR("<>m~")
 "RTN","RGCWSER",473,0)
-DOCOMP(IE) ;
+ Q
 "RTN","RGCWSER",474,0)
- D DOCOMPX($G(VL(IE)))
+FILTERQ D FILTERN
 "RTN","RGCWSER",475,0)
  Q
 "RTN","RGCWSER",476,0)
- ; Perform comparison against a period
+DOCOMP(IE) ;
 "RTN","RGCWSER",477,0)
-DOCOMPP(IE) ;
+ D DOCOMPX($G(VL(IE)))
 "RTN","RGCWSER",478,0)
- N START,END,OPR
+ Q
 "RTN","RGCWSER",479,0)
- S START=$G(VL(IE)),END=$G(VL(2,IE)),OPR=PVAL("OPR"),MATCH=0
+ ; Perform comparison against a period
 "RTN","RGCWSER",480,0)
- I 'START,'END Q
+DOCOMPP(IE) ;
 "RTN","RGCWSER",481,0)
- I 'START D DOCOMPX(END) Q
+ N START,END,OPR
 "RTN","RGCWSER",482,0)
- I 'END D DOCOMPX(START) Q
+ S START=$G(VL(IE)),END=$G(VL(2,IE)),OPR=PVAL("OPR"),MATCH=0
 "RTN","RGCWSER",483,0)
- I OPR["=" S MATCH=PVAL'<START&(PVAL'>END) Q:MATCH
+ I 'START,'END Q
 "RTN","RGCWSER",484,0)
- I OPR["<" S MATCH=START<PVAL Q
+ I 'START D DOCOMPX(END) Q
 "RTN","RGCWSER",485,0)
- I OPR[">" S MATCH=END>PVAL Q
+ I 'END D DOCOMPX(START) Q
 "RTN","RGCWSER",486,0)
- Q
+ I OPR["=" S MATCH=PVAL'<START&(PVAL'>END) Q:MATCH
 "RTN","RGCWSER",487,0)
- ; Perform comparison against search value
+ I OPR["<" S MATCH=START<PVAL Q
 "RTN","RGCWSER",488,0)
-DOCOMPX(VAL) ;
+ I OPR[">" S MATCH=END>PVAL Q
 "RTN","RGCWSER",489,0)
- N OPR
+ Q
 "RTN","RGCWSER",490,0)
- S MATCH=0,OPR=PVAL("OPR")
+ ; Perform comparison against search value
 "RTN","RGCWSER",491,0)
- I OPR["m" S MATCH='$L(VAL)=(PVAL="true") Q
+DOCOMPX(VAL) ;
 "RTN","RGCWSER",492,0)
- I OPR["=" S MATCH=VAL=PVAL Q:MATCH
+ N OPR
 "RTN","RGCWSER",493,0)
- I OPR["<" S MATCH=VAL<PVAL Q
+ S MATCH=0,OPR=PVAL("OPR")
 "RTN","RGCWSER",494,0)
- I OPR[">" S MATCH=VAL>PVAL Q
+ I OPR["m" S MATCH='$L(VAL)=(PVAL="true") Q
 "RTN","RGCWSER",495,0)
- I OPR["e" S MATCH=VAL=PVAL Q
+ I OPR["=" S MATCH=VAL=PVAL Q:MATCH
 "RTN","RGCWSER",496,0)
- I OPR["~" D  Q
+ I OPR["<" S MATCH=VAL<PVAL Q
 "RTN","RGCWSER",497,0)
- .N X1,X2,Y
+ I OPR[">" S MATCH=VAL>PVAL Q
 "RTN","RGCWSER",498,0)
- .S Y=PVAL/10,X1=PVAL-Y,X2=PVAL+Y,MATCH=VAL'<X1&(X'>X2)
+ I OPR["e" S MATCH=VAL=PVAL Q
 "RTN","RGCWSER",499,0)
- I OPR["s" D  Q
+ I OPR["~" D  Q
 "RTN","RGCWSER",500,0)
- .S VAL=$$UP^XLFSTR($E(VAL,1,$L(PVAL))),MATCH=VAL=PVAL
+ .N X1,X2,Y
 "RTN","RGCWSER",501,0)
- I OPR["t" D  Q
+ .S Y=PVAL/10,X1=PVAL-Y,X2=PVAL+Y,MATCH=VAL'<X1&(X'>X2)
 "RTN","RGCWSER",502,0)
- .S MATCH=$$UP^XLFSTR(VAL)[PVAL
+ I OPR["s" D  Q
 "RTN","RGCWSER",503,0)
- Q
+ .S VAL=$$UP^XLFSTR($E(VAL,1,$L(PVAL))),MATCH=VAL=PVAL
 "RTN","RGCWSER",504,0)
- ; Name comparison
+ I OPR["t" D  Q
 "RTN","RGCWSER",505,0)
-OPRNAME(VAL,PC) ;
+ .S MATCH=$$UP^XLFSTR(VAL)[PVAL
 "RTN","RGCWSER",506,0)
- N X,Y
+ Q
 "RTN","RGCWSER",507,0)
- S VAL=$P(VAL,",",PC)
+ ; Name comparison
 "RTN","RGCWSER",508,0)
- F X=1:1:$L(VAL," ") D  Q:MATCH
+OPRNAME(VAL,PC) ;
 "RTN","RGCWSER",509,0)
- .S Y=$P(VAL," ",X)
+ N X,Y
 "RTN","RGCWSER",510,0)
- .D:$L(Y) DOCOMPX(Y)
+ S VAL=$P(VAL,",",PC)
 "RTN","RGCWSER",511,0)
- Q
+ F X=1:1:$L(VAL," ") D  Q:MATCH
 "RTN","RGCWSER",512,0)
- ; Extract optional operator from search parameter
+ .S Y=$P(VAL," ",X)
 "RTN","RGCWSER",513,0)
-EXTOPR(ALLOWED,DFLT) ;
+ .D:$L(Y) DOCOMPX(Y)
 "RTN","RGCWSER",514,0)
- N X,OPR
+ Q
 "RTN","RGCWSER",515,0)
- S OPR=$G(PVAL("OPR"))
+ ; Extract optional operator from search parameter
 "RTN","RGCWSER",516,0)
- F X="<=",">=","<",">","~" I ALLOWED[$E(X),$E(PVAL,1,$L(X))=X D  Q
+EXTOPR(ALLOWED,DFLT) ;
 "RTN","RGCWSER",517,0)
- .I '$L(OPR) S OPR=X,PVAL=$E(PVAL,$L(X)+1,9999)
+ N X,OPR
 "RTN","RGCWSER",518,0)
- .E  D SETERR(403,"Invalid comparator on query string")
+ S OPR=$G(PVAL("OPR"))
 "RTN","RGCWSER",519,0)
- S PVAL("OPR")=$S($L(OPR):OPR,1:$G(DFLT,"="))
+ F X="<=",">=","<",">","~" I ALLOWED[$E(X),$E(PVAL,1,$L(X))=X D  Q
 "RTN","RGCWSER",520,0)
- Q
+ .I '$L(OPR) S OPR=X,PVAL=$E(PVAL,$L(X)+1,9999)
 "RTN","RGCWSER",521,0)
- ; Date (format per RFC 1123)
+ .E  D SETERR(403,"Invalid comparator on query string")
 "RTN","RGCWSER",522,0)
-DAT() N X,Y,TZ,H,M
+ S PVAL("OPR")=$S($L(OPR):OPR,1:$G(DFLT,"="))
 "RTN","RGCWSER",523,0)
- S X=$$NOW^XLFDT,TZ=$$TZ^XLFDT,H=+$E(TZ,2,3),M=+$E(TZ,4,5),Y=$S(TZ<0:1,1:-1)
-"RTN","RGCWSER",524,0)
- S X=$$FMADD^XLFDT(X,0,H*Y,M*Y,0)
-"RTN","RGCWSER",525,0)
- Q $$FMTDATE^RGCWSERD(X,"EEE, dd MMM YYYY HH:mm:ss 'GMT'")
-"RTN","RGCWSER",526,0)
- ; Creates a new instance of an iterator
-"RTN","RGCWSER",527,0)
- ; EP = entry point (tag or tag^routine)
-"RTN","RGCWSER",528,0)
- ; Note: entry point will be invoked immediately via a DO
-"RTN","RGCWSER",529,0)
- ; to permit initialization.
-"RTN","RGCWSER",530,0)
-NEWITER(EP) ;
-"RTN","RGCWSER",531,0)
- S:$E(EP,1,2)="$$" EP=$E(EP,3,99)
-"RTN","RGCWSER",532,0)
- S EP=EP_"("_$QS($$TMPGBL,3)_")"
-"RTN","RGCWSER",533,0)
- D @EP
-"RTN","RGCWSER",534,0)
- Q "$$"_EP
-"RTN","RGCWSER",535,0)
- ; Iterator implementation for traversing a cross reference
-"RTN","RGCWSER",536,0)
-XREFITER(CTX,ROOT,START,TST) ;
-"RTN","RGCWSER",537,0)
- S CTX=$$TMPGBL(CTX)
-"RTN","RGCWSER",538,0)
- I '$Q D  Q
-"RTN","RGCWSER",539,0)
- .S START=$$UP^XLFSTR(START)
-"RTN","RGCWSER",540,0)
- .S @CTX@("IEN")=0,^("ROOT")=ROOT,(^("START"),^("LAST"))=START,^("TST")=$G(TST,"I 1")
-"RTN","RGCWSER",541,0)
- N LAST,IEN
-"RTN","RGCWSER",542,0)
- S IEN=@CTX@("IEN"),START=^("START"),LAST=^("LAST"),TST=^("TST"),ROOT=^("ROOT")
-"RTN","RGCWSER",543,0)
- F  D  Q:IEN
-"RTN","RGCWSER",544,0)
- .S:$L(LAST) IEN=+$O(@ROOT@(LAST,IEN)),@CTX@("IEN")=IEN
-"RTN","RGCWSER",545,0)
- .Q:IEN
-"RTN","RGCWSER",546,0)
- .S LAST=$O(@ROOT@(LAST)),@CTX@("LAST")=LAST
-"RTN","RGCWSER",547,0)
- .I 0
-"RTN","RGCWSER",548,0)
- .X:$L(LAST) TST
-"RTN","RGCWSER",549,0)
- .S:'$T IEN=-1
-"RTN","RGCWSER",550,0)
- Q $S(IEN>0:IEN,1:0)
-"RTN","RGCWSER",551,0)
- ; Iterator implementation for traversing a name cross references
-"RTN","RGCWSER",552,0)
-NAMEITER(CTX,ROOT) ;
-"RTN","RGCWSER",553,0)
- I '$Q D XREFITER(CTX,ROOT,PARAMS("family",1,1),"I $E($P(LAST,"",""),1,$L(START))=START") Q
-"RTN","RGCWSER",554,0)
- Q $$XREFITER(CTX)
-"RTN","RGCWSER",555,0)
- ; Return a cohort based on a xref
-"RTN","RGCWSER",556,0)
- ; PARAM = Name of search parameter
-"RTN","RGCWSER",557,0)
- ; GBL = Root of xref
-"RTN","RGCWSER",558,0)
- ; OFF = Offset to subscript containing IEN (defaults to 0)
-"RTN","RGCWSER",559,0)
-COHORT(PARAM,GBL,OFF) ;
-"RTN","RGCWSER",560,0)
- N TMP,LP
-"RTN","RGCWSER",561,0)
- S OFF=+$G(OFF),LP=$O(PARAMS(PARAM,1,0))
-"RTN","RGCWSER",562,0)
- I 'OFF,LP,'$O(PARAMS(PARAM,1,LP)) Q $NA(@GBL@(PARAMS(PARAM,1,LP)))
-"RTN","RGCWSER",563,0)
- S TMP=$$TMPGBL()
-"RTN","RGCWSER",564,0)
- F LP=0:0 S LP=$O(PARAMS(PARAM,1,LP)) Q:'LP  D COHORTX(PARAMS(PARAM,1,LP),GBL,OFF,TMP)
-"RTN","RGCWSER",565,0)
- Q TMP
-"RTN","RGCWSER",566,0)
- ; Return a cohort based on a xref
-"RTN","RGCWSER",567,0)
- ; IDX = Value of indexed entry
-"RTN","RGCWSER",568,0)
- ; GBL = Root of xref
-"RTN","RGCWSER",569,0)
- ; OFF = Offset to subscript containing IEN (defaults to 0)
-"RTN","RGCWSER",570,0)
-COHORT2(IDX,GBL,OFF) ;
-"RTN","RGCWSER",571,0)
- N TMP
-"RTN","RGCWSER",572,0)
- S TMP=$$TMPGBL()
-"RTN","RGCWSER",573,0)
- D COHORTX(IDX,GBL,+$G(OFF),TMP)
-"RTN","RGCWSER",574,0)
- Q TMP
-"RTN","RGCWSER",575,0)
- ; Internal entry point
-"RTN","RGCWSER",576,0)
-COHORTX(IDX,GBL,OFF,TMP) ;
-"RTN","RGCWSER",577,0)
- N X,L,S,I,QL,RT
-"RTN","RGCWSER",578,0)
- S QL=$QL(GBL)+OFF+2
-"RTN","RGCWSER",579,0)
- I 'OFF M @TMP=@GBL@(IDX) Q
-"RTN","RGCWSER",580,0)
- S (RT,X)=$NA(@GBL@(IDX)),L=$QL(RT),S=""
-"RTN","RGCWSER",581,0)
- F  S X=$Q(@X) Q:'$L(X)  Q:$NA(@X,L)'=RT  D
-"RTN","RGCWSER",582,0)
- .S I=$QS(X,QL)
-"RTN","RGCWSER",583,0)
- .I $L(I),I'=S S S=I,@TMP@(S)=""
-"RTN","RGCWSER",584,0)
  Q
+"RTN","RGCWSER",524,0)
+ ; Date (format per RFC 1123)
+"RTN","RGCWSER",525,0)
+DAT() N X,Y,TZ,H,M
+"RTN","RGCWSER",526,0)
+ S X=$$NOW^XLFDT,TZ=$$TZ^XLFDT,H=+$E(TZ,2,3),M=+$E(TZ,4,5),Y=$S(TZ<0:1,1:-1)
+"RTN","RGCWSER",527,0)
+ S X=$$FMADD^XLFDT(X,0,H*Y,M*Y,0)
+"RTN","RGCWSER",528,0)
+ Q $$FMTDATE^RGCWSERD(X,"EEE, dd MMM YYYY HH:mm:ss 'GMT'")
+"RTN","RGCWSER",529,0)
+ ; Creates a new instance of an iterator
+"RTN","RGCWSER",530,0)
+ ; EP = entry point (tag or tag^routine)
+"RTN","RGCWSER",531,0)
+ ; Note: entry point will be invoked immediately via a DO
+"RTN","RGCWSER",532,0)
+ ; to permit initialization.
+"RTN","RGCWSER",533,0)
+NEWITER(EP) ;
+"RTN","RGCWSER",534,0)
+ S:$E(EP,1,2)="$$" EP=$E(EP,3,99)
+"RTN","RGCWSER",535,0)
+ S EP=EP_"("_$QS($$TMPGBL,3)_")"
+"RTN","RGCWSER",536,0)
+ D @EP
+"RTN","RGCWSER",537,0)
+ Q "$$"_EP
+"RTN","RGCWSER",538,0)
+ ; Iterator implementation for traversing a cross reference
+"RTN","RGCWSER",539,0)
+XREFITER(CTX,ROOT,START,TST) ;
+"RTN","RGCWSER",540,0)
+ S CTX=$$TMPGBL(CTX)
+"RTN","RGCWSER",541,0)
+ I '$Q D  Q
+"RTN","RGCWSER",542,0)
+ .S START=$$UP^XLFSTR(START)
+"RTN","RGCWSER",543,0)
+ .S @CTX@("IEN")=0,^("ROOT")=ROOT,(^("START"),^("LAST"))=START,^("TST")=$G(TST,"I 1")
+"RTN","RGCWSER",544,0)
+ N LAST,IEN
+"RTN","RGCWSER",545,0)
+ S IEN=@CTX@("IEN"),START=^("START"),LAST=^("LAST"),TST=^("TST"),ROOT=^("ROOT")
+"RTN","RGCWSER",546,0)
+ F  D  Q:IEN
+"RTN","RGCWSER",547,0)
+ .S:$L(LAST) IEN=+$O(@ROOT@(LAST,IEN)),@CTX@("IEN")=IEN
+"RTN","RGCWSER",548,0)
+ .Q:IEN
+"RTN","RGCWSER",549,0)
+ .S LAST=$O(@ROOT@(LAST)),@CTX@("LAST")=LAST
+"RTN","RGCWSER",550,0)
+ .I 0
+"RTN","RGCWSER",551,0)
+ .X:$L(LAST) TST
+"RTN","RGCWSER",552,0)
+ .S:'$T IEN=-1
+"RTN","RGCWSER",553,0)
+ Q $S(IEN>0:IEN,1:0)
+"RTN","RGCWSER",554,0)
+ ; Iterator implementation for traversing a name cross references
+"RTN","RGCWSER",555,0)
+NAMEITER(CTX,ROOT) ;
+"RTN","RGCWSER",556,0)
+ I '$Q D XREFITER(CTX,ROOT,PARAMS("family",1,1),"I $E($P(LAST,"",""),1,$L(START))=START") Q
+"RTN","RGCWSER",557,0)
+ Q $$XREFITER(CTX)
+"RTN","RGCWSER",558,0)
+ ; Return a cohort based on a xref
+"RTN","RGCWSER",559,0)
+ ; PARAM = Name of search parameter
+"RTN","RGCWSER",560,0)
+ ; GBL = Root of xref
+"RTN","RGCWSER",561,0)
+ ; OFF = Offset to subscript containing IEN (defaults to 0)
+"RTN","RGCWSER",562,0)
+COHORT(PARAM,GBL,OFF) ;
+"RTN","RGCWSER",563,0)
+ N LP,TMP
+"RTN","RGCWSER",564,0)
+ S OFF=+$G(OFF),LP=$O(PARAMS(PARAM,1,0)),TMP=$$TMPGBL
+"RTN","RGCWSER",565,0)
+ I 'OFF,LP,'$O(PARAMS(PARAM,1,LP)) Q $$GBLROOT(PARAMS(PARAM,1,LP),GBL)
+"RTN","RGCWSER",566,0)
+ F LP=0:0 S LP=$O(PARAMS(PARAM,1,LP)) Q:'LP  D COHORT2(PARAMS(PARAM,1,LP),GBL,OFF,TMP)
+"RTN","RGCWSER",567,0)
+ Q TMP
+"RTN","RGCWSER",568,0)
+ ; Return a cohort based on a xref
+"RTN","RGCWSER",569,0)
+ ; IDX = Value of indexed entry
+"RTN","RGCWSER",570,0)
+ ; GBL = Root of xref
+"RTN","RGCWSER",571,0)
+ ; OFF = Offset to subscript containing IEN (defaults to 0)
+"RTN","RGCWSER",572,0)
+COHORT2(IDX,GBL,OFF,TMP) ;
+"RTN","RGCWSER",573,0)
+ S TMP=$$COHORT3($$GBLROOT(IDX,GBL),.OFF,.TMP)
+"RTN","RGCWSER",574,0)
+ Q:$Q TMP
+"RTN","RGCWSER",575,0)
+ Q
+"RTN","RGCWSER",576,0)
+ ; Return a cohort from a global root
+"RTN","RGCWSER",577,0)
+ ; GBL = Root of global
+"RTN","RGCWSER",578,0)
+ ; OFF = Offset to subscript containing IEN (defaults to 0)
+"RTN","RGCWSER",579,0)
+ ; Internal entry point
+"RTN","RGCWSER",580,0)
+COHORT3(GBL,OFF,TMP) ;
+"RTN","RGCWSER",581,0)
+ N X,L,S,I,QL
+"RTN","RGCWSER",582,0)
+ S:'$D(TMP) TMP=$$TMPGBL()
+"RTN","RGCWSER",583,0)
+ S OFF=+$G(OFF),QL=$QL(GBL)+OFF+1
+"RTN","RGCWSER",584,0)
+ I 'OFF M @TMP=@GBL Q
 "RTN","RGCWSER",585,0)
- ; Process a compartment request
+ S X=GBL,L=$QL(X),S=""
 "RTN","RGCWSER",586,0)
-COMPRT(GBL,EXC) ;
+ F  S X=$Q(@X) Q:'$L(X)  Q:$NA(@X,L)'=GBL  D
 "RTN","RGCWSER",587,0)
- D:$G(IEN) PARSEQS("_id="_IEN,.PARAMS)
+ .S I=$QS(X,QL)
 "RTN","RGCWSER",588,0)
- S:'$G(EXC) GBL=$NA(@GBL@($P(PATH,"/",3)))
+ .I $L(I),I'=S S S=I,@TMP@(S)=""
 "RTN","RGCWSER",589,0)
- D FETCH^RGCWSER(.DATA,$P(PATH,"/")_"/"_$P(PATH,"/",4),GBL,.PNAME,.PARAMS)
+ Q:$Q TMP
 "RTN","RGCWSER",590,0)
  Q
 "RTN","RGCWSER",591,0)
- ; Process a compound id (#:#) selector
+ ; Returns global root for indexed entries.
 "RTN","RGCWSER",592,0)
-COMPID D FETCH(.DATA,PATH_"_"_$P(SLCT,":"),$P(SLCT,":",2),.PNAME,.PARAMS,"S")
+ ; IDX = Index of entries
 "RTN","RGCWSER",593,0)
+ ; GBL = Global root.  If contains "*", index value is placed there.
+"RTN","RGCWSER",594,0)
+ ;       Otherwise, index value is placed at end.
+"RTN","RGCWSER",595,0)
+GBLROOT(IDX,GBL) ;
+"RTN","RGCWSER",596,0)
+ Q:GBL'["*" $NA(@GBL@(IDX))
+"RTN","RGCWSER",597,0)
+ S GBL=$P(GBL,"*")_IDX_$P(GBL,"*",2,9999)
+"RTN","RGCWSER",598,0)
+ Q $NA(@GBL)
+"RTN","RGCWSER",599,0)
+ ; Process a compartment request
+"RTN","RGCWSER",600,0)
+COMPRT(GBL,EXC) ;
+"RTN","RGCWSER",601,0)
+ D:$G(IEN) PARSEQS("_id="_IEN,.PARAMS)
+"RTN","RGCWSER",602,0)
+ S:'$G(EXC) GBL=$NA(@GBL@($P(PATH,"/",3)))
+"RTN","RGCWSER",603,0)
+ D FETCH^RGCWSER(.DATA,$P(PATH,"/")_"/"_$P(PATH,"/",4),GBL,.PNAME,.PARAMS)
+"RTN","RGCWSER",604,0)
+ Q
+"RTN","RGCWSER",605,0)
+ ; Process a compound id (#:#) selector
+"RTN","RGCWSER",606,0)
+COMPID D FETCH(.DATA,PATH_"_"_$P(SLCT,":"),$P(SLCT,":",2),.PNAME,.PARAMS,"S")
+"RTN","RGCWSER",607,0)
  Q
 "RTN","RGCWSERD")
 0^9^B6264901
 "RTN","RGCWSERD",1,0)
 RGCWSERD ;RI/CBMI/DKM - Serialization Date Support ;10-Feb-2015 23:51;DKM
 "RTN","RGCWSERD",2,0)
- ;;1.0;RGCW;;14-March-2014;Build 149
+ ;;1.0;RGCW;;14-March-2014;Build 150
 "RTN","RGCWSERD",3,0)
  ;=================================================================
 "RTN","RGCWSERD",4,0)
@@ -27779,7 +27807,7 @@ CIA EVENT TYPE^19941.21
 **INSTALL NAME**
 CAREWEB NOTIFICATION 1.0
 "BLD",8486,0)
-CAREWEB NOTIFICATION 1.0^^0^3150223^n
+CAREWEB NOTIFICATION 1.0^^0^3150226^n
 "BLD",8486,4,0)
 ^9.64PA^19941.21^4
 "BLD",8486,4,999.1,0)
@@ -27813,7 +27841,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8486,4,"B",19941.21,19941.21)
 
 "BLD",8486,6.3)
-114
+115
 "BLD",8486,"INI")
 PRE^RGCWKDIN
 "BLD",8486,"INIT")
@@ -28223,7 +28251,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 114
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 115
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -28549,7 +28577,7 @@ MES(MSG,QUIT) ;
 "RTN","RGCWXQ",1,0)
 RGCWXQ ;RI/CBMI/DKM - Notification Support ;02-Feb-2015 10:15;DKM
 "RTN","RGCWXQ",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 114
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 115
 "RTN","RGCWXQ",3,0)
  ; RPC: Get alerts for user
 "RTN","RGCWXQ",4,0)
@@ -29029,7 +29057,7 @@ CANCHGPT(DATA,DFN) ; EP-
 "RTN","RGCWXQCV",1,0)
 RGCWXQCV ;RI/CBMI/DKM - Cover Sheet: Alerts ;02-Feb-2015 10:15;DKM
 "RTN","RGCWXQCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 114
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 115
 "RTN","RGCWXQCV",3,0)
  ; Return alerts according to FLG:
 "RTN","RGCWXQCV",4,0)
@@ -29857,7 +29885,7 @@ CIA EVENT TYPE^19941.21
 **INSTALL NAME**
 CAREWEB CONTEXT 1.0
 "BLD",8487,0)
-CAREWEB CONTEXT 1.0^^0^3150223^n
+CAREWEB CONTEXT 1.0^^0^3150226^n
 "BLD",8487,4,0)
 ^9.64PA^19941.21^4
 "BLD",8487,4,999.1,0)
@@ -29891,7 +29919,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8487,4,"B",19941.21,19941.21)
 
 "BLD",8487,6.3)
-148
+149
 "BLD",8487,"INI")
 PRE^RGCWKDIN
 "BLD",8487,"INIT")
@@ -30999,7 +31027,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWENC1",1,0)
 RGCWENC1 ;RI/CBMI/DKM - Visit Creation Support ;14-Mar-2014 17:10;DKM
 "RTN","RGCWENC1",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**005004;20-Aug-2007 08:41;Build 148
+ ;;1.0;CAREWEB FRAMEWORK;**005004;20-Aug-2007 08:41;Build 149
 "RTN","RGCWENC1",3,0)
  ; Visit creation API
 "RTN","RGCWENC1",4,0)
@@ -31297,7 +31325,7 @@ ADDVIST(IN,OUT) ;
 "RTN","RGCWENCX",1,0)
 RGCWENCX ;RI/CBMI/DKM - Encounter Context Support ;22-Feb-2015 22:39;DKM
 "RTN","RGCWENCX",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 148
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 149
 "RTN","RGCWENCX",3,0)
  ; RPC: Fetch visit data given visit file IEN
 "RTN","RGCWENCX",4,0)
@@ -32023,7 +32051,7 @@ ENINQ(DATA,VIEN) ;
 "RTN","RGCWFTIU",1,0)
 RGCWFTIU ;RI/CBMI/DKM - TIU FHIR Support ;28-Jul-2014 17:23;DKM
 "RTN","RGCWFTIU",2,0)
- ;;1.0;RGCW;;14-March-2014;Build 148
+ ;;1.0;RGCW;;14-March-2014;Build 149
 "RTN","RGCWFTIU",3,0)
  ;=================================================================
 "RTN","RGCWFTIU",4,0)
@@ -32091,7 +32119,7 @@ PERSON(TAG,ENT,FLD) ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 148
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 149
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -32417,7 +32445,7 @@ MES(MSG,QUIT) ;
 "RTN","RGCWPTCX",1,0)
 RGCWPTCX ;RI/CBMI/DKM - Patient Context Object ;14-Feb-2015 17:32;DKM
 "RTN","RGCWPTCX",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 148
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 149
 "RTN","RGCWPTCX",3,0)
  ; Save/retrieve last patient selected for current institution
 "RTN","RGCWPTCX",4,0)
@@ -32775,7 +32803,7 @@ NAMEITER(CTX) ;
 "RTN","RGCWPTP1",1,0)
 RGCWPTP1 ;RI/CBMI/DKM - Patient List Management ;02-Feb-2015 10:15;DKM
 "RTN","RGCWPTP1",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 148
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 149
 "RTN","RGCWPTP1",3,0)
  ; Return list of patients with clinic appt w/in range
 "RTN","RGCWPTP1",4,0)
@@ -33021,7 +33049,7 @@ HOSPLOC(DATA,FROM,DIR,MAX,TYPE,START,END) ;EP
 "RTN","RGCWPTP2",1,0)
 RGCWPTP2 ;RI/CBMI/DKM - Patient List Management ;02-Feb-2015 10:15;DKM
 "RTN","RGCWPTP2",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 148
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 149
 "RTN","RGCWPTP2",3,0)
  ; Retrieve a given list for a given user
 "RTN","RGCWPTP2",4,0)
@@ -33159,7 +33187,7 @@ GETNAME(IEN) ;
 "RTN","RGCWPTP3",1,0)
 RGCWPTP3 ;RI/CBMI/MGH - Patient List Management ;02-Feb-2015 10:15;DKM
 "RTN","RGCWPTP3",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 148
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 149
 "RTN","RGCWPTP3",3,0)
  ; Call logic to manage team lists
 "RTN","RGCWPTP3",4,0)
@@ -33413,7 +33441,7 @@ UPPER(X) ; Convert lower case X to UPPER CASE
 "RTN","RGCWPTPC",1,0)
 RGCWPTPC ;RI/CBMI/DKM - RPC calls for provider information ;18-Aug-2014 17:20;DKM
 "RTN","RGCWPTPC",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 148
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 149
 "RTN","RGCWPTPC",3,0)
 USESD() Q $G(DUZ("AG"))'="I"
 "RTN","RGCWPTPC",4,0)
@@ -33551,7 +33579,7 @@ TEAM(PRV) ;EP
 "RTN","RGCWPTPL",1,0)
 RGCWPTPL ;RI/CBMI/DKM - Patient List Management ;02-Feb-2015 10:15;DKM
 "RTN","RGCWPTPL",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 148
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 149
 "RTN","RGCWPTPL",3,0)
  ; Lookup by full or partial SSN
 "RTN","RGCWPTPL",4,0)
@@ -33823,7 +33851,7 @@ PARAMITM() Q "RGCWPTPL DEFAULT ITEM"
 "RTN","RGCWPTPS",1,0)
 RGCWPTPS ;RI/CBMI/DKM - Patient search ;30-Jul-2014 11:46;DKM
 "RTN","RGCWPTPS",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 148
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 149
 "RTN","RGCWPTPS",3,0)
 SEARCH(DATA,MAX,LNAME,FNAME,MRN,SSN,IEN,SEX,DOB) ;EP
 "RTN","RGCWPTPS",4,0)
@@ -34695,7 +34723,7 @@ CIA EVENT TYPE^19941.21
 **INSTALL NAME**
 CAREWEB CWADF 1.0
 "BLD",8488,0)
-CAREWEB CWADF 1.0^^0^3150223^n
+CAREWEB CWADF 1.0^^0^3150226^n
 "BLD",8488,4,0)
 ^9.64PA^19941.21^3
 "BLD",8488,4,999.1,0)
@@ -34723,7 +34751,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8488,4,"B",19941.21,19941.21)
 
 "BLD",8488,6.3)
-110
+111
 "BLD",8488,"INI")
 PRE^RGCWKDIN
 "BLD",8488,"INIT")
@@ -35117,7 +35145,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWARCV",1,0)
 RGCWARCV ;RI/CBMI/DKM - Cover Sheet: Adverse Reactions ;02-Feb-2015 10:15;DKM
 "RTN","RGCWARCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 110
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 111
 "RTN","RGCWARCV",3,0)
  ; Return adverse reaction info for a patient
 "RTN","RGCWARCV",4,0)
@@ -35441,7 +35469,7 @@ ADD(TXT,LBL) ;
 "RTN","RGCWCACV",1,0)
 RGCWCACV ;RI/CBMI/DKM - Cover Sheet: Crisis Alerts;02-Feb-2015 10:15;DKM
 "RTN","RGCWCACV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 110
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 111
 "RTN","RGCWCACV",3,0)
  ;=================================================================
 "RTN","RGCWCACV",4,0)
@@ -35593,7 +35621,7 @@ PRFX(DFN,IEN) ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 110
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 111
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -36569,7 +36597,7 @@ CIA EVENT TYPE^19941.21
 **INSTALL NAME**
 CAREWEB ALLERGY COVERSHEET 1.0
 "BLD",8489,0)
-CAREWEB ALLERGY COVERSHEET 1.0^^0^3150223^n
+CAREWEB ALLERGY COVERSHEET 1.0^^0^3150226^n
 "BLD",8489,4,0)
 ^9.64PA^19941.21^3
 "BLD",8489,4,999.1,0)
@@ -36597,7 +36625,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8489,4,"B",19941.21,19941.21)
 
 "BLD",8489,6.3)
-107
+108
 "BLD",8489,"INI")
 PRE^RGCWKDIN
 "BLD",8489,"INIT")
@@ -36935,7 +36963,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWARCV",1,0)
 RGCWARCV ;RI/CBMI/DKM - Cover Sheet: Adverse Reactions ;02-Feb-2015 10:15;DKM
 "RTN","RGCWARCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 107
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 108
 "RTN","RGCWARCV",3,0)
  ; Return adverse reaction info for a patient
 "RTN","RGCWARCV",4,0)
@@ -37259,7 +37287,7 @@ ADD(TXT,LBL) ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 107
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 108
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -38235,7 +38263,7 @@ CIA EVENT TYPE^19941.21
 **INSTALL NAME**
 CAREWEB CONSULT COVERSHEET 1.0
 "BLD",8490,0)
-CAREWEB CONSULT COVERSHEET 1.0^^0^3150223^n
+CAREWEB CONSULT COVERSHEET 1.0^^0^3150226^n
 "BLD",8490,4,0)
 ^9.64PA^19941.21^3
 "BLD",8490,4,999.1,0)
@@ -38263,7 +38291,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8490,4,"B",19941.21,19941.21)
 
 "BLD",8490,6.3)
-107
+108
 "BLD",8490,"INI")
 PRE^RGCWKDIN
 "BLD",8490,"INIT")
@@ -38535,7 +38563,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWCNCV",1,0)
 RGCWCNCV ;RI/CBMI/DKM - Cover Sheet: Consult Orders;02-Feb-2015 10:15;DKM
 "RTN","RGCWCNCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 107
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 108
 "RTN","RGCWCNCV",3,0)
  ;=================================================================
 "RTN","RGCWCNCV",4,0)
@@ -38595,7 +38623,7 @@ DETAIL(DATA,DFN,IEN) ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 107
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 108
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -39571,7 +39599,7 @@ CIA EVENT TYPE^19941.21
 **INSTALL NAME**
 CAREWEB LAB COVERSHEET 1.0
 "BLD",8491,0)
-CAREWEB LAB COVERSHEET 1.0^^0^3150223^n
+CAREWEB LAB COVERSHEET 1.0^^0^3150226^n
 "BLD",8491,4,0)
 ^9.64PA^19941.21^3
 "BLD",8491,4,999.1,0)
@@ -39599,7 +39627,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8491,4,"B",19941.21,19941.21)
 
 "BLD",8491,6.3)
-109
+110
 "BLD",8491,"INI")
 PRE^RGCWKDIN
 "BLD",8491,"INIT")
@@ -39917,7 +39945,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 109
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 110
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -40243,7 +40271,7 @@ MES(MSG,QUIT) ;
 "RTN","RGCWLRCV",1,0)
 RGCWLRCV ;RI/CBMI/DKM - Support for lab cover sheet component ;18-Mar-2014 23:21;DKM
 "RTN","RGCWLRCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 109
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 110
 "RTN","RGCWLRCV",3,0)
  ; RPC: RGCWLRCV LIST
 "RTN","RGCWLRCV",4,0)
@@ -40939,7 +40967,7 @@ CIA EVENT TYPE^19941.21
 **INSTALL NAME**
 CAREWEB VITALS 1.0
 "BLD",8499,0)
-CAREWEB VITALS 1.0^^0^3150223^n
+CAREWEB VITALS 1.0^^0^3150226^n
 "BLD",8499,4,0)
 ^9.64PA^999.21^4
 "BLD",8499,4,999.1,0)
@@ -40973,7 +41001,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8499,4,"B",19941.21,19941.21)
 
 "BLD",8499,6.3)
-106
+107
 "BLD",8499,"INI")
 PRE^RGCWKDIN
 "BLD",8499,"INIT")
@@ -45401,7 +45429,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 106
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 107
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -45727,7 +45755,7 @@ MES(MSG,QUIT) ;
 "RTN","RGCWVM",1,0)
 RGCWVM ;MSC/IND/DKM - Cover Sheet: Vital Measurements ;02-Feb-2015 10:15;DKM
 "RTN","RGCWVM",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001003,001004,001005,001006,001009**;Sep 18, 2007;Build 106
+ ;;1.0;CAREWEB FRAMEWORK;**001003,001004,001005,001006,001009**;Sep 18, 2007;Build 107
 "RTN","RGCWVM",3,0)
  ;=================================================================
 "RTN","RGCWVM",4,0)
@@ -46565,7 +46593,7 @@ ADD(TXT,LBL,SUB) ;
 "RTN","RGCWVM2",1,0)
 RGCWVM2 ;IHS/MSC/MGH - Triage: Vital Measurements ;18-Aug-2014 17:20;DKM
 "RTN","RGCWVM2",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005,001007,001009**;Sep 18, 2007;Build 106
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005,001007,001009**;Sep 18, 2007;Build 107
 "RTN","RGCWVM2",3,0)
  ;=================================================================
 "RTN","RGCWVM2",4,0)
@@ -46989,7 +47017,7 @@ GETCATP(RESULTS,VIEN) ;EP Given a vital sign and an IEN, return the categories f
 "RTN","RGCWVMC",1,0)
 RGCWVMC ;IHS/MSC/MGH - CUMULATIVE VITALS/MEASUREMENTS FOR PATIENT OVER GIVEN DATE RANGE ;18-Aug-2014 17:20;DKM
 "RTN","RGCWVMC",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;March 20,2007;Build 106
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;March 20,2007;Build 107
 "RTN","RGCWVMC",3,0)
 DEV ;S %ZIS="Q",%ZIS("B")="" D ^%ZIS K %ZIS G:POP Q3 I $E(IOST)="P",'$D(IO("Q")),'$D(IO("S")) D ^%ZISC W !,?3,"PRINTED REPORTS MUST BE QUEUED!!",$C(7) G DEV
 "RTN","RGCWVMC",4,0)
@@ -47125,7 +47153,7 @@ PRT ;PRINT V/M BY DATE/TIME
 "RTN","RGCWVMC2",1,0)
 RGCWVMC2 ;MSC/IND/MGH - CUMMULATIVE VITALS/MEASUREMENTS CONT ;20-Jan-2015 13:23;DKM
 "RTN","RGCWVMC2",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;Mar 20, 2007;Build 106
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;Mar 20, 2007;Build 107
 "RTN","RGCWVMC2",3,0)
  ;=================================================================
 "RTN","RGCWVMC2",4,0)
@@ -47275,7 +47303,7 @@ QUAL(BEHIEN) ;Add on qualifiers
 "RTN","RGCWVMER",1,0)
 RGCWVMER ;MSC/IND/MGH - VITALS ENTERED IN ERROR REPORT ;20-Jan-2015 13:23;DKM
 "RTN","RGCWVMER",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;Mar 20, 2007;Build 106
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;Mar 20, 2007;Build 107
 "RTN","RGCWVMER",3,0)
  ;=================================================================
 "RTN","RGCWVMER",4,0)
@@ -47455,7 +47483,7 @@ RND(X) Q $S(X=+X:+$J(X,0,2),1:X)
 "RTN","RGCWVMIN",1,0)
 RGCWVMIN ;MSC/IND/DKM - Installation Support ;18-Aug-2014 17:20;DKM
 "RTN","RGCWVMIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001002**;Mar 20, 2007;Build 106
+ ;;1.0;CAREWEB FRAMEWORK;**001002**;Mar 20, 2007;Build 107
 "RTN","RGCWVMIN",3,0)
  ;=================================================================
 "RTN","RGCWVMIN",4,0)
@@ -47499,7 +47527,7 @@ CANENTER ;;PROVIDER
 "RTN","RGCWVMRP",1,0)
 RGCWVMRP ;IHS/MSC/MGH - OE/RR REPORTS FOR MEASUREMNTS AND I&O;18-Aug-2014 17:20;DKM
 "RTN","RGCWVMRP",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;March 20,2007;Build 106
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;March 20,2007;Build 107
 "RTN","RGCWVMRP",3,0)
  ;
 "RTN","RGCWVMRP",4,0)
@@ -48465,7 +48493,7 @@ CIA EVENT TYPE^19941.21
 **INSTALL NAME**
 CAREWEB SMART ADAPTER 1.0
 "BLD",8501,0)
-CAREWEB SMART ADAPTER 1.0^^0^3150223^n
+CAREWEB SMART ADAPTER 1.0^^0^3150226^n
 "BLD",8501,4,0)
 ^9.64PA^19941.21^3
 "BLD",8501,4,999.1,0)
@@ -48493,7 +48521,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8501,4,"B",19941.21,19941.21)
 
 "BLD",8501,6.3)
-101
+102
 "BLD",8501,"INI")
 PRE^RGCWKDIN
 "BLD",8501,"INIT")
@@ -48757,7 +48785,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 101
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 102
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)

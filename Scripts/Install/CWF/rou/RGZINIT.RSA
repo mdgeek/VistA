@@ -28,7 +28,7 @@ ADDXP(X)        N ERR
         W:ERR ?7,"Error adding permission.",!
         Q
 WWWINIT N FDA
-        D FDASET("FHIR/*","+1,",.FDA)
+        D FDASET("DSTU1/*","+1,",.FDA)
         D FDASET("VISTA/*","+2,",.FDA)
         D:$D(FDA) UPDATE^DIE("E","FDA")
         Q
