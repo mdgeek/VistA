@@ -37,6 +37,7 @@ usage()
       Alternate VistA-M repo = https://github.com/OSEHRA/VistA-M.git
       Install EWD.js = false
       Install CWF = false
+      Install dEWDrop globals = false
       Create Development Directories = false
       Instance Name = OSEHRA
       Post Install hook = none
@@ -48,6 +49,7 @@ usage()
       -c    Install CareWeb Framework (assumes development directories)
       -e    Install EWD.js (assumes development directories)
       -d    Create development directories (s & p)
+      -g    Install dEWDrop globals
       -i    Instance name
       -p    Post install hook (path to script)
       -s    Skip testing
@@ -55,7 +57,7 @@ usage()
 EOF
 }
 
-while getopts ":ha:cedi:p:s" option
+while getopts ":ha:cedgi:p:s" option
 do
     case $option in
         h)
@@ -75,6 +77,9 @@ do
         e)
             installEWD=true
             developmentDirectories=true
+            ;;
+        g)
+            installDDG=true
             ;;
         i)
             instance=$(echo $OPTARG |tr '[:upper:]' '[:lower:]')
@@ -106,6 +111,10 @@ if [[ -z $installEWD ]]; then
     installEWD=false
 fi
 
+if [[ -z $installDDG ]]; then
+    installDDG=false
+fi
+
 if [[ -z $instance ]]; then
     instance=osehra
 fi
@@ -124,6 +133,7 @@ echo "Create development directories: $developmentDirectories"
 echo "Installing an instance named: $instance"
 echo "Installing CWF: $installCWF"
 echo "Installing EWD.js: $installEWD"
+echo "Installing dEWDrop globals: $installDDG"
 echo "Post install hook: $postInstall"
 echo "Skip Testing: $skipTests"
 
@@ -239,6 +249,13 @@ service xinetd restart
 if $developmentDirectories; then
     su $instance -c "mkdir $basedir/{p,p/$gtmver,s,s/$gtmver}"
     perl -pi -e 's#export gtmroutines=\"#export gtmroutines=\"\$basedir/p/\$gtmver\(\$basedir/p\) \$basedir/s/\$gtmver\(\$basedir/s\) #' $basedir/etc/env
+fi
+
+# Install dEWDrop globals
+if $installDDG; then
+    cd $scriptdir/DDG
+    ./ddg.sh
+    cd $basedir
 fi
 
 # Install CWF

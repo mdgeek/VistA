@@ -2,12 +2,12 @@
 #
 # Fix line endings
 #
-dos2unix /vagrant/CWF/etc/init.d/cwf
-dos2unix /vagrant/CWF/etc/xinetd.d/osehra-vista-ciabroker
-dos2unix /vagrant/CWF/kid/*.kid
-dos2unix /vagrant/CWF/rou/*.RSA
-dos2unix /vagrant/CWF/www/*.xml
-dos2unix /vagrant/CWF/www/*.inp
+dos2unix /vagrant/CWF/etc/init.d/cwf > /dev/null
+dos2unix /vagrant/CWF/etc/xinetd.d/osehra-vista-ciabroker > /dev/null
+dos2unix /vagrant/CWF/kid/*.kid > /dev/null
+dos2unix /vagrant/CWF/rou/*.RSA > /dev/null
+dos2unix /vagrant/CWF/www/*.xml > /dev/null
+dos2unix /vagrant/CWF/www/*.inp > /dev/null
 #
 #  CIA broker configuration
 #
@@ -34,15 +34,12 @@ python /scripts/Scripts/DefaultKIDSBuildInstaller.py ./kid/rged-3.0.kid -S 2
 # Setup user(s)
 #
 python /scripts/Scripts/VistARoutineImport.py ./rou/RGZINIT.RSA -S 2 -o /home/osehra/r
-gtm -run ^RGZINIT "MANAGER,SYSTEM"
-gtm -run ^RGZINIT "USER,ONE"
-gtm -run ^RGZINIT "USER,TWO"
-gtm -run ^RGZINIT "USER,THREE"
+gtm -run AUTO^RGZINIT
 
 #
 # Install M Web Server (with mods)
 #
-sudo curl -L https://raw.github.com/shabiel/M-Web-Server/0.1.1/dist/WWWINIT.RSA > ./rou/WWWINIT.RSA
+sudo curl -L -s https://raw.github.com/shabiel/M-Web-Server/0.1.1/dist/WWWINIT.RSA > ./rou/WWWINIT.RSA
 python /scripts/Scripts/VistARoutineImport.py ./rou/WWWINIT.RSA -S 2 -o /home/osehra/r
 gtm -run ^WWWINIT < ./www/wwwinit.inp
 gtm -run WWWINIT^RGZINIT

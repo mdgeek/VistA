@@ -1,11 +1,15 @@
 %RO Routine Output Utility
-GT.M 13-FEB-2015 03:51:50
+GT.M 24-FEB-2015 17:01:56
 RGZINIT
-RGZINIT ;RG/IND/DKM - Set up user access ;13-Feb-2015 03:51;SM
+RGZINIT ;RG/IND/DKM - Set up user access ;24-Feb-2015 17:00;SA
         ;=================================================================
         ;;1.0;CAREWEB FRAMEWORK;;30-Jan-2015 15:25
         ;=================================================================
         D INIT($ZCM)
+        Q
+AUTO    N IEN,NM,XX
+        F IEN=0:0 S IEN=$O(^VA(200,IEN)) Q:'IEN  S NM=$P(^(IEN,0),U) D
+        .F XX="NURSE","DOCTOR","SYSTEM","COORDINATOR","USER" I NM[XX D INIT(IEN) Q
         Q
 INIT(NAM)       ;
         N DUZ

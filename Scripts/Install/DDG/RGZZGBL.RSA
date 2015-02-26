@@ -1,0 +1,20 @@
+%RO Routine Output Utility
+GT.M 24-FEB-2015 17:51:18
+RGZZGBL
+RGZZGBL    N X,Y,Z,GBL
+INP      R !!,"GLOBAL: ",GBL,!
+         Q:'$L(GBL)
+         S:$E(GBL)'="^" GBL="^"_GBL
+         I '$D(@GBL) W "Not found" G INP
+         S X=$G(@GBL@(0))
+         I $L(X) D OUT G INP
+         S Y=""
+         F  S Y=$O(@GBL@(Y)) Q:'$L(Y)  D
+         .S X=$G(@GBL@(Y,0))
+         .D OUT
+         G INP
+OUT      W:$L(X) $P(X,"^"),?50,$P(X,"^",2),?60,$P(X,"^",3),?70,$P(X,"^",4),!
+         Q
+
+
+
