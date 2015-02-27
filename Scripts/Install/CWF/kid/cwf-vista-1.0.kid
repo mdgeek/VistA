@@ -1,4 +1,4 @@
-KIDS Distribution saved on Feb 27, 2015@12:19:29
+KIDS Distribution saved on Feb 27, 2015@18:27:29
 CAREWEB DISTRIBUTION (VISTA) 1.0
 **KIDS**:CAREWEB DISTRIBUTION (VISTA) 1.0^CIA UTILITIES 1.2^RG UTILITIES 3.0^CIA RPC BROKER 1.3^CAREWEB FRAMEWORK 1.0^CAREWEB NOTIFICATION 1.0^CAREWEB CONTEXT 1.0^CAREWEB CWADF 1.0^CAREWEB ALLERGY COVERSHEET 1.0^CAREWEB CONSULT COVERSHEET 1.0^CAREWEB LAB COVERSHEET 1.0^CAREWEB VITALS 1.0^CAREWEB SMART ADAPTER 1.0^
 
@@ -7,7 +7,7 @@ CAREWEB DISTRIBUTION (VISTA) 1.0
 "BLD",8492,0)
 CAREWEB DISTRIBUTION (VISTA) 1.0^^1^3150227^n
 "BLD",8492,6.3)
-120
+121
 "BLD",8492,10,0)
 ^9.63^15^12
 "BLD",8492,10,10,0)
@@ -223,7 +223,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWFUTL",1,0)
 RGCWFUTL ;RI/CBMI/DKM CareWeb Management Utilites;02-Feb-2015 10:15;DKM
 "RTN","RGCWFUTL",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 120
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 121
 "RTN","RGCWFUTL",3,0)
  ; Initiate shutdown sequence for applications
 "RTN","RGCWFUTL",4,0)
@@ -371,7 +371,7 @@ They perform generic functions.
 "BLD",8482,4,0)
 ^9.64PA^^
 "BLD",8482,6.3)
-131
+132
 "BLD",8482,"ABNS",0)
 ^9.66A^1^1
 "BLD",8482,"ABNS",1,0)
@@ -895,7 +895,7 @@ D XPZ2^XPDIQ
 "RTN","CIAU",1,0)
 CIAU ;MSC/IND/DKM - General purpose utilities;20-Jan-2015 13:23;DKM
 "RTN","CIAU",2,0)
- ;;1.2;CIA UTILITIES;**1**;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;**1**;Mar 20, 2007;Build 132
 "RTN","CIAU",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAU",4,0)
@@ -1307,7 +1307,7 @@ DTT(X) S X=X*86400
 "RTN","CIAU1",1,0)
 CIAU1 ;MSC/IND/PLS - General Purpose Utilites - Con't ;04-May-2006 08:19;DKM
 "RTN","CIAU1",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAU1",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAU1",4,0)
@@ -1377,7 +1377,7 @@ ASKDATE(PMT,DFL,MIN,OPT) ;
 "RTN","CIAUALR",1,0)
 CIAUALR ;MSC/IND/DKM - Send alert to user(s) via kernel or mail;04-May-2006 08:19;DKM
 "RTN","CIAUALR",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUALR",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUALR",4,0)
@@ -1437,7 +1437,7 @@ MAIL(CIAMSG,XMY,XMSUB,XMDUZ) ;
 "RTN","CIAUBC28",1,0)
 CIAUBC28 ;MSC/IND/DKM/PLS - Convert 128 barcode to HPCL-compatible form ;04-May-2006 08:19;DKM
 "RTN","CIAUBC28",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUBC28",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUBC28",4,0)
@@ -1773,7 +1773,7 @@ BC(TXT,ORN,HGT,HOR,VER,WID) ;
 "RTN","CIAUBC39",1,0)
 CIAUBC39 ;MSC/IND/PLS - Converts barcode 39 to HPCL-compatible format ;04-May-2006 08:19;DKM
 "RTN","CIAUBC39",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUBC39",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUBC39",4,0)
@@ -1967,7 +1967,7 @@ CHK(X) ;CALCULATE CHECK DIGIT AND RETURN STRING TO PRINT
 "RTN","CIAUBCDA",1,0)
 CIAUBCDA ;MSC/IND/PLS - Converts barcode CODABAR to HPCL-compatible format ;04-May-2006 08:19;DKM
 "RTN","CIAUBCDA",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUBCDA",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUBCDA",4,0)
@@ -2121,7 +2121,7 @@ CHK(X) ;CALCULATE CHECK DIGIT AND RETURN STRING TO PRINT
 "RTN","CIAUBIG",1,0)
 CIAUBIG ;MSC/IND/PLS - Print a banner in large letters;04-May-2006 08:19;DKM
 "RTN","CIAUBIG",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUBIG",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUBIG",4,0)
@@ -2289,7 +2289,7 @@ TBL ;; Table of character "raster images"
 "RTN","CIAUDAT",1,0)
 CIAUDAT ;MSC/IND/DKM - Date range input;20-Jan-2015 13:23;DKM
 "RTN","CIAUDAT",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUDAT",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUDAT",4,0)
@@ -2441,7 +2441,7 @@ PAUSE(%CIAZ) ;
 "RTN","CIAUDDR",1,0)
 CIAUDDR ;MSC/IND/DKM - FileMan RPC Extensions ;04-May-2006 08:19;DKM
 "RTN","CIAUDDR",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUDDR",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUDDR",4,0)
@@ -2957,7 +2957,7 @@ XREFFLD(FNUM,XREF) ;EP
 "RTN","CIAUDIC",1,0)
 CIAUDIC ;MSC/IND/DKM - Encapsulated FileMan API;15-Feb-2007 10:32;DKM
 "RTN","CIAUDIC",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUDIC",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUDIC",4,0)
@@ -3289,7 +3289,7 @@ DA N %CIAZ,%CIAZ1,%CIAZ2
 "RTN","CIAUDT",1,0)
 CIAUDT ;MSC/IND/DKM - FM date to formatted date;04-May-2006 08:19;DKM
 "RTN","CIAUDT",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUDT",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUDT",4,0)
@@ -3367,7 +3367,7 @@ ENTRY(CIADAT,CIAFMT) ; EP
 "RTN","CIAUEDT",1,0)
 CIAUEDT ;MSC/IND/DKM - Screen-oriented line editor;20-Jan-2015 13:23;DKM
 "RTN","CIAUEDT",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUEDT",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUEDT",4,0)
@@ -3711,7 +3711,7 @@ ERROR W CIABEL                                                               ; S
 "RTN","CIAUHFS",1,0)
 CIAUHFS ;MSC/IND/DKM - Host IO Support ;04-May-2006 08:19;DKM
 "RTN","CIAUHFS",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUHFS",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUHFS",4,0)
@@ -3825,7 +3825,7 @@ STRIP N I,J,K,X
 "RTN","CIAUIMP",1,0)
 CIAUIMP ;MSC/IND/DKM - Import text into FileMan file;04-May-2006 08:19;DKM
 "RTN","CIAUIMP",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUIMP",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUIMP",4,0)
@@ -3989,7 +3989,7 @@ ERR(CIAMSG,CIAX) ;
 "RTN","CIAUIN0",1,0)
 CIAUIN0 ;MSC/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
 "RTN","CIAUIN0",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUIN0",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUIN0",4,0)
@@ -4049,7 +4049,7 @@ OPENX(X1,X2) ;EP
 "RTN","CIAUIN16",1,0)
 CIAUIN16 ;MSC/IND/DKM - Inits for VMS;04-May-2006 08:19;DKM
 "RTN","CIAUIN16",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUIN16",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUIN16",4,0)
@@ -4217,7 +4217,7 @@ CLIENTIP() ;EP
 "RTN","CIAUIN18",1,0)
 CIAUIN18 ;MSC/IND/DKM - Inits for Cache (Windows);04-May-2006 08:19;DKM
 "RTN","CIAUIN18",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUIN18",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUIN18",4,0)
@@ -4405,7 +4405,7 @@ CLIENTIP() ;EP
 "RTN","CIAUIN58",1,0)
 CIAUIN58 ;MSC/IND/DKM/PLS - Inits for MSM-UNIX;04-May-2006 08:19;DKM
 "RTN","CIAUIN58",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUIN58",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUIN58",4,0)
@@ -4619,7 +4619,7 @@ JW(ZOSHC) ;msm extrinsic
 "RTN","CIAUIN68",1,0)
 CIAUIN68 ;MSC/IND/DKM - Inits for Cache (Unix);04-May-2006 08:19;DKM
 "RTN","CIAUIN68",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUIN68",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUIN68",4,0)
@@ -4807,7 +4807,7 @@ CLIENTIP() ;EP
 "RTN","CIAUIN8",1,0)
 CIAUIN8 ;MSC/IND/DKM - Inits for MSM;04-May-2006 08:19;DKM
 "RTN","CIAUIN8",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUIN8",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUIN8",4,0)
@@ -4993,7 +4993,7 @@ CLIENTIP() ;EP
 "RTN","CIAUINIT",1,0)
 CIAUINIT ;MSC/IND/DKM - Platform specific inits;04-May-2006 08:19;DKM
 "RTN","CIAUINIT",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUINIT",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUINIT",4,0)
@@ -5107,7 +5107,7 @@ DEVICE ; Device setup
 "RTN","CIAULK2",1,0)
 CIAULK2 ;MSC/IND/DKM - Continuation of CIAULKP;20-Jan-2015 13:23;DKM
 "RTN","CIAULK2",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAULK2",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAULK2",4,0)
@@ -5511,7 +5511,7 @@ XY(X,Y) ;I %CIARS W:'X *13 S $X=X,$Y=Y Q ""
 "RTN","CIAULKP",1,0)
 CIAULKP ;MSC/IND/DKM - File lookup utility;20-Jan-2015 13:23;DKM
 "RTN","CIAULKP",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAULKP",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAULKP",4,0)
@@ -5809,7 +5809,7 @@ ERROR W:'%CIAHTML $$XY(0,%CIAY+1),*7,%CIAEOL,$$EC^%ZOSV
 "RTN","CIAUMTL",1,0)
 CIAUMTL ;MSC/IND/DKM - Multi-term lookup support ;04-May-2006 08:19;DKM
 "RTN","CIAUMTL",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUMTL",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUMTL",4,0)
@@ -6029,7 +6029,7 @@ STEM(CIALAST,CIASTEM,CIAF) ;
 "RTN","CIAUNTEG",1,0)
 CIAUNTEG ;ISC/XTSUMBLD KERNEL - Package checksum checker ;3070531.172703
 "RTN","CIAUNTEG",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20,2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20,2007;Build 132
 "RTN","CIAUNTEG",3,0)
  ;;7.3;3070531.172703
 "RTN","CIAUNTEG",4,0)
@@ -6123,7 +6123,7 @@ CIAU1 ;;508281
 "RTN","CIAUOS",1,0)
 CIAUOS ;MSC/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
 "RTN","CIAUOS",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUOS",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUOS",4,0)
@@ -6365,7 +6365,7 @@ CLIENTIP() ;EP
 "RTN","CIAUOS1",1,0)
 CIAUOS ;MSC/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
 "RTN","CIAUOS1",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUOS1",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUOS1",4,0)
@@ -6597,7 +6597,7 @@ ERRDSM S X1=$P($P(X,", ",2),"-",3),X2=$P($P(X,", "),":"),X3=$$TRIM^CIAU($P(X,", 
 "RTN","CIAUREG",1,0)
 CIAUREG ;MSC/IND/DKM - Various registration actions ;04-May-2006 08:19;DKM
 "RTN","CIAUREG",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUREG",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUREG",4,0)
@@ -6635,7 +6635,7 @@ REGPROT(P,C,ERR) ;
 "RTN","CIAURPC",1,0)
 CIAURPC ;MSC/IND/DKM - RPC Encapsulations for CIAU routines ;04-May-2006 08:19;DKM
 "RTN","CIAURPC",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAURPC",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAURPC",4,0)
@@ -6921,7 +6921,7 @@ GETRPC(X) ;EP
 "RTN","CIAURPRT",1,0)
 CIAURPRT ;MSC/IND/DKM - Routine Pretty Print Program ;20-Jan-2015 13:23;DKM
 "RTN","CIAURPRT",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAURPRT",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAURPRT",4,0)
@@ -7003,7 +7003,7 @@ RJ(X) W ?(IOM-$L(X)),X
 "RTN","CIAUSTX",1,0)
 CIAUSTX ;MSC/IND/DKM - M syntax analyzer;04-May-2006 08:19;DKM
 "RTN","CIAUSTX",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUSTX",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUSTX",4,0)
@@ -7289,7 +7289,7 @@ ERRORS ;;*Error messages*
 "RTN","CIAUSTX0",1,0)
 CIAUSTX0 ;MSC/IND/DKM - Continuation of CIAUSTX;04-May-2006 08:19;DKM
 "RTN","CIAUSTX0",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUSTX0",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUSTX0",4,0)
@@ -7619,7 +7619,7 @@ NEXT(CIAC,CIAI) ;
 "RTN","CIAUSTX1",1,0)
 CIAUSTX1 ;MSC/IND/DKM - Continuation of CIAUSTX;04-May-2006 08:19;DKM
 "RTN","CIAUSTX1",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUSTX1",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUSTX1",4,0)
@@ -7957,7 +7957,7 @@ NEXT(CIAC,CIAI) ;
 "RTN","CIAUTSK",1,0)
 CIAUTSK ;MSC/IND/DKM - Encapsulates TaskMan API ;04-May-2006 08:19;DKM
 "RTN","CIAUTSK",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUTSK",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUTSK",4,0)
@@ -7991,7 +7991,7 @@ QUEUE(ZTRTN,ZTDESC,ZTDTH,ZTSAVE,ZTIO,ZTUCI,ZTPRI) ;
 "RTN","CIAUUSR",1,0)
 CIAUUSR ;MSC/IND/DKM - Parse recipient list;04-May-2006 08:19;DKM
 "RTN","CIAUUSR",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUUSR",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUUSR",4,0)
@@ -8105,7 +8105,7 @@ MGRP2(CIAMGRP) ;
 "RTN","CIAUUU",1,0)
 CIAUUU ;MSC/IND/DKM - UUEncode and UUDecode functions.;04-May-2006 08:19;DKM
 "RTN","CIAUUU",2,0)
- ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 131
+ ;;1.2;CIA UTILITIES;;Mar 20, 2007;Build 132
 "RTN","CIAUUU",3,0)
  ;;Copyright 2000-2006, Medsphere Systems Corporation
 "RTN","CIAUUU",4,0)
@@ -8175,7 +8175,7 @@ They perform generic functions.
 "BLD",8503,4,0)
 ^9.64PA^^
 "BLD",8503,6.3)
-126
+127
 "BLD",8503,"ABNS",0)
 ^9.66A^1^1
 "BLD",8503,"ABNS",1,0)
@@ -8777,7 +8777,7 @@ D XPZ2^XPDIQ
 "RTN","RGUT",1,0)
 RGUT ;RG/IND/DKM - General purpose utilities;20-Jan-2015 13:23;DKM
 "RTN","RGUT",2,0)
- ;;3.0;RG UTILITIES;**1**;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;**1**;Mar 20, 2007;Build 127
 "RTN","RGUT",3,0)
  ;;
 "RTN","RGUT",4,0)
@@ -9189,7 +9189,7 @@ DTT(X) S X=X*86400
 "RTN","RGUT1",1,0)
 RGUT1 ;RG/IND/PLS - General Purpose Utilites - Con't ;04-May-2006 08:19;DKM
 "RTN","RGUT1",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUT1",3,0)
  ;;
 "RTN","RGUT1",4,0)
@@ -9259,7 +9259,7 @@ ASKDATE(PMT,DFL,MIN,OPT) ;
 "RTN","RGUTALR",1,0)
 RGUTALR ;RG/IND/DKM - Send alert to user(s) via kernel or mail;04-May-2006 08:19;DKM
 "RTN","RGUTALR",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTALR",3,0)
  ;;
 "RTN","RGUTALR",4,0)
@@ -9319,7 +9319,7 @@ MAIL(CIAMSG,XMY,XMSUB,XMDUZ) ;
 "RTN","RGUTBC28",1,0)
 RGUTBC28 ;RG/IND/DKM/PLS - Convert 128 barcode to HPCL-compatible form ;04-May-2006 08:19;DKM
 "RTN","RGUTBC28",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTBC28",3,0)
  ;;
 "RTN","RGUTBC28",4,0)
@@ -9655,7 +9655,7 @@ BC(TXT,ORN,HGT,HOR,VER,WID) ;
 "RTN","RGUTBC39",1,0)
 RGUTBC39 ;RG/IND/PLS - Converts barcode 39 to HPCL-compatible format ;04-May-2006 08:19;DKM
 "RTN","RGUTBC39",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTBC39",3,0)
  ;;
 "RTN","RGUTBC39",4,0)
@@ -9849,7 +9849,7 @@ CHK(X) ;CALCULATE CHECK DIGIT AND RETURN STRING TO PRINT
 "RTN","RGUTBCDA",1,0)
 RGUTBCDA ;RG/IND/PLS - Converts barcode CODABAR to HPCL-compatible format ;04-May-2006 08:19;DKM
 "RTN","RGUTBCDA",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTBCDA",3,0)
  ;;
 "RTN","RGUTBCDA",4,0)
@@ -10003,7 +10003,7 @@ CHK(X) ;CALCULATE CHECK DIGIT AND RETURN STRING TO PRINT
 "RTN","RGUTBIG",1,0)
 RGUTBIG ;RG/IND/PLS - Print a banner in large letters;04-May-2006 08:19;DKM
 "RTN","RGUTBIG",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTBIG",3,0)
  ;;
 "RTN","RGUTBIG",4,0)
@@ -10171,7 +10171,7 @@ TBL ;; Table of character "raster images"
 "RTN","RGUTDAT",1,0)
 RGUTDAT ;RG/IND/DKM - Date range input;20-Jan-2015 13:23;DKM
 "RTN","RGUTDAT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTDAT",3,0)
  ;;
 "RTN","RGUTDAT",4,0)
@@ -10323,7 +10323,7 @@ PAUSE(%CIAZ) ;
 "RTN","RGUTDDR",1,0)
 RGUTDDR ;RG/IND/DKM - FileMan RPC Extensions ;04-May-2006 08:19;DKM
 "RTN","RGUTDDR",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTDDR",3,0)
  ;;
 "RTN","RGUTDDR",4,0)
@@ -10839,7 +10839,7 @@ XREFFLD(FNUM,XREF) ;EP
 "RTN","RGUTDIC",1,0)
 RGUTDIC ;RG/IND/DKM - Encapsulated FileMan API;15-Feb-2007 10:32;DKM
 "RTN","RGUTDIC",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTDIC",3,0)
  ;;
 "RTN","RGUTDIC",4,0)
@@ -11171,7 +11171,7 @@ DA N %CIAZ,%CIAZ1,%CIAZ2
 "RTN","RGUTDT",1,0)
 RGUTDT ;RG/IND/DKM - FM date to formatted date;04-May-2006 08:19;DKM
 "RTN","RGUTDT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTDT",3,0)
  ;;
 "RTN","RGUTDT",4,0)
@@ -11249,7 +11249,7 @@ ENTRY(CIADAT,CIAFMT) ; EP
 "RTN","RGUTEDT",1,0)
 RGUTEDT ;RG/IND/DKM - Screen-oriented line editor;20-Jan-2015 13:23;DKM
 "RTN","RGUTEDT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTEDT",3,0)
  ;;
 "RTN","RGUTEDT",4,0)
@@ -11593,7 +11593,7 @@ ERROR W CIABEL                                                               ; S
 "RTN","RGUTHFS",1,0)
 RGUTHFS ;RG/IND/DKM - Host IO Support ;04-May-2006 08:19;DKM
 "RTN","RGUTHFS",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTHFS",3,0)
  ;;
 "RTN","RGUTHFS",4,0)
@@ -11707,7 +11707,7 @@ STRIP N I,J,K,X
 "RTN","RGUTIMP",1,0)
 RGUTIMP ;RG/IND/DKM - Import text into FileMan file;04-May-2006 08:19;DKM
 "RTN","RGUTIMP",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTIMP",3,0)
  ;;
 "RTN","RGUTIMP",4,0)
@@ -11871,7 +11871,7 @@ ERR(CIAMSG,CIAX) ;
 "RTN","RGUTIN0",1,0)
 RGUTIN0 ;RG/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
 "RTN","RGUTIN0",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTIN0",3,0)
  ;;
 "RTN","RGUTIN0",4,0)
@@ -11931,7 +11931,7 @@ OPENX(X1,X2) ;EP
 "RTN","RGUTIN16",1,0)
 RGUTIN16 ;RG/IND/DKM - Inits for VMS;04-May-2006 08:19;DKM
 "RTN","RGUTIN16",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTIN16",3,0)
  ;;
 "RTN","RGUTIN16",4,0)
@@ -12099,7 +12099,7 @@ CLIENTIP() ;EP
 "RTN","RGUTIN18",1,0)
 RGUTIN18 ;RG/IND/DKM - Inits for Cache (Windows);04-May-2006 08:19;DKM
 "RTN","RGUTIN18",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTIN18",3,0)
  ;;
 "RTN","RGUTIN18",4,0)
@@ -12287,7 +12287,7 @@ CLIENTIP() ;EP
 "RTN","RGUTIN58",1,0)
 RGUTIN58 ;RG/IND/DKM/PLS - Inits for MSM-UNIX;04-May-2006 08:19;DKM
 "RTN","RGUTIN58",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTIN58",3,0)
  ;;
 "RTN","RGUTIN58",4,0)
@@ -12501,7 +12501,7 @@ JW(ZOSHC) ;msm extrinsic
 "RTN","RGUTIN68",1,0)
 RGUTIN68 ;RG/IND/DKM - Inits for Cache (Unix);04-May-2006 08:19;DKM
 "RTN","RGUTIN68",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTIN68",3,0)
  ;;
 "RTN","RGUTIN68",4,0)
@@ -12689,7 +12689,7 @@ CLIENTIP() ;EP
 "RTN","RGUTIN8",1,0)
 RGUTIN8 ;RG/IND/DKM - Inits for MSM;04-May-2006 08:19;DKM
 "RTN","RGUTIN8",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTIN8",3,0)
  ;;
 "RTN","RGUTIN8",4,0)
@@ -12875,7 +12875,7 @@ CLIENTIP() ;EP
 "RTN","RGUTINIT",1,0)
 RGUTINIT ;RG/IND/DKM - Platform specific inits;04-May-2006 08:19;DKM
 "RTN","RGUTINIT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTINIT",3,0)
  ;;
 "RTN","RGUTINIT",4,0)
@@ -12989,7 +12989,7 @@ DEVICE ; Device setup
 "RTN","RGUTLK2",1,0)
 RGUTLK2 ;RG/IND/DKM - Continuation of RGUTLKP;20-Jan-2015 13:23;DKM
 "RTN","RGUTLK2",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTLK2",3,0)
  ;;
 "RTN","RGUTLK2",4,0)
@@ -13393,7 +13393,7 @@ XY(X,Y) ;I %CIARS W:'X *13 S $X=X,$Y=Y Q ""
 "RTN","RGUTLKP",1,0)
 RGUTLKP ;RG/IND/DKM - File lookup utility;20-Jan-2015 13:23;DKM
 "RTN","RGUTLKP",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTLKP",3,0)
  ;;
 "RTN","RGUTLKP",4,0)
@@ -13691,7 +13691,7 @@ ERROR W:'%CIAHTML $$XY(0,%CIAY+1),*7,%CIAEOL,$$EC^%ZOSV
 "RTN","RGUTMTL",1,0)
 RGUTMTL ;RG/IND/DKM - Multi-term lookup support ;04-May-2006 08:19;DKM
 "RTN","RGUTMTL",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTMTL",3,0)
  ;;
 "RTN","RGUTMTL",4,0)
@@ -13911,7 +13911,7 @@ STEM(CIALAST,CIASTEM,CIAF) ;
 "RTN","RGUTNTEG",1,0)
 RGUTNTEG ;ISC/XTSUMBLD KERNEL - Package checksum checker ;3070531.172703
 "RTN","RGUTNTEG",2,0)
- ;;3.0;RG UTILITIES;;Mar 20,2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20,2007;Build 127
 "RTN","RGUTNTEG",3,0)
  ;;7.3;3070531.172703
 "RTN","RGUTNTEG",4,0)
@@ -14005,7 +14005,7 @@ RGUT1 ;;508281
 "RTN","RGUTOS",1,0)
 RGUTOS ;RG/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
 "RTN","RGUTOS",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTOS",3,0)
  ;;
 "RTN","RGUTOS",4,0)
@@ -14247,7 +14247,7 @@ CLIENTIP() ;EP
 "RTN","RGUTOS1",1,0)
 RGUTOS ;RG/IND/DKM - Platform-dependent operations;04-May-2006 08:19;DKM
 "RTN","RGUTOS1",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTOS1",3,0)
  ;;
 "RTN","RGUTOS1",4,0)
@@ -14479,7 +14479,7 @@ ERRDSM S X1=$P($P(X,", ",2),"-",3),X2=$P($P(X,", "),":"),X3=$$TRIM^RGUT($P(X,", 
 "RTN","RGUTREG",1,0)
 RGUTREG ;RG/IND/DKM - Various registration actions ;04-May-2006 08:19;DKM
 "RTN","RGUTREG",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTREG",3,0)
  ;;
 "RTN","RGUTREG",4,0)
@@ -14517,7 +14517,7 @@ REGPROT(P,C,ERR) ;
 "RTN","RGUTRPC",1,0)
 RGUTRPC ;RG/IND/DKM - RPC Encapsulations for RGUT routines ;04-May-2006 08:19;DKM
 "RTN","RGUTRPC",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTRPC",3,0)
  ;;
 "RTN","RGUTRPC",4,0)
@@ -14803,7 +14803,7 @@ GETRPC(X) ;EP
 "RTN","RGUTRPRT",1,0)
 RGUTRPRT ;RG/IND/DKM - Routine Pretty Print Program ;20-Jan-2015 13:23;DKM
 "RTN","RGUTRPRT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTRPRT",3,0)
  ;;
 "RTN","RGUTRPRT",4,0)
@@ -14885,7 +14885,7 @@ RJ(X) W ?(IOM-$L(X)),X
 "RTN","RGUTSTX",1,0)
 RGUTSTX ;RG/IND/DKM - M syntax analyzer;04-May-2006 08:19;DKM
 "RTN","RGUTSTX",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTSTX",3,0)
  ;;
 "RTN","RGUTSTX",4,0)
@@ -15171,7 +15171,7 @@ ERRORS ;;*Error messages*
 "RTN","RGUTSTX0",1,0)
 RGUTSTX0 ;RG/IND/DKM - Continuation of RGUTSTX;04-May-2006 08:19;DKM
 "RTN","RGUTSTX0",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTSTX0",3,0)
  ;;
 "RTN","RGUTSTX0",4,0)
@@ -15501,7 +15501,7 @@ NEXT(CIAC,CIAI) ;
 "RTN","RGUTSTX1",1,0)
 RGUTSTX1 ;RG/IND/DKM - Continuation of RGUTSTX;04-May-2006 08:19;DKM
 "RTN","RGUTSTX1",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTSTX1",3,0)
  ;;
 "RTN","RGUTSTX1",4,0)
@@ -15839,7 +15839,7 @@ NEXT(CIAC,CIAI) ;
 "RTN","RGUTTSK",1,0)
 RGUTTSK ;RG/IND/DKM - Encapsulates TaskMan API ;04-May-2006 08:19;DKM
 "RTN","RGUTTSK",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTTSK",3,0)
  ;;
 "RTN","RGUTTSK",4,0)
@@ -15873,7 +15873,7 @@ QUEUE(ZTRTN,ZTDESC,ZTDTH,ZTSAVE,ZTIO,ZTUCI,ZTPRI) ;
 "RTN","RGUTUSR",1,0)
 RGUTUSR ;RG/IND/DKM - Parse recipient list;04-May-2006 08:19;DKM
 "RTN","RGUTUSR",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTUSR",3,0)
  ;;
 "RTN","RGUTUSR",4,0)
@@ -15987,7 +15987,7 @@ MGRP2(CIAMGRP) ;
 "RTN","RGUTUU",1,0)
 RGUTUU ;RG/IND/DKM - UUEncode and UUDecode functions.;04-May-2006 08:19;DKM
 "RTN","RGUTUU",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 126
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 127
 "RTN","RGUTUU",3,0)
  ;;
 "RTN","RGUTUU",4,0)
@@ -16087,7 +16087,7 @@ y^y^f^^^^n
 "BLD",8484,4,"B",19941.24,19941.24)
 
 "BLD",8484,6.3)
-175
+176
 "BLD",8484,"INI")
 PRE^CIANBINI
 "BLD",8484,"INIT")
@@ -17357,7 +17357,7 @@ D XPZ2^XPDIQ
 "RTN","CIANBACT",1,0)
 CIANBACT ;MSC/IND/DKM - MSC RPC Broker Actions;29-Jan-2015 12:27;DKM
 "RTN","CIANBACT",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 175
+ ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 176
 "RTN","CIANBACT",3,0)
  ;;Copyright 2000-2008, Medsphere Systems Corporation
 "RTN","CIANBACT",4,0)
@@ -17687,7 +17687,7 @@ AUTHMETH(UCI) ;
 "RTN","CIANBASY",1,0)
 CIANBASY ;MSC/IND/DKM - Asynchronous RPC calls ;26-Jan-2015 14:18;DKM
 "RTN","CIANBASY",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 175
+ ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 176
 "RTN","CIANBASY",3,0)
  ;;Copyright 2000-2012, Medsphere Systems Corporation
 "RTN","CIANBASY",4,0)
@@ -17817,7 +17817,7 @@ STOPALL N ZTSK
 "RTN","CIANBEVT",1,0)
 CIANBEVT ;MSC/IND/DKM - Event Support ;26-Jan-2015 14:18;DKM
 "RTN","CIANBEVT",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 175
+ ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 176
 "RTN","CIANBEVT",3,0)
  ;;Copyright 2000-2008, Medsphere Systems Corporation
 "RTN","CIANBEVT",4,0)
@@ -18361,7 +18361,7 @@ RELATES(EVA,EVB) ;EP
 "RTN","CIANBINI",1,0)
 CIANBINI ;MSC/IND/DKM - MSC RPC Broker Installation ;26-Jan-2015 14:18;DKM
 "RTN","CIANBINI",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 175
+ ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 176
 "RTN","CIANBINI",3,0)
  ;;Copyright 2000-2012, Medsphere Systems Corporation
 "RTN","CIANBINI",4,0)
@@ -18583,7 +18583,7 @@ OBJINST ; EP
 "RTN","CIANBLIS",1,0)
 CIANBLIS ;MSC/IND/DKM - MSC RPC Broker ;29-Jan-2015 12:27;DKM
 "RTN","CIANBLIS",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 175
+ ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 176
 "RTN","CIANBLIS",3,0)
  ;;Copyright 2000-2011, Medsphere Systems Corporation
 "RTN","CIANBLIS",4,0)
@@ -19279,7 +19279,7 @@ CHPRN(X) D SETNM^%ZOSV($E(X,1,15))
 "RTN","CIANBLOG",1,0)
 CIANBLOG ;MSC/IND/DKM - MSC RPC Broker Activity Log Support ;26-Jan-2015 14:18;DKM
 "RTN","CIANBLOG",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Jan 3, 2008;Build 175
+ ;;1.3;CIA NETWORK COMPONENTS;;Jan 3, 2008;Build 176
 "RTN","CIANBLOG",3,0)
  ;;Copyright 2000-2008, Medsphere Systems Corporation
 "RTN","CIANBLOG",4,0)
@@ -19467,7 +19467,7 @@ ISACTIVE() ;
 "RTN","CIANBRPC",1,0)
 CIANBRPC ;MSC/IND/DKM - MSC RPC Broker Privileged RPCs;29-Jan-2015 08:41;DKM
 "RTN","CIANBRPC",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 175
+ ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 176
 "RTN","CIANBRPC",3,0)
  ;;Copyright 2000-2008, Medsphere Systems Corporation
 "RTN","CIANBRPC",4,0)
@@ -20017,7 +20017,7 @@ TMPGBL(X) ;
 "RTN","CIANBUTL",1,0)
 CIANBUTL ;MSC/IND/DKM - MSC RPC Broker Utilities ;26-Jan-2015 14:18;DKM
 "RTN","CIANBUTL",2,0)
- ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 175
+ ;;1.3;CIA NETWORK COMPONENTS;;Sep 18, 2007;Build 176
 "RTN","CIANBUTL",3,0)
  ;;Copyright 2000-2008, Medsphere Systems Corporation
 "RTN","CIANBUTL",4,0)
@@ -21165,7 +21165,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8485,4,"B",19941.21,19941.21)
 
 "BLD",8485,6.3)
-152
+153
 "BLD",8485,"ABPKG")
 n
 "BLD",8485,"INI")
@@ -21205,7 +21205,7 @@ RGCWFUSR^^0^B13581745
 "BLD",8485,"KRN",9.8,"NM",5,0)
 RGCWFUTL^^0^B7704054
 "BLD",8485,"KRN",9.8,"NM",6,0)
-RGCWSEFR^^0^B40580756
+RGCWSEFR^^0^B40627238
 "BLD",8485,"KRN",9.8,"NM",7,0)
 RGCWSEJN^^0^B3886991
 "BLD",8485,"KRN",9.8,"NM",8,0)
@@ -23183,7 +23183,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWFPAR",1,0)
 RGCWFPAR ;RI/CBMI/DKM - Parameter management ;18-Mar-2014 17:24;DKM
 "RTN","RGCWFPAR",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 152
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 153
 "RTN","RGCWFPAR",3,0)
  ; Load a parameter template
 "RTN","RGCWFPAR",4,0)
@@ -23383,7 +23383,7 @@ SETPAR(DATA,PARAM,VAL,ENT,INST) ;
 "RTN","RGCWFRPC",1,0)
 RGCWFRPC ;RI/CBMI/DKM - Miscellaneous RPC calls ;15-Mar-2014 11:56;DKM
 "RTN","RGCWFRPC",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 152
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 153
 "RTN","RGCWFRPC",3,0)
  ; RPC: Get/set DISV entry for selected file/IEN
 "RTN","RGCWFRPC",4,0)
@@ -23501,7 +23501,7 @@ TMPGBL(X) ;EP
 "RTN","RGCWFUSR",1,0)
 RGCWFUSR ;RI/CBMI/DKM - User utility methods;14-Feb-2015 17:34;DKM
 "RTN","RGCWFUSR",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 152
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 153
 "RTN","RGCWFUSR",3,0)
  ; Returns true if user has key
 "RTN","RGCWFUSR",4,0)
@@ -23735,7 +23735,7 @@ NAMEITER(CTX) ;
 "RTN","RGCWFUTL",1,0)
 RGCWFUTL ;RI/CBMI/DKM CareWeb Management Utilites;02-Feb-2015 10:15;DKM
 "RTN","RGCWFUTL",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 152
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 153
 "RTN","RGCWFUTL",3,0)
  ; Initiate shutdown sequence for applications
 "RTN","RGCWFUTL",4,0)
@@ -23871,7 +23871,7 @@ SHOWSESS() ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 152
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 153
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -24197,7 +24197,7 @@ MES(MSG,QUIT) ;
 "RTN","RGCWSEF0",1,0)
 RGCWSEF0 ;RI/CBMI/DKM - Return observations in FHIR format. ;26-Feb-2015 08:50;DKM
 "RTN","RGCWSEF0",2,0)
- ;=================================================================;;;;;Build 152
+ ;=================================================================;;;;;Build 153
 "RTN","RGCWSEF0",3,0)
  ;;1.0;CAREWEB FRAMEWORK;;07-Feb-2015 08:51
 "RTN","RGCWSEF0",4,0)
@@ -24293,7 +24293,7 @@ PUT(NAME,INTERNAL,EXTERNAL) ;
 "RTN","RGCWSEFL",1,0)
 RGCWSEFL ;RI/CBMI/DKM - Return lab observations. ;27-Feb-2015 12:19;DKM
 "RTN","RGCWSEFL",2,0)
- ;=================================================================;;;;;Build 152
+ ;=================================================================;;;;;Build 153
 "RTN","RGCWSEFL",3,0)
  ;;1.0;CAREWEB FRAMEWORK;;07-Feb-2015 08:51
 "RTN","RGCWSEFL",4,0)
@@ -24501,11 +24501,11 @@ PUT(NAME,INTERNAL,EXTERNAL) ;
 "RTN","RGCWSEFL",105,0)
  Q
 "RTN","RGCWSEFR")
-0^6^B40580756
+0^6^B40627238
 "RTN","RGCWSEFR",1,0)
-RGCWSEFR ;RI/CBMI/DKM - XML FHIR Support ;26-Feb-2015 08:50;DKM
+RGCWSEFR ;RI/CBMI/DKM - XML FHIR Support ;27-Feb-2015 18:27;DKM
 "RTN","RGCWSEFR",2,0)
- ;;1.0;RGCW;;14-March-2014;Build 152
+ ;;1.0;RGCW;;14-March-2014;Build 153
 "RTN","RGCWSEFR",3,0)
  ;=================================================================
 "RTN","RGCWSEFR",4,0)
@@ -24529,7 +24529,7 @@ PSTLIST I TOP,$$INFEED,'$$ISERR^RGCWSER D ENDFEED
 "RTN","RGCWSEFR",13,0)
 COMPOSE N ENTRY,TAG,ATR
 "RTN","RGCWSEFR",14,0)
- S TAG=$S($L(PNAME):PNAME,$P(PATH,"/",2)="Binary":"Binary",1:$P(PATH,"/",$L(PATH,"/")))
+ S TAG=$S($L(PNAME):PNAME,$E($P(PATH,"/",2),1,6)="Binary":"Binary",1:$P(PATH,"/",$L(PATH,"/")))
 "RTN","RGCWSEFR",15,0)
  S ENTRY='$L($G(PNAME))&$$INFEED&'$$HASFLAG^RGCWSER("S")
 "RTN","RGCWSEFR",16,0)
@@ -24967,7 +24967,7 @@ ITER(CTX,ROOT) ;
 "RTN","RGCWSEFV",1,0)
 RGCWSEFV ;RI/CBMI/DKM - Return vital observations. ;10-Feb-2015 23:51;DKM
 "RTN","RGCWSEFV",2,0)
- ;=================================================================;;;;;Build 152
+ ;=================================================================;;;;;Build 153
 "RTN","RGCWSEFV",3,0)
  ;;1.0;CAREWEB FRAMEWORK;;07-Feb-2015 08:51
 "RTN","RGCWSEFV",4,0)
@@ -25173,7 +25173,7 @@ RANGES N VAL
 "RTN","RGCWSEJN",1,0)
 RGCWSEJN ;RI/CBMI/DKM - JSON Serialization Support ;23-Feb-2015 18:15;DKM
 "RTN","RGCWSEJN",2,0)
- ;;1.0;RGCW;;14-March-2014;Build 152
+ ;;1.0;RGCW;;14-March-2014;Build 153
 "RTN","RGCWSEJN",3,0)
  ;=================================================================
 "RTN","RGCWSEJN",4,0)
@@ -25343,7 +25343,7 @@ ADD(X) D ADD^RGCWSER(X)
 "RTN","RGCWSER",1,0)
 RGCWSER ;RI/CBMI/DKM - Core Serialization Support ;26-Feb-2015 12:59;DKM
 "RTN","RGCWSER",2,0)
- ;;1.0;RGCW;;14-March-2014;Build 152
+ ;;1.0;RGCW;;14-March-2014;Build 153
 "RTN","RGCWSER",3,0)
  ;=================================================================
 "RTN","RGCWSER",4,0)
@@ -26559,7 +26559,7 @@ COMPID D FETCH(.DATA,PATH_"_"_$P(SLCT,":"),$P(SLCT,":",2),.PNAME,.PARAMS,"S")
 "RTN","RGCWSERD",1,0)
 RGCWSERD ;RI/CBMI/DKM - Serialization Date Support ;10-Feb-2015 23:51;DKM
 "RTN","RGCWSERD",2,0)
- ;;1.0;RGCW;;14-March-2014;Build 152
+ ;;1.0;RGCW;;14-March-2014;Build 153
 "RTN","RGCWSERD",3,0)
  ;=================================================================
 "RTN","RGCWSERD",4,0)
@@ -27841,7 +27841,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8486,4,"B",19941.21,19941.21)
 
 "BLD",8486,6.3)
-117
+118
 "BLD",8486,"INI")
 PRE^RGCWKDIN
 "BLD",8486,"INIT")
@@ -28251,7 +28251,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 117
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 118
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -28577,7 +28577,7 @@ MES(MSG,QUIT) ;
 "RTN","RGCWXQ",1,0)
 RGCWXQ ;RI/CBMI/DKM - Notification Support ;02-Feb-2015 10:15;DKM
 "RTN","RGCWXQ",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 117
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 118
 "RTN","RGCWXQ",3,0)
  ; RPC: Get alerts for user
 "RTN","RGCWXQ",4,0)
@@ -29057,7 +29057,7 @@ CANCHGPT(DATA,DFN) ; EP-
 "RTN","RGCWXQCV",1,0)
 RGCWXQCV ;RI/CBMI/DKM - Cover Sheet: Alerts ;02-Feb-2015 10:15;DKM
 "RTN","RGCWXQCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 117
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 118
 "RTN","RGCWXQCV",3,0)
  ; Return alerts according to FLG:
 "RTN","RGCWXQCV",4,0)
@@ -29919,7 +29919,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8487,4,"B",19941.21,19941.21)
 
 "BLD",8487,6.3)
-151
+152
 "BLD",8487,"INI")
 PRE^RGCWKDIN
 "BLD",8487,"INIT")
@@ -31027,7 +31027,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWENC1",1,0)
 RGCWENC1 ;RI/CBMI/DKM - Visit Creation Support ;14-Mar-2014 17:10;DKM
 "RTN","RGCWENC1",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**005004;20-Aug-2007 08:41;Build 151
+ ;;1.0;CAREWEB FRAMEWORK;**005004;20-Aug-2007 08:41;Build 152
 "RTN","RGCWENC1",3,0)
  ; Visit creation API
 "RTN","RGCWENC1",4,0)
@@ -31325,7 +31325,7 @@ ADDVIST(IN,OUT) ;
 "RTN","RGCWENCX",1,0)
 RGCWENCX ;RI/CBMI/DKM - Encounter Context Support ;22-Feb-2015 22:39;DKM
 "RTN","RGCWENCX",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 151
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 152
 "RTN","RGCWENCX",3,0)
  ; RPC: Fetch visit data given visit file IEN
 "RTN","RGCWENCX",4,0)
@@ -32051,7 +32051,7 @@ ENINQ(DATA,VIEN) ;
 "RTN","RGCWFTIU",1,0)
 RGCWFTIU ;RI/CBMI/DKM - TIU FHIR Support ;28-Jul-2014 17:23;DKM
 "RTN","RGCWFTIU",2,0)
- ;;1.0;RGCW;;14-March-2014;Build 151
+ ;;1.0;RGCW;;14-March-2014;Build 152
 "RTN","RGCWFTIU",3,0)
  ;=================================================================
 "RTN","RGCWFTIU",4,0)
@@ -32119,7 +32119,7 @@ PERSON(TAG,ENT,FLD) ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 151
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 152
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -32445,7 +32445,7 @@ MES(MSG,QUIT) ;
 "RTN","RGCWPTCX",1,0)
 RGCWPTCX ;RI/CBMI/DKM - Patient Context Object ;14-Feb-2015 17:32;DKM
 "RTN","RGCWPTCX",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 151
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 152
 "RTN","RGCWPTCX",3,0)
  ; Save/retrieve last patient selected for current institution
 "RTN","RGCWPTCX",4,0)
@@ -32803,7 +32803,7 @@ NAMEITER(CTX) ;
 "RTN","RGCWPTP1",1,0)
 RGCWPTP1 ;RI/CBMI/DKM - Patient List Management ;02-Feb-2015 10:15;DKM
 "RTN","RGCWPTP1",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 151
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 152
 "RTN","RGCWPTP1",3,0)
  ; Return list of patients with clinic appt w/in range
 "RTN","RGCWPTP1",4,0)
@@ -33049,7 +33049,7 @@ HOSPLOC(DATA,FROM,DIR,MAX,TYPE,START,END) ;EP
 "RTN","RGCWPTP2",1,0)
 RGCWPTP2 ;RI/CBMI/DKM - Patient List Management ;02-Feb-2015 10:15;DKM
 "RTN","RGCWPTP2",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 151
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 152
 "RTN","RGCWPTP2",3,0)
  ; Retrieve a given list for a given user
 "RTN","RGCWPTP2",4,0)
@@ -33187,7 +33187,7 @@ GETNAME(IEN) ;
 "RTN","RGCWPTP3",1,0)
 RGCWPTP3 ;RI/CBMI/MGH - Patient List Management ;02-Feb-2015 10:15;DKM
 "RTN","RGCWPTP3",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 151
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 152
 "RTN","RGCWPTP3",3,0)
  ; Call logic to manage team lists
 "RTN","RGCWPTP3",4,0)
@@ -33441,7 +33441,7 @@ UPPER(X) ; Convert lower case X to UPPER CASE
 "RTN","RGCWPTPC",1,0)
 RGCWPTPC ;RI/CBMI/DKM - RPC calls for provider information ;18-Aug-2014 17:20;DKM
 "RTN","RGCWPTPC",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 151
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 152
 "RTN","RGCWPTPC",3,0)
 USESD() Q $G(DUZ("AG"))'="I"
 "RTN","RGCWPTPC",4,0)
@@ -33579,7 +33579,7 @@ TEAM(PRV) ;EP
 "RTN","RGCWPTPL",1,0)
 RGCWPTPL ;RI/CBMI/DKM - Patient List Management ;02-Feb-2015 10:15;DKM
 "RTN","RGCWPTPL",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 151
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 152
 "RTN","RGCWPTPL",3,0)
  ; Lookup by full or partial SSN
 "RTN","RGCWPTPL",4,0)
@@ -33851,7 +33851,7 @@ PARAMITM() Q "RGCWPTPL DEFAULT ITEM"
 "RTN","RGCWPTPS",1,0)
 RGCWPTPS ;RI/CBMI/DKM - Patient search ;30-Jul-2014 11:46;DKM
 "RTN","RGCWPTPS",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 151
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 152
 "RTN","RGCWPTPS",3,0)
 SEARCH(DATA,MAX,LNAME,FNAME,MRN,SSN,IEN,SEX,DOB) ;EP
 "RTN","RGCWPTPS",4,0)
@@ -34751,7 +34751,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8488,4,"B",19941.21,19941.21)
 
 "BLD",8488,6.3)
-113
+114
 "BLD",8488,"INI")
 PRE^RGCWKDIN
 "BLD",8488,"INIT")
@@ -35145,7 +35145,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWARCV",1,0)
 RGCWARCV ;RI/CBMI/DKM - Cover Sheet: Adverse Reactions ;02-Feb-2015 10:15;DKM
 "RTN","RGCWARCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 113
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 114
 "RTN","RGCWARCV",3,0)
  ; Return adverse reaction info for a patient
 "RTN","RGCWARCV",4,0)
@@ -35469,7 +35469,7 @@ ADD(TXT,LBL) ;
 "RTN","RGCWCACV",1,0)
 RGCWCACV ;RI/CBMI/DKM - Cover Sheet: Crisis Alerts;02-Feb-2015 10:15;DKM
 "RTN","RGCWCACV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 113
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 114
 "RTN","RGCWCACV",3,0)
  ;=================================================================
 "RTN","RGCWCACV",4,0)
@@ -35621,7 +35621,7 @@ PRFX(DFN,IEN) ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 113
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 114
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -36625,7 +36625,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8489,4,"B",19941.21,19941.21)
 
 "BLD",8489,6.3)
-110
+111
 "BLD",8489,"INI")
 PRE^RGCWKDIN
 "BLD",8489,"INIT")
@@ -36963,7 +36963,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWARCV",1,0)
 RGCWARCV ;RI/CBMI/DKM - Cover Sheet: Adverse Reactions ;02-Feb-2015 10:15;DKM
 "RTN","RGCWARCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 110
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 111
 "RTN","RGCWARCV",3,0)
  ; Return adverse reaction info for a patient
 "RTN","RGCWARCV",4,0)
@@ -37287,7 +37287,7 @@ ADD(TXT,LBL) ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 110
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 111
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -38291,7 +38291,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8490,4,"B",19941.21,19941.21)
 
 "BLD",8490,6.3)
-110
+111
 "BLD",8490,"INI")
 PRE^RGCWKDIN
 "BLD",8490,"INIT")
@@ -38563,7 +38563,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWCNCV",1,0)
 RGCWCNCV ;RI/CBMI/DKM - Cover Sheet: Consult Orders;02-Feb-2015 10:15;DKM
 "RTN","RGCWCNCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 110
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 111
 "RTN","RGCWCNCV",3,0)
  ;=================================================================
 "RTN","RGCWCNCV",4,0)
@@ -38623,7 +38623,7 @@ DETAIL(DATA,DFN,IEN) ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 110
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 111
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -39627,7 +39627,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8491,4,"B",19941.21,19941.21)
 
 "BLD",8491,6.3)
-112
+113
 "BLD",8491,"INI")
 PRE^RGCWKDIN
 "BLD",8491,"INIT")
@@ -39945,7 +39945,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 112
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 113
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -40271,7 +40271,7 @@ MES(MSG,QUIT) ;
 "RTN","RGCWLRCV",1,0)
 RGCWLRCV ;RI/CBMI/DKM - Support for lab cover sheet component ;18-Mar-2014 23:21;DKM
 "RTN","RGCWLRCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 112
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 113
 "RTN","RGCWLRCV",3,0)
  ; RPC: RGCWLRCV LIST
 "RTN","RGCWLRCV",4,0)
@@ -41001,7 +41001,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8499,4,"B",19941.21,19941.21)
 
 "BLD",8499,6.3)
-109
+110
 "BLD",8499,"INI")
 PRE^RGCWKDIN
 "BLD",8499,"INIT")
@@ -45429,7 +45429,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 109
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 110
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -45755,7 +45755,7 @@ MES(MSG,QUIT) ;
 "RTN","RGCWVM",1,0)
 RGCWVM ;MSC/IND/DKM - Cover Sheet: Vital Measurements ;02-Feb-2015 10:15;DKM
 "RTN","RGCWVM",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001003,001004,001005,001006,001009**;Sep 18, 2007;Build 109
+ ;;1.0;CAREWEB FRAMEWORK;**001003,001004,001005,001006,001009**;Sep 18, 2007;Build 110
 "RTN","RGCWVM",3,0)
  ;=================================================================
 "RTN","RGCWVM",4,0)
@@ -46593,7 +46593,7 @@ ADD(TXT,LBL,SUB) ;
 "RTN","RGCWVM2",1,0)
 RGCWVM2 ;IHS/MSC/MGH - Triage: Vital Measurements ;18-Aug-2014 17:20;DKM
 "RTN","RGCWVM2",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005,001007,001009**;Sep 18, 2007;Build 109
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005,001007,001009**;Sep 18, 2007;Build 110
 "RTN","RGCWVM2",3,0)
  ;=================================================================
 "RTN","RGCWVM2",4,0)
@@ -47017,7 +47017,7 @@ GETCATP(RESULTS,VIEN) ;EP Given a vital sign and an IEN, return the categories f
 "RTN","RGCWVMC",1,0)
 RGCWVMC ;IHS/MSC/MGH - CUMULATIVE VITALS/MEASUREMENTS FOR PATIENT OVER GIVEN DATE RANGE ;18-Aug-2014 17:20;DKM
 "RTN","RGCWVMC",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;March 20,2007;Build 109
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;March 20,2007;Build 110
 "RTN","RGCWVMC",3,0)
 DEV ;S %ZIS="Q",%ZIS("B")="" D ^%ZIS K %ZIS G:POP Q3 I $E(IOST)="P",'$D(IO("Q")),'$D(IO("S")) D ^%ZISC W !,?3,"PRINTED REPORTS MUST BE QUEUED!!",$C(7) G DEV
 "RTN","RGCWVMC",4,0)
@@ -47153,7 +47153,7 @@ PRT ;PRINT V/M BY DATE/TIME
 "RTN","RGCWVMC2",1,0)
 RGCWVMC2 ;MSC/IND/MGH - CUMMULATIVE VITALS/MEASUREMENTS CONT ;20-Jan-2015 13:23;DKM
 "RTN","RGCWVMC2",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;Mar 20, 2007;Build 109
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;Mar 20, 2007;Build 110
 "RTN","RGCWVMC2",3,0)
  ;=================================================================
 "RTN","RGCWVMC2",4,0)
@@ -47303,7 +47303,7 @@ QUAL(BEHIEN) ;Add on qualifiers
 "RTN","RGCWVMER",1,0)
 RGCWVMER ;MSC/IND/MGH - VITALS ENTERED IN ERROR REPORT ;20-Jan-2015 13:23;DKM
 "RTN","RGCWVMER",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;Mar 20, 2007;Build 109
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;Mar 20, 2007;Build 110
 "RTN","RGCWVMER",3,0)
  ;=================================================================
 "RTN","RGCWVMER",4,0)
@@ -47483,7 +47483,7 @@ RND(X) Q $S(X=+X:+$J(X,0,2),1:X)
 "RTN","RGCWVMIN",1,0)
 RGCWVMIN ;MSC/IND/DKM - Installation Support ;18-Aug-2014 17:20;DKM
 "RTN","RGCWVMIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001002**;Mar 20, 2007;Build 109
+ ;;1.0;CAREWEB FRAMEWORK;**001002**;Mar 20, 2007;Build 110
 "RTN","RGCWVMIN",3,0)
  ;=================================================================
 "RTN","RGCWVMIN",4,0)
@@ -47527,7 +47527,7 @@ CANENTER ;;PROVIDER
 "RTN","RGCWVMRP",1,0)
 RGCWVMRP ;IHS/MSC/MGH - OE/RR REPORTS FOR MEASUREMNTS AND I&O;18-Aug-2014 17:20;DKM
 "RTN","RGCWVMRP",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;March 20,2007;Build 109
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;March 20,2007;Build 110
 "RTN","RGCWVMRP",3,0)
  ;
 "RTN","RGCWVMRP",4,0)
@@ -48521,7 +48521,7 @@ I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8501,4,"B",19941.21,19941.21)
 
 "BLD",8501,6.3)
-104
+105
 "BLD",8501,"INI")
 PRE^RGCWKDIN
 "BLD",8501,"INIT")
@@ -48785,7 +48785,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;02-Feb-2015 12:11;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 104
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 105
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
