@@ -1,7 +1,7 @@
 %RO Routine Output Utility
 GT.M 24-FEB-2015 17:51:18
-RGZZGBL
-RGZZGBL    N X,Y,Z,GBL
+RGZGBL
+RGZGBL    N X,Y,Z,GBL
 INP      R !!,"GLOBAL: ",GBL,!
          Q:'$L(GBL)
          S:$E(GBL)'="^" GBL="^"_GBL
