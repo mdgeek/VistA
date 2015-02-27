@@ -31,19 +31,22 @@ python /scripts/Scripts/DefaultKIDSBuildInstaller.py ./kid/cwf-vista-1.0.kid -S 
 python /scripts/Scripts/DefaultKIDSBuildInstaller.py ./kid/rged-3.0.kid -S 2
 
 #
+# Install supplemental routines
+#
+python /scripts/Scripts/VistARoutineImport.py ./rou/CWF.RSA -S 2 -o /home/osehra/r
+
+#
 # Setup user(s)
 #
-python /scripts/Scripts/VistARoutineImport.py ./rou/RGZINIT.RSA -S 2 -o /home/osehra/r
 gtm -run AUTO^RGZINIT
 
 #
 # Install M Web Server (with mods)
 #
-sudo curl -L -s https://raw.github.com/shabiel/M-Web-Server/0.1.1/dist/WWWINIT.RSA > ./rou/WWWINIT.RSA
+#sudo curl -L -s https://raw.github.com/shabiel/M-Web-Server/0.1.1/dist/WWWINIT.RSA > ./rou/WWWINIT.RSA
 python /scripts/Scripts/VistARoutineImport.py ./rou/WWWINIT.RSA -S 2 -o /home/osehra/r
 gtm -run ^WWWINIT < ./www/wwwinit.inp
 gtm -run WWWINIT^RGZINIT
-python /scripts/Scripts/VistARoutineImport.py ./rou/VPRJRSP.RSA -S 2 -o /home/osehra/r
 
 #
 # Install/Start CareWeb Services
