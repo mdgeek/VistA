@@ -1,0 +1,70 @@
+DDG Supplemental routines
+GT.M 24-FEB-2015 05:41:12
+RGZDDG
+RGZDDG ;RG/IND/DKM - Import dEWDrop globals;25-Feb-2015 05:40;DKM
+ W "Imports dEWDrop globals.",!
+ W "Entry point is DDG^RGZDDG",!!
+ Q
+DDG D EN($ZCM)
+ Q
+EN(FILE) ;
+ W "Replacing globals...",!
+ N X,Y,Z
+ C FILE
+ O FILE
+ U FILE
+ R X,Y
+ U 0
+ W X,!,Y,!
+ U FILE
+ S X="",$ZT="ERROR"
+ F  R Y Q:'$L(Y)  D
+ .S Z=$P($P($P(Y,""""),"="),"(")
+ .I X'=Z S X=Z K @Z U 0 W "   ",Z,! U FILE
+ .S @Y
+ C FILE
+	U 0
+ W "Done!",!!
+ Q
+ERROR   C FILE
+ U 0
+ W $ZE,":  ",Y,!
+ Q
+
+RGZGBL
+RGZGBL    N X,Y,Z,GBL
+INP R !!,"GLOBAL: ",GBL,!
+  Q:'$L(GBL)
+  S:$E(GBL)'="^" GBL="^"_GBL
+  I '$D(@GBL) W "Not found" G INP
+  S X=$G(@GBL@(0))
+  I $L(X) D OUT G INP
+  S Y=""
+  F  S Y=$O(@GBL@(Y)) Q:'$L(Y)  D
+  .S X=$G(@GBL@(Y,0))
+  .D OUT
+  G INP
+OUT      W:$L(X) $P(X,"^"),?50,$P(X,"^",2),?60,$P(X,"^",3),?70,$P(X,"^",4),!
+  Q
+
+XUSHSH
+XUSHSH ;SF-ISC/STAFF - PASSWORD ENCRYPTION ;3/23/89  15:09 ; 4/14/05 1:22pm
+ ;;8.0;KERNEL;;Jul 10, 1995
+ ;; This is the public domain version of the VA Kernel.
+ ;; Use this routine for your own encryption algorithm
+ ;; Input in X
+ ;; Output in X
+ ;; Algorithm for VistA Office EHR encryption (BSL)
+A ; 
+ S X=$$EN(X)
+ Q
+EN(X) ; GENERIC HASHING ENCRYPTION -- USES ASCII ENCODING
+ N %HASH S %HASH=""
+ N %CHAR
+ F %CHAR=1:1:$L(X) D
+ . I %CHAR#2 S %HASH=$A(X,%CHAR)_%HASH
+ . E  S %HASH=%HASH_$A(X,%CHAR)
+ Q %HASH
+
+
+
