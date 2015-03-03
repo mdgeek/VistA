@@ -1,8 +1,7 @@
 CWF Supplemental Routines
-GT.M 24-FEB-2015 17:01:56
+GT.M 02-MAR-2015 14:35:55
 RGZINIT
-RGZINIT ;RG/IND/DKM - Set up user access ;24-Feb-2015 17:00;SA
-        ;=================================================================
+RGZINIT ;RG/IND/DKM - Set up user access ;02-Mar-2015 14:34;DKM
         ;;1.0;CAREWEB FRAMEWORK;;30-Jan-2015 15:25
         ;=================================================================
         D INIT($ZCM)
@@ -28,16 +27,16 @@ ADDXP(X)        N ERR
         D ADD^XPAR("USR",X,1,1,.ERR)
         W:ERR ?7,"Error adding permission.",!
         Q
-WWWINIT N FDA
-        D FDASET("DSTU1/*","+1,",.FDA)
-        D FDASET("VISTA/*","+2,",.FDA)
+WWWINIT N FDA,LP
+        S U="^"
+        F LP=0:0 S LP=$O(^RGSER(998.1,LP)) Q:'LP  D FDASET($P(^(LP,0),U)_"/*","+"_LP_",",.FDA)
         D:$D(FDA) UPDATE^DIE("E","FDA")
         Q
 FDASET(URI,IENS,FDA)    ;
         I '$D(^%W(17.6001,"B","GET",URI)) D
         .S FDA(17.6001,IENS,.01)="GET"
         .S FDA(17.6001,IENS,1)=URI
-        .S FDA(17.6001,IENS,2)="MSERVER^RGCWSER"
+        .S FDA(17.6001,IENS,2)="MSERVER^RGSER"
         Q
 
 WWWINIT

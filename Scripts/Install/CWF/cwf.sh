@@ -5,7 +5,7 @@
 dos2unix /vagrant/CWF/etc/init.d/cwf > /dev/null
 dos2unix /vagrant/CWF/etc/xinetd.d/osehra-vista-ciabroker > /dev/null
 dos2unix /vagrant/CWF/kid/*.kid > /dev/null
-dos2unix /vagrant/CWF/rou/*.RSA > /dev/null
+dos2unix /vagrant/CWF/rou/*.rsa > /dev/null
 dos2unix /vagrant/CWF/www/*.xml > /dev/null
 dos2unix /vagrant/CWF/www/*.inp > /dev/null
 #
@@ -33,7 +33,7 @@ python /scripts/Scripts/DefaultKIDSBuildInstaller.py ./kid/rged-3.0.kid -S 2
 #
 # Install supplemental routines
 #
-python /scripts/Scripts/VistARoutineImport.py ./rou/CWF.RSA -S 2 -o /home/osehra/r
+python /scripts/Scripts/VistARoutineImport.py ./rou/cwf.rsa -S 2 -o /home/osehra/r
 
 #
 # Setup user(s)
