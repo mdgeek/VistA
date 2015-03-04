@@ -1,51 +1,54 @@
 DDG Supplemental routines
 GT.M 24-FEB-2015 05:41:12
 RGZDDG
-RGZDDG ;RG/IND/DKM - Import dEWDrop globals;25-Feb-2015 05:40;DKM
+RGZDDG ;RG/CBMI/DKM - Import dEWDrop globals;03-Mar-2015 13:58;DKM
  W "Imports dEWDrop globals.",!
  W "Entry point is DDG^RGZDDG",!!
  Q
+ ; Command line entry point
 DDG D EN($ZCM)
  Q
+ ; Process global save (ZWR format), replacing root globals entirely
+ ; (or partially for ^ZZ* globals) with new content.
 EN(FILE) ;
- W "Replacing globals...",!
- N X,Y,Z
+ N X,Y,GBL,PRV,LN,$ET
  C FILE
  O FILE
  U FILE
- R X,Y
- U 0
- W X,!,Y,!
- U FILE
- S X="",$ZT="ERROR"
- F  R Y Q:'$L(Y)  D
- .S Z=$P($P($P(Y,""""),"="),"(")
- .I X'=Z S X=Z K @Z U 0 W "   ",Z,! U FILE
- .S @Y
+ F X=1,2 R LN D MSG(LN)
+ S PRV="",$ZT="ERROR^RGZDDG"
+ F  R LN Q:'$L(LN)  D
+ .S GBL=$P($P($P(LN,""""),"="),"(")
+ .I PRV'=GBL D
+ ..D PARTIAL
+ ..S PRV=GBL
+ ..K @GBL
+ ..D MSG("   "_GBL)
+ .S @LN
+ D PARTIAL
  C FILE
-	U 0
+ U 0
  W "Done!",!!
  Q
-ERROR   C FILE
- U 0
- W $ZE,":  ",Y,!
+ ; ^ZZ* globals are partial copies
+PARTIAL Q:$E(PRV,1,3)'="^ZZ"
+ S X="^"_$E(PRV,4,99),Y=""
+ F  S Y=$O(@PRV@(Y)) Q:'$L(Y)  D
+ .D MSG("    "_$NA(@PRV@(Y))_" --> "_$NA(@X@(Y)))
+ .K @X@(Y)
+ .M @X@(Y)=@PRV@(Y)
+ K @PRV
  Q
-
-RGZGBL
-RGZGBL    N X,Y,Z,GBL
-INP R !!,"GLOBAL: ",GBL,!
-  Q:'$L(GBL)
-  S:$E(GBL)'="^" GBL="^"_GBL
-  I '$D(@GBL) W "Not found" G INP
-  S X=$G(@GBL@(0))
-  I $L(X) D OUT G INP
-  S Y=""
-  F  S Y=$O(@GBL@(Y)) Q:'$L(Y)  D
-  .S X=$G(@GBL@(Y,0))
-  .D OUT
-  G INP
-OUT      W:$L(X) $P(X,"^"),?50,$P(X,"^",2),?60,$P(X,"^",3),?70,$P(X,"^",4),!
-  Q
+ ; Display message to console
+MSG(X) U 0
+ W X,!
+ U FILE
+ Q
+ ; Error trap
+ERROR C FILE
+ U 0
+ W $ZE,":  ",LN,!
+ Q
 
 XUSHSH
 XUSHSH ;SF-ISC/STAFF - PASSWORD ENCRYPTION ;3/23/89  15:09 ; 4/14/05 1:22pm
