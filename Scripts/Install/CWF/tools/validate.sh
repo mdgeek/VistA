@@ -48,13 +48,54 @@ echo Validating resource ${resource} @ ${root2}
 ${dstu2} ${resource}/1
 ${dstu2} ${resource}
 #
+# Immunization
+#
+resource="Immunization"
+echo Validating resource ${resource} @ ${root1}
+${dstu1} ${resource}/1
+${dstu1} ${resource}
+echo Validating resource ${resource} @ ${root2}
+${dstu2} ${resource}/1
+${dstu2} ${resource}
+#
 # Alert/Flag
 #
 resource="Alert"
 echo Validating resource ${resource} @ ${root1}
 ${dstu1} ${resource}/1
 ${dstu1} ${resource}
-resource="Flag"
+#resource="Flag"
 echo Validating resource ${resource} @ ${root2}
 ${dstu2} ${resource}/1
 ${dstu2} ${resource}
+#
+# Location
+#
+resource="Location"
+echo Validating resource ${resource} @ ${root1}
+${dstu1} ${resource}/1
+${dstu1} ${resource}
+echo Validating resource ${resource} @ ${root2}
+${dstu2} ${resource}/1
+${dstu2} ${resource}
+#
+# Medication
+#
+resource="Medication"
+echo Validating resource ${resource} @ ${root1}
+${dstu1} ${resource}/11
+${dstu1} ${resource}
+echo Validating resource ${resource} @ ${root2}
+${dstu2} ${resource}/11
+${dstu2} ${resource}
+#
+# MedicationPrescription
+#
+resource="MedicationPrescription"
+echo Validating resource ${resource} @ ${root1}
+${dstu1} ${resource}/1
+${dstu1} ${resource}
+echo Validating resource ${resource} @ ${root2}
+${dstu2} ${resource}/1
+${dstu2} ${resource}
+
