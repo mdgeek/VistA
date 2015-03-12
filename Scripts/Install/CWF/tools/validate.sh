@@ -8,6 +8,13 @@ root2="http://localhost:9080/DSTU2"
 dstu1="java -jar validate-dstu1.jar ${root1}"
 dstu2="java -jar validate-dstu2.jar ${root2}"
 #
+# Person
+#
+resource="Person"
+echo Validating resource ${resource} @ ${root2}
+${dstu2} ${resource}/1
+${dstu2} ${resource}
+#
 # Patient
 #
 resource="Patient"
