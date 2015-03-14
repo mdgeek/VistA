@@ -182,18 +182,19 @@ git clone -q https://github.com/OSEHRA/VistA -b dashboard VistA-Dashboard
 
 # See if vagrant folder exists if it does use it. if it doesn't clone the repo
 if [ -d /vagrant ]; then
-    scriptdir=/vagrant
+    scriptdir=/vagrant/Scripts/Install
 
     # Fix line endings
     find /vagrant -name \"*.sh\" -type f -print0 | xargs -0 dos2unix > /dev/null 2>&1
-    dos2unix /vagrant/EWD/etc/init.d/ewdjs > /dev/null 2>&1
-    dos2unix /vagrant/GTM/etc/init.d/vista > /dev/null 2>&1
-    dos2unix /vagrant/GTM/etc/xinetd.d/vista-rpcbroker > /dev/null 2>&1
-    dos2unix /vagrant/GTM/etc/xinetd.d/vista-vistalink > /dev/null 2>&1
-    dos2unix /vagrant/GTM/gtminstall_SHA1 > /dev/null 2>&1
-
+    dos2unix $scriptdir/EWD/etc/init.d/ewdjs > /dev/null 2>&1
+    dos2unix $scriptdir/GTM/etc/init.d/vista > /dev/null 2>&1
+    dos2unix $scriptdir/GTM/etc/xinetd.d/vista-rpcbroker > /dev/null 2>&1
+    dos2unix $scriptdir/GTM/etc/xinetd.d/vista-vistalink > /dev/null 2>&1
+    dos2unix $scriptdir/GTM/gtminstall_SHA1 > /dev/null 2>&1
 else
-    git clone -q https://github.com/OSEHRA/VistA
+    if ![ -d /usr/local/src/VistA ]; then
+        git clone -q https://github.com/mdgeek/VistA-FHIR-CWF.git /usr/local/src/VistA
+    fi
     scriptdir=/usr/local/src/VistA/Scripts/Install
 fi
 
