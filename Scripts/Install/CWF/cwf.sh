@@ -2,12 +2,11 @@
 #
 # Fix line endings
 #
-dos2unix ./etc/init.d/cwf > /dev/null
-dos2unix ./etc/xinetd.d/osehra-vista-ciabroker > /dev/null
-dos2unix ./kid/*.kid > /dev/null
-dos2unix ./rou/*.rsa > /dev/null
-dos2unix ./www/*.xml > /dev/null
-dos2unix ./www/*.inp > /dev/null
+if $isVagrant; then
+   dos2unix ./etc/init.d/cwf > /dev/null
+   dos2unix ./etc/xinetd.d/osehra-vista-ciabroker > /dev/null
+   dos2unix ./www/*.inp > /dev/null
+fi
 #
 #  CIA broker configuration
 #

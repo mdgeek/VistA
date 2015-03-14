@@ -42,6 +42,7 @@ usage()
       Instance Name = OSEHRA
       Post Install hook = none
       Skip Testing = false
+      Running under Vagrant = false
 
     OPTIONS:
       -h    Show this message
@@ -53,11 +54,12 @@ usage()
       -i    Instance name
       -p    Post install hook (path to script)
       -s    Skip testing
+      -v    Running under Vagrant
 
 EOF
 }
 
-while getopts ":ha:cedgi:p:s" option
+while getopts ":ha:cedgi:p:sv" option
 do
     case $option in
         h)
@@ -90,6 +92,9 @@ do
             ;;
         s)
             skipTests=true
+            ;;
+        v)
+            isVagrant=true
             ;;
     esac
 done
@@ -127,6 +132,10 @@ if [ -z $skipTests ]; then
     skipTests=false
 fi
 
+if [ -z $isVagrant ]; then
+    isVagrant=false
+fi
+
 # Summarize options
 echo "Using $repoPath for routines and globals"
 echo "Create development directories: $developmentDirectories"
@@ -136,6 +145,7 @@ echo "Installing EWD.js: $installEWD"
 echo "Installing dEWDrop globals: $installDDG"
 echo "Post install hook: $postInstall"
 echo "Skip Testing: $skipTests"
+echo "Running under Vagrant: $isVagrant"
 
 # Get primary username if using sudo, default to $username if not sudo'd
 if [[ -n "$SUDO_USER" ]]; then
@@ -167,21 +177,22 @@ apt-get install -qq -y build-essential cmake-curses-gui git dos2unix daemon > /d
 cd /usr/local/src
 git clone -q https://github.com/OSEHRA/VistA -b dashboard VistA-Dashboard
 
-# See if vagrant folder exists if it does use it. if it doesn't clone the repo
-if [ -d /vagrant ]; then
+# If running under Vagrant, fix line endings. if it doesn't clone the repo
+if $isVagrant; then
     scriptdir=/vagrant/Scripts/Install
 
     # Fix line endings
     find /vagrant -name \"*.sh\" -type f -print0 | xargs -0 dos2unix > /dev/null 2>&1
+    find /vagrant -name \"*.kid\" -type f -print0 | xargs -0 dos2unix > /dev/null 2>&1
+    find /vagrant -name \"*.rsa\" -type f -print0 | xargs -0 dos2unix > /dev/null 2>&1
+    find /vagrant -name \"*.xml\" -type f -print0 | xargs -0 dos2unix > /dev/null 2>&1
     dos2unix $scriptdir/EWD/etc/init.d/ewdjs > /dev/null 2>&1
     dos2unix $scriptdir/GTM/etc/init.d/vista > /dev/null 2>&1
     dos2unix $scriptdir/GTM/etc/xinetd.d/vista-rpcbroker > /dev/null 2>&1
     dos2unix $scriptdir/GTM/etc/xinetd.d/vista-vistalink > /dev/null 2>&1
     dos2unix $scriptdir/GTM/gtminstall_SHA1 > /dev/null 2>&1
 else
-    if ![ -d /usr/local/src/VistA ]; then
-        git clone -q https://github.com/mdgeek/VistA-FHIR-CWF.git /usr/local/src/VistA
-    fi
+    git clone -q https://github.com/mdgeek/VistA-FHIR-CWF.git /usr/local/src/VistA
     scriptdir=/usr/local/src/VistA/Scripts/Install
 fi
 
