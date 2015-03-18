@@ -45,6 +45,16 @@ echo Validating resource ${resource} @ ${root2}
 ${dstu2} ${resource}/1
 ${dstu2} ${resource}
 #
+# Observation
+#
+resource="Observation"
+echo Validating resource ${resource} @ ${root1}
+${dstu1} ${resource}/VT\;1\;1
+${dstu1} Patient/1/${resource}
+echo Validating resource ${resource} @ ${root2}
+${dstu2} ${resource}/VT\;1\;1
+${dstu2} Patient/1/${resource}
+#
 # DocumentReference
 #
 resource="DocumentReference"

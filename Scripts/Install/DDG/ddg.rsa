@@ -28,6 +28,7 @@ EN(FILE) ;
  D PARTIAL
  C FILE
  U 0
+ F FILE=120.5 D REINDEX(FILE)
  W "Done!",!!
  Q
  ; ^ZZ* globals are partial copies
@@ -38,6 +39,12 @@ PARTIAL Q:$E(PRV,1,3)'="^ZZ"
  .K @X@(Y)
  .M @X@(Y)=@PRV@(Y)
  K @PRV
+ Q
+REINDEX(FILE) ;
+ N DIK,DA
+ W "Re-indexing file #",FILE,!
+ S DIK=$$ROOT^DILFD(FILE)
+ D IXALL^DIK
  Q
  ; Display message to console
 MSG(X) U 0
