@@ -16,7 +16,7 @@ sudo cp ./etc/xinetd.d/ciabroker.sh /home/osehra/bin
 sudo chown osehra /home/osehra/bin/ciabroker.sh
 sudo chgrp osehra /home/osehra/bin/ciabroker.sh
 sudo iptables -A INPUT -p tcp --dport 9300 -j ACCEPT
-sudo service xinetd restart
+sudo iptables -A INPUT -p tcp --dport 9080 -j ACCEPT
 
 #
 # Web app installation
@@ -54,3 +54,15 @@ sudo ln -s /home/osehra/etc/init.d/cwf /etc/init.d/cwf
 sudo update-rc.d cwf defaults 99
 sudo service cwf start
 
+#
+# Configure stunnel
+sudo cp ./etc/stunnel/stunnel.conf /etc/stunnel
+sudo sed s/ENABLED=0/ENABLED=1/ /etc/default/stunnel4 > /tmp/stunnel4.tmp
+sudo cat /tmp/stunnel4.tmp > /etc/default/stunnel4
+sudo sed s/myhost/$HOSTNAME/ ./etc/stunnel/stunnel.inp > /tmp/stunnel.tmp
+sudo openssl genrsa -out /tmp/key.pem 2048
+sudo openssl req -new -x509 -key /tmp/key.pem -out /tmp/cert.pem -days 1095 < /tmp/stunnel.tmp
+sudo cat /tmp/key.pem /tmp/cert.pem >> /etc/stunnel/stunnel.pem
+sudo iptables -A INPUT -p tcp --dport 9081 -j ACCEPT
+sudo service xinetd restart
+sudo /etc/init.d/stunnel4 restart
