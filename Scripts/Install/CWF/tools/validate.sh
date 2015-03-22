@@ -1,119 +1,142 @@
 #!/usr/bin/env bash
 # Validate FHIR resources
 #
-# Set FHIR service roots
+# Set FHIR service root
 #
-root1="http://localhost:9080/DSTU1"
-root2="http://localhost:9080/DSTU2"
-dstu1="java -jar validate.jar DSTU1 ${root1}"
-dstu2="java -jar validate.jar DSTU2 ${root2}"
-max=100
+root=http://localhost:9080
+
 #
-# Person
+# Validate resources
+# $1 = Resource
+# $2 = FHIR Version (DSTU1, DSTU2, etc.)
+# $3 = Format (xml or json)
 #
-resource="Person"
-echo Validating resource ${resource} @ ${root2}
-${dstu2} ${resource}/1
-${dstu2} ${resource}
+validate() {
+	java -jar validate.jar $2 $3 ${root}/$2 $1 
+}
+#
+# Person (DSTU2 only)
+#
+validate Person/1 DSTU2 xml
+validate Person DSTU2 xml
 #
 # Patient
 #
-resource="Patient"
-echo Validating resource ${resource} @ ${root1}
-${dstu1} ${resource}/1
-${dstu1} ${resource}?_count=$max
-echo Validating resource ${resource} @ ${root2}
-${dstu2} ${resource}/1
-${dstu2} ${resource}?_count=$max
+validate Patient/1 DSTU1 xml
+validate Patient DSTU1 xml
+validate Patient/1 DSTU2 xml
+validate Patient DSTU2 xml
+validate Patient/1 DSTU1 json
+validate Patient DSTU1 json
+#validate Patient/1 DSTU2 json
+#validate Patient DSTU2 json
 #
 # Encounter
 #
-resource="Encounter"
-echo Validating resource ${resource} @ ${root1}
-${dstu1} ${resource}/1
-${dstu1} ${resource}?_count=$max
-echo Validating resource ${resource} @ ${root2}
-${dstu2} ${resource}/1
-${dstu2} ${resource}?_count=$max
+validate Encounter/1 DSTU1 xml
+validate Encounter DSTU1 xml
+validate Encounter/1 DSTU2 xml
+validate Encounter DSTU2 xml
+validate Encounter/1 DSTU1 json
+validate Encounter DSTU1 json
+#validate Encounter/1 DSTU2 json
+#validate Encounter DSTU2 json
 #
 # Condition
 #
-resource="Condition"
-echo Validating resource ${resource} @ ${root1}
-${dstu1} ${resource}/1
-${dstu1} ${resource}?_count=$max
-echo Validating resource ${resource} @ ${root2}
-${dstu2} ${resource}/1
-${dstu2} ${resource}?_count=$max
+validate Condition/1 DSTU1 xml
+validate Condition DSTU1 xml
+validate Condition/1 DSTU2 xml
+validate Condition DSTU2 xml
+validate Condition/1 DSTU1 json
+validate Condition DSTU1 json
+#validate Condition/1 DSTU2 json
+#validate Condition DSTU2 json
 #
 # Observation
 #
-resource="Observation"
-echo Validating resource ${resource} @ ${root1}
-${dstu1} ${resource}/VT-1-1
-${dstu1} Patient/1/${resource}?_count=$max
-echo Validating resource ${resource} @ ${root2}
-${dstu2} ${resource}/VT-1-1
-${dstu2} Patient/1/${resource}?_count=$max
+validate Observation/VT-1-1 DSTU1 xml
+validate Observation DSTU1 xml
+validate Observation/VT-1-1 DSTU2 xml
+validate Observation DSTU2 xml
+validate Observation/VT-1-1 DSTU1 json
+validate Observation DSTU1 json
+#validate Observation/VT-1-1 DSTU2 json
+#validate Observation DSTU2 json
 #
 # DocumentReference
 #
-resource="DocumentReference"
-echo Validating resource ${resource} @ ${root1}
-${dstu1} ${resource}/1
-${dstu1} ${resource}?_count=$max
-echo Validating resource ${resource} @ ${root2}
-${dstu2} ${resource}/1
-${dstu2} ${resource}?_count=$max
+validate DocumentReference/1 DSTU1 xml
+validate DocumentReference DSTU1 xml
+validate DocumentReference/1 DSTU2 xml
+validate DocumentReference DSTU2 xml
+validate DocumentReference/1 DSTU1 json
+validate DocumentReference DSTU1 json
+#validate DocumentReference/1 DSTU2 json
+#validate DocumentReference DSTU2 json
 #
 # Immunization
 #
-resource="Immunization"
-echo Validating resource ${resource} @ ${root1}
-${dstu1} ${resource}/1
-${dstu1} ${resource}?_count=$max
-echo Validating resource ${resource} @ ${root2}
-${dstu2} ${resource}/1
-${dstu2} ${resource}?_count=$max
+validate Immunization/1 DSTU1 xml
+validate Immunization DSTU1 xml
+validate Immunization/1 DSTU2 xml
+validate Immunization DSTU2 xml
+validate Immunization/1 DSTU1 json
+validate Immunization DSTU1 json
+#validate Immunization/1 DSTU2 json
+#validate Immunization DSTU2 json
 #
 # Alert/Flag
 #
-resource="Alert"
-echo Validating resource ${resource} @ ${root1}
-${dstu1} ${resource}/1
-${dstu1} ${resource}?_count=$max
-#resource="Flag"
-echo Validating resource ${resource} @ ${root2}
-${dstu2} ${resource}/1
-${dstu2} ${resource}?_count=$max
+#validate Alert/1 DSTU1 xml
+validate Alert DSTU1 xml
+#validate Flag/1 DSTU2 xml
+validate Flag DSTU2 xml
+#validate Alert/1 DSTU1 json
+validate Alert DSTU1 json
+#validate Flag/1 DSTU2 json
+#validate Flag DSTU2 json
 #
 # Location
 #
-resource="Location"
-echo Validating resource ${resource} @ ${root1}
-${dstu1} ${resource}/1
-${dstu1} ${resource}?_count=$max
-echo Validating resource ${resource} @ ${root2}
-${dstu2} ${resource}/1
-${dstu2} ${resource}?_count=$max
+validate Location/1 DSTU1 xml
+validate Location DSTU1 xml
+validate Location/1 DSTU2 xml
+validate Location DSTU2 xml
+validate Location/1 DSTU1 json
+validate Location DSTU1 json
+#validate Location/1 DSTU2 json
+#validate Location DSTU2 json
 #
 # Medication
 #
-resource="Medication"
-echo Validating resource ${resource} @ ${root1}
-${dstu1} ${resource}/11
-${dstu1} ${resource}?_count=$max
-echo Validating resource ${resource} @ ${root2}
-${dstu2} ${resource}/11
-${dstu2} ${resource}?_count=$max
+validate Medication/11 DSTU1 xml
+validate Medication DSTU1 xml
+validate Medication/11 DSTU2 xml
+validate Medication DSTU2 xml
+validate Medication/11 DSTU1 json
+validate Medication DSTU1 json
+#validate Medication/11 DSTU2 json
+#validate Medication DSTU2 json
 #
 # MedicationPrescription
 #
-resource="MedicationPrescription"
-echo Validating resource ${resource} @ ${root1}
-${dstu1} ${resource}/1
-${dstu1} ${resource}?_count=$max
-echo Validating resource ${resource} @ ${root2}
-${dstu2} ${resource}/1
-${dstu2} ${resource}?_count=$max
-
+validate MedicationPrescription/1 DSTU1 xml
+validate MedicationPrescription DSTU1 xml
+validate MedicationPrescription/1 DSTU2 xml
+validate MedicationPrescription DSTU2 xml
+validate MedicationPrescription/1 DSTU1 json
+validate MedicationPrescription DSTU1 json
+#validate MedicationPrescription/1 DSTU2 json
+#validate MedicationPrescription DSTU2 json
+#
+# Order
+#
+validate Order/1 DSTU1 xml
+validate Order DSTU1 xml
+validate Order/1 DSTU2 xml
+validate Order DSTU2 xml
+validate Order/1 DSTU1 json
+validate Order DSTU1 json
+#validate Order/1 DSTU2 json
+#validate Order DSTU2 json
