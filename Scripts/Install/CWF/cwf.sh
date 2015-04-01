@@ -4,18 +4,27 @@
 #
 if $isVagrant; then
    dos2unix ./etc/init.d/cwf > /dev/null
-   dos2unix ./etc/xinetd.d/osehra-vista-ciabroker > /dev/null
+   dos2unix ./etc/xinetd.d/rgbroker-service > /dev/null
    dos2unix ./www/*.inp > /dev/null
 fi
 #
-#  CIA broker configuration
+#  NETSERV broker configuration
 #
-sudo cp -r ./etc/xinetd.d/osehra-vista-ciabroker /home/osehra/etc/xinetd.d/osehra-vista-ciabroker
-sudo ln -s /home/osehra/etc/xinetd.d/osehra-vista-ciabroker /etc/xinetd.d/osehra-vista-ciabroker
-sudo cp ./etc/xinetd.d/ciabroker.sh /home/osehra/bin
-sudo chown osehra /home/osehra/bin/ciabroker.sh
-sudo chgrp osehra /home/osehra/bin/ciabroker.sh
+sudo cp -r ./etc/xinetd.d/rgbroker-service /home/osehra/etc/xinetd.d/rgbroker-service
+sudo ln -s /home/osehra/etc/xinetd.d/rgbroker-service /etc/xinetd.d/rgbroker-service
+sudo cp ./etc/xinetd.d/rgbroker.sh /home/osehra/bin
+sudo chown osehra /home/osehra/bin/rgbroker.sh
+sudo chgrp osehra /home/osehra/bin/rgbroker.sh
 sudo iptables -A INPUT -p tcp --dport 9300 -j ACCEPT
+
+#
+#  NETSERV web server configuration
+#
+sudo cp -r ./etc/xinetd.d/rghttp-service /home/osehra/etc/xinetd.d/rghttp-service
+sudo ln -s /home/osehra/etc/xinetd.d/rghttp-service /etc/xinetd.d/rghttp-service
+sudo cp ./etc/xinetd.d/rghttp.sh /home/osehra/bin
+sudo chown osehra /home/osehra/bin/rghttp.sh
+sudo chgrp osehra /home/osehra/bin/rghttp.sh
 sudo iptables -A INPUT -p tcp --dport 9080 -j ACCEPT
 
 #
@@ -38,21 +47,6 @@ python ../../VistARoutineImport.py ./rou/cwf.rsa -S 2 -o /home/osehra/r
 # Setup user(s)
 #
 gtm -run AUTO^RGZINIT
-
-#
-# Install M Web Server (with mods)
-#
-#sudo curl -L -s https://raw.github.com/shabiel/M-Web-Server/0.1.1/dist/WWWINIT.RSA > ./rou/WWWINIT.RSA
-python ../../VistARoutineImport.py ./rou/WWWINIT.RSA -S 2 -o /home/osehra/r
-gtm -run ^WWWINIT < ./www/wwwinit.inp
-gtm -run WWWINIT^RGZINIT
-
-#
-# Install/Start CareWeb Services
-sudo cp -r ./etc/init.d/cwf /home/osehra/etc/init.d/cwf
-sudo ln -s /home/osehra/etc/init.d/cwf /etc/init.d/cwf
-sudo update-rc.d cwf defaults 99
-sudo service cwf start
 
 #
 # Configure stunnel

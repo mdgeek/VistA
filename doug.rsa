@@ -1,0 +1,884 @@
+%RO Routine Output Utility
+GT.M 01-APR-2015 21:30:11
+RGNETWWW
+RGNETWWW        ;RI/CBMI/DKM - HTTP support ;01-Apr-2015 21:29;SA
+        ;;1.0;NETWORK SERVICES;;14-March-2014;Build 28
+        ;=================================================================
+        ; This is the TCP I/O handler entry point
+NETSERV(DUMMY)  ;
+        D WRITEALL($$PROCESS("$$TCPSTRM(.LN)"))
+        S RGQUIT=1
+        Q
+        ; Entry point where request is in an array.
+        ;  SRCARY = Array reference.  Note that the array contents will be destroyed.
+        ;  Returns the global reference where the response is stored.
+ENTRYARY(SRCARY)        ;
+        Q $$PROCESS("$$ARYSTRM(.LN,""SRCARY"")")
+        ; Entry point for processing a request.  By using a stream,
+        ; we can process requests from sources other than a TCP
+        ; stream.
+        ;   SOURCE = Extrinsic that will act as an input stream for reading the request.
+PROCESS(SOURCE) ;
+        N RGNETREQ,RGNETRSP
+        D INIT,PROCX,ENDRSP,CLEANUP
+        Q:$Q RGNETRSP
+        Q
+PROCX   N HANDLER,EP,AUTH,X,$ET,$ES
+        S $ET="D ETRAP^RGNETWWW"
+        S X=$$PARSEREQ(SOURCE,.RGNETREQ)
+        I X D SETSTAT(X) Q
+        S HANDLER=$$URL2EP(RGNETREQ("METHOD"),RGNETREQ("PATH"))
+        I 'HANDLER D SETSTAT(404,"No endpoint") Q
+        S EP=$G(^RGNET(996.52,HANDLER,10)),AUTH=$P(^(0),U,3)
+        I '$L(EP) D SETSTAT(404,"No handler") Q
+        Q:'$$AUTH(AUTH,$L(AUTH))
+        D @EP
+        Q
+ETRAP   D SETSTAT(500,$P($EC,",",2)),^%ZTER,UNWIND^%ZTER
+        Q
+        ; Writes the contents of the buffer to the TCP socket.
+WRITEALL(BUFFER)        ;
+        N LP1,LP2
+        S LP1=""
+        F  S LP1=$O(@BUFFER@(LP1)) Q:'$L(LP1)  D
+        .D:$D(@BUFFER@(LP1))#2 TCPWRITE^RGNETTCP(@BUFFER@(LP1))
+        .S LP2=""
+        .F  S LP2=$O(@BUFFER@(LP1,LP2)) Q:'$L(LP2)  D
+        ..D TCPWRITE^RGNETTCP(@BUFFER@(LP1,LP2))
+        Q
+        ; Extrinsic to act as a TCP input stream
+TCPSTRM(LN)     ;
+        N L,TMO
+        S TMO=$S('$D(LN):10,1:0)
+        S LN=$$TCPREADT^RGNETTCP($C(13,10),TMO),L=$L(LN)
+        I L,$E(LN,L-1,L)=$C(13,10) S LN=$E(LN,1,L-2)
+        Q L
+        ; Extrinsic to act as an array stream source
+ARYSTRM(LN,ARYREF)      ;
+        N X,L
+        S X=$Q(@ARYREF),L=$QL(ARYREF)
+        Q:'$L(X) 0
+        Q:$NA(@X,L)'=ARYREF 0
+        S LN=@X
+        K @X
+        Q 1
+        ; Parse the HTTP request
+        ;  STREAM  = Input stream (an extrinsic for returning successive lines)
+        ; .RGNETREQ = Array to receive the parsed results
+        ; Parsed components are store under the following nodes:
+        ;  HDR    = Headers
+        ;  METHOD = Method
+        ;  PARAMS = Query parameters
+        ;  PATH   = Request URL
+PARSEREQ(STREAM,RGNETREQ)       ;
+        N METHOD,PATH,HEADERS,LP,LN,CNT,QRY,X
+        S CNT=0,NEXT="X="_STREAM
+        F  S @NEXT Q:'X  D
+        .I '$D(METHOD) S METHOD=LN Q
+        .I 'CNT S CNT='$L(LN) Q:CNT
+        .I 'CNT D PARSEHDR(LN) Q
+        .S RGNETREQ("BODY",CNT)=LN,CNT=CNT+1
+        I '$D(METHOD) Q 400
+        S PATH=$P(METHOD," ",2),METHOD=$P(METHOD," ")
+        I '$L(METHOD) Q 405
+        I PATH["?" D
+        .S QRY=$P(PATH,"?",2,9999),PATH=$P(PATH,"?")
+        .D PARSEQS(QRY)
+        S:$E(PATH)="/" PATH=$E(PATH,2,9999)
+        S:$E(PATH,$L(PATH))="/" PATH=$E(PATH,1,$L(PATH)-1)
+        S PATH=$$UNESCURL(PATH)
+        S RGNETREQ("METHOD")=METHOD
+        S RGNETREQ("PATH")=PATH
+        S RGNETREQ("HOST")=$G(RGNETREQ("HDR","host"))_"/"_$P(PATH,"/")
+        D ^%ZTER
+        Q 0
+        ; Parse query string into array named in PREF.
+PARSEQS(VALUE,PREF)     ;
+        N X,Y,Z,N,V,M
+        S PREF=$G(PREF,$NA(RGNETREQ("PARAMS")))
+        F X=1:1:$L(VALUE,"&") D
+        .S Y=$P(VALUE,"&",X),N=$$UNESCURL($P(Y,"=")),V=$$UNESCURL($P(Y,"=",2,9999)),M=""
+        .I $L(N) D
+        ..S Z=$L(N,":")
+        ..I Z>1 D
+        ...S Y=$P(N,":",Z)
+        ...S M=$S(Y="missing":"m",Y="exact":"e",Y="text":"t",1:"")
+        ...S:$L(M) N=$P(N,":",1,Z-1)
+        ..S Y=1+$O(@PREF@(N,""),-1)
+        ..F Z=1:1:$L(V,",") D
+        ...S @PREF@(N,Y,Z)=$P(V,",",Z)
+        ...S @PREF@(N,Y,Z,"OPR")=M
+        Q
+        ; Parse body as query string values
+PARSEBD(PARAMS) ;
+        N X
+        F X=0:0 S X=$O(RGNETREQ("BODY",X)) Q:'X  D PARSEQS(RGNETREQ("BODY",X),"PARAMS")
+        Q
+        ; Parse http header into array named in HREF.
+PARSEHDR(VALUE,HREF)    ;
+        N N,V
+        S HREF=$G(HREF,$NA(RGNETREQ("HDR")))
+        S N=$$LOW^XLFSTR($P(VALUE,":")),V=$$TRIM^XLFSTR($P(VALUE,":",2,999))
+        S:$L(N) @HREF@(N)=V
+        Q
+        ; Replace escaped characters in URL
+UNESCURL(X)     ;
+        I X["%"!(X["+") D
+        .N P,C,H
+        .F P=1:1 S C=$E(X,P) Q:'$L(C)  D
+        ..I C="+" S $E(X,P)=" "
+        ..E  I C="%" S H=$E(X,P+1,P+2),$E(X,P,P+2)=$$UNHEX^XTHCUTL(H)
+        Q X
+        ; Escape reserved characters
+ESCAPE(VALUE)   ;
+        N LP
+        F LP="&;amp","<;lt",">;gt",$C(9)_";nbsp","|TAB|;nbsp" D
+        .S VALUE=$$SUBST^RGUT(VALUE,$P(LP,";"),"&"_$P(LP,";",2)_";")
+        Q VALUE
+        ; Returns true if error condition is set
+ISERROR()       ;
+        Q +$G(RGNETRSP("STATUS"))'<400
+        ; Sets http status code
+SETSTAT(CODE,TEXT)      ;
+        S:'$L($G(TEXT)) TEXT=$P(^RGNET(996.51,CODE,0),U,2)
+        S RGNETRSP("STATUS")=CODE_" "_TEXT
+        D:$$ISERROR RESET
+        Q
+        ; Sets the content type
+SETCTYPE(CTYPE) ;
+        S RGNETRSP("CTYPE")=CTYPE
+        Q
+        ; Finishes a response by adding the necessary headers
+ENDRSP  D ADDHDR("HTTP/1.1 "_$G(RGNETRSP("STATUS"),"200 OK"),-999)
+        D ADDHDR("Date: "_$$WWWDATE,-998)
+        D:$D(RGNETRSP("CTYPE"))#2 ADDHDR("Content-Type: "_RGNETRSP("CTYPE")_"; charset=utf-8",-998)
+        D ADDHDR("Content-Length: "_+$G(RGNETRSP("LEN")),-998)
+        D ADDHDR("",0)
+        Q
+        ; Add to response buffer
+ADD(X)  N Y
+        S:'$$ISERROR Y=$O(@RGNETRSP@(""),-1)+1,@RGNETRSP@(Y)=X,RGNETRSP("LEN")=RGNETRSP("LEN")+$L(X),RGNETRSP("LAST")=Y
+        Q
+        ; Add array to output buffer
+        ; RT  = Array root
+        ; EOL = End of line character(s)
+ADDARY(RT,EOL)  ;
+        N LP
+        S EOL=$G(EOL),LP=0
+        F  S LP=$O(@RT@(LP)) Q:'LP  D
+        .D ADD($G(@RT@(LP))_$G(@RT@(LP,0))_EOL)
+        Q
+        ; Add HTTP response header to output buffer
+        ;  HDR = Properly formatted header
+        ;  SB  = Affects the position of the header in the output.  Typically, not specified.
+ADDHDR(HDR,SB)  ;
+        N NXT
+        S SB=+$G(SB,-1)
+        S:SB>0 SB=-SB
+        S NXT=$O(@RGNETRSP@(SB,""),-1)+1,@RGNETRSP@(SB,NXT)=HDR_$C(13,10)
+        Q
+        ; Replace buffer contents at specified index, adjusting content length accordingly.
+REPLACE(IDX,X)  ;
+        N Y
+        S Y=$L(X)-$L(@RGNETRSP@(IDX)),@RGNETRSP@(IDX)=X,RGNETRSP("LEN")=RGNETRSP("LEN")+Y
+        Q
+        ; Returns the specified query parameter
+        ; PN = Parameter name
+        ; P1 = Parameter series - for duplicate parameters, specifies which among them (defaults to 1)
+        ; P2 = Parameter value  - for multivalued parameters, specifies which value (defaults to 1)
+GETPARAM(PN,P1,P2)      ;
+        Q $G(RGNETREQ("PARAMS",PN,$G(P1,1),$G(P2,1)))
+        ; Initialize environment
+INIT    S:'($D(RGNETRSP)#2) RGNETRSP=$$TMPGBL
+        D RESET
+        Q
+        ; Reset the output buffer
+RESET   K @RGNETRSP
+        S (RGNETRSP("LAST"),RGNETRSP("LEN"))=0
+        Q
+        ; Returns the host url (e.g., www.xyz.net)
+HOST(PATH,DFLT) ;
+        N URL
+        S URL=$G(PATH)
+        S:$E(URL)="*" URL=$G(DFLT)_$E(URL,2,9999)
+        Q $$CONCAT(RGNETREQ("HOST"),URL)
+        ; Returns host URL including the transport protocol (e.g., http://www.xyz.net)
+HOSTURL(PATH)   ;
+        Q $G(RGNETREQ("HDR","x-forwarded-proto"),"http")_"://"_$$HOST(.PATH)
+        ; Prepend local system root to path
+LOCALSYS(PATH)  ;
+        Q $$CONCAT("http://"_$$LOW^XLFSTR($$KSP^XUPARAM("WHERE")),.PATH)
+        ; Return UUID for this system
+SYSUUID()       ;
+        S:'$L($G(^RGNET("SYS"))) ^("SYS")=$$UUID^RGUT
+        Q ^("SYS")
+        ; Concatenate path to url.
+CONCAT(URL,PATH)        ;
+        Q:'$D(PATH) URL
+        F  Q:$E(URL,$L(URL))'="/"  S $E(URL,$L(URL))=""
+        F  Q:$E(PATH)'="/"  S $E(PATH)=""
+        Q URL_"/"_PATH
+        ; Date (format per RFC 1123)
+WWWDATE(DT)     ;
+        N TZ,H,M,SN
+        S:'$G(DT) DT=$$NOW^XLFDT
+        S TZ=$$TZ^XLFDT,H=+$E(TZ,2,3),M=+$E(TZ,4,5),SN=$S(TZ<0:1,1:-1)
+        S DT=$$FMADD^XLFDT(DT,0,H*SN,M*SN,0)
+        Q $$FMTDATE^RGUTDATF(DT,"EEE, dd MMM YYYY HH:mm:ss 'GMT'")
+        ; Returns true if request came from a browser
+ISBROWSR()      ;
+        Q $G(RGNETREQ("HDR","user-agent"))["Mozilla"
+        ; Attempt authentication if credentials available
+        ; If REQUIRED is true, authentication must succeed.
+        ; Returns true if successful
+AUTH(TYPE,REQUIRED)     ;
+        N TP,CRED
+        S TP=$G(RGNETREQ("HDR","authorization")),CRED=$P(TP," ",2),TP=$$UP^XLFSTR($P(TP," "))
+        I '$L(TP),$G(DUZ) Q 1
+        S TYPE=$G(TYPE),REQUIRED=+$G(REQUIRED)
+        K RGNETREQ("HDR","authorization"),DUZ
+        I $L(TYPE),TP'=TYPE
+        .S REQUIRED=1
+        E  I TP="BASIC" D
+        .N IO,RTN
+        .S CRED=$$DECODE^RGUTUU(CRED),CRED=$P(CRED,":")_";"_$P(CRED,":",2,9999),IO=$P
+        .D SETUP^XUSRB(),VALIDAV^XUSRB(.RTN,$$ENCRYP^XUSRB1(CRED))
+        E  I TP="BEARER" D
+        .S DUZ=$$ISVALID^RGSEOAUT(CRED)
+        I '$G(DUZ),REQUIRED D  Q 0
+        .D SETSTAT(401)
+        .D ADDHDR("WWW-Authenticate: "_TYPE)
+        S:'$D(DUZ(2)) DUZ(2)=$P(^XTV(8989.3,1,"XUS"),U,17)
+        Q 1
+        ; Convert to pattern (Used for URL matching)
+TOPTRN(NM)      ;
+        N P,C,X,L
+        S (L,P)=""
+        F X=1:1:$L(NM) D
+        .S C=$E(NM,X)
+        .I C="*" D TOPTRN2(".E") Q
+        .I C="#" D TOPTRN2("1.N") Q
+        .S L=L_C
+        D:$L(P) TOPTRN2("")
+        Q P
+TOPTRN2(X)      ;
+        S:$L(L) P=P_"1"""_L_"""",L=""
+        S P=P_X
+        Q
+        ; Looks up endpoint for URL
+        ; Returns IEN of endpoint
+URL2EP(METHOD,URL)      ;
+        N IEN
+        S:$E(URL,$L(URL))'="/" URL=URL_"/"
+        S IEN=$$URL2EPX(METHOD,URL)
+        S:'IEN IEN=$$URL2EPX(METHOD,URL,$E(URL))
+        S:'IEN IEN=$$URL2EPX(METHOD,URL,"#")
+        S:'IEN IEN=$$URL2EPX(METHOD,URL,"*")
+        Q IEN
+URL2EPX(METHOD,URL,URLX)        ;
+        Q:'$D(URLX) $O(^RGNET(996.52,"C",METHOD,URL,0))
+        N RT,FND,PTRN,IEN
+        S RT=URLX,FND=0
+        F  S URLX=$O(^RGNET(996.52,"C",METHOD,URLX)) Q:$E(URLX)'=RT  D  Q:FND
+        .F IEN=0:0 S IEN=$O(^RGNET(996.52,"C",METHOD,URLX,IEN)) Q:'IEN  S PTRN=^(IEN) D:$L(PTRN)  Q:FND
+        ..S:URL?@PTRN FND=IEN
+        Q FND
+        ; Returns the weighted value if content type matches an accepted type,
+        ; or 0 if no match.
+ISCTYPE(MTYPE,ACCPT)    ;
+        N AT,LP,MT,R,X,Q
+        S ACCPT=$TR(ACCPT," "),MTYPE=$TR(MTYPE," ")
+        F LP=1:1:$L(ACCPT,",") D
+        .S X=$P(ACCPT,",",LP),Q=$P(X,";",2),X=$P(X,";")
+        .S Q=$S($E(Q,1,2)="q=":+$E(Q,3,99),1:1)
+        .S:$L(X) AT(Q,X)=""
+        Q:'$D(AT) 1
+        S Q=""
+        F  S Q=$O(AT(Q),-1) Q:'Q  D  Q:$D(R)
+        .S AT=""
+        .F  S AT=$O(AT(Q,AT)) Q:'$L(AT)  D  Q:$D(R)
+        ..I AT="*/*" S R=Q Q
+        ..F LP=1:1:$L(MTYPE,",") D  Q:$D(R)
+        ...S MT=$P(MTYPE,",",LP)
+        ...I AT=MT S R=Q Q
+        ...I AT["/*",$P(AT,"/")=$P(MT,"/") S R=Q Q
+        ...I AT["*/",$P(AT,"/",2)=$P(MT,"/",2) S R=Q Q
+        Q $S($D(R):R,1:0)
+        ; Return unique temp global reference
+        ; If X is specified, returns the temp global at that index.
+        ; Otherwise, returns the next available global reference.
+TMPGBL(X)       ;
+        Q:$G(X) $NA(^TMP("RGNETWWW",$J,X))
+        F  S X=$G(^TMP("RGNETWWW",$J))+1,^($J)=X,X=$NA(^($J,X)) Q:'$D(@X)
+        Q X
+        ; Cleanup temp globals on completion
+CLEANUP N LP,TMP,EXC
+        S TMP=$NA(^TMP("RGNETWWW",$J))
+        I TMP'=$NA(@RGNETRSP,2) K @TMP Q
+        S (@TMP,EXC)=$QS(RGNETRSP,3)
+        F LP=0:0 S LP=$O(@TMP@(LP)) Q:'LP  K:LP'=EXC @TMP@(LP)
+        Q
+        ; Returns description
+GREETING        D ADDARY($NA(^RGNET(996.52,HANDLER,99)))
+        Q
+
+RGSER
+RGSER   ;RI/CBMI/DKM - Core Serialization Support ;01-Apr-2015 21:27;SA
+        ;;1.0;SERIALIZATION FRAMEWORK;;14-March-2014;Build 280
+        ;=================================================================
+        ; RPC: Process a REST request
+REST(DATA,REQUEST)      ;
+        S:$D(REQUEST)=1 REQUEST(1)=REQUEST
+        S DATA=$$ENTRYARY^RGNETWWW(.REQUEST)
+        Q
+        ; RPC: Perform a GET operation
+FETCH(DATA,PATH,SLCT)   ;
+        N RGNETREQ,RGNETRSP
+        D INIT^RGNETWWW,GET^RGSERGET(,.PATH,.SLCT),CLEANUP^RGNETWWW
+        S DATA=RGNETRSP
+        Q
+        ; GET method handler
+MGET    N X,ID,PATH,RGSER
+        D GETFMT
+        S PATH=RGNETREQ("PATH"),X=$L(PATH,"/")
+        S:X#2 ID=$P(PATH,"/",X),PATH=$P(PATH,"/",1,X-1)
+        K:$G(ID)="_search" ID
+        D GET^RGSERGET(.RGSER,PATH,.ID),ADDHDRX
+        Q
+        ; POST method
+MPOST   D SETSTAT^RGNETWWW(405)
+        Q
+        ; PUT method
+MPUT    D SETSTAT^RGNETWWW(405)
+        Q
+        ; DELETE method
+MDELETE D SETSTAT^RGNETWWW(405)
+        Q
+        ; Get expected response format
+GETFMT  I $D(RGNETREQ("PARAMS","_format")) D
+        .S RGSER("FORMAT")=RGNETREQ("PARAMS","_format",1,1)
+        .K RGNETREQ("PARAMS","_format")
+        E  S RGSER("FORMAT")=$G(RGNETREQ("HDR","accept"))
+        Q
+        ; Returns the presence of specified flag(s).
+        ; If ALL is true, presence of all flags are required.
+        ; If false (the default), only one flag must be present.
+HASFLAG(FLG,ALL)        ;
+        N X,T
+        S ALL='$G(ALL),T=1
+        F X=1:1:$L(FLG) S T=FLAGS[$E(FLG,X) Q:T=ALL
+        Q T
+        ; Escape reserved characters
+ESCAPE(X)       ;
+        N Y,Z,C,R,L
+        S R=$$ESCMAP^@RGSER("INTF"),L=$P(R,U),R=$P(R,U,2)
+        F Z=1:1 S Y=$P($T(@L+Z^@R),";;",2) Q:'$L(Y)  D
+        .S C=$P(Y,";")
+        .S:$E(C)="#" C=$C(+$E(C,2,99))
+        .S:X[C X=$$SUBST^RGUT(X,C,$P(Y,";",2,9999))
+        Q X
+        ; Serialize a date.
+FMTDATE(DT)     ;
+        Q $$FMTDATE^@(RGSER("INTF"))(.DT)
+        ; Concatenate array elements into a string
+ARY2STR(ARY,DLM)        ;
+        N X,RES
+        S RES="",DLM=$G(DLM)
+        F X=0:0 S X=$O(ARY(X)) Q:'X  S RES=RES_$S($L(RES):DLM,1:"")_ARY(X)
+        Q RES
+        ; Adds additional headers
+ADDHDRX N LP,HDR
+        I $G(RGSER("SER")),'$$ISERROR^RGNETWWW
+        .F LP=0:0 S LP=$O(^RGSER(998.1,RGSER("SER"),20,LP)) Q:'LP  S HDR=^(LP,0) D:$L(HDR) ADDHDR^RGNETWWW(HDR)
+        Q
+        ; Add array of values to output buffer.
+        ; AR may be by reference or indirection
+        ; FLG: B = encode as binary, L = add CRLF, W = is word processing root, R = don't escape
+ADDARY(AR,FLG)  ;
+        N RT,B
+        S RT=$S($D(AR)=1:AR,1:$NA(AR)),FLG=$G(FLG),B=FLG["B"
+        D ADDTXT(RT,FLG):'B,ADDBIN(RT,FLG):B
+        Q
+ADDTXT(RT,FLG)  ;
+        N LP,L,W,R,X
+        S L=$S(FLG["L":$C(13,10),1:""),W=FLG["W",R=FLG["R",LP=$S(W:0,1:"")
+        F  S LP=$O(@RT@(LP)) Q:'$L(LP)  D
+        .S X=$S(W:@RT@(LP,0),1:@RT@(LP))_L
+        .S:'R X=$$ESCAPE(X)
+        .D ADD^RGNETWWW(X)
+        Q
+ADDBIN(RT,FLG)  ;
+        N X,Z,VL,LP,I,L,W
+        S Z="=ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/"
+        S (VL,X)="",L=$S(FLG["L":$C(13,10),1:""),W=FLG["W",LP=$S(W:0,1:"")
+        F  S LP=$O(@RT@(LP)) Q:'$L(LP)  D
+        .S X=X_$S(W:@RT@(LP,0),1:@RT@(LP))_L
+        .F  Q:$L(X)<3  D
+        ..S VL=VL_$$B64ENC($E(X,1,3)),X=$E(X,4,9999)
+        .I $L(VL)>131 D ADD^RGNETWWW(VL) S VL=""
+        S:$L(X) VL=VL_$$B64ENC(X)
+        D:$L(VL) ADD^RGNETWWW(VL)
+        Q
+        ; Encode input as Base 64
+B64ENC(X)       N Z1,Z2,Z3,Z4
+        S Z3=0,Z1=""
+        F Z4=1:1:3 S Z2=$A(X,Z4),Z3=Z3*256+$S(Z2<0:0,1:Z2)
+        F Z4=1:1:4 S Z1=$E(Z,Z3#64+2)_Z1,Z3=Z3\64
+        Q Z1
+        ; Return table # given name
+TABLE(T)        Q $S(T=+T:T,1:+$O(^DIC("B",TABLE,0)))
+        ; Format system attribute
+SYSTEM(SYSTEM)  ;
+        N PATH
+        S:'($D(SYSTEM)#10) SYSTEM="@"
+        S PATH=$P(SYSTEM,"/",2,999),SYSTEM=$P(SYSTEM,"/")
+        S:$E(SYSTEM)="#" SYSTEM="@"_$TR($P(^DIC($E(SYSTEM,2,9999),0),U)," /","__")
+        S:$E(SYSTEM)="@" SYSTEM=$$LOCALSYS($E(SYSTEM,2,9999))
+        Q SYSTEM_$S($L(PATH):"/"_PATH,1:"")
+        ; Prepend local system root to path
+LOCALSYS(PATH)  ;
+        Q $$CONCAT^RGNETWWW("http://"_$$LOW^XLFSTR($$KSP^XUPARAM("WHERE")),.PATH)
+        ; Returns true if path matches specified pattern
+ISMATCH(PATH,PTRN)      ;
+        Q $TR(PATH,"-_","XX")?@PTRN
+
+RGSERGET
+RGSERGET        ;RI/CBMI/DKM - GET method support ;01-Apr-2015 21:27;SA
+        ;;1.0;SERIALIZATION FRAMEWORK;;14-March-2014;Build 280
+        ;=================================================================
+        ; RPC: Returns a serialized form of the requested object.
+        ; SLCT may be:
+        ;  - a single IEN (e.g., SLCT=123)
+        ;  - a unique key on the source file (e.g., SLCT=@XYZ)
+        ;  - an ordered array passed by ref whose values are IENs (e.g., SLCT(1)=123...)
+        ;  - a global root whose subscript is an IEN (e.g., ^XYZ("B","ABC"))
+        ;  - a reference to an iterator that returns IENs (e.g., $$NXT^XYZ)
+        ; FLAGS may contain:
+        ;  I - Add id attribute to resource
+        ;  L - Processing an entry returned from a selector
+        ;  M - Processing a multiple field (subfile)
+        ;  S - Selection of internal resources are allowed
+        ;  X - Suppress execution of custom serializer
+GET(RGSER,PATH,SLCT,PNAME,FLAGS)        ;
+        N RTN,TOP,IEN,IENS,FILE,SER,TP,XSER,XRDR,MAX,ID,SER,INTRNL,X
+        S:$E(PATH)="/" PATH=$E(PATH,2,9999)
+        I '$L(PATH) D GETDSC(SLCT) Q
+        S SER=$$GETGBL(PATH)
+        Q:'$L(SER)
+        S RGSER("CNT")=+$G(RGSER("CNT")),TOP='RGSER("CNT"),FLAGS=$G(FLAGS),PNAME=$G(PNAME),SLCT=$G(SLCT)
+        S N0=$G(@SER@(0)),XSER=$G(^(10)),XRDR=$G(^(20)),INTRNL=+$P(N0,U,2),FILE=+$P(N0,U,3),IENS="",TP=-1
+        I $D(SLCT)=1,'$L(SLCT) D                                              ; No selector
+        .I $D(RGNETREQ("PARAMS","_id",1)) D
+        ..M SLCT=RGNETREQ("PARAMS","_id",1)
+        ..K RGNETREQ("PARAMS","_id",1)
+        I $$GETPARAM^RGNETWWW("_count")>0 D
+        .S RGSER("MAX")=+RGNETREQ("PARAMS","_count",1,1)
+        .K RGNETREQ("PARAMS","_count",1,1)
+        I $$HASFLAG^RGSER("M") S IENS=SLCT,SLCT=$$ROOT^DILFD(FILE,SLCT,1),TP=2 Q:'$O(@SLCT@(0))
+        E  I $E(SLCT)="@" S SLCT=$$FIND1^DIC(FILE,,"X",$E(SLCT,2,9999))
+        E  I $E(SLCT)=U S TP=1
+        E  I $E(SLCT,1,2)="$$" S SLCT=$$NEWITER(SLCT),TP=3
+        E  I $D(SLCT)>9 S TP=0
+        S MAX=$G(RGSER("MAX"),$S(TP:999999,1:1000))
+        I '$D(RGSER("PREINIT")) D PREINIT^@RGSER("INTF") S RGSER("PREINIT")=$ESTACK
+        I $L(XSER),'$$HASFLAG^RGSER("X") X XSER Q:$D(XSER)
+        D BYIEN:TP=-1,BYSLCT:TP'=-1
+        I '$$ISERROR^RGNETWWW,$ESTACK=RGSER("PREINIT") D PSTINIT^@RGSER("INTF")
+        Q
+        ; By selector
+BYSLCT  N LP
+        D PRELIST^@RGSER("INTF")
+        F LP=0:0 Q:MAX'>RGSER("CNT")  S:TP=3 @("LP="_SLCT) S:TP'=3 LP=$S('TP:$O(SLCT(LP)),1:$O(@SLCT@(LP))) Q:'LP  D  Q:$$ISERROR^RGNETWWW
+        .S IEN=$S(TP:LP,1:SLCT(LP))
+        .D GET(.RGSER,PATH,IEN_IENS,PNAME,$S(TP=2:"S",1:"L"))
+        D PSTLIST^@RGSER("INTF")
+        Q
+        ; By IEN
+BYIEN   N LP,PROP,PARM,FLD,VALS
+        I INTRNL,'$L(PNAME),'$$HASFLAG^RGSER("S") D SETSTAT^RGNETWWW(403,"Invalid resource type: "_PATH) Q
+        S LP=""
+        F  S LP=$O(RGNETREQ("PARAMS",LP)) D  Q:'$L(LP)
+        .S PARM=$O(@SER@(40,"B",$S($L(LP):LP,1:"@selector"),0))
+        .I 'PARM D:$L(LP) SETSTAT^RGNETWWW(403,"Unsupported search parameter: "_LP) Q
+        .M PARM(PARM)=@SER@(40,PARM)
+        .S PARM("ASEQ",+$P(PARM(PARM,0),U,4),PARM)=""
+        Q:$$ISERROR^RGNETWWW
+        I '$L(SLCT) D  Q:$L(SLCT)
+        .S SLCT=$$GETSLCT
+        .S:'$L(SLCT) SLCT=$$ROOT^DILFD(FILE,,1)
+        .D:$L(SLCT) GET(.RGSER,PATH,SLCT,.PNAME)
+        I '$L(SLCT) D SETSTAT^RGNETWWW(403,"Invalid request") Q
+        M PROP=@SER@(30)
+        S (ID,IEN)=SLCT
+        I FILE!$L(XRDR) D  Q:$$ISERROR^RGNETWWW  I '$$FILTER D:'$$HASFLAG^RGSER("L") SETSTAT^RGNETWWW(404) Q
+        .S IENS=IEN_","
+        .D BLDFLDS(FILE,.PROP,.FLD),BLDFLDS(FILE,.PARM,.FLD)
+        .I $L($G(FLD(0))) D
+        ..N ERR
+        ..X XRDR
+        ..I FILE D
+        ...D GETS^DIQ(FILE,IENS,FLD(0),"IE","VALS","ERR")
+        ...F LP=0:0 S LP=$O(FLD(LP)) Q:'LP  D
+        ....N TMP,IENS2,FILE2,LP2
+        ....S FILE2=FLD(LP,0),IENS2=VALS(FILE,IENS,LP,"I")_","
+        ....Q:'IENS2
+        ....D GETS^DIQ(FILE2,IENS2,FLD(LP),"IE","TMP","ERR")
+        ....F LP2=0:0 S LP2=$O(TMP(FILE2,IENS2,LP2)) Q:'LP2  D
+        .....M VALS(FILE,IENS,LP_"~"_LP2)=TMP(FILE2,IENS2,LP2)
+        ..I '$D(VALS),'$$ISERROR^RGNETWWW D SETSTAT^RGNETWWW(404,$G(ERR("DIERR",1,"TEXT",1),$G(ERR,"Unknown error")))
+        .I $D(PROP("B","@id")) D
+        ..N X
+        ..S X=+$O(PROP("B","@id",0)),X=$P($G(PROP(X,0)),U,2)
+        ..S X=$S('$L(X):"",1:$G(VALS(FILE,IENS,X,"E")))
+        ..S:$L(X) ID=X
+        .S VALS(FILE,IENS,"@ien","I")=IEN
+        .S VALS(FILE,IENS,"@ienx","I")=FILE_"-"_IEN
+        .S VALS(FILE,IENS,"@id","I")=ID
+        I '$L(PNAME),'$$HASFLAG^RGSER("S") S RGSER("CNT")=RGSER("CNT")+1
+        D COMPOSE^@RGSER("INTF")
+        Q
+        ; Retrieval logic for custom source.
+RETRIEVE(SRC,IEN,DLM)   ;
+        N X,Y
+        S X=$G(@SRC@(IEN)),DLM=$G(DLM,U)
+        F Y=1:1:$L(X,DLM) S (VALS(FILE,IENS,Y,"I"),VALS(FILE,IENS,Y,"E"))=$P(X,DLM,Y)
+        Q
+        ; Get resource type
+GETRTYPE(PATH,PNAME)    ;
+        Q $P($S($L(PNAME):PNAME,1:$P(PATH,"/",$L(PATH,"/"))),"_")
+        ; Get preferred global selector
+GETSLCT()       ;
+        N LP,SQ,NM,X,PN
+        S X=""
+        F SQ=0:0 S SQ=$O(PARM("ASEQ",SQ)) Q:'SQ  D  Q:$L(X)
+        .F LP=0:0 S LP=$O(PARM("ASEQ",SQ,LP)) Q:'LP  D  Q:$L(X)
+        ..S PN=$P(PARM(LP,0),U)
+        ..X $G(PARM(LP,20))
+        Q X
+        ; Process properties
+PROCPROP        N LP,SQ
+        F SQ=0:0 S SQ=$O(PROP("ASEQ",SQ)) Q:'SQ  D
+        .F LP=0:0 S LP=$O(PROP("ASEQ",SQ,LP)) Q:'LP  D
+        ..N PN,FN,TP,VL,CTL
+        ..D EXTRP(.PROP,LP)
+        ..Q:TP="N"
+        ..I TP="M" D PROPM Q
+        ..I TP="T" D PROPT Q
+        ..D:$L(TP) @("PROP"_TP)^@RGSER("INTF")
+        Q
+        ; Process a multiple field
+PROPM   D GET(.RGSER,CTL,","_IEN,PN,"M")
+        Q
+        ; Process a template property
+PROPT   D TEMPLATE(CTL)
+        Q
+        ; Extracts property values
+EXTRP(SRC,LP)   ;
+        N X,Y,Z,P
+        S X=SRC(LP,0),PN=$P(X,U),FN=$P(X,U,2),TP=$P(X,U,3),CTL=$G(SRC(LP,10))
+        S PN(0)=$P(PN,"!",2,9999),PN=$P(PN,"!")
+        F X=1:1:$L(FN,",") D
+        .S Y=$P(FN,",",X)
+        .I $L(Y) D
+        ..S VALS(FILE,IENS,Y)=$L($G(VALS(FILE,IENS,Y,"I")))
+        ..M:X=1 VL=VALS(FILE,IENS,Y)
+        ..M:X>1 VL(X)=VALS(FILE,IENS,Y)
+        Q
+        ; Returns the global root for the specified resource.
+GETGBL(PATH)    ;
+        N SER,RES,N0
+        S SER=$$GETSER(PATH)
+        I SER<0 D SETSTAT^RGNETWWW($S(SER=-2:406,1:404)) Q ""
+        I '$G(RGSER("SER")) D
+        .S RGSER("SER")=SER,N0=^RGSER(998.1,SER,0)
+        .S RGSER("SERNM")=$P(N0,U),RGSER("INTF")=$P(N0,U,3),RGSER("VER")=$P(N0,U,4)
+        .D SETCTYPE^RGNETWWW($P($P(N0,U,2),","))
+        S RES=$$GETRES(PATH)
+        I 'RES D SETSTAT^RGNETWWW(404) Q ""
+        Q $NA(^RGSER(998.1,SER,10,RES))
+        ; Lookup serializer for path and content type.
+        ; Returns IEN of serializer, or
+        ;   -1 if no match by name
+        ;   -2 if no match by content type
+        ;   -3 if no match to active serializer
+GETSER(PATH)    ;
+        N SERNM,SER,SERX,MTYPE,ACCPT,FND,WT,MWT,IEN
+        S SERNM=$P(PATH,"/"),SER=+$G(RGSER("SER"))
+        Q:'$L(SERNM) -1
+        Q:SER $S(SERNM="*":SER,SERNM=RGSER("SERNM"):SER,1:-3)
+        S ACCPT=$G(RGSER("FORMAT")),(FND,MWT,SERX)=0
+        F IEN=0:0 S IEN=$S(SER:SER,1:$O(^RGSER(998.1,"B",SERNM,IEN))) Q:'IEN  D  Q:MWT=1!SER
+        .S MTYPE=$P(^RGSER(998.1,IEN,0),U,2),WT=$$ISCTYPE^RGNETWWW(MTYPE,ACCPT),FND=1
+        .S:WT>MWT SERX=IEN,MWT=$S(WT>1:1,1:WT)
+        Q $S(SERX:SERX,FND:-2,1:-1)
+        ; Lookup resource for selected serializer
+        ; Returns IEN of resource or 0 if not found
+GETRES(PATH)    ;
+        N START,IEN,LEN,LP,RES,D1,D2
+        S (START,LP)=$P(PATH,"/",2),PATH=$P(PATH,"/",2,999),D1=RGSER("SER"),RES=0,LEN=$L(START)
+        Q:'$L(START) 0
+        F  D  Q:RES  S LP=$O(^RGSER(998.1,D1,10,"B",LP)) Q:$E(LP,1,LEN)'=START
+        .F D2=0:0 S D2=$O(^RGSER(998.1,D1,10,"B",LP,D2)) Q:'D2  S PTRN=^(D2) D  Q:RES
+        ..S:$S($L(PTRN):$$ISMATCH^RGSER(PATH,PTRN),1:LP=PATH) RES=D2
+        Q RES
+        ; Build the list of fields to retrieve from
+        ; property or parameter list.
+BLDFLDS(FILE,SRC,FLD)   ;
+        N PC,LP,FN,FN1,FN2,FNS
+        F LP=0:0 S LP=$O(SRC(LP)) Q:'LP  D
+        .S FNS=$P(SRC(LP,0),U,2)
+        .F PC=1:1:$L(FNS,",") D
+        ..S FN=$P(FNS,",",PC),FN1=$P(FN,"~"),FN2=$P(FN,"~",2)
+        ..D:$L(FN2) BLDFLD($$PTRTGT(FILE,FN1),FN1,FN2,.FLD)
+        ..D:$L(FN1) BLDFLD(FILE,0,FN1,.FLD)
+        Q
+BLDFLD(FILE,SB,FN,FLD)  ;
+        Q:$E(FN)["@"
+        I FILE,FN'=+FN S FN=$$FLDNUM^DILFD(FILE,FN)
+        S FLD(SB)=$G(FLD(SB)),FLD(SB,0)=FILE
+        S:'$D(FLD(SB,FN)) FLD(SB)=FLD(SB)_$S($L(FLD(SB)):";",1:"")_FN,FLD(SB,FN)=1
+        Q
+        ; Get target file of pointer
+PTRTGT(FILE,FLD)        ;
+        N X
+        S X=$$GET1^DID(FILE,FLD,,"POINTER")
+        Q +$S($L(X):$P(@(U_X_"0)"),U,2),1:0)
+        ; Search/filter logic.  Returns true if successful match.
+FILTER()        N LP,SQ,PR,MATCH
+        S MATCH=1
+        F SQ=0:0 Q:'MATCH  S SQ=$O(PARM("ASEQ",SQ)) Q:'SQ  D
+        .F LP=0:0 Q:'MATCH  S LP=$O(PARM("ASEQ",SQ,LP)) Q:'LP  D
+        ..N PN,PN1,PN2,FN,TP,VL,CTL
+        ..D EXTRP(.PARM,LP)
+        ..I PN="@selector" X CTL Q
+        ..F PN1=0:0 Q:'MATCH  S PN1=$O(RGNETREQ("PARAMS",PN,PN1)) Q:'PN1  D
+        ...S MATCH=1
+        ...F PN2=0:0 S PN2=$O(RGNETREQ("PARAMS",PN,PN1,PN2)) Q:'PN2  D  Q:MATCH
+        ....N PVAL
+        ....M PVAL=RGNETREQ("PARAMS",PN,PN1,PN2)
+        ....I '$D(PVAL("I")) D
+        .....S PVAL("I")=1
+        .....D:$L(TP) @("INIT"_TP)
+        .....M RGNETREQ("PARAMS",PN,PN1,PN2)=PVAL
+        ....X CTL
+        ....D:$L(TP)&$D(PVAL) @("FILTER"_TP)
+        Q MATCH
+        ; Number
+INITN   D EXTOPR("<>m")
+        Q
+FILTERN I PVAL'=+PVAL S MATCH=0
+        E  D DOCOMP("I")
+        Q
+        ; Date
+INITD   D EXTOPR("<>m")
+        N DAT,TIM,TZ,X
+        I PVAL?4N1"-"2N1"-"2N.E D
+        .S TIM=$P(PVAL,"T",2,9999),DAT=$P(PVAL,"T"),DAT=$P(DAT,"-",2,3)_"-"_$P(DAT,"-")
+        .S X=$S($E(TIM,$L(TIM))="Z":"Z",TIM["-":"-",TIM["+":"+",1:"")
+        .S TZ=X_$P(TIM,X,2,9999),TIM=$P(TIM,X),PVAL=DAT
+        .S:$L(TIM) PVAL=PVAL_"@"_TIM
+        .I $L(TIM),$L(TZ) D
+        ..S X=$$TZ^XLFDT,TZ=X-$TR(TZ,":"),TZ(0)=TZ\100,TZ(1)=TZ-(TZ(0)*100)
+        D DT^DILF($S(PVAL["@":"TS",1:""),PVAL,.DAT)
+        I DAT>0,$D(TZ)>1 D
+        .S DAT=$$FMADD^XLFDT(DAT,0,TZ(0),TZ(1),0)
+        S PVAL=DAT
+        Q
+FILTERD I '$D(VL(2)) D DOCOMP("I") Q
+        D DOCOMPP("I")
+        Q
+        ; String
+INITS   D EXTOPR("me","s")
+        S:PVAL("OPR")="s" PVAL=$$UP^XLFSTR(PVAL)
+        Q
+FILTERS D DOCOMP("E")
+        Q
+        ; Token
+INITT   D EXTOPR("mt")
+        S:PVAL["|" PVAL(0)=$P(PVAL,"|"),PVAL=$P(PVAL,"|",2)
+        S:PVAL("OPR")="t" PVAL=$$UP^XLFSTR(PVAL)
+        Q
+FILTERT D DOCOMP($S(PVAL("OPR")="t":"E",1:"I"))
+        Q
+        ; Reference
+INITR   D EXTOPR("m")
+        Q
+FILTERR D DOCOMP("I")
+        Q
+        ; Quantity
+INITQ   D EXTOPR("<>m~")
+        Q
+FILTERQ D FILTERN
+        Q
+DOCOMP(IE)      ;
+        D DOCOMPX($G(VL(IE)))
+        Q
+        ; Perform comparison against a period
+DOCOMPP(IE)     ;
+        N START,END,OPR
+        S START=$G(VL(IE)),END=$G(VL(2,IE)),OPR=PVAL("OPR"),MATCH=0
+        I 'START,'END Q
+        I 'START D DOCOMPX(END) Q
+        I 'END D DOCOMPX(START) Q
+        I OPR["=" S MATCH=PVAL'<START&(PVAL'>END) Q:MATCH
+        I OPR["<" S MATCH=START<PVAL Q
+        I OPR[">" S MATCH=END>PVAL Q
+        Q
+        ; Perform comparison against search value
+DOCOMPX(VAL)    ;
+        N OPR
+        S MATCH=0,OPR=PVAL("OPR")
+        I OPR["m" S MATCH='$L(VAL)=(PVAL="true") Q
+        I OPR["=" S MATCH=VAL=PVAL Q:MATCH
+        I OPR["<" S MATCH=VAL<PVAL Q
+        I OPR[">" S MATCH=VAL>PVAL Q
+        I OPR["e" S MATCH=VAL=PVAL Q
+        I OPR["~" D  Q
+        .N X1,X2,Y
+        .S Y=PVAL/10,X1=PVAL-Y,X2=PVAL+Y,MATCH=VAL'<X1&(X'>X2)
+        I OPR["s" D  Q
+        .S VAL=$$UP^XLFSTR($E(VAL,1,$L(PVAL))),MATCH=VAL=PVAL
+        I OPR["t" D  Q
+        .S MATCH=$$UP^XLFSTR(VAL)[PVAL
+        Q
+        ; Name comparison
+OPRNAME(VAL,PC) ;
+        N X,Y
+        S VAL=$P(VAL,",",PC)
+        F X=1:1:$L(VAL," ") D  Q:MATCH
+        .S Y=$P(VAL," ",X)
+        .D:$L(Y) DOCOMPX(Y)
+        Q
+        ; Extract optional operator from search parameter
+EXTOPR(ALLOWED,DFLT)    ;
+        N X,OPR
+        S OPR=$G(PVAL("OPR"))
+        F X="<=",">=","<",">","~" I ALLOWED[$E(X),$E(PVAL,1,$L(X))=X D  Q
+        .I '$L(OPR) S OPR=X,PVAL=$E(PVAL,$L(X)+1,9999)
+        .E  D SETSTAT^RGNETWWW(403,"Invalid comparator on query string")
+        S PVAL("OPR")=$S($L(OPR):OPR,1:$G(DFLT,"="))
+        Q
+        ; Creates a new instance of an iterator
+        ; EP = entry point (tag or tag^routine)
+        ; Note: entry point will be invoked immediately via a DO
+        ; to permit initialization.
+NEWITER(EP)     ;
+        S:$E(EP,1,2)="$$" EP=$E(EP,3,99)
+        S EP=EP_"("_$QS($$TMPGBL^RGNETWWW,3)_")"
+        D @EP
+        Q "$$"_EP
+        ; Iterator implementation for traversing a cross reference
+XREFITER(CTX,ROOT,START,TST)    ;
+        S CTX=$$TMPGBL^RGNETWWW(CTX)
+        I '$Q D  Q
+        .S START=$$UP^XLFSTR(START)
+        .S @CTX@("IEN")=0,^("ROOT")=ROOT,(^("START"),^("LAST"))=START,^("TST")=$G(TST,"I 1")
+        N LAST,IEN
+        S IEN=@CTX@("IEN"),START=^("START"),LAST=^("LAST"),TST=^("TST"),ROOT=^("ROOT")
+        F  D  Q:IEN
+        .S:$L(LAST) IEN=+$O(@ROOT@(LAST,IEN)),@CTX@("IEN")=IEN
+        .Q:IEN
+        .S LAST=$O(@ROOT@(LAST)),@CTX@("LAST")=LAST
+        .I 0
+        .X:$L(LAST) TST
+        .S:'$T IEN=-1
+        Q $S(IEN>0:IEN,1:0)
+        ; Iterator implementation for traversing a name cross references
+NAMEITER(CTX,ROOT)      ;
+        I '$Q D XREFITER(CTX,ROOT,$$GETPARAM^RGNETWWW("family"),"I $E($P(LAST,"",""),1,$L(START))=START") Q
+        Q $$XREFITER(CTX)
+        ; Return a cohort based on a xref
+        ; PARAM = Name of search parameter
+        ; GBL = Root of xref
+        ; OFF = Offset to subscript containing IEN (defaults to 0)
+COHORT(PARAM,GBL,OFF)   ;
+        N LP,TMP
+        S OFF=+$G(OFF),LP=$O(RGNETREQ("PARAMS",PARAM,1,0)),TMP=$$TMPGBL^RGNETWWW
+        I 'OFF,LP,'$O(RGNETREQ("PARAMS",PARAM,1,LP)) Q $$GBLROOT(RGNETREQ("PARAMS",PARAM,1,LP),GBL)
+        F LP=0:0 S LP=$O(RGNETREQ("PARAMS",PARAM,1,LP)) Q:'LP  D COHORT2(RGNETREQ("PARAMS",PARAM,1,LP),GBL,OFF,TMP)
+        Q TMP
+        ; Return a cohort based on a xref
+        ; IDX = Value of indexed entry
+        ; GBL = Root of xref
+        ; OFF = Offset to subscript containing IEN (defaults to 0)
+COHORT2(IDX,GBL,OFF,TMP)        ;
+        S TMP=$$COHORT3($$GBLROOT(IDX,GBL),.OFF,.TMP)
+        Q:$Q TMP
+        Q
+        ; Return a cohort from a global root
+        ; GBL = Root of global
+        ; OFF = Offset to subscript containing IEN (defaults to 0)
+        ; Internal entry point
+COHORT3(GBL,OFF,TMP)    ;
+        N X,L,S,I,QL
+        S:'$D(TMP) TMP=$$TMPGBL^RGNETWWW
+        S OFF=+$G(OFF),QL=$QL(GBL)+OFF+1
+        I 'OFF M @TMP=@GBL Q
+        S X=GBL,L=$QL(X),S=""
+        F  S X=$Q(@X) Q:'$L(X)  Q:$NA(@X,L)'=GBL  D
+        .S I=$QS(X,QL)
+        .I $L(I),I'=S S S=I,@TMP@(S)=""
+        Q:$Q TMP
+        Q
+        ; Returns global root for indexed entries.
+        ; IDX = Index of entries
+        ; GBL = Global root.  If contains "*", index value is placed there.
+        ;       Otherwise, index value is placed at end.
+GBLROOT(IDX,GBL)        ;
+        Q:GBL'["*" $NA(@GBL@(IDX))
+        S GBL=$P(GBL,"*")_IDX_$P(GBL,"*",2,9999)
+        Q $NA(@GBL)
+        ; Process a compartment request
+COMPRT(GBL,EXC) ;
+        D:$L(SLCT) PARSEQS^RGNETWWW("_id="_SLCT)
+        S:'$G(EXC) GBL=$NA(@GBL@($P(PATH,"/",3)))
+        D GET(.RGSER,$P(PATH,"/")_"/"_$P(PATH,"/",4),GBL,.PNAME)
+        Q
+        ; Process a compound id (#-#) selector
+COMPID  N ID1,ID2
+        S ID1=$P(SLCT,"-"),ID2=$P(SLCT,"-",2,9999)
+        I '$L(ID1)!'$L(ID2) D
+        .D SETSTAT^RGNETWWW(404)
+        E  D GET(.RGSER,PATH_"_"_ID1,ID2,.PNAME,"S")
+        Q
+        ; Process a template
+        ;   NAME = Template name
+        ;   RESN = The resource name or ien (defaults to current resource)
+        ; Template may contain replaceable fields using |xxx| format, where xxx may be:
+        ;   A field reference in the format: name or name,[I or E]
+        ;     where I indicates the internal value and E the external.
+        ;   An expression in the format: @expression or #expression
+        ;     where @ causes the result to be escaped, # does not.
+TEMPLATE(NAME,RESN)     ;
+        N TMPL,SERX,LP,LN,LN1,LN2,X,Y
+        I $D(RESN)#2 D  Q:'$D(SERX)
+        .S:RESN'=+RESN RESN=$O(^RGSER(998.1,RGSER("SER"),10,"B",RESN,0))
+        .S:RESN SERX=$NA(^RGSER(998.1,RGSER("SER"),10,RESN))
+        E  S SERX=SER
+        S TMPL=$O(@SERX@(50,"B",NAME,0))
+        Q:'TMPL
+        F LP=0:0 S LP=$O(@SERX@(50,TMPL,1,LP)) Q:'LP  S LN=^(LP,0) D
+        .F  Q:LN'["|"  D
+        ..S LN1=$P(LN,"|"),X=$P(LN,"|",2),LN2=$P(LN,"|",3,9999)
+        ..S Y=$E(X)
+        ..I Y="@"!(Y="#") D
+        ...S @("X="_$E(X,2,9999))
+        ...S:Y="@" X=$$ESCAPE^RGSER(X)
+        ..E  D
+        ...S Y=$P(X,",",2),X=$P(X,",")
+        ...S X=$G(VALS(FILE,IENS,X,$S($L(Y):Y,1:"E")))
+        ...S X=$$ESCAPE^RGSER(X)
+        ..S LN=LN1_X_LN2
+        .D ADD^RGNETWWW(LN)
+        Q
+        ; Retrieve description for end point
+GETDSC(SERNM)   ;
+        N SER,LP
+        S SER=$$GETSER(SERNM)
+        I SER'>0 D SETSTAT^RGNETWWW(404) Q
+        D SETCTYPE^RGNETWWW("text/html")
+        D ADDARY^RGSER($NA(^RGSER(998.1,SER,99)),"WR")
+        Q
+
+
+

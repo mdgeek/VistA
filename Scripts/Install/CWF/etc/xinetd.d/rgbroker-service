@@ -1,11 +1,11 @@
-service vista-ciabroker
+service vista-rgbroker
 {
   port = 9300
   socket_type = stream
   protocol = tcp
   type = UNLISTED
   user = osehra
-  server = /home/osehra/bin/ciabroker.sh
+  server = /home/osehra/bin/rgbroker.sh
   wait = no
   disable = no
   per_source = UNLIMITED
