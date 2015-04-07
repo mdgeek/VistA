@@ -49,14 +49,13 @@ python ../../VistARoutineImport.py ./rou/cwf.rsa -S 2 -o /home/osehra/r
 gtm -run AUTO^RGZINIT
 
 #
-# Configure stunnel
-sudo cp ./etc/stunnel/stunnel.conf /etc/stunnel
-sudo sed s/ENABLED=0/ENABLED=1/ /etc/default/stunnel4 > /tmp/stunnel4.tmp
-sudo cat /tmp/stunnel4.tmp > /etc/default/stunnel4
-sudo sed s/myhost/$HOSTNAME/ ./etc/stunnel/stunnel.inp > /tmp/stunnel.tmp
-sudo openssl genrsa -out /tmp/key.pem 2048
-sudo openssl req -new -x509 -key /tmp/key.pem -out /tmp/cert.pem -days 1095 < /tmp/stunnel.tmp
-sudo cat /tmp/key.pem /tmp/cert.pem >> /etc/stunnel/stunnel.pem
+# Configure apache
+sudo cp ./etc/apache/cwf.conf /etc/apache2/sites-available
+sudo sed s/myhost/$HOSTNAME/ ./etc/apache/apache.inp > /tmp/apache.tmp
+sudo openssl genrsa -out /etc/ssl/private/cwf.key 2048
+sudo openssl req -new -x509 -key /etc/ssl/private/cwf.key -out /etc/ssl/certs/cwf.pem -days 1095 < /tmp/apache.tmp
 sudo iptables -A INPUT -p tcp --dport 9081 -j ACCEPT
+sudo a2enmod proxy proxy_ajp proxy_http rewrite deflate headers proxy_balancer proxy_connect proxy_html xml2enc ssl
+sudo a2ensite cwf
 sudo service xinetd restart
-sudo /etc/init.d/stunnel4 restart
+sudo service apache2 restart
