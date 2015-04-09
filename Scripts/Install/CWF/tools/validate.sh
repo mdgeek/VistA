@@ -140,3 +140,14 @@ validate Order/1 DSTU1 json
 validate Order DSTU1 json
 #validate Order/1 DSTU2 json
 #validate Order DSTU2 json
+#
+# OperationOutcome
+#
+validate OperationOutcome/1 DSTU1 xml
+validate OperationOutcome DSTU1 xml
+validate OperationOutcome/110 DSTU2 xml
+validate OperationOutcome DSTU2 xml
+validate OperationOutcome/110 DSTU1 json
+validate OperationOutcome DSTU1 json
+#validate OperationOutcome/110 DSTU2 json
+#validate OperationOutcome DSTU2 json
