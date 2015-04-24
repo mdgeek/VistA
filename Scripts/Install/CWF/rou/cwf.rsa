@@ -10,6 +10,7 @@ AUTO    N IEN,NM,XX
         S U="^"
         F IEN=0:0 S IEN=$O(^VA(200,IEN)) Q:'IEN  S NM=$P(^(IEN,0),U) D
         .F XX="NURSE","DOCTOR","SYSTEM","COORDINATOR","USER" I NM[XX D INIT(IEN) Q
+        D MLTSGNON
         Q
 INIT(NAM)       ;
         N DUZ
@@ -27,5 +28,6 @@ ADDXP(X)        N ERR
         D ADD^XPAR("USR",X,1,1,.ERR)
         W:ERR ?7,"Error adding permission.",!
         Q
-
+MLTSGNON        S $P(^XTV(8989.3,1,"XUS"),"^",4)=1,$P(^("XUS"),"^",19)=100
+        Q
 
