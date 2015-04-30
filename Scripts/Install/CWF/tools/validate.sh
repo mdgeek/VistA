@@ -1,9 +1,13 @@
 #!/usr/bin/env bash
 # Validate FHIR resources
 #
+# Allow control-C to abort
+#
+trap "exit" INT
+#
 # Set FHIR service root
 #
-root=http://localhost:9080
+root=http://user123:user321\$@localhost:9080
 
 #
 # Validate resources
@@ -85,19 +89,19 @@ validate Immunization/1 DSTU2 xml
 validate Immunization DSTU2 xml
 validate Immunization/1 DSTU1 json
 validate Immunization DSTU1 json
-#validate Immunization/1 DSTU2 json
-#validate Immunization DSTU2 json
+validate Immunization/1 DSTU2 json
+validate Immunization DSTU2 json
 #
 # Alert/Flag
 #
 #validate Alert/1 DSTU1 xml
 validate Alert DSTU1 xml
-#validate Flag/1 DSTU2 xml
+validate Flag/1 DSTU2 xml
 validate Flag DSTU2 xml
-#validate Alert/1 DSTU1 json
+validate Alert/1 DSTU1 json
 validate Alert DSTU1 json
-#validate Flag/1 DSTU2 json
-#validate Flag DSTU2 json
+validate Flag/1 DSTU2 json
+validate Flag DSTU2 json
 #
 # Location
 #
@@ -112,13 +116,13 @@ validate Location DSTU2 json
 #
 # Medication
 #
-validate Medication/11 DSTU1 xml
+validate Medication/1000 DSTU1 xml
 validate Medication DSTU1 xml
-validate Medication/11 DSTU2 xml
+validate Medication/1000 DSTU2 xml
 validate Medication DSTU2 xml
-validate Medication/11 DSTU1 json
+validate Medication/1000 DSTU1 json
 validate Medication DSTU1 json
-validate Medication/11 DSTU2 json
+validate Medication/1000 DSTU2 json
 validate Medication DSTU2 json
 #
 # MedicationPrescription
