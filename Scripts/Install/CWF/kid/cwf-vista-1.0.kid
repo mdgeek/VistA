@@ -1,4 +1,4 @@
-KIDS Distribution saved on May 22, 2015@07:12:23
+KIDS Distribution saved on May 22, 2015@08:56:56
 CAREWEB DISTRIBUTION (VISTA) 1.0
 **KIDS**:CAREWEB DISTRIBUTION (VISTA) 1.0^RG UTILITIES 3.0^NETSERV CONNECTION MANAGER 1.0^NETSERV WEB SERVER 1.0^NETSERV RPC BROKER 1.0^NETSERV OAUTH2 SERVICE 1.0^SERIALIZATION FRAMEWORK 1.0^CAREWEB FRAMEWORK 1.0^CAREWEB NOTIFICATION 1.0^CAREWEB CONTEXT 1.0^CAREWEB CWADF 1.0^CAREWEB ALLERGY COVERSHEET 1.0^CAREWEB CONSULT COVERSHEET 1.0^CAREWEB LAB COVERSHEET 1.0^CAREWEB VITALS 1.0^CAREWEB SMART ADAPTER 1.0^
 
@@ -7,7 +7,7 @@ CAREWEB DISTRIBUTION (VISTA) 1.0
 "BLD",8492,0)
 CAREWEB DISTRIBUTION (VISTA) 1.0^^1^3150522^n
 "BLD",8492,6.3)
-269
+270
 "BLD",8492,10,0)
 ^9.63^570^15
 "BLD",8492,10,100,0)
@@ -235,7 +235,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWFUTL",1,0)
 RGCWFUTL ;RI/CBMI/DKM CareWeb Management Utilites;01-Apr-2015 14:05;DKM
 "RTN","RGCWFUTL",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 269
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 270
 "RTN","RGCWFUTL",3,0)
  ; Initiate shutdown sequence for applications
 "RTN","RGCWFUTL",4,0)
@@ -383,7 +383,7 @@ They perform generic functions.
 "BLD",8503,4,0)
 ^9.64PA^^
 "BLD",8503,6.3)
-426
+428
 "BLD",8503,"ABNS",0)
 ^9.66A^1^1
 "BLD",8503,"ABNS",1,0)
@@ -1001,7 +1001,7 @@ D XPZ2^XPDIQ
 "RTN","RGUT",1,0)
 RGUT ;RI/CBMI/DKM - General purpose utilities;01-Apr-2015 08:46;DKM
 "RTN","RGUT",2,0)
- ;;3.0;RG UTILITIES;**1**;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;**1**;Mar 20, 2007;Build 428
 "RTN","RGUT",3,0)
  ;;
 "RTN","RGUT",4,0)
@@ -1453,7 +1453,7 @@ UUID() N R,I,N,S
 "RTN","RGUT1",1,0)
 RGUT1 ;RG/IND/PLS - General Purpose Utilites - Con't ;03-Mar-2015 14:24;DKM
 "RTN","RGUT1",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUT1",3,0)
  ;;
 "RTN","RGUT1",4,0)
@@ -1523,7 +1523,7 @@ ASKDATE(PMT,DFL,MIN,OPT) ;
 "RTN","RGUTALR",1,0)
 RGUTALR ;RI/CBMI/DKM - Send alert to user(s) via kernel or mail;03-Mar-2015 14:24;DKM
 "RTN","RGUTALR",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTALR",3,0)
  ;;
 "RTN","RGUTALR",4,0)
@@ -1583,7 +1583,7 @@ MAIL(RGMSG,XMY,XMSUB,XMDUZ) ;
 "RTN","RGUTBC28",1,0)
 RGUTBC28 ;RI/CBMI/DKM/PLS - Convert 128 barcode to HPCL-compatible form ;03-Mar-2015 14:24;DKM
 "RTN","RGUTBC28",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTBC28",3,0)
  ;;
 "RTN","RGUTBC28",4,0)
@@ -1919,7 +1919,7 @@ BC(TXT,ORN,HGT,HOR,VER,WID) ;
 "RTN","RGUTBC39",1,0)
 RGUTBC39 ;RG/IND/PLS - Converts barcode 39 to HPCL-compatible format ;03-Mar-2015 14:24;DKM
 "RTN","RGUTBC39",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTBC39",3,0)
  ;;
 "RTN","RGUTBC39",4,0)
@@ -2113,7 +2113,7 @@ CHK(X) ;CALCULATE CHECK DIGIT AND RETURN STRING TO PRINT
 "RTN","RGUTBCDA",1,0)
 RGUTBCDA ;RG/IND/PLS - Converts barcode CODABAR to HPCL-compatible format ;03-Mar-2015 14:24;DKM
 "RTN","RGUTBCDA",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTBCDA",3,0)
  ;;
 "RTN","RGUTBCDA",4,0)
@@ -2267,7 +2267,7 @@ CHK(X) ;CALCULATE CHECK DIGIT AND RETURN STRING TO PRINT
 "RTN","RGUTBIG",1,0)
 RGUTBIG ;RG/IND/PLS - Print a banner in large letters;03-Mar-2015 14:24;DKM
 "RTN","RGUTBIG",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTBIG",3,0)
  ;;
 "RTN","RGUTBIG",4,0)
@@ -2435,7 +2435,7 @@ TBL ;; Table of character "raster images"
 "RTN","RGUTDAT",1,0)
 RGUTDAT ;RI/CBMI/DKM - Date range input;03-Mar-2015 14:24;DKM
 "RTN","RGUTDAT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTDAT",3,0)
  ;;
 "RTN","RGUTDAT",4,0)
@@ -2587,7 +2587,7 @@ PAUSE(%RGZ) ;
 "RTN","RGUTDATF",1,0)
 RGUTDATF ;RI/CBMI/DKM - Date Formatter;03-Mar-2015 14:24;DKM
 "RTN","RGUTDATF",2,0)
- ;;3.0;RG UTILITIES;;Feb 20, 2015;Build 426
+ ;;3.0;RG UTILITIES;;Feb 20, 2015;Build 428
 "RTN","RGUTDATF",3,0)
  ;;1.0;SERIALIZATION FRAMEWORK;;14-March-2014;Build 1
 "RTN","RGUTDATF",4,0)
@@ -2775,7 +2775,7 @@ FMTX() N TZ
 "RTN","RGUTDDR",1,0)
 RGUTDDR ;RI/CBMI/DKM - FileMan RPC Extensions ;19-May-2015 22:43;DKM
 "RTN","RGUTDDR",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTDDR",3,0)
  ;;
 "RTN","RGUTDDR",4,0)
@@ -3293,7 +3293,7 @@ XREFFLD(FNUM,XREF) ;EP
 "RTN","RGUTDIC",1,0)
 RGUTDIC ;RI/CBMI/DKM - Encapsulated FileMan API;03-Mar-2015 14:24;DKM
 "RTN","RGUTDIC",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTDIC",3,0)
  ;;
 "RTN","RGUTDIC",4,0)
@@ -3625,7 +3625,7 @@ DA N %RGZ,%RGZ1,%RGZ2
 "RTN","RGUTDT",1,0)
 RGUTDT ;RI/CBMI/DKM - FM date to formatted date;03-Mar-2015 14:24;DKM
 "RTN","RGUTDT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTDT",3,0)
  ;;
 "RTN","RGUTDT",4,0)
@@ -3703,7 +3703,7 @@ ENTRY(RGDAT,RGFMT) ; EP
 "RTN","RGUTEDT",1,0)
 RGUTEDT ;RI/CBMI/DKM - Screen-oriented line editor;22-Mar-2015 02:37;DKM
 "RTN","RGUTEDT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTEDT",3,0)
  ;;
 "RTN","RGUTEDT",4,0)
@@ -4039,7 +4039,7 @@ RESET W $S(RGOPT["R":RGRVON,1:RGRVOFF)
 "RTN","RGUTHFS",1,0)
 RGUTHFS ;RI/CBMI/DKM - Host IO Support ;03-Mar-2015 14:24;DKM
 "RTN","RGUTHFS",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTHFS",3,0)
  ;;
 "RTN","RGUTHFS",4,0)
@@ -4153,7 +4153,7 @@ STRIP N I,J,K,X
 "RTN","RGUTIMP",1,0)
 RGUTIMP ;RI/CBMI/DKM - Import text into FileMan file;03-Mar-2015 14:24;DKM
 "RTN","RGUTIMP",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTIMP",3,0)
  ;;
 "RTN","RGUTIMP",4,0)
@@ -4317,7 +4317,7 @@ ERR(RGMSG,RGX) ;
 "RTN","RGUTIN0",1,0)
 RGUTIN0 ;RI/CBMI/DKM - Platform-dependent operations;01-Apr-2015 09:11;DKM
 "RTN","RGUTIN0",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTIN0",3,0)
  ;;
 "RTN","RGUTIN0",4,0)
@@ -4371,7 +4371,7 @@ OPENX(X1,X2) ;EP
 "RTN","RGUTIN16",1,0)
 RGUTIN16 ;RI/CBMI/DKM - Inits for VMS;11-Mar-2015 09:33;DKM
 "RTN","RGUTIN16",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTIN16",3,0)
  ;;
 "RTN","RGUTIN16",4,0)
@@ -4545,7 +4545,7 @@ CLIENTIP() ;EP
 "RTN","RGUTIN18",1,0)
 RGUTIN18 ;RI/CBMI/DKM - Inits for Cache (Windows);11-Mar-2015 09:33;DKM
 "RTN","RGUTIN18",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTIN18",3,0)
  ;;
 "RTN","RGUTIN18",4,0)
@@ -4741,7 +4741,7 @@ CLIENTIP() ;EP
 "RTN","RGUTIN19",1,0)
 RGUTIN19 ;RI/CBMI/DKM - Inits for GT.M (Unix);01-Apr-2015 16:04;DKM
 "RTN","RGUTIN19",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTIN19",3,0)
  ;;
 "RTN","RGUTIN19",4,0)
@@ -4941,7 +4941,7 @@ CLIENTIP() ;EP
 "RTN","RGUTIN58",1,0)
 RGUTIN58 ;RI/CBMI/DKM/PLS - Inits for MSM-UNIX;11-Mar-2015 09:33;DKM
 "RTN","RGUTIN58",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTIN58",3,0)
  ;;
 "RTN","RGUTIN58",4,0)
@@ -5161,7 +5161,7 @@ JW(ZOSHC) ;msm extrinsic
 "RTN","RGUTIN68",1,0)
 RGUTIN68 ;RI/CBMI/DKM - Inits for Cache (Unix);11-Mar-2015 09:33;DKM
 "RTN","RGUTIN68",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTIN68",3,0)
  ;;
 "RTN","RGUTIN68",4,0)
@@ -5357,7 +5357,7 @@ CLIENTIP() ;EP
 "RTN","RGUTIN8",1,0)
 RGUTIN8 ;RI/CBMI/DKM - Inits for MSM;11-Mar-2015 09:33;DKM
 "RTN","RGUTIN8",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTIN8",3,0)
  ;;
 "RTN","RGUTIN8",4,0)
@@ -5549,7 +5549,7 @@ CLIENTIP() ;EP
 "RTN","RGUTINIT",1,0)
 RGUTINIT ;RI/CBMI/DKM - Platform specific inits;01-Apr-2015 08:59;DKM
 "RTN","RGUTINIT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTINIT",3,0)
  ;;
 "RTN","RGUTINIT",4,0)
@@ -5677,7 +5677,7 @@ DEVICE ; Device setup
 "RTN","RGUTLK2",1,0)
 RGUTLK2 ;RI/CBMI/DKM - Continuation of RGUTLKP;03-Mar-2015 14:24;DKM
 "RTN","RGUTLK2",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTLK2",3,0)
  ;;
 "RTN","RGUTLK2",4,0)
@@ -6081,7 +6081,7 @@ XY(X,Y) ;I %RGRS W:'X *13 S $X=X,$Y=Y Q ""
 "RTN","RGUTLKP",1,0)
 RGUTLKP ;RI/CBMI/DKM - File lookup utility;03-Mar-2015 14:24;DKM
 "RTN","RGUTLKP",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTLKP",3,0)
  ;;
 "RTN","RGUTLKP",4,0)
@@ -6379,7 +6379,7 @@ ERROR W:'%RGHTML $$XY(0,%RGY+1),*7,%RGEOL,$$EC^%ZOSV
 "RTN","RGUTMTL",1,0)
 RGUTMTL ;RI/CBMI/DKM - Multi-term lookup support ;03-Mar-2015 14:24;DKM
 "RTN","RGUTMTL",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTMTL",3,0)
  ;;
 "RTN","RGUTMTL",4,0)
@@ -6599,7 +6599,7 @@ STEM(RGLAST,RGSTEM,RGF) ;
 "RTN","RGUTNTEG",1,0)
 RGUTNTEG ;ISC/XTSUMBLD KERNEL - Package checksum checker ;03-Mar-2015 14:24;DKM
 "RTN","RGUTNTEG",2,0)
- ;;3.0;RG UTILITIES;;Mar 20,2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20,2007;Build 428
 "RTN","RGUTNTEG",3,0)
  ;;7.3;3070531.172703
 "RTN","RGUTNTEG",4,0)
@@ -6693,7 +6693,7 @@ RGUT1 ;;508281
 "RTN","RGUTOS",1,0)
 RGUTOS ;RI/CBMI/DKM - Platform-dependent operations;01-Apr-2015 09:11;DKM
 "RTN","RGUTOS",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTOS",3,0)
  ;;
 "RTN","RGUTOS",4,0)
@@ -6937,7 +6937,7 @@ CLIENTIP() ;EP
 "RTN","RGUTOS1",1,0)
 RGUTOS ;RI/CBMI/DKM - Platform-dependent operations;01-Apr-2015 09:11;DKM
 "RTN","RGUTOS1",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTOS1",3,0)
  ;;
 "RTN","RGUTOS1",4,0)
@@ -7169,7 +7169,7 @@ ERRDSM S X1=$P($P(X,", ",2),"-",3),X2=$P($P(X,", "),":"),X3=$$TRIM^RGUT($P(X,", 
 "RTN","RGUTREG",1,0)
 RGUTREG ;RI/CBMI/DKM - Various registration actions ;03-Mar-2015 14:24;DKM
 "RTN","RGUTREG",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTREG",3,0)
  ;;
 "RTN","RGUTREG",4,0)
@@ -7207,7 +7207,7 @@ REGPROT(P,C,ERR) ;
 "RTN","RGUTRPC",1,0)
 RGUTRPC ;RI/CBMI/DKM - RPC Encapsulations for RGUT routines ;03-Mar-2015 14:24;DKM
 "RTN","RGUTRPC",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTRPC",3,0)
  ;;
 "RTN","RGUTRPC",4,0)
@@ -7493,7 +7493,7 @@ GETRPC(X) ;EP
 "RTN","RGUTRPRT",1,0)
 RGUTRPRT ;RI/CBMI/DKM - Routine Pretty Print Program ;03-Mar-2015 14:24;DKM
 "RTN","RGUTRPRT",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTRPRT",3,0)
  ;;
 "RTN","RGUTRPRT",4,0)
@@ -7575,7 +7575,7 @@ RJ(X) W ?(IOM-$L(X)),X
 "RTN","RGUTRTN",1,0)
 RGUTRTN ;RI/CBMI/DKM - Routine management utilities;01-Apr-2015 09:22;DKM
 "RTN","RGUTRTN",2,0)
- ;;3.0;RG UTILITIES;**1**;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;**1**;Mar 20, 2007;Build 428
 "RTN","RGUTRTN",3,0)
  ;;
 "RTN","RGUTRTN",4,0)
@@ -7655,7 +7655,7 @@ TEST(RTN) ;
 "RTN","RGUTSTX",1,0)
 RGUTSTX ;RI/CBMI/DKM - M syntax analyzer;03-Mar-2015 14:24;DKM
 "RTN","RGUTSTX",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTSTX",3,0)
  ;;
 "RTN","RGUTSTX",4,0)
@@ -7941,7 +7941,7 @@ ERRORS ;;*Error messages*
 "RTN","RGUTSTX0",1,0)
 RGUTSTX0 ;RI/CBMI/DKM - Continuation of RGUTSTX;03-Mar-2015 14:24;DKM
 "RTN","RGUTSTX0",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTSTX0",3,0)
  ;;
 "RTN","RGUTSTX0",4,0)
@@ -8271,7 +8271,7 @@ NEXT(RGC,RGI) ;
 "RTN","RGUTSTX1",1,0)
 RGUTSTX1 ;RI/CBMI/DKM - Continuation of RGUTSTX;03-Mar-2015 14:24;DKM
 "RTN","RGUTSTX1",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTSTX1",3,0)
  ;;
 "RTN","RGUTSTX1",4,0)
@@ -8609,7 +8609,7 @@ NEXT(RGC,RGI) ;
 "RTN","RGUTTSK",1,0)
 RGUTTSK ;RI/CBMI/DKM - Encapsulates TaskMan API ;14-Mar-2015 22:16;DKM
 "RTN","RGUTTSK",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTTSK",3,0)
  ;;
 "RTN","RGUTTSK",4,0)
@@ -8645,7 +8645,7 @@ QUEUE(ZTRTN,ZTDESC,ZTDTH,ZTSAVE,ZTIO,ZTUCI,ZTPRI) ;
 "RTN","RGUTUSR",1,0)
 RGUTUSR ;RI/CBMI/DKM - Parse recipient list;03-Mar-2015 14:24;DKM
 "RTN","RGUTUSR",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTUSR",3,0)
  ;;
 "RTN","RGUTUSR",4,0)
@@ -8759,7 +8759,7 @@ MGRP2(RGMGRP) ;
 "RTN","RGUTUU",1,0)
 RGUTUU ;RI/CBMI/DKM - UUEncode and UUDecode functions.;03-Mar-2015 14:24;DKM
 "RTN","RGUTUU",2,0)
- ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 426
+ ;;3.0;RG UTILITIES;;Mar 20, 2007;Build 428
 "RTN","RGUTUU",3,0)
  ;;
 "RTN","RGUTUU",4,0)
@@ -8839,7 +8839,7 @@ y^y^f^^^^n^^
 "BLD",8506,4,"B",996.5,996.5)
 
 "BLD",8506,6.3)
-145
+148
 "BLD",8506,"ABPKG")
 n
 "BLD",8506,"KRN",0)
@@ -9053,7 +9053,7 @@ D XPZ2^XPDIQ
 "RTN","RGNETTCP",1,0)
 RGNETTCP ;RI/CBMI/DKM - TCP Connection Manager ;25-Apr-2015 06:17;DKM
 "RTN","RGNETTCP",2,0)
- ;;1.0;NETWORK SERVICES;;29-Mar-2015;Build 145
+ ;;1.0;NETWORK SERVICES;;29-Mar-2015;Build 148
 "RTN","RGNETTCP",3,0)
  ;=================================================================
 "RTN","RGNETTCP",4,0)
@@ -9949,7 +9949,7 @@ y^y^f^^n^^y^o^n
 "BLD",8508,4,"B",996.522,996.522)
 
 "BLD",8508,6.3)
-145
+148
 "BLD",8508,"ABPKG")
 n
 "BLD",8508,"KRN",0)
@@ -13123,7 +13123,7 @@ D XPZ2^XPDIQ
 "RTN","RGNETWRR",1,0)
 RGNETWRR ;RI/CBMI/DKM - Web endpoint for RPC and routine lookup ;01-Apr-2015 11:20;DKM
 "RTN","RGNETWRR",2,0)
- ;;1.0;RGSERV WEB SERVER;;1-Apr-2015;Build 145
+ ;;1.0;RGSERV WEB SERVER;;1-Apr-2015;Build 148
 "RTN","RGNETWRR",3,0)
  ;=================================================================
 "RTN","RGNETWRR",4,0)
@@ -13477,7 +13477,7 @@ ESCAPE(X) ;
 "RTN","RGNETWWW",1,0)
 RGNETWWW ;RI/CBMI/DKM - HTTP support ;21-May-2015 10:45;DKM
 "RTN","RGNETWWW",2,0)
- ;;1.0;NETWORK SERVICES;;14-March-2014;Build 145
+ ;;1.0;NETWORK SERVICES;;14-March-2014;Build 148
 "RTN","RGNETWWW",3,0)
  ;=================================================================
 "RTN","RGNETWWW",4,0)
@@ -14745,7 +14745,7 @@ y^y^f^^^^n
 "BLD",8509,4,"B",996.513,996.513)
 
 "BLD",8509,6.3)
-146
+149
 "BLD",8509,"ABPKG")
 n
 "BLD",8509,"INI")
@@ -15951,7 +15951,7 @@ D XPZ2^XPDIQ
 "RTN","RGNETBAC",1,0)
 RGNETBAC ;RI/CBMI/DKM - NETSERV RPC Broker Actions;20-May-2015 22:15;AA
 "RTN","RGNETBAC",2,0)
- ;;1.0;NETWORK SERVICES;;01-Apr-2015;Build 146
+ ;;1.0;NETWORK SERVICES;;01-Apr-2015;Build 149
 "RTN","RGNETBAC",3,0)
  ;=================================================================
 "RTN","RGNETBAC",4,0)
@@ -16239,7 +16239,7 @@ AUTHMETH(UCI) ;
 "RTN","RGNETBAS",1,0)
 RGNETBAS ;RI/CBMI/DKM - Asynchronous RPC calls ;13-Apr-2015 05:33;DKM
 "RTN","RGNETBAS",2,0)
- ;;1.0;NETWORK SERVICES;;01-Apr-2015;Build 146
+ ;;1.0;NETWORK SERVICES;;01-Apr-2015;Build 149
 "RTN","RGNETBAS",3,0)
  ;=================================================================
 "RTN","RGNETBAS",4,0)
@@ -16367,7 +16367,7 @@ STOPALL N ZTSK
 "RTN","RGNETBEV",1,0)
 RGNETBEV ;RI/CBMI/DKM - Event Support ;19-May-2015 09:09;DKM
 "RTN","RGNETBEV",2,0)
- ;;1.0;NETWORK SERVICES;;01-Apr-2015;Build 146
+ ;;1.0;NETWORK SERVICES;;01-Apr-2015;Build 149
 "RTN","RGNETBEV",3,0)
  ;=================================================================
 "RTN","RGNETBEV",4,0)
@@ -16909,7 +16909,7 @@ RELATES(EVA,EVB) ;EP
 "RTN","RGNETBIN",1,0)
 RGNETBIN ;RI/CBMI/DKM - NETSERV RPC Broker Inits ;09-Apr-2015 19:22;DKM
 "RTN","RGNETBIN",2,0)
- ;;1.0;NETWORK SERVICES;;01-Apr-2015;Build 146
+ ;;1.0;NETWORK SERVICES;;01-Apr-2015;Build 149
 "RTN","RGNETBIN",3,0)
  ;=================================================================
 "RTN","RGNETBIN",4,0)
@@ -16935,7 +16935,7 @@ POST N Y
 "RTN","RGNETBLG",1,0)
 RGNETBLG ;RI/CBMI/DKM - NETSERV RPC Broker Activity Log Support ;15-Apr-2015 07:25;DKM
 "RTN","RGNETBLG",2,0)
- ;;1.0;NETWORK SERVICES;;Jan 3, 2008;Build 146
+ ;;1.0;NETWORK SERVICES;;Jan 3, 2008;Build 149
 "RTN","RGNETBLG",3,0)
  ;=================================================================
 "RTN","RGNETBLG",4,0)
@@ -17121,7 +17121,7 @@ ISACTIVE() ;
 "RTN","RGNETBRK",1,0)
 RGNETBRK ;RI/CBMI/DKM - NETSERV RPC Broker ;20-May-2015 22:56;AA
 "RTN","RGNETBRK",2,0)
- ;;1.0;NETWORK SERVICES;;01-Apr-2015;Build 146
+ ;;1.0;NETWORK SERVICES;;01-Apr-2015;Build 149
 "RTN","RGNETBRK",3,0)
  ;=================================================================
 "RTN","RGNETBRK",4,0)
@@ -17287,7 +17287,7 @@ CTL(X) I $D(RGNETB(X)) N Y S Y=RGNETB(X) K RGNETB(X) Q Y
 "RTN","RGNETBRP",1,0)
 RGNETBRP ;RI/CBMI/DKM - NETSERV RPC Broker Privileged RPCs;20-May-2015 23:04;AA
 "RTN","RGNETBRP",2,0)
- ;;1.0;NETWORK SERVICES;;01-Apr-2015;Build 146
+ ;;1.0;NETWORK SERVICES;;01-Apr-2015;Build 149
 "RTN","RGNETBRP",3,0)
  ;=================================================================
 "RTN","RGNETBRP",4,0)
@@ -17835,7 +17835,7 @@ TMPGBL(X) ;
 "RTN","RGNETBUT",1,0)
 RGNETBUT ;RI/CBMI/DKM - NETSERV RPC Broker Utilities ;01-Apr-2015 14:12;DKM
 "RTN","RGNETBUT",2,0)
- ;;1.0;NETWORK SERVICES;;01-Apr-2015;Build 146
+ ;;1.0;NETWORK SERVICES;;01-Apr-2015;Build 149
 "RTN","RGNETBUT",3,0)
  ;=================================================================
 "RTN","RGNETBUT",4,0)
@@ -19019,7 +19019,7 @@ y^y^f^^^^n
 "BLD",8511,4,"B",996.53,996.53)
 
 "BLD",8511,6.3)
-145
+148
 "BLD",8511,"ABPKG")
 n
 "BLD",8511,"KRN",0)
@@ -19283,7 +19283,7 @@ D XPZ2^XPDIQ
 "RTN","RGNETOA",1,0)
 RGNETOA ;RI/CBMI/DKM - OAuth2 Support ;17-Apr-2015 12:41;DKM
 "RTN","RGNETOA",2,0)
- ;;1.0;NETWORK SERVICES;;14-March-2014;Build 145
+ ;;1.0;NETWORK SERVICES;;14-March-2014;Build 148
 "RTN","RGNETOA",3,0)
  ;=================================================================
 "RTN","RGNETOA",4,0)
@@ -19437,7 +19437,7 @@ PUT(PN,VL,PF) ;
 "RTN","RGNETOAA",1,0)
 RGNETOAA ;RI/CBMI/DKM - OAuth2 Authorization Endpoint ;17-Apr-2015 12:34;DKM
 "RTN","RGNETOAA",2,0)
- ;;1.0;NETWORK SERVICES;;14-March-2014;Build 145
+ ;;1.0;NETWORK SERVICES;;14-March-2014;Build 148
 "RTN","RGNETOAA",3,0)
  ;=================================================================
 "RTN","RGNETOAA",4,0)
@@ -19541,7 +19541,7 @@ VALIDRDU() ;
 "RTN","RGNETOAT",1,0)
 RGNETOAT ;RI/CBMI/DKM - OAuth2 Token Endpoint ;17-Apr-2015 12:37;DKM
 "RTN","RGNETOAT",2,0)
- ;;1.0;NETWORK SERVICES;;14-March-2014;Build 145
+ ;;1.0;NETWORK SERVICES;;14-March-2014;Build 148
 "RTN","RGNETOAT",3,0)
  ;=================================================================
 "RTN","RGNETOAT",4,0)
@@ -20043,7 +20043,7 @@ y^y^f^^n^^y^r^n
 "BLD",8505,4,"B",998.1,998.1)
 
 "BLD",8505,6.3)
-397
+400
 "BLD",8505,"ABPKG")
 n
 "BLD",8505,"INI")
@@ -26383,7 +26383,7 @@ D XPZ2^XPDIQ
 "RTN","RGSEFHIJ",1,0)
 RGSEFHIJ ;RI/CBMI/DKM - JSON FHIR Support ;10-May-2015 12:22;DKM
 "RTN","RGSEFHIJ",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 400
 "RTN","RGSEFHIJ",3,0)
  ;=================================================================
 "RTN","RGSEFHIJ",4,0)
@@ -26821,7 +26821,7 @@ NAME(NAME,USE) ;
 "RTN","RGSEFHIR",1,0)
 RGSEFHIR ;RI/CBMI/DKM - Generic FHIR Support ;10-May-2015 12:18;DKM
 "RTN","RGSEFHIR",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 400
 "RTN","RGSEFHIR",3,0)
  ;=================================================================
 "RTN","RGSEFHIR",4,0)
@@ -27013,7 +27013,7 @@ PARSIDTP(TYPE) ;
 "RTN","RGSEFHIX",1,0)
 RGSEFHIX ;RI/CBMI/DKM - XML FHIR Support ;10-May-2015 12:22;DKM
 "RTN","RGSEFHIX",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 400
 "RTN","RGSEFHIX",3,0)
  ;=================================================================
 "RTN","RGSEFHIX",4,0)
@@ -27457,7 +27457,7 @@ NAME(NAME,USE) ;
 "RTN","RGSEINIT",1,0)
 RGSEINIT ;RI/CBMI/DKM - Installation Support ;19-Mar-2015 13:31;DKM
 "RTN","RGSEINIT",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 400
 "RTN","RGSEINIT",3,0)
  ;=================================================================
 "RTN","RGSEINIT",4,0)
@@ -27497,7 +27497,7 @@ POST Q
 "RTN","RGSEJSON",1,0)
 RGSEJSON ;RI/CBMI/DKM - JSON Serialization Support ;22-Apr-2015 11:31;DKM
 "RTN","RGSEJSON",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;14-March-2014;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;14-March-2014;Build 400
 "RTN","RGSEJSON",3,0)
  ;=================================================================
 "RTN","RGSEJSON",4,0)
@@ -27975,7 +27975,7 @@ ADD(X) D ADD^RGNETWWW(X)
 "RTN","RGSER",1,0)
 RGSER ;RI/CBMI/DKM - Core Serialization Support ;24-Apr-2015 08:51;DKM
 "RTN","RGSER",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;14-March-2014;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;14-March-2014;Build 400
 "RTN","RGSER",3,0)
  ; RPC: Perform a GET operation
 "RTN","RGSER",4,0)
@@ -28205,7 +28205,7 @@ ISMATCH(PATH,PTRN) ;
 "RTN","RGSERDD",1,0)
 RGSERDD ;RI/CBMI/DKM - Data dictionary logic ;20-Apr-2015 13:39;DKM
 "RTN","RGSERDD",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;14-March-2014;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;14-March-2014;Build 400
 "RTN","RGSERDD",3,0)
  ;=================================================================
 "RTN","RGSERDD",4,0)
@@ -28249,7 +28249,7 @@ ITXCTRL(X,DA) ;
 "RTN","RGSERDOC",1,0)
 RGSERDOC ;RI/CBMI/DKM - Document Resource Support ;31-Mar-2015 22:52;DKM
 "RTN","RGSERDOC",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 400
 "RTN","RGSERDOC",3,0)
  ;=================================================================
 "RTN","RGSERDOC",4,0)
@@ -28285,7 +28285,7 @@ TOBINARY(IEN,PRE,PST) ;
 "RTN","RGSERENC",1,0)
 RGSERENC ;RI/CBMI/DKM - Encounter Resource Support ;01-Apr-2015 16:50;DKM
 "RTN","RGSERENC",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 400
 "RTN","RGSERENC",3,0)
  ;=================================================================
 "RTN","RGSERENC",4,0)
@@ -28349,7 +28349,7 @@ VISREFDT(IEN) ;
 "RTN","RGSERGET",1,0)
 RGSERGET ;RI/CBMI/DKM - GET method support ;20-Apr-2015 13:39;DKM
 "RTN","RGSERGET",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;14-March-2014;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;14-March-2014;Build 400
 "RTN","RGSERGET",3,0)
  ;=================================================================
 "RTN","RGSERGET",4,0)
@@ -29291,7 +29291,7 @@ F(FN,SB,ESC) ;
 "RTN","RGSERLAB",1,0)
 RGSERLAB ;RI/CBMI/DKM - Return lab observations. ;31-Mar-2015 19:01;DKM
 "RTN","RGSERLAB",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 400
 "RTN","RGSERLAB",3,0)
  ;=================================================================
 "RTN","RGSERLAB",4,0)
@@ -29507,7 +29507,7 @@ PUT(NAME,INTERNAL,EXTERNAL) ;
 "RTN","RGSERLOC",1,0)
 RGSERLOC ;RI/CBMI/DKM - Location Resource Support ;21-May-2015 15:35;DKM
 "RTN","RGSERLOC",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 400
 "RTN","RGSERLOC",3,0)
  ;=================================================================
 "RTN","RGSERLOC",4,0)
@@ -29551,7 +29551,7 @@ GETSTAT(INACT,REACT) ;
 "RTN","RGSEROBS",1,0)
 RGSEROBS ;RI/CBMI/DKM - Return observations in intermediate format. ;01-Apr-2015 16:50;DKM
 "RTN","RGSEROBS",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 400
 "RTN","RGSEROBS",3,0)
  ;=================================================================
 "RTN","RGSEROBS",4,0)
@@ -29781,7 +29781,7 @@ RELJSN(RELATED) ;
 "RTN","RGSERPAT",1,0)
 RGSERPAT ;RI/CBMI/DKM - Patient Resource Support ;31-Mar-2015 18:40;DKM
 "RTN","RGSERPAT",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 400
 "RTN","RGSERPAT",3,0)
  ;=================================================================
 "RTN","RGSERPAT",4,0)
@@ -29805,7 +29805,7 @@ NAMEITER(CTX) ;
 "RTN","RGSERPER",1,0)
 RGSERPER ;RI/CBMI/DKM - User/Practitioner/Person Resource Support ;31-Mar-2015 18:40;DKM
 "RTN","RGSERPER",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 400
 "RTN","RGSERPER",3,0)
  ;=================================================================
 "RTN","RGSERPER",4,0)
@@ -29821,7 +29821,7 @@ NAMEITER(CTX) ;
 "RTN","RGSERVIT",1,0)
 RGSERVIT ;RI/CBMI/DKM - Return vital observations. ;17-Apr-2015 12:44;DKM
 "RTN","RGSERVIT",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;07-Feb-2015 08:51;Build 400
 "RTN","RGSERVIT",3,0)
  ;=================================================================
 "RTN","RGSERVIT",4,0)
@@ -30029,7 +30029,7 @@ RANGES N VAL
 "RTN","RGSEXML",1,0)
 RGSEXML ;RI/CBMI/DKM - XML Support ;08-Apr-2015 17:02;DKM
 "RTN","RGSEXML",2,0)
- ;;1.0;SERIALIZATION FRAMEWORK;;14-March-2014;Build 397
+ ;;1.0;SERIALIZATION FRAMEWORK;;14-March-2014;Build 400
 "RTN","RGSEXML",3,0)
  ;=================================================================
 "RTN","RGSEXML",4,0)
@@ -31201,7 +31201,7 @@ I $$SCRN^RGCWKDTP(Y,1)
 "BLD",8485,4,"B",998.1,998.1)
 
 "BLD",8485,6.3)
-439
+441
 "BLD",8485,"ABPKG")
 n
 "BLD",8485,"INI")
@@ -32263,7 +32263,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWFPAR",1,0)
 RGCWFPAR ;RI/CBMI/DKM - Parameter management ;01-Apr-2015 14:12;DKM
 "RTN","RGCWFPAR",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 439
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 441
 "RTN","RGCWFPAR",3,0)
  ; Load a parameter template
 "RTN","RGCWFPAR",4,0)
@@ -32463,7 +32463,7 @@ SETPAR(DATA,PARAM,VAL,ENT,INST) ;
 "RTN","RGCWFRPC",1,0)
 RGCWFRPC ;RI/CBMI/DKM - Miscellaneous RPC calls ;01-Apr-2015 14:05;DKM
 "RTN","RGCWFRPC",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 439
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 441
 "RTN","RGCWFRPC",3,0)
  ; RPC: Get/set DISV entry for selected file/IEN
 "RTN","RGCWFRPC",4,0)
@@ -32581,7 +32581,7 @@ TMPGBL(X) ;EP
 "RTN","RGCWFUSR",1,0)
 RGCWFUSR ;RI/CBMI/DKM - User utility methods;04-Mar-2015 16:23;DKM
 "RTN","RGCWFUSR",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 439
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 441
 "RTN","RGCWFUSR",3,0)
  ; Returns true if user has key
 "RTN","RGCWFUSR",4,0)
@@ -32815,7 +32815,7 @@ NAMEITER(CTX) ;
 "RTN","RGCWFUTL",1,0)
 RGCWFUTL ;RI/CBMI/DKM CareWeb Management Utilites;01-Apr-2015 14:05;DKM
 "RTN","RGCWFUTL",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 439
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 441
 "RTN","RGCWFUTL",3,0)
  ; Initiate shutdown sequence for applications
 "RTN","RGCWFUTL",4,0)
@@ -32951,7 +32951,7 @@ SHOWSESS() ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;01-Apr-2015 14:05;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 439
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 441
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -34285,7 +34285,13 @@ CAREWEB NOTIFICATION 1.0
 "BLD",8486,0)
 CAREWEB NOTIFICATION 1.0^^0^3150522^n
 "BLD",8486,4,0)
-^9.64PA^998.1^4
+^9.64PA^996.51^4
+"BLD",8486,4,996.51,0)
+996.51
+"BLD",8486,4,996.51,222)
+n^y^f^^y^^y^o^n
+"BLD",8486,4,996.51,224)
+I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8486,4,998.1,0)
 998.1
 "BLD",8486,4,998.1,222)
@@ -34302,22 +34308,16 @@ I $$SCRN^RGCWKDTP(Y,4)
 999.202
 "BLD",8486,4,999.202,222)
 y^y^f^^^^n
-"BLD",8486,4,19941.21,0)
-19941.21
-"BLD",8486,4,19941.21,222)
-n^y^f^^y^^y^o^n
-"BLD",8486,4,19941.21,224)
-I $$SCRN^RGCWKDTP(Y,5)
+"BLD",8486,4,"B",996.51,996.51)
+
 "BLD",8486,4,"B",998.1,998.1)
 
 "BLD",8486,4,"B",999.201,999.201)
 
 "BLD",8486,4,"B",999.202,999.202)
 
-"BLD",8486,4,"B",19941.21,19941.21)
-
 "BLD",8486,6.3)
-263
+264
 "BLD",8486,"INI")
 PRE^RGCWKDIN
 "BLD",8486,"INIT")
@@ -34474,6 +34474,18 @@ PRETRANS^RGCWKDTP
 ^9.62^^
 "BLD",8486,"REQB",0)
 ^9.611^^
+"DATA",996.51,10,0)
+ALERT.SCHEDULE^^60^^^1
+"DATA",996.51,10,1)
+D SCHCHECK^RGCWXQ
+"DATA",996.51,26,0)
+ALERT.MONITOR^0^60^^^0
+"DATA",996.51,26,1)
+D ALRCHECK^RGCWXQ
+"DATA",996.51,26,99,0)
+^996.51099^1^1^3061128^^^^
+"DATA",996.51,26,99,1,0)
+Used to notify client of new alerts.
 "DATA",999.201,1,0)
 OR
 "DATA",999.201,1,1)
@@ -34496,18 +34508,28 @@ I $E(AID,1,6)="BEHOXQ"!($E(AID,1,6)="RGCWXQ")
 D CWFPARSE^RGCWXQ(AID,.ALR)
 "DATA",999.201,3,3)
 D CWFDEL^RGCWXQ(AID,1)
-"DATA",19941.21,10,0)
-ALERT.SCHEDULE^^60^^^1
-"DATA",19941.21,10,1)
-D SCHCHECK^RGCWXQ
-"DATA",19941.21,26,0)
-ALERT.MONITOR^0^60^^^0
-"DATA",19941.21,26,1)
-D ALRCHECK^RGCWXQ
-"DATA",19941.21,26,99,0)
-^19941.2199^1^1^3061128^^^^
-"DATA",19941.21,26,99,1,0)
-Used to notify client of new alerts.
+"FIA",996.51)
+NETSERV BROKER EVENT TYPE
+"FIA",996.51,0)
+^RGNET(996.51,
+"FIA",996.51,0,0)
+996.51
+"FIA",996.51,0,1)
+n^y^f^^y^^y^o^n
+"FIA",996.51,0,10)
+
+"FIA",996.51,0,11)
+I $$SCRN^RGCWKDTP(Y,5)
+"FIA",996.51,0,"RLRO")
+
+"FIA",996.51,996.51)
+0
+"FIA",996.51,996.5102)
+0
+"FIA",996.51,996.51021)
+0
+"FIA",996.51,996.51099)
+0
 "FIA",998.1)
 SERIALIZATION CONTROL
 "FIA",998.1,0)
@@ -34574,28 +34596,6 @@ y^y^f^^^^n
 0
 "FIA",999.202,999.2022)
 0
-"FIA",19941.21)
-CIA EVENT TYPE
-"FIA",19941.21,0)
-^CIANB(19941.21,
-"FIA",19941.21,0,0)
-19941.21
-"FIA",19941.21,0,1)
-n^y^f^^y^^y^o^n
-"FIA",19941.21,0,10)
-
-"FIA",19941.21,0,11)
-I $$SCRN^RGCWKDTP(Y,5)
-"FIA",19941.21,0,"RLRO")
-
-"FIA",19941.21,19941.21)
-0
-"FIA",19941.21,19941.212)
-0
-"FIA",19941.21,19941.2121)
-0
-"FIA",19941.21,19941.2199)
-0
 "INI")
 PRE^RGCWKDIN
 "INIT")
@@ -34654,8 +34654,8 @@ RGCWXQ CANCHGPT^CANCHGPT^RGCWXQ^1
 8994;16;1;;;;;;;RPCDEL^XPDIA1
 "ORD",16,8994,0)
 REMOTE PROCEDURE
-"PGL",19941.21,0,7,7)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"PGL",996.51,0,7,7)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
 "PRE")
 RGCWKDIN
 "QUES","XPF1",0)
@@ -34735,7 +34735,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;01-Apr-2015 14:05;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 263
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 264
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -35061,7 +35061,7 @@ MES(MSG,QUIT) ;
 "RTN","RGCWXQ",1,0)
 RGCWXQ ;RI/CBMI/DKM - Notification Support ;01-Apr-2015 14:12;DKM
 "RTN","RGCWXQ",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 263
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 264
 "RTN","RGCWXQ",3,0)
  ; RPC: Get alerts for user
 "RTN","RGCWXQ",4,0)
@@ -35541,7 +35541,7 @@ CANCHGPT(DATA,DFN) ; EP-
 "RTN","RGCWXQCV",1,0)
 RGCWXQCV ;RI/CBMI/DKM - Cover Sheet: Alerts ;02-Feb-2015 10:15;DKM
 "RTN","RGCWXQCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 263
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 264
 "RTN","RGCWXQCV",3,0)
  ; Return alerts according to FLG:
 "RTN","RGCWXQCV",4,0)
@@ -35582,6 +35582,18 @@ DETAIL(DATA,DFN,AID) ;
  S @DATA@(1)="Detail view not yet implemented."
 "RTN","RGCWXQCV",22,0)
  Q
+"SEC","^DIC",996.51,996.51,0,"AUDIT")
+@
+"SEC","^DIC",996.51,996.51,0,"DD")
+@
+"SEC","^DIC",996.51,996.51,0,"DEL")
+@
+"SEC","^DIC",996.51,996.51,0,"LAYGO")
+@
+"SEC","^DIC",996.51,996.51,0,"RD")
+@
+"SEC","^DIC",996.51,996.51,0,"WR")
+@
 "SEC","^DIC",998.1,998.1,0,"AUDIT")
 @
 "SEC","^DIC",998.1,998.1,0,"DD")
@@ -35618,18 +35630,6 @@ DETAIL(DATA,DFN,AID) ;
 @
 "SEC","^DIC",999.202,999.202,0,"WR")
 @
-"SEC","^DIC",19941.21,19941.21,0,"AUDIT")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DEL")
-@
-"SEC","^DIC",19941.21,19941.21,0,"LAYGO")
-@
-"SEC","^DIC",19941.21,19941.21,0,"RD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"WR")
-@
 "TEMP","EC")
 
 "TEMP","FINAL")
@@ -35652,6 +35652,236 @@ DETAIL(DATA,DFN,AID) ;
 6
 "VER")
 8.0^22.0
+"^DD",996.51,996.51,0)
+FIELD^^7^14
+"^DD",996.51,996.51,0,"DT")
+3091007
+"^DD",996.51,996.51,0,"IX","B",996.51,.01)
+
+"^DD",996.51,996.51,0,"NM","NETSERV BROKER EVENT TYPE")
+
+"^DD",996.51,996.51,0,"PT",996.55,1)
+
+"^DD",996.51,996.51,0,"PT",999.995,.01)
+
+"^DD",996.51,996.51,0,"PT",19930.995,.01)
+
+"^DD",996.51,996.51,0,"VRPK")
+CAREWEB ENHANCEMENTS
+"^DD",996.51,996.51,.01,0)
+NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
+"^DD",996.51,996.51,.01,1,0)
+^.1
+"^DD",996.51,996.51,.01,1,1,0)
+996.51^B
+"^DD",996.51,996.51,.01,1,1,1)
+S ^RGNET(996.51,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51,.01,1,1,2)
+K ^RGNET(996.51,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51,.01,3)
+Answer must be 3-100 characters in length.
+"^DD",996.51,996.51,.01,"DT")
+3030611
+"^DD",996.51,996.51,1,0)
+MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,1,3)
+M code to invoke monitor for this event type
+"^DD",996.51,996.51,1,9)
+@
+"^DD",996.51,996.51,1,"DT")
+3021021
+"^DD",996.51,996.51,2,0)
+DISABLE^S^0:NO;1:YES;^0;2^Q
+"^DD",996.51,996.51,2,3)
+Enter YES to disable this event type.
+"^DD",996.51,996.51,2,21,0)
+^.001^3^3^3030810^
+"^DD",996.51,996.51,2,21,1,0)
+If set to YES, this event type is disabled.  Once disabled, any attempt to 
+"^DD",996.51,996.51,2,21,2,0)
+enqueue the event will be ignored.  Disabling an event does not affect events
+"^DD",996.51,996.51,2,21,3,0)
+already in the queue. 
+"^DD",996.51,996.51,2,"DT")
+3030810
+"^DD",996.51,996.51,3,0)
+INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
+"^DD",996.51,996.51,3,3)
+Enter the nominal polling interval in seconds.
+"^DD",996.51,996.51,3,21,0)
+^^10^10^3021021.152235
+"^DD",996.51,996.51,3,21,1,0)
+This is the nominal polling interval for the event in seconds.
+"^DD",996.51,996.51,3,21,2,0)
+The actual polling interval is dependent on the event polling
+"^DD",996.51,996.51,3,21,3,0)
+interval set for the client application as a site parameter.
+"^DD",996.51,996.51,3,21,4,0)
+The nominal polling interval guarantees that polling for this
+"^DD",996.51,996.51,3,21,5,0)
+event will not occur more frequently than this setting.
+"^DD",996.51,996.51,3,21,6,0)
+ 
+"^DD",996.51,996.51,3,21,7,0)
+For events that are infrequent and/or do not require real time
+"^DD",996.51,996.51,3,21,8,0)
+notification, higher values may be selected for this field to
+"^DD",996.51,996.51,3,21,9,0)
+mitigate impact on system load. 
+"^DD",996.51,996.51,3,21,10,0)
+
+"^DD",996.51,996.51,3,"DT")
+3021021
+"^DD",996.51,996.51,4,0)
+LOG EVENT^S^0:NO;1:YES;^0;4^Q
+"^DD",996.51,996.51,4,3)
+Enter YES to enable logging of this event.
+"^DD",996.51,996.51,4,"DT")
+3030611
+"^DD",996.51,996.51,5,0)
+LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
+"^DD",996.51,996.51,5,3)
+Number of days to retain log entries.
+"^DD",996.51,996.51,5,"DT")
+3030611
+"^DD",996.51,996.51,6,0)
+POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
+"^DD",996.51,996.51,6,3)
+Determines how a monitored event is polled.
+"^DD",996.51,996.51,6,21,0)
+^^11^11^3030810.175145
+"^DD",996.51,996.51,6,21,1,0)
+For monitored events, this setting determines how the monitor is invoked
+"^DD",996.51,996.51,6,21,2,0)
+when the polling interval has been reached.  PER SESSION causes the event
+"^DD",996.51,996.51,6,21,3,0)
+monitor to be invoked for each active session, setting the user and
+"^DD",996.51,996.51,6,21,4,0)
+session context prior to each call.  PER INTERVAL cause the event monitor
+"^DD",996.51,996.51,6,21,5,0)
+to be invoked only once per interval.  No user or session context information
+"^DD",996.51,996.51,6,21,6,0)
+is available to the monitor in this case.
+"^DD",996.51,996.51,6,21,7,0)
+
+"^DD",996.51,996.51,6,21,8,0)
+PER SESSION is appropriate for events that depend upon a specific user or
+"^DD",996.51,996.51,6,21,9,0)
+session (e.g., notifications).  PER INTERVAL is appropriate for events 
+"^DD",996.51,996.51,6,21,10,0)
+that are independent of a user or session (e.g., status events to display
+"^DD",996.51,996.51,6,21,11,0)
+the host date/time).
+"^DD",996.51,996.51,6,"DT")
+3030810
+"^DD",996.51,996.51,7,0)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"^DD",996.51,996.51,7,12)
+Restricts to Extended Action Protocols starting with RGNE
+"^DD",996.51,996.51,7,12.1)
+S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X"""
+"^DD",996.51,996.51,7,"DT")
+3091007
+"^DD",996.51,996.51,10,0)
+DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,10,3)
+Logic to display stub info in log viewer.
+"^DD",996.51,996.51,10,9)
+@
+"^DD",996.51,996.51,10,"DT")
+3030611
+"^DD",996.51,996.51,20,0)
+PUBLICATION KEY^996.5102P^^20;0
+"^DD",996.51,996.51,21,0)
+SUBSCRIPTION KEY^996.51021P^^21;0
+"^DD",996.51,996.51,99,0)
+DESCRIPTION^996.51099^^99;0
+"^DD",996.51,996.51,100,0)
+ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
+"^DD",996.51,996.51,100,3)
+Date and time of last error
+"^DD",996.51,996.51,100,"DT")
+3061129
+"^DD",996.51,996.51,101,0)
+ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
+"^DD",996.51,996.51,101,3)
+Answer must be 1-240 characters in length.
+"^DD",996.51,996.51,101,"DT")
+3061129
+"^DD",996.51,996.5102,0)
+PUBLICATION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.5102,0,"DT")
+3021021
+"^DD",996.51,996.5102,0,"IX","B",996.5102,.01)
+
+"^DD",996.51,996.5102,0,"NM","PUBLICATION KEY")
+
+"^DD",996.51,996.5102,0,"UP")
+996.51
+"^DD",996.51,996.5102,.01,0)
+PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.5102,.01,1,0)
+^.1
+"^DD",996.51,996.5102,.01,1,1,0)
+996.5102^B
+"^DD",996.51,996.5102,.01,1,1,1)
+S ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.5102,.01,1,1,2)
+K ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)
+"^DD",996.51,996.5102,.01,3)
+Security keys required to fire this event.
+"^DD",996.51,996.5102,.01,21,0)
+^^2^2^3021021.152715
+"^DD",996.51,996.5102,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.5102,.01,21,2,0)
+the listed keys in order to fire an event of this type.
+"^DD",996.51,996.5102,.01,"DT")
+3040310
+"^DD",996.51,996.51021,0)
+SUBSCRIPTION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.51021,0,"DT")
+3021021
+"^DD",996.51,996.51021,0,"IX","B",996.51021,.01)
+
+"^DD",996.51,996.51021,0,"NM","SUBSCRIPTION KEY")
+
+"^DD",996.51,996.51021,0,"UP")
+996.51
+"^DD",996.51,996.51021,.01,0)
+SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.51021,.01,1,0)
+^.1
+"^DD",996.51,996.51021,.01,1,1,0)
+996.51021^B
+"^DD",996.51,996.51021,.01,1,1,1)
+S ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51021,.01,1,1,2)
+K ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51021,.01,3)
+Security keys required to receive this event type.
+"^DD",996.51,996.51021,.01,21,0)
+^^2^2^3021021.153002
+"^DD",996.51,996.51021,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.51021,.01,21,2,0)
+the listed keys in order subscribe to an event of this type. 
+"^DD",996.51,996.51021,.01,"DT")
+3040310
+"^DD",996.51,996.51099,0)
+DESCRIPTION SUB-FIELD^^.01^1
+"^DD",996.51,996.51099,0,"DT")
+3021021
+"^DD",996.51,996.51099,0,"NM","DESCRIPTION")
+
+"^DD",996.51,996.51099,0,"UP")
+996.51
+"^DD",996.51,996.51099,.01,0)
+DESCRIPTION^W^^0;1^Q
+"^DD",996.51,996.51099,.01,3)
+Enter a detailed description of this event type.
+"^DD",996.51,996.51099,.01,"DT")
+3021021
 "^DD",998.1,998.1,0)
 FIELD^^99^7
 "^DD",998.1,998.1,0,"DDA")
@@ -36514,236 +36744,12 @@ MESSAGE^W^^0;1^Q
 Message associated with the alert.
 "^DD",999.202,999.2022,.01,"DT")
 3030807
-"^DD",19941.21,19941.21,0)
-FIELD^^7^14
-"^DD",19941.21,19941.21,0,"DT")
-3091007
-"^DD",19941.21,19941.21,0,"IX","B",19941.21,.01)
+"^DIC",996.51,996.51,0)
+NETSERV BROKER EVENT TYPE^996.51
+"^DIC",996.51,996.51,0,"GL")
+^RGNET(996.51,
+"^DIC",996.51,"B","NETSERV BROKER EVENT TYPE",996.51)
 
-"^DD",19941.21,19941.21,0,"NM","CIA EVENT TYPE")
-
-"^DD",19941.21,19941.21,0,"PT",999.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19930.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19941.23,1)
-
-"^DD",19941.21,19941.21,0,"VRPK")
-CAREWEB ENHANCEMENTS
-"^DD",19941.21,19941.21,.01,0)
-NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
-"^DD",19941.21,19941.21,.01,1,0)
-^.1
-"^DD",19941.21,19941.21,.01,1,1,0)
-19941.21^B
-"^DD",19941.21,19941.21,.01,1,1,1)
-S ^CIANB(19941.21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.21,.01,1,1,2)
-K ^CIANB(19941.21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.21,.01,3)
-Answer must be 3-100 characters in length.
-"^DD",19941.21,19941.21,.01,"DT")
-3030611
-"^DD",19941.21,19941.21,1,0)
-MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,1,3)
-M code to invoke monitor for this event type
-"^DD",19941.21,19941.21,1,9)
-@
-"^DD",19941.21,19941.21,1,"DT")
-3021021
-"^DD",19941.21,19941.21,2,0)
-DISABLE^S^0:NO;1:YES;^0;2^Q
-"^DD",19941.21,19941.21,2,3)
-Enter YES to disable this event type.
-"^DD",19941.21,19941.21,2,21,0)
-^.001^3^3^3030810^
-"^DD",19941.21,19941.21,2,21,1,0)
-If set to YES, this event type is disabled.  Once disabled, any attempt to 
-"^DD",19941.21,19941.21,2,21,2,0)
-enqueue the event will be ignored.  Disabling an event does not affect events
-"^DD",19941.21,19941.21,2,21,3,0)
-already in the queue. 
-"^DD",19941.21,19941.21,2,"DT")
-3030810
-"^DD",19941.21,19941.21,3,0)
-INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
-"^DD",19941.21,19941.21,3,3)
-Enter the nominal polling interval in seconds.
-"^DD",19941.21,19941.21,3,21,0)
-^^10^10^3021021.152235
-"^DD",19941.21,19941.21,3,21,1,0)
-This is the nominal polling interval for the event in seconds.
-"^DD",19941.21,19941.21,3,21,2,0)
-The actual polling interval is dependent on the event polling
-"^DD",19941.21,19941.21,3,21,3,0)
-interval set for the client application as a site parameter.
-"^DD",19941.21,19941.21,3,21,4,0)
-The nominal polling interval guarantees that polling for this
-"^DD",19941.21,19941.21,3,21,5,0)
-event will not occur more frequently than this setting.
-"^DD",19941.21,19941.21,3,21,6,0)
- 
-"^DD",19941.21,19941.21,3,21,7,0)
-For events that are infrequent and/or do not require real time
-"^DD",19941.21,19941.21,3,21,8,0)
-notification, higher values may be selected for this field to
-"^DD",19941.21,19941.21,3,21,9,0)
-mitigate impact on system load. 
-"^DD",19941.21,19941.21,3,21,10,0)
-
-"^DD",19941.21,19941.21,3,"DT")
-3021021
-"^DD",19941.21,19941.21,4,0)
-LOG EVENT^S^0:NO;1:YES;^0;4^Q
-"^DD",19941.21,19941.21,4,3)
-Enter YES to enable logging of this event.
-"^DD",19941.21,19941.21,4,"DT")
-3030611
-"^DD",19941.21,19941.21,5,0)
-LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
-"^DD",19941.21,19941.21,5,3)
-Number of days to retain log entries.
-"^DD",19941.21,19941.21,5,"DT")
-3030611
-"^DD",19941.21,19941.21,6,0)
-POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
-"^DD",19941.21,19941.21,6,3)
-Determines how a monitored event is polled.
-"^DD",19941.21,19941.21,6,21,0)
-^^11^11^3030810.175145
-"^DD",19941.21,19941.21,6,21,1,0)
-For monitored events, this setting determines how the monitor is invoked
-"^DD",19941.21,19941.21,6,21,2,0)
-when the polling interval has been reached.  PER SESSION causes the event
-"^DD",19941.21,19941.21,6,21,3,0)
-monitor to be invoked for each active session, setting the user and
-"^DD",19941.21,19941.21,6,21,4,0)
-session context prior to each call.  PER INTERVAL cause the event monitor
-"^DD",19941.21,19941.21,6,21,5,0)
-to be invoked only once per interval.  No user or session context information
-"^DD",19941.21,19941.21,6,21,6,0)
-is available to the monitor in this case.
-"^DD",19941.21,19941.21,6,21,7,0)
-
-"^DD",19941.21,19941.21,6,21,8,0)
-PER SESSION is appropriate for events that depend upon a specific user or
-"^DD",19941.21,19941.21,6,21,9,0)
-session (e.g., notifications).  PER INTERVAL is appropriate for events 
-"^DD",19941.21,19941.21,6,21,10,0)
-that are independent of a user or session (e.g., status events to display
-"^DD",19941.21,19941.21,6,21,11,0)
-the host date/time).
-"^DD",19941.21,19941.21,6,"DT")
-3030810
-"^DD",19941.21,19941.21,7,0)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
-"^DD",19941.21,19941.21,7,12)
-Restricts to Extended Action Protocols starting with CIAV
-"^DD",19941.21,19941.21,7,12.1)
-S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X"""
-"^DD",19941.21,19941.21,7,"DT")
-3091007
-"^DD",19941.21,19941.21,10,0)
-DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,10,3)
-Logic to display stub info in log viewer.
-"^DD",19941.21,19941.21,10,9)
-@
-"^DD",19941.21,19941.21,10,"DT")
-3030611
-"^DD",19941.21,19941.21,20,0)
-PUBLICATION KEY^19941.212P^^20;0
-"^DD",19941.21,19941.21,21,0)
-SUBSCRIPTION KEY^19941.2121P^^21;0
-"^DD",19941.21,19941.21,99,0)
-DESCRIPTION^19941.2199^^99;0
-"^DD",19941.21,19941.21,100,0)
-ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
-"^DD",19941.21,19941.21,100,3)
-Date and time of last error
-"^DD",19941.21,19941.21,100,"DT")
-3061129
-"^DD",19941.21,19941.21,101,0)
-ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
-"^DD",19941.21,19941.21,101,3)
-Answer must be 1-240 characters in length.
-"^DD",19941.21,19941.21,101,"DT")
-3061129
-"^DD",19941.21,19941.212,0)
-PUBLICATION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.212,0,"DT")
-3021021
-"^DD",19941.21,19941.212,0,"IX","B",19941.212,.01)
-
-"^DD",19941.21,19941.212,0,"NM","PUBLICATION KEY")
-
-"^DD",19941.21,19941.212,0,"UP")
-19941.21
-"^DD",19941.21,19941.212,.01,0)
-PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.212,.01,1,0)
-^.1
-"^DD",19941.21,19941.212,.01,1,1,0)
-19941.212^B
-"^DD",19941.21,19941.212,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.212,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.212,.01,3)
-Security keys required to fire this event.
-"^DD",19941.21,19941.212,.01,21,0)
-^^2^2^3021021.152715
-"^DD",19941.21,19941.212,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.212,.01,21,2,0)
-the listed keys in order to fire an event of this type.
-"^DD",19941.21,19941.212,.01,"DT")
-3040310
-"^DD",19941.21,19941.2121,0)
-SUBSCRIPTION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2121,0,"DT")
-3021021
-"^DD",19941.21,19941.2121,0,"IX","B",19941.2121,.01)
-
-"^DD",19941.21,19941.2121,0,"NM","SUBSCRIPTION KEY")
-
-"^DD",19941.21,19941.2121,0,"UP")
-19941.21
-"^DD",19941.21,19941.2121,.01,0)
-SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.2121,.01,1,0)
-^.1
-"^DD",19941.21,19941.2121,.01,1,1,0)
-19941.2121^B
-"^DD",19941.21,19941.2121,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.2121,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.2121,.01,3)
-Security keys required to receive this event type.
-"^DD",19941.21,19941.2121,.01,21,0)
-^^2^2^3021021.153002
-"^DD",19941.21,19941.2121,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.2121,.01,21,2,0)
-the listed keys in order subscribe to an event of this type. 
-"^DD",19941.21,19941.2121,.01,"DT")
-3040310
-"^DD",19941.21,19941.2199,0)
-DESCRIPTION SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2199,0,"DT")
-3021021
-"^DD",19941.21,19941.2199,0,"NM","DESCRIPTION")
-
-"^DD",19941.21,19941.2199,0,"UP")
-19941.21
-"^DD",19941.21,19941.2199,.01,0)
-DESCRIPTION^W^^0;1^Q
-"^DD",19941.21,19941.2199,.01,3)
-Enter a detailed description of this event type.
-"^DD",19941.21,19941.2199,.01,"DT")
-3021021
 "^DIC",998.1,998.1,0)
 SERIALIZATION CONTROL^998.1
 "^DIC",998.1,998.1,0,"GL")
@@ -36766,18 +36772,18 @@ CAREWEB NOTIFICATION SCHEDULING^999.202
 ^RGCWF(999.202,
 "^DIC",999.202,"B","CAREWEB NOTIFICATION SCHEDULING",999.202)
 
-"^DIC",19941.21,19941.21,0)
-CIA EVENT TYPE^19941.21
-"^DIC",19941.21,19941.21,0,"GL")
-^CIANB(19941.21,
-"^DIC",19941.21,"B","CIA EVENT TYPE",19941.21)
-
 **INSTALL NAME**
 CAREWEB CONTEXT 1.0
 "BLD",8487,0)
 CAREWEB CONTEXT 1.0^^0^3150522^n
 "BLD",8487,4,0)
-^9.64PA^998.1^4
+^9.64PA^996.51^4
+"BLD",8487,4,996.51,0)
+996.51
+"BLD",8487,4,996.51,222)
+n^y^f^^y^^y^o^n
+"BLD",8487,4,996.51,224)
+I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8487,4,998.1,0)
 998.1
 "BLD",8487,4,998.1,222)
@@ -36794,22 +36800,16 @@ y^y^f^^n^^y^r^n
 n^y^f^^y^^y^o^n
 "BLD",8487,4,999.201,224)
 I $$SCRN^RGCWKDTP(Y,4)
-"BLD",8487,4,19941.21,0)
-19941.21
-"BLD",8487,4,19941.21,222)
-n^y^f^^y^^y^o^n
-"BLD",8487,4,19941.21,224)
-I $$SCRN^RGCWKDTP(Y,5)
+"BLD",8487,4,"B",996.51,996.51)
+
 "BLD",8487,4,"B",998.1,998.1)
 
 "BLD",8487,4,"B",999.2,999.2)
 
 "BLD",8487,4,"B",999.201,999.201)
 
-"BLD",8487,4,"B",19941.21,19941.21)
-
 "BLD",8487,6.3)
-433
+435
 "BLD",8487,"INI")
 PRE^RGCWKDIN
 "BLD",8487,"INIT")
@@ -37198,6 +37198,28 @@ D PLSTPTS^RGCWPTP2(.DATA,IEN)
 D PLSTLST^RGCWPTP2(.DATA)
 "DATA",999.2,6,12)
 D MANAGE^RGCWPTP2(.DATA,ACTION,NAME,.VAL)
+"FIA",996.51)
+NETSERV BROKER EVENT TYPE
+"FIA",996.51,0)
+^RGNET(996.51,
+"FIA",996.51,0,0)
+996.51
+"FIA",996.51,0,1)
+n^y^f^^y^^y^o^n
+"FIA",996.51,0,10)
+
+"FIA",996.51,0,11)
+I $$SCRN^RGCWKDTP(Y,5)
+"FIA",996.51,0,"RLRO")
+
+"FIA",996.51,996.51)
+0
+"FIA",996.51,996.5102)
+0
+"FIA",996.51,996.51021)
+0
+"FIA",996.51,996.51099)
+0
 "FIA",998.1)
 SERIALIZATION CONTROL
 "FIA",998.1,0)
@@ -37259,28 +37281,6 @@ I $$SCRN^RGCWKDTP(Y,4)
 "FIA",999.201,0,"RLRO")
 
 "FIA",999.201,999.201)
-0
-"FIA",19941.21)
-CIA EVENT TYPE
-"FIA",19941.21,0)
-^CIANB(19941.21,
-"FIA",19941.21,0,0)
-19941.21
-"FIA",19941.21,0,1)
-n^y^f^^y^^y^o^n
-"FIA",19941.21,0,10)
-
-"FIA",19941.21,0,11)
-I $$SCRN^RGCWKDTP(Y,5)
-"FIA",19941.21,0,"RLRO")
-
-"FIA",19941.21,19941.21)
-0
-"FIA",19941.21,19941.212)
-0
-"FIA",19941.21,19941.2121)
-0
-"FIA",19941.21,19941.2199)
 0
 "INI")
 PRE^RGCWKDIN
@@ -37844,8 +37844,8 @@ REMOTE PROCEDURE
 8989.51;20;;;PAR1E1^XPDTA2;PAR1F1^XPDIA3;PAR1E1^XPDIA3;PAR1F2^XPDIA3;;PAR1DEL^XPDIA3(%)
 "ORD",20,8989.51,0)
 PARAMETER DEFINITION
-"PGL",19941.21,0,7,7)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"PGL",996.51,0,7,7)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
 "PRE")
 RGCWKDIN
 "QUES","XPF1",0)
@@ -37925,7 +37925,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWENC1",1,0)
 RGCWENC1 ;RI/CBMI/DKM - Visit Creation Support ;14-Mar-2014 17:10;DKM
 "RTN","RGCWENC1",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**005004;20-Aug-2007 08:41;Build 433
+ ;;1.0;CAREWEB FRAMEWORK;**005004;20-Aug-2007 08:41;Build 435
 "RTN","RGCWENC1",3,0)
  ; Visit creation API
 "RTN","RGCWENC1",4,0)
@@ -38223,7 +38223,7 @@ ADDVIST(IN,OUT) ;
 "RTN","RGCWENCX",1,0)
 RGCWENCX ;RI/CBMI/DKM - Encounter Context Support ;01-Apr-2015 14:05;DKM
 "RTN","RGCWENCX",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 433
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 435
 "RTN","RGCWENCX",3,0)
  ; RPC: Fetch visit data given visit file IEN
 "RTN","RGCWENCX",4,0)
@@ -38949,7 +38949,7 @@ ENINQ(DATA,VIEN) ;
 "RTN","RGCWFTIU",1,0)
 RGCWFTIU ;RI/CBMI/DKM - TIU FHIR Support ;28-Jul-2014 17:23;DKM
 "RTN","RGCWFTIU",2,0)
- ;;1.0;RGCW;;14-March-2014;Build 433
+ ;;1.0;RGCW;;14-March-2014;Build 435
 "RTN","RGCWFTIU",3,0)
  ;=================================================================
 "RTN","RGCWFTIU",4,0)
@@ -39017,7 +39017,7 @@ PERSON(TAG,ENT,FLD) ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;01-Apr-2015 14:05;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 433
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 435
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -39343,7 +39343,7 @@ MES(MSG,QUIT) ;
 "RTN","RGCWPTCX",1,0)
 RGCWPTCX ;RI/CBMI/DKM - Patient Context Object ;01-Apr-2015 14:05;DKM
 "RTN","RGCWPTCX",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 433
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 435
 "RTN","RGCWPTCX",3,0)
  ; Save/retrieve last patient selected for current institution
 "RTN","RGCWPTCX",4,0)
@@ -39693,7 +39693,7 @@ FMTSSN(SSN) ;EP - P7
 "RTN","RGCWPTP1",1,0)
 RGCWPTP1 ;RI/CBMI/DKM - Patient List Management ;02-Feb-2015 10:15;DKM
 "RTN","RGCWPTP1",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 433
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 435
 "RTN","RGCWPTP1",3,0)
  ; Return list of patients with clinic appt w/in range
 "RTN","RGCWPTP1",4,0)
@@ -39939,7 +39939,7 @@ HOSPLOC(DATA,FROM,DIR,MAX,TYPE,START,END) ;EP
 "RTN","RGCWPTP2",1,0)
 RGCWPTP2 ;RI/CBMI/DKM - Patient List Management ;02-Feb-2015 10:15;DKM
 "RTN","RGCWPTP2",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 433
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 435
 "RTN","RGCWPTP2",3,0)
  ; Retrieve a given list for a given user
 "RTN","RGCWPTP2",4,0)
@@ -40077,7 +40077,7 @@ GETNAME(IEN) ;
 "RTN","RGCWPTP3",1,0)
 RGCWPTP3 ;RI/CBMI/MGH - Patient List Management ;02-Feb-2015 10:15;DKM
 "RTN","RGCWPTP3",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 433
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 435
 "RTN","RGCWPTP3",3,0)
  ; Call logic to manage team lists
 "RTN","RGCWPTP3",4,0)
@@ -40331,7 +40331,7 @@ UPPER(X) ; Convert lower case X to UPPER CASE
 "RTN","RGCWPTPC",1,0)
 RGCWPTPC ;RI/CBMI/DKM - RPC calls for provider information ;18-Aug-2014 17:20;DKM
 "RTN","RGCWPTPC",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 433
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 435
 "RTN","RGCWPTPC",3,0)
 USESD() Q $G(DUZ("AG"))'="I"
 "RTN","RGCWPTPC",4,0)
@@ -40469,7 +40469,7 @@ TEAM(PRV) ;EP
 "RTN","RGCWPTPL",1,0)
 RGCWPTPL ;RI/CBMI/DKM - Patient List Management ;02-Feb-2015 10:15;DKM
 "RTN","RGCWPTPL",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 433
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 435
 "RTN","RGCWPTPL",3,0)
  ; Lookup by full or partial SSN
 "RTN","RGCWPTPL",4,0)
@@ -40741,7 +40741,7 @@ PARAMITM() Q "RGCWPTPL DEFAULT ITEM"
 "RTN","RGCWPTPS",1,0)
 RGCWPTPS ;RI/CBMI/DKM - Patient search ;30-Jul-2014 11:46;DKM
 "RTN","RGCWPTPS",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 433
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 435
 "RTN","RGCWPTPS",3,0)
 SEARCH(DATA,MAX,LNAME,FNAME,MRN,SSN,IEN,SEX,DOB) ;EP
 "RTN","RGCWPTPS",4,0)
@@ -40826,6 +40826,18 @@ ADD(X) S:$L($G(X)) CNT=CNT+1,@DATA@(CNT)=X
 ERROR(X) D ADD("-1^"_X)
 "RTN","RGCWPTPS",44,0)
  Q
+"SEC","^DIC",996.51,996.51,0,"AUDIT")
+@
+"SEC","^DIC",996.51,996.51,0,"DD")
+@
+"SEC","^DIC",996.51,996.51,0,"DEL")
+@
+"SEC","^DIC",996.51,996.51,0,"LAYGO")
+@
+"SEC","^DIC",996.51,996.51,0,"RD")
+@
+"SEC","^DIC",996.51,996.51,0,"WR")
+@
 "SEC","^DIC",998.1,998.1,0,"AUDIT")
 @
 "SEC","^DIC",998.1,998.1,0,"DD")
@@ -40862,18 +40874,6 @@ ERROR(X) D ADD("-1^"_X)
 @
 "SEC","^DIC",999.201,999.201,0,"WR")
 @
-"SEC","^DIC",19941.21,19941.21,0,"AUDIT")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DEL")
-@
-"SEC","^DIC",19941.21,19941.21,0,"LAYGO")
-@
-"SEC","^DIC",19941.21,19941.21,0,"RD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"WR")
-@
 "TEMP","EC")
 
 "TEMP","FINAL")
@@ -40906,6 +40906,236 @@ RGCWENCX VISIT TYPES^9^N~Not Found~Used for service categories not otherwise spe
 2
 "VER")
 8.0^22.0
+"^DD",996.51,996.51,0)
+FIELD^^7^14
+"^DD",996.51,996.51,0,"DT")
+3091007
+"^DD",996.51,996.51,0,"IX","B",996.51,.01)
+
+"^DD",996.51,996.51,0,"NM","NETSERV BROKER EVENT TYPE")
+
+"^DD",996.51,996.51,0,"PT",996.55,1)
+
+"^DD",996.51,996.51,0,"PT",999.995,.01)
+
+"^DD",996.51,996.51,0,"PT",19930.995,.01)
+
+"^DD",996.51,996.51,0,"VRPK")
+CAREWEB ENHANCEMENTS
+"^DD",996.51,996.51,.01,0)
+NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
+"^DD",996.51,996.51,.01,1,0)
+^.1
+"^DD",996.51,996.51,.01,1,1,0)
+996.51^B
+"^DD",996.51,996.51,.01,1,1,1)
+S ^RGNET(996.51,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51,.01,1,1,2)
+K ^RGNET(996.51,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51,.01,3)
+Answer must be 3-100 characters in length.
+"^DD",996.51,996.51,.01,"DT")
+3030611
+"^DD",996.51,996.51,1,0)
+MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,1,3)
+M code to invoke monitor for this event type
+"^DD",996.51,996.51,1,9)
+@
+"^DD",996.51,996.51,1,"DT")
+3021021
+"^DD",996.51,996.51,2,0)
+DISABLE^S^0:NO;1:YES;^0;2^Q
+"^DD",996.51,996.51,2,3)
+Enter YES to disable this event type.
+"^DD",996.51,996.51,2,21,0)
+^.001^3^3^3030810^
+"^DD",996.51,996.51,2,21,1,0)
+If set to YES, this event type is disabled.  Once disabled, any attempt to 
+"^DD",996.51,996.51,2,21,2,0)
+enqueue the event will be ignored.  Disabling an event does not affect events
+"^DD",996.51,996.51,2,21,3,0)
+already in the queue. 
+"^DD",996.51,996.51,2,"DT")
+3030810
+"^DD",996.51,996.51,3,0)
+INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
+"^DD",996.51,996.51,3,3)
+Enter the nominal polling interval in seconds.
+"^DD",996.51,996.51,3,21,0)
+^^10^10^3021021.152235
+"^DD",996.51,996.51,3,21,1,0)
+This is the nominal polling interval for the event in seconds.
+"^DD",996.51,996.51,3,21,2,0)
+The actual polling interval is dependent on the event polling
+"^DD",996.51,996.51,3,21,3,0)
+interval set for the client application as a site parameter.
+"^DD",996.51,996.51,3,21,4,0)
+The nominal polling interval guarantees that polling for this
+"^DD",996.51,996.51,3,21,5,0)
+event will not occur more frequently than this setting.
+"^DD",996.51,996.51,3,21,6,0)
+ 
+"^DD",996.51,996.51,3,21,7,0)
+For events that are infrequent and/or do not require real time
+"^DD",996.51,996.51,3,21,8,0)
+notification, higher values may be selected for this field to
+"^DD",996.51,996.51,3,21,9,0)
+mitigate impact on system load. 
+"^DD",996.51,996.51,3,21,10,0)
+
+"^DD",996.51,996.51,3,"DT")
+3021021
+"^DD",996.51,996.51,4,0)
+LOG EVENT^S^0:NO;1:YES;^0;4^Q
+"^DD",996.51,996.51,4,3)
+Enter YES to enable logging of this event.
+"^DD",996.51,996.51,4,"DT")
+3030611
+"^DD",996.51,996.51,5,0)
+LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
+"^DD",996.51,996.51,5,3)
+Number of days to retain log entries.
+"^DD",996.51,996.51,5,"DT")
+3030611
+"^DD",996.51,996.51,6,0)
+POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
+"^DD",996.51,996.51,6,3)
+Determines how a monitored event is polled.
+"^DD",996.51,996.51,6,21,0)
+^^11^11^3030810.175145
+"^DD",996.51,996.51,6,21,1,0)
+For monitored events, this setting determines how the monitor is invoked
+"^DD",996.51,996.51,6,21,2,0)
+when the polling interval has been reached.  PER SESSION causes the event
+"^DD",996.51,996.51,6,21,3,0)
+monitor to be invoked for each active session, setting the user and
+"^DD",996.51,996.51,6,21,4,0)
+session context prior to each call.  PER INTERVAL cause the event monitor
+"^DD",996.51,996.51,6,21,5,0)
+to be invoked only once per interval.  No user or session context information
+"^DD",996.51,996.51,6,21,6,0)
+is available to the monitor in this case.
+"^DD",996.51,996.51,6,21,7,0)
+
+"^DD",996.51,996.51,6,21,8,0)
+PER SESSION is appropriate for events that depend upon a specific user or
+"^DD",996.51,996.51,6,21,9,0)
+session (e.g., notifications).  PER INTERVAL is appropriate for events 
+"^DD",996.51,996.51,6,21,10,0)
+that are independent of a user or session (e.g., status events to display
+"^DD",996.51,996.51,6,21,11,0)
+the host date/time).
+"^DD",996.51,996.51,6,"DT")
+3030810
+"^DD",996.51,996.51,7,0)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"^DD",996.51,996.51,7,12)
+Restricts to Extended Action Protocols starting with RGNE
+"^DD",996.51,996.51,7,12.1)
+S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X"""
+"^DD",996.51,996.51,7,"DT")
+3091007
+"^DD",996.51,996.51,10,0)
+DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,10,3)
+Logic to display stub info in log viewer.
+"^DD",996.51,996.51,10,9)
+@
+"^DD",996.51,996.51,10,"DT")
+3030611
+"^DD",996.51,996.51,20,0)
+PUBLICATION KEY^996.5102P^^20;0
+"^DD",996.51,996.51,21,0)
+SUBSCRIPTION KEY^996.51021P^^21;0
+"^DD",996.51,996.51,99,0)
+DESCRIPTION^996.51099^^99;0
+"^DD",996.51,996.51,100,0)
+ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
+"^DD",996.51,996.51,100,3)
+Date and time of last error
+"^DD",996.51,996.51,100,"DT")
+3061129
+"^DD",996.51,996.51,101,0)
+ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
+"^DD",996.51,996.51,101,3)
+Answer must be 1-240 characters in length.
+"^DD",996.51,996.51,101,"DT")
+3061129
+"^DD",996.51,996.5102,0)
+PUBLICATION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.5102,0,"DT")
+3021021
+"^DD",996.51,996.5102,0,"IX","B",996.5102,.01)
+
+"^DD",996.51,996.5102,0,"NM","PUBLICATION KEY")
+
+"^DD",996.51,996.5102,0,"UP")
+996.51
+"^DD",996.51,996.5102,.01,0)
+PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.5102,.01,1,0)
+^.1
+"^DD",996.51,996.5102,.01,1,1,0)
+996.5102^B
+"^DD",996.51,996.5102,.01,1,1,1)
+S ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.5102,.01,1,1,2)
+K ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)
+"^DD",996.51,996.5102,.01,3)
+Security keys required to fire this event.
+"^DD",996.51,996.5102,.01,21,0)
+^^2^2^3021021.152715
+"^DD",996.51,996.5102,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.5102,.01,21,2,0)
+the listed keys in order to fire an event of this type.
+"^DD",996.51,996.5102,.01,"DT")
+3040310
+"^DD",996.51,996.51021,0)
+SUBSCRIPTION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.51021,0,"DT")
+3021021
+"^DD",996.51,996.51021,0,"IX","B",996.51021,.01)
+
+"^DD",996.51,996.51021,0,"NM","SUBSCRIPTION KEY")
+
+"^DD",996.51,996.51021,0,"UP")
+996.51
+"^DD",996.51,996.51021,.01,0)
+SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.51021,.01,1,0)
+^.1
+"^DD",996.51,996.51021,.01,1,1,0)
+996.51021^B
+"^DD",996.51,996.51021,.01,1,1,1)
+S ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51021,.01,1,1,2)
+K ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51021,.01,3)
+Security keys required to receive this event type.
+"^DD",996.51,996.51021,.01,21,0)
+^^2^2^3021021.153002
+"^DD",996.51,996.51021,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.51021,.01,21,2,0)
+the listed keys in order subscribe to an event of this type. 
+"^DD",996.51,996.51021,.01,"DT")
+3040310
+"^DD",996.51,996.51099,0)
+DESCRIPTION SUB-FIELD^^.01^1
+"^DD",996.51,996.51099,0,"DT")
+3021021
+"^DD",996.51,996.51099,0,"NM","DESCRIPTION")
+
+"^DD",996.51,996.51099,0,"UP")
+996.51
+"^DD",996.51,996.51099,.01,0)
+DESCRIPTION^W^^0;1^Q
+"^DD",996.51,996.51099,.01,3)
+Enter a detailed description of this event type.
+"^DD",996.51,996.51099,.01,"DT")
+3021021
 "^DD",998.1,998.1,0)
 FIELD^^99^7
 "^DD",998.1,998.1,0,"DDA")
@@ -41758,236 +41988,12 @@ This logic provides the opportunity to update alerts (add or delete)
 for the current user prior to retrieving them.
 "^DD",999.201,999.201,4,"DT")
 3080128
-"^DD",19941.21,19941.21,0)
-FIELD^^7^14
-"^DD",19941.21,19941.21,0,"DT")
-3091007
-"^DD",19941.21,19941.21,0,"IX","B",19941.21,.01)
+"^DIC",996.51,996.51,0)
+NETSERV BROKER EVENT TYPE^996.51
+"^DIC",996.51,996.51,0,"GL")
+^RGNET(996.51,
+"^DIC",996.51,"B","NETSERV BROKER EVENT TYPE",996.51)
 
-"^DD",19941.21,19941.21,0,"NM","CIA EVENT TYPE")
-
-"^DD",19941.21,19941.21,0,"PT",999.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19930.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19941.23,1)
-
-"^DD",19941.21,19941.21,0,"VRPK")
-CAREWEB ENHANCEMENTS
-"^DD",19941.21,19941.21,.01,0)
-NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
-"^DD",19941.21,19941.21,.01,1,0)
-^.1
-"^DD",19941.21,19941.21,.01,1,1,0)
-19941.21^B
-"^DD",19941.21,19941.21,.01,1,1,1)
-S ^CIANB(19941.21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.21,.01,1,1,2)
-K ^CIANB(19941.21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.21,.01,3)
-Answer must be 3-100 characters in length.
-"^DD",19941.21,19941.21,.01,"DT")
-3030611
-"^DD",19941.21,19941.21,1,0)
-MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,1,3)
-M code to invoke monitor for this event type
-"^DD",19941.21,19941.21,1,9)
-@
-"^DD",19941.21,19941.21,1,"DT")
-3021021
-"^DD",19941.21,19941.21,2,0)
-DISABLE^S^0:NO;1:YES;^0;2^Q
-"^DD",19941.21,19941.21,2,3)
-Enter YES to disable this event type.
-"^DD",19941.21,19941.21,2,21,0)
-^.001^3^3^3030810^
-"^DD",19941.21,19941.21,2,21,1,0)
-If set to YES, this event type is disabled.  Once disabled, any attempt to 
-"^DD",19941.21,19941.21,2,21,2,0)
-enqueue the event will be ignored.  Disabling an event does not affect events
-"^DD",19941.21,19941.21,2,21,3,0)
-already in the queue. 
-"^DD",19941.21,19941.21,2,"DT")
-3030810
-"^DD",19941.21,19941.21,3,0)
-INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
-"^DD",19941.21,19941.21,3,3)
-Enter the nominal polling interval in seconds.
-"^DD",19941.21,19941.21,3,21,0)
-^^10^10^3021021.152235
-"^DD",19941.21,19941.21,3,21,1,0)
-This is the nominal polling interval for the event in seconds.
-"^DD",19941.21,19941.21,3,21,2,0)
-The actual polling interval is dependent on the event polling
-"^DD",19941.21,19941.21,3,21,3,0)
-interval set for the client application as a site parameter.
-"^DD",19941.21,19941.21,3,21,4,0)
-The nominal polling interval guarantees that polling for this
-"^DD",19941.21,19941.21,3,21,5,0)
-event will not occur more frequently than this setting.
-"^DD",19941.21,19941.21,3,21,6,0)
- 
-"^DD",19941.21,19941.21,3,21,7,0)
-For events that are infrequent and/or do not require real time
-"^DD",19941.21,19941.21,3,21,8,0)
-notification, higher values may be selected for this field to
-"^DD",19941.21,19941.21,3,21,9,0)
-mitigate impact on system load. 
-"^DD",19941.21,19941.21,3,21,10,0)
-
-"^DD",19941.21,19941.21,3,"DT")
-3021021
-"^DD",19941.21,19941.21,4,0)
-LOG EVENT^S^0:NO;1:YES;^0;4^Q
-"^DD",19941.21,19941.21,4,3)
-Enter YES to enable logging of this event.
-"^DD",19941.21,19941.21,4,"DT")
-3030611
-"^DD",19941.21,19941.21,5,0)
-LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
-"^DD",19941.21,19941.21,5,3)
-Number of days to retain log entries.
-"^DD",19941.21,19941.21,5,"DT")
-3030611
-"^DD",19941.21,19941.21,6,0)
-POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
-"^DD",19941.21,19941.21,6,3)
-Determines how a monitored event is polled.
-"^DD",19941.21,19941.21,6,21,0)
-^^11^11^3030810.175145
-"^DD",19941.21,19941.21,6,21,1,0)
-For monitored events, this setting determines how the monitor is invoked
-"^DD",19941.21,19941.21,6,21,2,0)
-when the polling interval has been reached.  PER SESSION causes the event
-"^DD",19941.21,19941.21,6,21,3,0)
-monitor to be invoked for each active session, setting the user and
-"^DD",19941.21,19941.21,6,21,4,0)
-session context prior to each call.  PER INTERVAL cause the event monitor
-"^DD",19941.21,19941.21,6,21,5,0)
-to be invoked only once per interval.  No user or session context information
-"^DD",19941.21,19941.21,6,21,6,0)
-is available to the monitor in this case.
-"^DD",19941.21,19941.21,6,21,7,0)
-
-"^DD",19941.21,19941.21,6,21,8,0)
-PER SESSION is appropriate for events that depend upon a specific user or
-"^DD",19941.21,19941.21,6,21,9,0)
-session (e.g., notifications).  PER INTERVAL is appropriate for events 
-"^DD",19941.21,19941.21,6,21,10,0)
-that are independent of a user or session (e.g., status events to display
-"^DD",19941.21,19941.21,6,21,11,0)
-the host date/time).
-"^DD",19941.21,19941.21,6,"DT")
-3030810
-"^DD",19941.21,19941.21,7,0)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
-"^DD",19941.21,19941.21,7,12)
-Restricts to Extended Action Protocols starting with CIAV
-"^DD",19941.21,19941.21,7,12.1)
-S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X"""
-"^DD",19941.21,19941.21,7,"DT")
-3091007
-"^DD",19941.21,19941.21,10,0)
-DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,10,3)
-Logic to display stub info in log viewer.
-"^DD",19941.21,19941.21,10,9)
-@
-"^DD",19941.21,19941.21,10,"DT")
-3030611
-"^DD",19941.21,19941.21,20,0)
-PUBLICATION KEY^19941.212P^^20;0
-"^DD",19941.21,19941.21,21,0)
-SUBSCRIPTION KEY^19941.2121P^^21;0
-"^DD",19941.21,19941.21,99,0)
-DESCRIPTION^19941.2199^^99;0
-"^DD",19941.21,19941.21,100,0)
-ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
-"^DD",19941.21,19941.21,100,3)
-Date and time of last error
-"^DD",19941.21,19941.21,100,"DT")
-3061129
-"^DD",19941.21,19941.21,101,0)
-ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
-"^DD",19941.21,19941.21,101,3)
-Answer must be 1-240 characters in length.
-"^DD",19941.21,19941.21,101,"DT")
-3061129
-"^DD",19941.21,19941.212,0)
-PUBLICATION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.212,0,"DT")
-3021021
-"^DD",19941.21,19941.212,0,"IX","B",19941.212,.01)
-
-"^DD",19941.21,19941.212,0,"NM","PUBLICATION KEY")
-
-"^DD",19941.21,19941.212,0,"UP")
-19941.21
-"^DD",19941.21,19941.212,.01,0)
-PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.212,.01,1,0)
-^.1
-"^DD",19941.21,19941.212,.01,1,1,0)
-19941.212^B
-"^DD",19941.21,19941.212,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.212,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.212,.01,3)
-Security keys required to fire this event.
-"^DD",19941.21,19941.212,.01,21,0)
-^^2^2^3021021.152715
-"^DD",19941.21,19941.212,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.212,.01,21,2,0)
-the listed keys in order to fire an event of this type.
-"^DD",19941.21,19941.212,.01,"DT")
-3040310
-"^DD",19941.21,19941.2121,0)
-SUBSCRIPTION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2121,0,"DT")
-3021021
-"^DD",19941.21,19941.2121,0,"IX","B",19941.2121,.01)
-
-"^DD",19941.21,19941.2121,0,"NM","SUBSCRIPTION KEY")
-
-"^DD",19941.21,19941.2121,0,"UP")
-19941.21
-"^DD",19941.21,19941.2121,.01,0)
-SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.2121,.01,1,0)
-^.1
-"^DD",19941.21,19941.2121,.01,1,1,0)
-19941.2121^B
-"^DD",19941.21,19941.2121,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.2121,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.2121,.01,3)
-Security keys required to receive this event type.
-"^DD",19941.21,19941.2121,.01,21,0)
-^^2^2^3021021.153002
-"^DD",19941.21,19941.2121,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.2121,.01,21,2,0)
-the listed keys in order subscribe to an event of this type. 
-"^DD",19941.21,19941.2121,.01,"DT")
-3040310
-"^DD",19941.21,19941.2199,0)
-DESCRIPTION SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2199,0,"DT")
-3021021
-"^DD",19941.21,19941.2199,0,"NM","DESCRIPTION")
-
-"^DD",19941.21,19941.2199,0,"UP")
-19941.21
-"^DD",19941.21,19941.2199,.01,0)
-DESCRIPTION^W^^0;1^Q
-"^DD",19941.21,19941.2199,.01,3)
-Enter a detailed description of this event type.
-"^DD",19941.21,19941.2199,.01,"DT")
-3021021
 "^DIC",998.1,998.1,0)
 SERIALIZATION CONTROL^998.1
 "^DIC",998.1,998.1,0,"GL")
@@ -42010,18 +42016,18 @@ CAREWEB NOTIFICATION CONTROL^999.201
 ^RGCWF(999.201,
 "^DIC",999.201,"B","CAREWEB NOTIFICATION CONTROL",999.201)
 
-"^DIC",19941.21,19941.21,0)
-CIA EVENT TYPE^19941.21
-"^DIC",19941.21,19941.21,0,"GL")
-^CIANB(19941.21,
-"^DIC",19941.21,"B","CIA EVENT TYPE",19941.21)
-
 **INSTALL NAME**
 CAREWEB CWADF 1.0
 "BLD",8488,0)
 CAREWEB CWADF 1.0^^0^3150522^n
 "BLD",8488,4,0)
-^9.64PA^998.1^3
+^9.64PA^996.51^3
+"BLD",8488,4,996.51,0)
+996.51
+"BLD",8488,4,996.51,222)
+n^y^f^^y^^y^o^n
+"BLD",8488,4,996.51,224)
+I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8488,4,998.1,0)
 998.1
 "BLD",8488,4,998.1,222)
@@ -42034,20 +42040,14 @@ I $$SCRN^RGCWKDTP(Y,1)
 n^y^f^^y^^y^o^n
 "BLD",8488,4,999.201,224)
 I $$SCRN^RGCWKDTP(Y,4)
-"BLD",8488,4,19941.21,0)
-19941.21
-"BLD",8488,4,19941.21,222)
-n^y^f^^y^^y^o^n
-"BLD",8488,4,19941.21,224)
-I $$SCRN^RGCWKDTP(Y,5)
+"BLD",8488,4,"B",996.51,996.51)
+
 "BLD",8488,4,"B",998.1,998.1)
 
 "BLD",8488,4,"B",999.201,999.201)
 
-"BLD",8488,4,"B",19941.21,19941.21)
-
 "BLD",8488,6.3)
-259
+260
 "BLD",8488,"INI")
 PRE^RGCWKDIN
 "BLD",8488,"INIT")
@@ -42180,6 +42180,28 @@ PRETRANS^RGCWKDTP
 ^9.62^^
 "BLD",8488,"REQB",0)
 ^9.611^^
+"FIA",996.51)
+NETSERV BROKER EVENT TYPE
+"FIA",996.51,0)
+^RGNET(996.51,
+"FIA",996.51,0,0)
+996.51
+"FIA",996.51,0,1)
+n^y^f^^y^^y^o^n
+"FIA",996.51,0,10)
+
+"FIA",996.51,0,11)
+I $$SCRN^RGCWKDTP(Y,5)
+"FIA",996.51,0,"RLRO")
+
+"FIA",996.51,996.51)
+0
+"FIA",996.51,996.5102)
+0
+"FIA",996.51,996.51021)
+0
+"FIA",996.51,996.51099)
+0
 "FIA",998.1)
 SERIALIZATION CONTROL
 "FIA",998.1,0)
@@ -42225,28 +42247,6 @@ I $$SCRN^RGCWKDTP(Y,4)
 "FIA",999.201,0,"RLRO")
 
 "FIA",999.201,999.201)
-0
-"FIA",19941.21)
-CIA EVENT TYPE
-"FIA",19941.21,0)
-^CIANB(19941.21,
-"FIA",19941.21,0,0)
-19941.21
-"FIA",19941.21,0,1)
-n^y^f^^y^^y^o^n
-"FIA",19941.21,0,10)
-
-"FIA",19941.21,0,11)
-I $$SCRN^RGCWKDTP(Y,5)
-"FIA",19941.21,0,"RLRO")
-
-"FIA",19941.21,19941.21)
-0
-"FIA",19941.21,19941.212)
-0
-"FIA",19941.21,19941.2121)
-0
-"FIA",19941.21,19941.2199)
 0
 "INI")
 PRE^RGCWKDIN
@@ -42368,8 +42368,8 @@ RGCWCACV PRF^PRF^RGCWCACV^4^^^^1
 8994;16;1;;;;;;;RPCDEL^XPDIA1
 "ORD",16,8994,0)
 REMOTE PROCEDURE
-"PGL",19941.21,0,7,7)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"PGL",996.51,0,7,7)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
 "PRE")
 RGCWKDIN
 "QUES","XPF1",0)
@@ -42449,7 +42449,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWARCV",1,0)
 RGCWARCV ;RI/CBMI/DKM - Cover Sheet: Adverse Reactions ;02-Feb-2015 10:15;DKM
 "RTN","RGCWARCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 259
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 260
 "RTN","RGCWARCV",3,0)
  ; Return adverse reaction info for a patient
 "RTN","RGCWARCV",4,0)
@@ -42773,7 +42773,7 @@ ADD(TXT,LBL) ;
 "RTN","RGCWCACV",1,0)
 RGCWCACV ;RI/CBMI/DKM - Cover Sheet: Crisis Alerts;02-Feb-2015 10:15;DKM
 "RTN","RGCWCACV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 259
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 260
 "RTN","RGCWCACV",3,0)
  ;=================================================================
 "RTN","RGCWCACV",4,0)
@@ -42925,7 +42925,7 @@ PRFX(DFN,IEN) ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;01-Apr-2015 14:05;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 259
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 260
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -43246,6 +43246,18 @@ MES(MSG,QUIT) ;
  S:$G(QUIT) XPDQUIT=QUIT
 "RTN","RGCWKDIN",162,0)
  Q
+"SEC","^DIC",996.51,996.51,0,"AUDIT")
+@
+"SEC","^DIC",996.51,996.51,0,"DD")
+@
+"SEC","^DIC",996.51,996.51,0,"DEL")
+@
+"SEC","^DIC",996.51,996.51,0,"LAYGO")
+@
+"SEC","^DIC",996.51,996.51,0,"RD")
+@
+"SEC","^DIC",996.51,996.51,0,"WR")
+@
 "SEC","^DIC",998.1,998.1,0,"AUDIT")
 @
 "SEC","^DIC",998.1,998.1,0,"DD")
@@ -43270,18 +43282,6 @@ MES(MSG,QUIT) ;
 @
 "SEC","^DIC",999.201,999.201,0,"WR")
 @
-"SEC","^DIC",19941.21,19941.21,0,"AUDIT")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DEL")
-@
-"SEC","^DIC",19941.21,19941.21,0,"LAYGO")
-@
-"SEC","^DIC",19941.21,19941.21,0,"RD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"WR")
-@
 "TEMP","EC")
 
 "TEMP","FINAL")
@@ -43296,6 +43296,236 @@ MES(MSG,QUIT) ;
 7
 "VER")
 8.0^22.0
+"^DD",996.51,996.51,0)
+FIELD^^7^14
+"^DD",996.51,996.51,0,"DT")
+3091007
+"^DD",996.51,996.51,0,"IX","B",996.51,.01)
+
+"^DD",996.51,996.51,0,"NM","NETSERV BROKER EVENT TYPE")
+
+"^DD",996.51,996.51,0,"PT",996.55,1)
+
+"^DD",996.51,996.51,0,"PT",999.995,.01)
+
+"^DD",996.51,996.51,0,"PT",19930.995,.01)
+
+"^DD",996.51,996.51,0,"VRPK")
+CAREWEB ENHANCEMENTS
+"^DD",996.51,996.51,.01,0)
+NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
+"^DD",996.51,996.51,.01,1,0)
+^.1
+"^DD",996.51,996.51,.01,1,1,0)
+996.51^B
+"^DD",996.51,996.51,.01,1,1,1)
+S ^RGNET(996.51,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51,.01,1,1,2)
+K ^RGNET(996.51,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51,.01,3)
+Answer must be 3-100 characters in length.
+"^DD",996.51,996.51,.01,"DT")
+3030611
+"^DD",996.51,996.51,1,0)
+MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,1,3)
+M code to invoke monitor for this event type
+"^DD",996.51,996.51,1,9)
+@
+"^DD",996.51,996.51,1,"DT")
+3021021
+"^DD",996.51,996.51,2,0)
+DISABLE^S^0:NO;1:YES;^0;2^Q
+"^DD",996.51,996.51,2,3)
+Enter YES to disable this event type.
+"^DD",996.51,996.51,2,21,0)
+^.001^3^3^3030810^
+"^DD",996.51,996.51,2,21,1,0)
+If set to YES, this event type is disabled.  Once disabled, any attempt to 
+"^DD",996.51,996.51,2,21,2,0)
+enqueue the event will be ignored.  Disabling an event does not affect events
+"^DD",996.51,996.51,2,21,3,0)
+already in the queue. 
+"^DD",996.51,996.51,2,"DT")
+3030810
+"^DD",996.51,996.51,3,0)
+INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
+"^DD",996.51,996.51,3,3)
+Enter the nominal polling interval in seconds.
+"^DD",996.51,996.51,3,21,0)
+^^10^10^3021021.152235
+"^DD",996.51,996.51,3,21,1,0)
+This is the nominal polling interval for the event in seconds.
+"^DD",996.51,996.51,3,21,2,0)
+The actual polling interval is dependent on the event polling
+"^DD",996.51,996.51,3,21,3,0)
+interval set for the client application as a site parameter.
+"^DD",996.51,996.51,3,21,4,0)
+The nominal polling interval guarantees that polling for this
+"^DD",996.51,996.51,3,21,5,0)
+event will not occur more frequently than this setting.
+"^DD",996.51,996.51,3,21,6,0)
+ 
+"^DD",996.51,996.51,3,21,7,0)
+For events that are infrequent and/or do not require real time
+"^DD",996.51,996.51,3,21,8,0)
+notification, higher values may be selected for this field to
+"^DD",996.51,996.51,3,21,9,0)
+mitigate impact on system load. 
+"^DD",996.51,996.51,3,21,10,0)
+
+"^DD",996.51,996.51,3,"DT")
+3021021
+"^DD",996.51,996.51,4,0)
+LOG EVENT^S^0:NO;1:YES;^0;4^Q
+"^DD",996.51,996.51,4,3)
+Enter YES to enable logging of this event.
+"^DD",996.51,996.51,4,"DT")
+3030611
+"^DD",996.51,996.51,5,0)
+LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
+"^DD",996.51,996.51,5,3)
+Number of days to retain log entries.
+"^DD",996.51,996.51,5,"DT")
+3030611
+"^DD",996.51,996.51,6,0)
+POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
+"^DD",996.51,996.51,6,3)
+Determines how a monitored event is polled.
+"^DD",996.51,996.51,6,21,0)
+^^11^11^3030810.175145
+"^DD",996.51,996.51,6,21,1,0)
+For monitored events, this setting determines how the monitor is invoked
+"^DD",996.51,996.51,6,21,2,0)
+when the polling interval has been reached.  PER SESSION causes the event
+"^DD",996.51,996.51,6,21,3,0)
+monitor to be invoked for each active session, setting the user and
+"^DD",996.51,996.51,6,21,4,0)
+session context prior to each call.  PER INTERVAL cause the event monitor
+"^DD",996.51,996.51,6,21,5,0)
+to be invoked only once per interval.  No user or session context information
+"^DD",996.51,996.51,6,21,6,0)
+is available to the monitor in this case.
+"^DD",996.51,996.51,6,21,7,0)
+
+"^DD",996.51,996.51,6,21,8,0)
+PER SESSION is appropriate for events that depend upon a specific user or
+"^DD",996.51,996.51,6,21,9,0)
+session (e.g., notifications).  PER INTERVAL is appropriate for events 
+"^DD",996.51,996.51,6,21,10,0)
+that are independent of a user or session (e.g., status events to display
+"^DD",996.51,996.51,6,21,11,0)
+the host date/time).
+"^DD",996.51,996.51,6,"DT")
+3030810
+"^DD",996.51,996.51,7,0)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"^DD",996.51,996.51,7,12)
+Restricts to Extended Action Protocols starting with RGNE
+"^DD",996.51,996.51,7,12.1)
+S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X"""
+"^DD",996.51,996.51,7,"DT")
+3091007
+"^DD",996.51,996.51,10,0)
+DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,10,3)
+Logic to display stub info in log viewer.
+"^DD",996.51,996.51,10,9)
+@
+"^DD",996.51,996.51,10,"DT")
+3030611
+"^DD",996.51,996.51,20,0)
+PUBLICATION KEY^996.5102P^^20;0
+"^DD",996.51,996.51,21,0)
+SUBSCRIPTION KEY^996.51021P^^21;0
+"^DD",996.51,996.51,99,0)
+DESCRIPTION^996.51099^^99;0
+"^DD",996.51,996.51,100,0)
+ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
+"^DD",996.51,996.51,100,3)
+Date and time of last error
+"^DD",996.51,996.51,100,"DT")
+3061129
+"^DD",996.51,996.51,101,0)
+ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
+"^DD",996.51,996.51,101,3)
+Answer must be 1-240 characters in length.
+"^DD",996.51,996.51,101,"DT")
+3061129
+"^DD",996.51,996.5102,0)
+PUBLICATION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.5102,0,"DT")
+3021021
+"^DD",996.51,996.5102,0,"IX","B",996.5102,.01)
+
+"^DD",996.51,996.5102,0,"NM","PUBLICATION KEY")
+
+"^DD",996.51,996.5102,0,"UP")
+996.51
+"^DD",996.51,996.5102,.01,0)
+PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.5102,.01,1,0)
+^.1
+"^DD",996.51,996.5102,.01,1,1,0)
+996.5102^B
+"^DD",996.51,996.5102,.01,1,1,1)
+S ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.5102,.01,1,1,2)
+K ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)
+"^DD",996.51,996.5102,.01,3)
+Security keys required to fire this event.
+"^DD",996.51,996.5102,.01,21,0)
+^^2^2^3021021.152715
+"^DD",996.51,996.5102,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.5102,.01,21,2,0)
+the listed keys in order to fire an event of this type.
+"^DD",996.51,996.5102,.01,"DT")
+3040310
+"^DD",996.51,996.51021,0)
+SUBSCRIPTION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.51021,0,"DT")
+3021021
+"^DD",996.51,996.51021,0,"IX","B",996.51021,.01)
+
+"^DD",996.51,996.51021,0,"NM","SUBSCRIPTION KEY")
+
+"^DD",996.51,996.51021,0,"UP")
+996.51
+"^DD",996.51,996.51021,.01,0)
+SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.51021,.01,1,0)
+^.1
+"^DD",996.51,996.51021,.01,1,1,0)
+996.51021^B
+"^DD",996.51,996.51021,.01,1,1,1)
+S ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51021,.01,1,1,2)
+K ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51021,.01,3)
+Security keys required to receive this event type.
+"^DD",996.51,996.51021,.01,21,0)
+^^2^2^3021021.153002
+"^DD",996.51,996.51021,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.51021,.01,21,2,0)
+the listed keys in order subscribe to an event of this type. 
+"^DD",996.51,996.51021,.01,"DT")
+3040310
+"^DD",996.51,996.51099,0)
+DESCRIPTION SUB-FIELD^^.01^1
+"^DD",996.51,996.51099,0,"DT")
+3021021
+"^DD",996.51,996.51099,0,"NM","DESCRIPTION")
+
+"^DD",996.51,996.51099,0,"UP")
+996.51
+"^DD",996.51,996.51099,.01,0)
+DESCRIPTION^W^^0;1^Q
+"^DD",996.51,996.51099,.01,3)
+Enter a detailed description of this event type.
+"^DD",996.51,996.51099,.01,"DT")
+3021021
 "^DD",998.1,998.1,0)
 FIELD^^99^7
 "^DD",998.1,998.1,0,"DDA")
@@ -44052,236 +44282,12 @@ This logic provides the opportunity to update alerts (add or delete)
 for the current user prior to retrieving them.
 "^DD",999.201,999.201,4,"DT")
 3080128
-"^DD",19941.21,19941.21,0)
-FIELD^^7^14
-"^DD",19941.21,19941.21,0,"DT")
-3091007
-"^DD",19941.21,19941.21,0,"IX","B",19941.21,.01)
+"^DIC",996.51,996.51,0)
+NETSERV BROKER EVENT TYPE^996.51
+"^DIC",996.51,996.51,0,"GL")
+^RGNET(996.51,
+"^DIC",996.51,"B","NETSERV BROKER EVENT TYPE",996.51)
 
-"^DD",19941.21,19941.21,0,"NM","CIA EVENT TYPE")
-
-"^DD",19941.21,19941.21,0,"PT",999.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19930.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19941.23,1)
-
-"^DD",19941.21,19941.21,0,"VRPK")
-CAREWEB ENHANCEMENTS
-"^DD",19941.21,19941.21,.01,0)
-NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
-"^DD",19941.21,19941.21,.01,1,0)
-^.1
-"^DD",19941.21,19941.21,.01,1,1,0)
-19941.21^B
-"^DD",19941.21,19941.21,.01,1,1,1)
-S ^CIANB(19941.21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.21,.01,1,1,2)
-K ^CIANB(19941.21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.21,.01,3)
-Answer must be 3-100 characters in length.
-"^DD",19941.21,19941.21,.01,"DT")
-3030611
-"^DD",19941.21,19941.21,1,0)
-MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,1,3)
-M code to invoke monitor for this event type
-"^DD",19941.21,19941.21,1,9)
-@
-"^DD",19941.21,19941.21,1,"DT")
-3021021
-"^DD",19941.21,19941.21,2,0)
-DISABLE^S^0:NO;1:YES;^0;2^Q
-"^DD",19941.21,19941.21,2,3)
-Enter YES to disable this event type.
-"^DD",19941.21,19941.21,2,21,0)
-^.001^3^3^3030810^
-"^DD",19941.21,19941.21,2,21,1,0)
-If set to YES, this event type is disabled.  Once disabled, any attempt to 
-"^DD",19941.21,19941.21,2,21,2,0)
-enqueue the event will be ignored.  Disabling an event does not affect events
-"^DD",19941.21,19941.21,2,21,3,0)
-already in the queue. 
-"^DD",19941.21,19941.21,2,"DT")
-3030810
-"^DD",19941.21,19941.21,3,0)
-INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
-"^DD",19941.21,19941.21,3,3)
-Enter the nominal polling interval in seconds.
-"^DD",19941.21,19941.21,3,21,0)
-^^10^10^3021021.152235
-"^DD",19941.21,19941.21,3,21,1,0)
-This is the nominal polling interval for the event in seconds.
-"^DD",19941.21,19941.21,3,21,2,0)
-The actual polling interval is dependent on the event polling
-"^DD",19941.21,19941.21,3,21,3,0)
-interval set for the client application as a site parameter.
-"^DD",19941.21,19941.21,3,21,4,0)
-The nominal polling interval guarantees that polling for this
-"^DD",19941.21,19941.21,3,21,5,0)
-event will not occur more frequently than this setting.
-"^DD",19941.21,19941.21,3,21,6,0)
- 
-"^DD",19941.21,19941.21,3,21,7,0)
-For events that are infrequent and/or do not require real time
-"^DD",19941.21,19941.21,3,21,8,0)
-notification, higher values may be selected for this field to
-"^DD",19941.21,19941.21,3,21,9,0)
-mitigate impact on system load. 
-"^DD",19941.21,19941.21,3,21,10,0)
-
-"^DD",19941.21,19941.21,3,"DT")
-3021021
-"^DD",19941.21,19941.21,4,0)
-LOG EVENT^S^0:NO;1:YES;^0;4^Q
-"^DD",19941.21,19941.21,4,3)
-Enter YES to enable logging of this event.
-"^DD",19941.21,19941.21,4,"DT")
-3030611
-"^DD",19941.21,19941.21,5,0)
-LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
-"^DD",19941.21,19941.21,5,3)
-Number of days to retain log entries.
-"^DD",19941.21,19941.21,5,"DT")
-3030611
-"^DD",19941.21,19941.21,6,0)
-POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
-"^DD",19941.21,19941.21,6,3)
-Determines how a monitored event is polled.
-"^DD",19941.21,19941.21,6,21,0)
-^^11^11^3030810.175145
-"^DD",19941.21,19941.21,6,21,1,0)
-For monitored events, this setting determines how the monitor is invoked
-"^DD",19941.21,19941.21,6,21,2,0)
-when the polling interval has been reached.  PER SESSION causes the event
-"^DD",19941.21,19941.21,6,21,3,0)
-monitor to be invoked for each active session, setting the user and
-"^DD",19941.21,19941.21,6,21,4,0)
-session context prior to each call.  PER INTERVAL cause the event monitor
-"^DD",19941.21,19941.21,6,21,5,0)
-to be invoked only once per interval.  No user or session context information
-"^DD",19941.21,19941.21,6,21,6,0)
-is available to the monitor in this case.
-"^DD",19941.21,19941.21,6,21,7,0)
-
-"^DD",19941.21,19941.21,6,21,8,0)
-PER SESSION is appropriate for events that depend upon a specific user or
-"^DD",19941.21,19941.21,6,21,9,0)
-session (e.g., notifications).  PER INTERVAL is appropriate for events 
-"^DD",19941.21,19941.21,6,21,10,0)
-that are independent of a user or session (e.g., status events to display
-"^DD",19941.21,19941.21,6,21,11,0)
-the host date/time).
-"^DD",19941.21,19941.21,6,"DT")
-3030810
-"^DD",19941.21,19941.21,7,0)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
-"^DD",19941.21,19941.21,7,12)
-Restricts to Extended Action Protocols starting with CIAV
-"^DD",19941.21,19941.21,7,12.1)
-S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X"""
-"^DD",19941.21,19941.21,7,"DT")
-3091007
-"^DD",19941.21,19941.21,10,0)
-DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,10,3)
-Logic to display stub info in log viewer.
-"^DD",19941.21,19941.21,10,9)
-@
-"^DD",19941.21,19941.21,10,"DT")
-3030611
-"^DD",19941.21,19941.21,20,0)
-PUBLICATION KEY^19941.212P^^20;0
-"^DD",19941.21,19941.21,21,0)
-SUBSCRIPTION KEY^19941.2121P^^21;0
-"^DD",19941.21,19941.21,99,0)
-DESCRIPTION^19941.2199^^99;0
-"^DD",19941.21,19941.21,100,0)
-ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
-"^DD",19941.21,19941.21,100,3)
-Date and time of last error
-"^DD",19941.21,19941.21,100,"DT")
-3061129
-"^DD",19941.21,19941.21,101,0)
-ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
-"^DD",19941.21,19941.21,101,3)
-Answer must be 1-240 characters in length.
-"^DD",19941.21,19941.21,101,"DT")
-3061129
-"^DD",19941.21,19941.212,0)
-PUBLICATION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.212,0,"DT")
-3021021
-"^DD",19941.21,19941.212,0,"IX","B",19941.212,.01)
-
-"^DD",19941.21,19941.212,0,"NM","PUBLICATION KEY")
-
-"^DD",19941.21,19941.212,0,"UP")
-19941.21
-"^DD",19941.21,19941.212,.01,0)
-PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.212,.01,1,0)
-^.1
-"^DD",19941.21,19941.212,.01,1,1,0)
-19941.212^B
-"^DD",19941.21,19941.212,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.212,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.212,.01,3)
-Security keys required to fire this event.
-"^DD",19941.21,19941.212,.01,21,0)
-^^2^2^3021021.152715
-"^DD",19941.21,19941.212,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.212,.01,21,2,0)
-the listed keys in order to fire an event of this type.
-"^DD",19941.21,19941.212,.01,"DT")
-3040310
-"^DD",19941.21,19941.2121,0)
-SUBSCRIPTION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2121,0,"DT")
-3021021
-"^DD",19941.21,19941.2121,0,"IX","B",19941.2121,.01)
-
-"^DD",19941.21,19941.2121,0,"NM","SUBSCRIPTION KEY")
-
-"^DD",19941.21,19941.2121,0,"UP")
-19941.21
-"^DD",19941.21,19941.2121,.01,0)
-SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.2121,.01,1,0)
-^.1
-"^DD",19941.21,19941.2121,.01,1,1,0)
-19941.2121^B
-"^DD",19941.21,19941.2121,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.2121,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.2121,.01,3)
-Security keys required to receive this event type.
-"^DD",19941.21,19941.2121,.01,21,0)
-^^2^2^3021021.153002
-"^DD",19941.21,19941.2121,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.2121,.01,21,2,0)
-the listed keys in order subscribe to an event of this type. 
-"^DD",19941.21,19941.2121,.01,"DT")
-3040310
-"^DD",19941.21,19941.2199,0)
-DESCRIPTION SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2199,0,"DT")
-3021021
-"^DD",19941.21,19941.2199,0,"NM","DESCRIPTION")
-
-"^DD",19941.21,19941.2199,0,"UP")
-19941.21
-"^DD",19941.21,19941.2199,.01,0)
-DESCRIPTION^W^^0;1^Q
-"^DD",19941.21,19941.2199,.01,3)
-Enter a detailed description of this event type.
-"^DD",19941.21,19941.2199,.01,"DT")
-3021021
 "^DIC",998.1,998.1,0)
 SERIALIZATION CONTROL^998.1
 "^DIC",998.1,998.1,0,"GL")
@@ -44298,18 +44304,18 @@ CAREWEB NOTIFICATION CONTROL^999.201
 ^RGCWF(999.201,
 "^DIC",999.201,"B","CAREWEB NOTIFICATION CONTROL",999.201)
 
-"^DIC",19941.21,19941.21,0)
-CIA EVENT TYPE^19941.21
-"^DIC",19941.21,19941.21,0,"GL")
-^CIANB(19941.21,
-"^DIC",19941.21,"B","CIA EVENT TYPE",19941.21)
-
 **INSTALL NAME**
 CAREWEB ALLERGY COVERSHEET 1.0
 "BLD",8489,0)
 CAREWEB ALLERGY COVERSHEET 1.0^^0^3150522^n
 "BLD",8489,4,0)
-^9.64PA^998.1^3
+^9.64PA^996.51^3
+"BLD",8489,4,996.51,0)
+996.51
+"BLD",8489,4,996.51,222)
+n^y^f^^y^^y^o^n
+"BLD",8489,4,996.51,224)
+I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8489,4,998.1,0)
 998.1
 "BLD",8489,4,998.1,222)
@@ -44322,20 +44328,14 @@ I $$SCRN^RGCWKDTP(Y,1)
 n^y^f^^y^^y^o^n
 "BLD",8489,4,999.201,224)
 I $$SCRN^RGCWKDTP(Y,4)
-"BLD",8489,4,19941.21,0)
-19941.21
-"BLD",8489,4,19941.21,222)
-n^y^f^^y^^y^o^n
-"BLD",8489,4,19941.21,224)
-I $$SCRN^RGCWKDTP(Y,5)
+"BLD",8489,4,"B",996.51,996.51)
+
 "BLD",8489,4,"B",998.1,998.1)
 
 "BLD",8489,4,"B",999.201,999.201)
 
-"BLD",8489,4,"B",19941.21,19941.21)
-
 "BLD",8489,6.3)
-256
+257
 "BLD",8489,"INI")
 PRE^RGCWKDIN
 "BLD",8489,"INIT")
@@ -44448,6 +44448,28 @@ PRETRANS^RGCWKDTP
 ^9.62^^
 "BLD",8489,"REQB",0)
 ^9.611^^
+"FIA",996.51)
+NETSERV BROKER EVENT TYPE
+"FIA",996.51,0)
+^RGNET(996.51,
+"FIA",996.51,0,0)
+996.51
+"FIA",996.51,0,1)
+n^y^f^^y^^y^o^n
+"FIA",996.51,0,10)
+
+"FIA",996.51,0,11)
+I $$SCRN^RGCWKDTP(Y,5)
+"FIA",996.51,0,"RLRO")
+
+"FIA",996.51,996.51)
+0
+"FIA",996.51,996.5102)
+0
+"FIA",996.51,996.51021)
+0
+"FIA",996.51,996.51099)
+0
 "FIA",998.1)
 SERIALIZATION CONTROL
 "FIA",998.1,0)
@@ -44493,28 +44515,6 @@ I $$SCRN^RGCWKDTP(Y,4)
 "FIA",999.201,0,"RLRO")
 
 "FIA",999.201,999.201)
-0
-"FIA",19941.21)
-CIA EVENT TYPE
-"FIA",19941.21,0)
-^CIANB(19941.21,
-"FIA",19941.21,0,0)
-19941.21
-"FIA",19941.21,0,1)
-n^y^f^^y^^y^o^n
-"FIA",19941.21,0,10)
-
-"FIA",19941.21,0,11)
-I $$SCRN^RGCWKDTP(Y,5)
-"FIA",19941.21,0,"RLRO")
-
-"FIA",19941.21,19941.21)
-0
-"FIA",19941.21,19941.212)
-0
-"FIA",19941.21,19941.2121)
-0
-"FIA",19941.21,19941.2199)
 0
 "INI")
 PRE^RGCWKDIN
@@ -44600,8 +44600,8 @@ Array of text describing details of this adverse reaction.
 8994;16;1;;;;;;;RPCDEL^XPDIA1
 "ORD",16,8994,0)
 REMOTE PROCEDURE
-"PGL",19941.21,0,7,7)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"PGL",996.51,0,7,7)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
 "PRE")
 RGCWKDIN
 "QUES","XPF1",0)
@@ -44681,7 +44681,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWARCV",1,0)
 RGCWARCV ;RI/CBMI/DKM - Cover Sheet: Adverse Reactions ;02-Feb-2015 10:15;DKM
 "RTN","RGCWARCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 256
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 257
 "RTN","RGCWARCV",3,0)
  ; Return adverse reaction info for a patient
 "RTN","RGCWARCV",4,0)
@@ -45005,7 +45005,7 @@ ADD(TXT,LBL) ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;01-Apr-2015 14:05;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 256
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 257
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -45326,6 +45326,18 @@ MES(MSG,QUIT) ;
  S:$G(QUIT) XPDQUIT=QUIT
 "RTN","RGCWKDIN",162,0)
  Q
+"SEC","^DIC",996.51,996.51,0,"AUDIT")
+@
+"SEC","^DIC",996.51,996.51,0,"DD")
+@
+"SEC","^DIC",996.51,996.51,0,"DEL")
+@
+"SEC","^DIC",996.51,996.51,0,"LAYGO")
+@
+"SEC","^DIC",996.51,996.51,0,"RD")
+@
+"SEC","^DIC",996.51,996.51,0,"WR")
+@
 "SEC","^DIC",998.1,998.1,0,"AUDIT")
 @
 "SEC","^DIC",998.1,998.1,0,"DD")
@@ -45350,18 +45362,6 @@ MES(MSG,QUIT) ;
 @
 "SEC","^DIC",999.201,999.201,0,"WR")
 @
-"SEC","^DIC",19941.21,19941.21,0,"AUDIT")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DEL")
-@
-"SEC","^DIC",19941.21,19941.21,0,"LAYGO")
-@
-"SEC","^DIC",19941.21,19941.21,0,"RD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"WR")
-@
 "TEMP","EC")
 
 "TEMP","FINAL")
@@ -45376,6 +45376,236 @@ MES(MSG,QUIT) ;
 8
 "VER")
 8.0^22.0
+"^DD",996.51,996.51,0)
+FIELD^^7^14
+"^DD",996.51,996.51,0,"DT")
+3091007
+"^DD",996.51,996.51,0,"IX","B",996.51,.01)
+
+"^DD",996.51,996.51,0,"NM","NETSERV BROKER EVENT TYPE")
+
+"^DD",996.51,996.51,0,"PT",996.55,1)
+
+"^DD",996.51,996.51,0,"PT",999.995,.01)
+
+"^DD",996.51,996.51,0,"PT",19930.995,.01)
+
+"^DD",996.51,996.51,0,"VRPK")
+CAREWEB ENHANCEMENTS
+"^DD",996.51,996.51,.01,0)
+NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
+"^DD",996.51,996.51,.01,1,0)
+^.1
+"^DD",996.51,996.51,.01,1,1,0)
+996.51^B
+"^DD",996.51,996.51,.01,1,1,1)
+S ^RGNET(996.51,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51,.01,1,1,2)
+K ^RGNET(996.51,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51,.01,3)
+Answer must be 3-100 characters in length.
+"^DD",996.51,996.51,.01,"DT")
+3030611
+"^DD",996.51,996.51,1,0)
+MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,1,3)
+M code to invoke monitor for this event type
+"^DD",996.51,996.51,1,9)
+@
+"^DD",996.51,996.51,1,"DT")
+3021021
+"^DD",996.51,996.51,2,0)
+DISABLE^S^0:NO;1:YES;^0;2^Q
+"^DD",996.51,996.51,2,3)
+Enter YES to disable this event type.
+"^DD",996.51,996.51,2,21,0)
+^.001^3^3^3030810^
+"^DD",996.51,996.51,2,21,1,0)
+If set to YES, this event type is disabled.  Once disabled, any attempt to 
+"^DD",996.51,996.51,2,21,2,0)
+enqueue the event will be ignored.  Disabling an event does not affect events
+"^DD",996.51,996.51,2,21,3,0)
+already in the queue. 
+"^DD",996.51,996.51,2,"DT")
+3030810
+"^DD",996.51,996.51,3,0)
+INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
+"^DD",996.51,996.51,3,3)
+Enter the nominal polling interval in seconds.
+"^DD",996.51,996.51,3,21,0)
+^^10^10^3021021.152235
+"^DD",996.51,996.51,3,21,1,0)
+This is the nominal polling interval for the event in seconds.
+"^DD",996.51,996.51,3,21,2,0)
+The actual polling interval is dependent on the event polling
+"^DD",996.51,996.51,3,21,3,0)
+interval set for the client application as a site parameter.
+"^DD",996.51,996.51,3,21,4,0)
+The nominal polling interval guarantees that polling for this
+"^DD",996.51,996.51,3,21,5,0)
+event will not occur more frequently than this setting.
+"^DD",996.51,996.51,3,21,6,0)
+ 
+"^DD",996.51,996.51,3,21,7,0)
+For events that are infrequent and/or do not require real time
+"^DD",996.51,996.51,3,21,8,0)
+notification, higher values may be selected for this field to
+"^DD",996.51,996.51,3,21,9,0)
+mitigate impact on system load. 
+"^DD",996.51,996.51,3,21,10,0)
+
+"^DD",996.51,996.51,3,"DT")
+3021021
+"^DD",996.51,996.51,4,0)
+LOG EVENT^S^0:NO;1:YES;^0;4^Q
+"^DD",996.51,996.51,4,3)
+Enter YES to enable logging of this event.
+"^DD",996.51,996.51,4,"DT")
+3030611
+"^DD",996.51,996.51,5,0)
+LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
+"^DD",996.51,996.51,5,3)
+Number of days to retain log entries.
+"^DD",996.51,996.51,5,"DT")
+3030611
+"^DD",996.51,996.51,6,0)
+POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
+"^DD",996.51,996.51,6,3)
+Determines how a monitored event is polled.
+"^DD",996.51,996.51,6,21,0)
+^^11^11^3030810.175145
+"^DD",996.51,996.51,6,21,1,0)
+For monitored events, this setting determines how the monitor is invoked
+"^DD",996.51,996.51,6,21,2,0)
+when the polling interval has been reached.  PER SESSION causes the event
+"^DD",996.51,996.51,6,21,3,0)
+monitor to be invoked for each active session, setting the user and
+"^DD",996.51,996.51,6,21,4,0)
+session context prior to each call.  PER INTERVAL cause the event monitor
+"^DD",996.51,996.51,6,21,5,0)
+to be invoked only once per interval.  No user or session context information
+"^DD",996.51,996.51,6,21,6,0)
+is available to the monitor in this case.
+"^DD",996.51,996.51,6,21,7,0)
+
+"^DD",996.51,996.51,6,21,8,0)
+PER SESSION is appropriate for events that depend upon a specific user or
+"^DD",996.51,996.51,6,21,9,0)
+session (e.g., notifications).  PER INTERVAL is appropriate for events 
+"^DD",996.51,996.51,6,21,10,0)
+that are independent of a user or session (e.g., status events to display
+"^DD",996.51,996.51,6,21,11,0)
+the host date/time).
+"^DD",996.51,996.51,6,"DT")
+3030810
+"^DD",996.51,996.51,7,0)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"^DD",996.51,996.51,7,12)
+Restricts to Extended Action Protocols starting with RGNE
+"^DD",996.51,996.51,7,12.1)
+S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X"""
+"^DD",996.51,996.51,7,"DT")
+3091007
+"^DD",996.51,996.51,10,0)
+DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,10,3)
+Logic to display stub info in log viewer.
+"^DD",996.51,996.51,10,9)
+@
+"^DD",996.51,996.51,10,"DT")
+3030611
+"^DD",996.51,996.51,20,0)
+PUBLICATION KEY^996.5102P^^20;0
+"^DD",996.51,996.51,21,0)
+SUBSCRIPTION KEY^996.51021P^^21;0
+"^DD",996.51,996.51,99,0)
+DESCRIPTION^996.51099^^99;0
+"^DD",996.51,996.51,100,0)
+ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
+"^DD",996.51,996.51,100,3)
+Date and time of last error
+"^DD",996.51,996.51,100,"DT")
+3061129
+"^DD",996.51,996.51,101,0)
+ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
+"^DD",996.51,996.51,101,3)
+Answer must be 1-240 characters in length.
+"^DD",996.51,996.51,101,"DT")
+3061129
+"^DD",996.51,996.5102,0)
+PUBLICATION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.5102,0,"DT")
+3021021
+"^DD",996.51,996.5102,0,"IX","B",996.5102,.01)
+
+"^DD",996.51,996.5102,0,"NM","PUBLICATION KEY")
+
+"^DD",996.51,996.5102,0,"UP")
+996.51
+"^DD",996.51,996.5102,.01,0)
+PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.5102,.01,1,0)
+^.1
+"^DD",996.51,996.5102,.01,1,1,0)
+996.5102^B
+"^DD",996.51,996.5102,.01,1,1,1)
+S ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.5102,.01,1,1,2)
+K ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)
+"^DD",996.51,996.5102,.01,3)
+Security keys required to fire this event.
+"^DD",996.51,996.5102,.01,21,0)
+^^2^2^3021021.152715
+"^DD",996.51,996.5102,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.5102,.01,21,2,0)
+the listed keys in order to fire an event of this type.
+"^DD",996.51,996.5102,.01,"DT")
+3040310
+"^DD",996.51,996.51021,0)
+SUBSCRIPTION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.51021,0,"DT")
+3021021
+"^DD",996.51,996.51021,0,"IX","B",996.51021,.01)
+
+"^DD",996.51,996.51021,0,"NM","SUBSCRIPTION KEY")
+
+"^DD",996.51,996.51021,0,"UP")
+996.51
+"^DD",996.51,996.51021,.01,0)
+SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.51021,.01,1,0)
+^.1
+"^DD",996.51,996.51021,.01,1,1,0)
+996.51021^B
+"^DD",996.51,996.51021,.01,1,1,1)
+S ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51021,.01,1,1,2)
+K ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51021,.01,3)
+Security keys required to receive this event type.
+"^DD",996.51,996.51021,.01,21,0)
+^^2^2^3021021.153002
+"^DD",996.51,996.51021,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.51021,.01,21,2,0)
+the listed keys in order subscribe to an event of this type. 
+"^DD",996.51,996.51021,.01,"DT")
+3040310
+"^DD",996.51,996.51099,0)
+DESCRIPTION SUB-FIELD^^.01^1
+"^DD",996.51,996.51099,0,"DT")
+3021021
+"^DD",996.51,996.51099,0,"NM","DESCRIPTION")
+
+"^DD",996.51,996.51099,0,"UP")
+996.51
+"^DD",996.51,996.51099,.01,0)
+DESCRIPTION^W^^0;1^Q
+"^DD",996.51,996.51099,.01,3)
+Enter a detailed description of this event type.
+"^DD",996.51,996.51099,.01,"DT")
+3021021
 "^DD",998.1,998.1,0)
 FIELD^^99^7
 "^DD",998.1,998.1,0,"DDA")
@@ -46132,236 +46362,12 @@ This logic provides the opportunity to update alerts (add or delete)
 for the current user prior to retrieving them.
 "^DD",999.201,999.201,4,"DT")
 3080128
-"^DD",19941.21,19941.21,0)
-FIELD^^7^14
-"^DD",19941.21,19941.21,0,"DT")
-3091007
-"^DD",19941.21,19941.21,0,"IX","B",19941.21,.01)
+"^DIC",996.51,996.51,0)
+NETSERV BROKER EVENT TYPE^996.51
+"^DIC",996.51,996.51,0,"GL")
+^RGNET(996.51,
+"^DIC",996.51,"B","NETSERV BROKER EVENT TYPE",996.51)
 
-"^DD",19941.21,19941.21,0,"NM","CIA EVENT TYPE")
-
-"^DD",19941.21,19941.21,0,"PT",999.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19930.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19941.23,1)
-
-"^DD",19941.21,19941.21,0,"VRPK")
-CAREWEB ENHANCEMENTS
-"^DD",19941.21,19941.21,.01,0)
-NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
-"^DD",19941.21,19941.21,.01,1,0)
-^.1
-"^DD",19941.21,19941.21,.01,1,1,0)
-19941.21^B
-"^DD",19941.21,19941.21,.01,1,1,1)
-S ^CIANB(19941.21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.21,.01,1,1,2)
-K ^CIANB(19941.21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.21,.01,3)
-Answer must be 3-100 characters in length.
-"^DD",19941.21,19941.21,.01,"DT")
-3030611
-"^DD",19941.21,19941.21,1,0)
-MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,1,3)
-M code to invoke monitor for this event type
-"^DD",19941.21,19941.21,1,9)
-@
-"^DD",19941.21,19941.21,1,"DT")
-3021021
-"^DD",19941.21,19941.21,2,0)
-DISABLE^S^0:NO;1:YES;^0;2^Q
-"^DD",19941.21,19941.21,2,3)
-Enter YES to disable this event type.
-"^DD",19941.21,19941.21,2,21,0)
-^.001^3^3^3030810^
-"^DD",19941.21,19941.21,2,21,1,0)
-If set to YES, this event type is disabled.  Once disabled, any attempt to 
-"^DD",19941.21,19941.21,2,21,2,0)
-enqueue the event will be ignored.  Disabling an event does not affect events
-"^DD",19941.21,19941.21,2,21,3,0)
-already in the queue. 
-"^DD",19941.21,19941.21,2,"DT")
-3030810
-"^DD",19941.21,19941.21,3,0)
-INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
-"^DD",19941.21,19941.21,3,3)
-Enter the nominal polling interval in seconds.
-"^DD",19941.21,19941.21,3,21,0)
-^^10^10^3021021.152235
-"^DD",19941.21,19941.21,3,21,1,0)
-This is the nominal polling interval for the event in seconds.
-"^DD",19941.21,19941.21,3,21,2,0)
-The actual polling interval is dependent on the event polling
-"^DD",19941.21,19941.21,3,21,3,0)
-interval set for the client application as a site parameter.
-"^DD",19941.21,19941.21,3,21,4,0)
-The nominal polling interval guarantees that polling for this
-"^DD",19941.21,19941.21,3,21,5,0)
-event will not occur more frequently than this setting.
-"^DD",19941.21,19941.21,3,21,6,0)
- 
-"^DD",19941.21,19941.21,3,21,7,0)
-For events that are infrequent and/or do not require real time
-"^DD",19941.21,19941.21,3,21,8,0)
-notification, higher values may be selected for this field to
-"^DD",19941.21,19941.21,3,21,9,0)
-mitigate impact on system load. 
-"^DD",19941.21,19941.21,3,21,10,0)
-
-"^DD",19941.21,19941.21,3,"DT")
-3021021
-"^DD",19941.21,19941.21,4,0)
-LOG EVENT^S^0:NO;1:YES;^0;4^Q
-"^DD",19941.21,19941.21,4,3)
-Enter YES to enable logging of this event.
-"^DD",19941.21,19941.21,4,"DT")
-3030611
-"^DD",19941.21,19941.21,5,0)
-LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
-"^DD",19941.21,19941.21,5,3)
-Number of days to retain log entries.
-"^DD",19941.21,19941.21,5,"DT")
-3030611
-"^DD",19941.21,19941.21,6,0)
-POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
-"^DD",19941.21,19941.21,6,3)
-Determines how a monitored event is polled.
-"^DD",19941.21,19941.21,6,21,0)
-^^11^11^3030810.175145
-"^DD",19941.21,19941.21,6,21,1,0)
-For monitored events, this setting determines how the monitor is invoked
-"^DD",19941.21,19941.21,6,21,2,0)
-when the polling interval has been reached.  PER SESSION causes the event
-"^DD",19941.21,19941.21,6,21,3,0)
-monitor to be invoked for each active session, setting the user and
-"^DD",19941.21,19941.21,6,21,4,0)
-session context prior to each call.  PER INTERVAL cause the event monitor
-"^DD",19941.21,19941.21,6,21,5,0)
-to be invoked only once per interval.  No user or session context information
-"^DD",19941.21,19941.21,6,21,6,0)
-is available to the monitor in this case.
-"^DD",19941.21,19941.21,6,21,7,0)
-
-"^DD",19941.21,19941.21,6,21,8,0)
-PER SESSION is appropriate for events that depend upon a specific user or
-"^DD",19941.21,19941.21,6,21,9,0)
-session (e.g., notifications).  PER INTERVAL is appropriate for events 
-"^DD",19941.21,19941.21,6,21,10,0)
-that are independent of a user or session (e.g., status events to display
-"^DD",19941.21,19941.21,6,21,11,0)
-the host date/time).
-"^DD",19941.21,19941.21,6,"DT")
-3030810
-"^DD",19941.21,19941.21,7,0)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
-"^DD",19941.21,19941.21,7,12)
-Restricts to Extended Action Protocols starting with CIAV
-"^DD",19941.21,19941.21,7,12.1)
-S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X"""
-"^DD",19941.21,19941.21,7,"DT")
-3091007
-"^DD",19941.21,19941.21,10,0)
-DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,10,3)
-Logic to display stub info in log viewer.
-"^DD",19941.21,19941.21,10,9)
-@
-"^DD",19941.21,19941.21,10,"DT")
-3030611
-"^DD",19941.21,19941.21,20,0)
-PUBLICATION KEY^19941.212P^^20;0
-"^DD",19941.21,19941.21,21,0)
-SUBSCRIPTION KEY^19941.2121P^^21;0
-"^DD",19941.21,19941.21,99,0)
-DESCRIPTION^19941.2199^^99;0
-"^DD",19941.21,19941.21,100,0)
-ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
-"^DD",19941.21,19941.21,100,3)
-Date and time of last error
-"^DD",19941.21,19941.21,100,"DT")
-3061129
-"^DD",19941.21,19941.21,101,0)
-ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
-"^DD",19941.21,19941.21,101,3)
-Answer must be 1-240 characters in length.
-"^DD",19941.21,19941.21,101,"DT")
-3061129
-"^DD",19941.21,19941.212,0)
-PUBLICATION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.212,0,"DT")
-3021021
-"^DD",19941.21,19941.212,0,"IX","B",19941.212,.01)
-
-"^DD",19941.21,19941.212,0,"NM","PUBLICATION KEY")
-
-"^DD",19941.21,19941.212,0,"UP")
-19941.21
-"^DD",19941.21,19941.212,.01,0)
-PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.212,.01,1,0)
-^.1
-"^DD",19941.21,19941.212,.01,1,1,0)
-19941.212^B
-"^DD",19941.21,19941.212,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.212,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.212,.01,3)
-Security keys required to fire this event.
-"^DD",19941.21,19941.212,.01,21,0)
-^^2^2^3021021.152715
-"^DD",19941.21,19941.212,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.212,.01,21,2,0)
-the listed keys in order to fire an event of this type.
-"^DD",19941.21,19941.212,.01,"DT")
-3040310
-"^DD",19941.21,19941.2121,0)
-SUBSCRIPTION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2121,0,"DT")
-3021021
-"^DD",19941.21,19941.2121,0,"IX","B",19941.2121,.01)
-
-"^DD",19941.21,19941.2121,0,"NM","SUBSCRIPTION KEY")
-
-"^DD",19941.21,19941.2121,0,"UP")
-19941.21
-"^DD",19941.21,19941.2121,.01,0)
-SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.2121,.01,1,0)
-^.1
-"^DD",19941.21,19941.2121,.01,1,1,0)
-19941.2121^B
-"^DD",19941.21,19941.2121,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.2121,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.2121,.01,3)
-Security keys required to receive this event type.
-"^DD",19941.21,19941.2121,.01,21,0)
-^^2^2^3021021.153002
-"^DD",19941.21,19941.2121,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.2121,.01,21,2,0)
-the listed keys in order subscribe to an event of this type. 
-"^DD",19941.21,19941.2121,.01,"DT")
-3040310
-"^DD",19941.21,19941.2199,0)
-DESCRIPTION SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2199,0,"DT")
-3021021
-"^DD",19941.21,19941.2199,0,"NM","DESCRIPTION")
-
-"^DD",19941.21,19941.2199,0,"UP")
-19941.21
-"^DD",19941.21,19941.2199,.01,0)
-DESCRIPTION^W^^0;1^Q
-"^DD",19941.21,19941.2199,.01,3)
-Enter a detailed description of this event type.
-"^DD",19941.21,19941.2199,.01,"DT")
-3021021
 "^DIC",998.1,998.1,0)
 SERIALIZATION CONTROL^998.1
 "^DIC",998.1,998.1,0,"GL")
@@ -46378,18 +46384,18 @@ CAREWEB NOTIFICATION CONTROL^999.201
 ^RGCWF(999.201,
 "^DIC",999.201,"B","CAREWEB NOTIFICATION CONTROL",999.201)
 
-"^DIC",19941.21,19941.21,0)
-CIA EVENT TYPE^19941.21
-"^DIC",19941.21,19941.21,0,"GL")
-^CIANB(19941.21,
-"^DIC",19941.21,"B","CIA EVENT TYPE",19941.21)
-
 **INSTALL NAME**
 CAREWEB CONSULT COVERSHEET 1.0
 "BLD",8490,0)
 CAREWEB CONSULT COVERSHEET 1.0^^0^3150522^n
 "BLD",8490,4,0)
-^9.64PA^998.1^3
+^9.64PA^996.51^3
+"BLD",8490,4,996.51,0)
+996.51
+"BLD",8490,4,996.51,222)
+n^y^f^^y^^y^o^n
+"BLD",8490,4,996.51,224)
+I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8490,4,998.1,0)
 998.1
 "BLD",8490,4,998.1,222)
@@ -46402,20 +46408,14 @@ I $$SCRN^RGCWKDTP(Y,1)
 n^y^f^^y^^y^o^n
 "BLD",8490,4,999.201,224)
 I $$SCRN^RGCWKDTP(Y,4)
-"BLD",8490,4,19941.21,0)
-19941.21
-"BLD",8490,4,19941.21,222)
-n^y^f^^y^^y^o^n
-"BLD",8490,4,19941.21,224)
-I $$SCRN^RGCWKDTP(Y,5)
+"BLD",8490,4,"B",996.51,996.51)
+
 "BLD",8490,4,"B",998.1,998.1)
 
 "BLD",8490,4,"B",999.201,999.201)
 
-"BLD",8490,4,"B",19941.21,19941.21)
-
 "BLD",8490,6.3)
-256
+257
 "BLD",8490,"INI")
 PRE^RGCWKDIN
 "BLD",8490,"INIT")
@@ -46528,6 +46528,28 @@ PRETRANS^RGCWKDTP
 ^9.62^^
 "BLD",8490,"REQB",0)
 ^9.611^^
+"FIA",996.51)
+NETSERV BROKER EVENT TYPE
+"FIA",996.51,0)
+^RGNET(996.51,
+"FIA",996.51,0,0)
+996.51
+"FIA",996.51,0,1)
+n^y^f^^y^^y^o^n
+"FIA",996.51,0,10)
+
+"FIA",996.51,0,11)
+I $$SCRN^RGCWKDTP(Y,5)
+"FIA",996.51,0,"RLRO")
+
+"FIA",996.51,996.51)
+0
+"FIA",996.51,996.5102)
+0
+"FIA",996.51,996.51021)
+0
+"FIA",996.51,996.51099)
+0
 "FIA",998.1)
 SERIALIZATION CONTROL
 "FIA",998.1,0)
@@ -46574,28 +46596,6 @@ I $$SCRN^RGCWKDTP(Y,4)
 
 "FIA",999.201,999.201)
 0
-"FIA",19941.21)
-CIA EVENT TYPE
-"FIA",19941.21,0)
-^CIANB(19941.21,
-"FIA",19941.21,0,0)
-19941.21
-"FIA",19941.21,0,1)
-n^y^f^^y^^y^o^n
-"FIA",19941.21,0,10)
-
-"FIA",19941.21,0,11)
-I $$SCRN^RGCWKDTP(Y,5)
-"FIA",19941.21,0,"RLRO")
-
-"FIA",19941.21,19941.21)
-0
-"FIA",19941.21,19941.212)
-0
-"FIA",19941.21,19941.2121)
-0
-"FIA",19941.21,19941.2199)
-0
 "INI")
 PRE^RGCWKDIN
 "INIT")
@@ -46614,8 +46614,8 @@ RGCWCNCV DETAIL^DETAIL^RGCWCNCV^4^^^^1
 8994;16;1;;;;;;;RPCDEL^XPDIA1
 "ORD",16,8994,0)
 REMOTE PROCEDURE
-"PGL",19941.21,0,7,7)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"PGL",996.51,0,7,7)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
 "PRE")
 RGCWKDIN
 "QUES","XPF1",0)
@@ -46695,7 +46695,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWCNCV",1,0)
 RGCWCNCV ;RI/CBMI/DKM - Cover Sheet: Consult Orders;02-Feb-2015 10:15;DKM
 "RTN","RGCWCNCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 256
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 257
 "RTN","RGCWCNCV",3,0)
  ;=================================================================
 "RTN","RGCWCNCV",4,0)
@@ -46755,7 +46755,7 @@ DETAIL(DATA,DFN,IEN) ;
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;01-Apr-2015 14:05;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 256
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 257
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -47076,6 +47076,18 @@ MES(MSG,QUIT) ;
  S:$G(QUIT) XPDQUIT=QUIT
 "RTN","RGCWKDIN",162,0)
  Q
+"SEC","^DIC",996.51,996.51,0,"AUDIT")
+@
+"SEC","^DIC",996.51,996.51,0,"DD")
+@
+"SEC","^DIC",996.51,996.51,0,"DEL")
+@
+"SEC","^DIC",996.51,996.51,0,"LAYGO")
+@
+"SEC","^DIC",996.51,996.51,0,"RD")
+@
+"SEC","^DIC",996.51,996.51,0,"WR")
+@
 "SEC","^DIC",998.1,998.1,0,"AUDIT")
 @
 "SEC","^DIC",998.1,998.1,0,"DD")
@@ -47100,18 +47112,6 @@ MES(MSG,QUIT) ;
 @
 "SEC","^DIC",999.201,999.201,0,"WR")
 @
-"SEC","^DIC",19941.21,19941.21,0,"AUDIT")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DEL")
-@
-"SEC","^DIC",19941.21,19941.21,0,"LAYGO")
-@
-"SEC","^DIC",19941.21,19941.21,0,"RD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"WR")
-@
 "TEMP","EC")
 
 "TEMP","FINAL")
@@ -47126,6 +47126,236 @@ MES(MSG,QUIT) ;
 9
 "VER")
 8.0^22.0
+"^DD",996.51,996.51,0)
+FIELD^^7^14
+"^DD",996.51,996.51,0,"DT")
+3091007
+"^DD",996.51,996.51,0,"IX","B",996.51,.01)
+
+"^DD",996.51,996.51,0,"NM","NETSERV BROKER EVENT TYPE")
+
+"^DD",996.51,996.51,0,"PT",996.55,1)
+
+"^DD",996.51,996.51,0,"PT",999.995,.01)
+
+"^DD",996.51,996.51,0,"PT",19930.995,.01)
+
+"^DD",996.51,996.51,0,"VRPK")
+CAREWEB ENHANCEMENTS
+"^DD",996.51,996.51,.01,0)
+NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
+"^DD",996.51,996.51,.01,1,0)
+^.1
+"^DD",996.51,996.51,.01,1,1,0)
+996.51^B
+"^DD",996.51,996.51,.01,1,1,1)
+S ^RGNET(996.51,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51,.01,1,1,2)
+K ^RGNET(996.51,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51,.01,3)
+Answer must be 3-100 characters in length.
+"^DD",996.51,996.51,.01,"DT")
+3030611
+"^DD",996.51,996.51,1,0)
+MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,1,3)
+M code to invoke monitor for this event type
+"^DD",996.51,996.51,1,9)
+@
+"^DD",996.51,996.51,1,"DT")
+3021021
+"^DD",996.51,996.51,2,0)
+DISABLE^S^0:NO;1:YES;^0;2^Q
+"^DD",996.51,996.51,2,3)
+Enter YES to disable this event type.
+"^DD",996.51,996.51,2,21,0)
+^.001^3^3^3030810^
+"^DD",996.51,996.51,2,21,1,0)
+If set to YES, this event type is disabled.  Once disabled, any attempt to 
+"^DD",996.51,996.51,2,21,2,0)
+enqueue the event will be ignored.  Disabling an event does not affect events
+"^DD",996.51,996.51,2,21,3,0)
+already in the queue. 
+"^DD",996.51,996.51,2,"DT")
+3030810
+"^DD",996.51,996.51,3,0)
+INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
+"^DD",996.51,996.51,3,3)
+Enter the nominal polling interval in seconds.
+"^DD",996.51,996.51,3,21,0)
+^^10^10^3021021.152235
+"^DD",996.51,996.51,3,21,1,0)
+This is the nominal polling interval for the event in seconds.
+"^DD",996.51,996.51,3,21,2,0)
+The actual polling interval is dependent on the event polling
+"^DD",996.51,996.51,3,21,3,0)
+interval set for the client application as a site parameter.
+"^DD",996.51,996.51,3,21,4,0)
+The nominal polling interval guarantees that polling for this
+"^DD",996.51,996.51,3,21,5,0)
+event will not occur more frequently than this setting.
+"^DD",996.51,996.51,3,21,6,0)
+ 
+"^DD",996.51,996.51,3,21,7,0)
+For events that are infrequent and/or do not require real time
+"^DD",996.51,996.51,3,21,8,0)
+notification, higher values may be selected for this field to
+"^DD",996.51,996.51,3,21,9,0)
+mitigate impact on system load. 
+"^DD",996.51,996.51,3,21,10,0)
+
+"^DD",996.51,996.51,3,"DT")
+3021021
+"^DD",996.51,996.51,4,0)
+LOG EVENT^S^0:NO;1:YES;^0;4^Q
+"^DD",996.51,996.51,4,3)
+Enter YES to enable logging of this event.
+"^DD",996.51,996.51,4,"DT")
+3030611
+"^DD",996.51,996.51,5,0)
+LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
+"^DD",996.51,996.51,5,3)
+Number of days to retain log entries.
+"^DD",996.51,996.51,5,"DT")
+3030611
+"^DD",996.51,996.51,6,0)
+POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
+"^DD",996.51,996.51,6,3)
+Determines how a monitored event is polled.
+"^DD",996.51,996.51,6,21,0)
+^^11^11^3030810.175145
+"^DD",996.51,996.51,6,21,1,0)
+For monitored events, this setting determines how the monitor is invoked
+"^DD",996.51,996.51,6,21,2,0)
+when the polling interval has been reached.  PER SESSION causes the event
+"^DD",996.51,996.51,6,21,3,0)
+monitor to be invoked for each active session, setting the user and
+"^DD",996.51,996.51,6,21,4,0)
+session context prior to each call.  PER INTERVAL cause the event monitor
+"^DD",996.51,996.51,6,21,5,0)
+to be invoked only once per interval.  No user or session context information
+"^DD",996.51,996.51,6,21,6,0)
+is available to the monitor in this case.
+"^DD",996.51,996.51,6,21,7,0)
+
+"^DD",996.51,996.51,6,21,8,0)
+PER SESSION is appropriate for events that depend upon a specific user or
+"^DD",996.51,996.51,6,21,9,0)
+session (e.g., notifications).  PER INTERVAL is appropriate for events 
+"^DD",996.51,996.51,6,21,10,0)
+that are independent of a user or session (e.g., status events to display
+"^DD",996.51,996.51,6,21,11,0)
+the host date/time).
+"^DD",996.51,996.51,6,"DT")
+3030810
+"^DD",996.51,996.51,7,0)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"^DD",996.51,996.51,7,12)
+Restricts to Extended Action Protocols starting with RGNE
+"^DD",996.51,996.51,7,12.1)
+S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X"""
+"^DD",996.51,996.51,7,"DT")
+3091007
+"^DD",996.51,996.51,10,0)
+DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,10,3)
+Logic to display stub info in log viewer.
+"^DD",996.51,996.51,10,9)
+@
+"^DD",996.51,996.51,10,"DT")
+3030611
+"^DD",996.51,996.51,20,0)
+PUBLICATION KEY^996.5102P^^20;0
+"^DD",996.51,996.51,21,0)
+SUBSCRIPTION KEY^996.51021P^^21;0
+"^DD",996.51,996.51,99,0)
+DESCRIPTION^996.51099^^99;0
+"^DD",996.51,996.51,100,0)
+ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
+"^DD",996.51,996.51,100,3)
+Date and time of last error
+"^DD",996.51,996.51,100,"DT")
+3061129
+"^DD",996.51,996.51,101,0)
+ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
+"^DD",996.51,996.51,101,3)
+Answer must be 1-240 characters in length.
+"^DD",996.51,996.51,101,"DT")
+3061129
+"^DD",996.51,996.5102,0)
+PUBLICATION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.5102,0,"DT")
+3021021
+"^DD",996.51,996.5102,0,"IX","B",996.5102,.01)
+
+"^DD",996.51,996.5102,0,"NM","PUBLICATION KEY")
+
+"^DD",996.51,996.5102,0,"UP")
+996.51
+"^DD",996.51,996.5102,.01,0)
+PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.5102,.01,1,0)
+^.1
+"^DD",996.51,996.5102,.01,1,1,0)
+996.5102^B
+"^DD",996.51,996.5102,.01,1,1,1)
+S ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.5102,.01,1,1,2)
+K ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)
+"^DD",996.51,996.5102,.01,3)
+Security keys required to fire this event.
+"^DD",996.51,996.5102,.01,21,0)
+^^2^2^3021021.152715
+"^DD",996.51,996.5102,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.5102,.01,21,2,0)
+the listed keys in order to fire an event of this type.
+"^DD",996.51,996.5102,.01,"DT")
+3040310
+"^DD",996.51,996.51021,0)
+SUBSCRIPTION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.51021,0,"DT")
+3021021
+"^DD",996.51,996.51021,0,"IX","B",996.51021,.01)
+
+"^DD",996.51,996.51021,0,"NM","SUBSCRIPTION KEY")
+
+"^DD",996.51,996.51021,0,"UP")
+996.51
+"^DD",996.51,996.51021,.01,0)
+SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.51021,.01,1,0)
+^.1
+"^DD",996.51,996.51021,.01,1,1,0)
+996.51021^B
+"^DD",996.51,996.51021,.01,1,1,1)
+S ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51021,.01,1,1,2)
+K ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51021,.01,3)
+Security keys required to receive this event type.
+"^DD",996.51,996.51021,.01,21,0)
+^^2^2^3021021.153002
+"^DD",996.51,996.51021,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.51021,.01,21,2,0)
+the listed keys in order subscribe to an event of this type. 
+"^DD",996.51,996.51021,.01,"DT")
+3040310
+"^DD",996.51,996.51099,0)
+DESCRIPTION SUB-FIELD^^.01^1
+"^DD",996.51,996.51099,0,"DT")
+3021021
+"^DD",996.51,996.51099,0,"NM","DESCRIPTION")
+
+"^DD",996.51,996.51099,0,"UP")
+996.51
+"^DD",996.51,996.51099,.01,0)
+DESCRIPTION^W^^0;1^Q
+"^DD",996.51,996.51099,.01,3)
+Enter a detailed description of this event type.
+"^DD",996.51,996.51099,.01,"DT")
+3021021
 "^DD",998.1,998.1,0)
 FIELD^^99^7
 "^DD",998.1,998.1,0,"DDA")
@@ -47882,236 +48112,12 @@ This logic provides the opportunity to update alerts (add or delete)
 for the current user prior to retrieving them.
 "^DD",999.201,999.201,4,"DT")
 3080128
-"^DD",19941.21,19941.21,0)
-FIELD^^7^14
-"^DD",19941.21,19941.21,0,"DT")
-3091007
-"^DD",19941.21,19941.21,0,"IX","B",19941.21,.01)
+"^DIC",996.51,996.51,0)
+NETSERV BROKER EVENT TYPE^996.51
+"^DIC",996.51,996.51,0,"GL")
+^RGNET(996.51,
+"^DIC",996.51,"B","NETSERV BROKER EVENT TYPE",996.51)
 
-"^DD",19941.21,19941.21,0,"NM","CIA EVENT TYPE")
-
-"^DD",19941.21,19941.21,0,"PT",999.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19930.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19941.23,1)
-
-"^DD",19941.21,19941.21,0,"VRPK")
-CAREWEB ENHANCEMENTS
-"^DD",19941.21,19941.21,.01,0)
-NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
-"^DD",19941.21,19941.21,.01,1,0)
-^.1
-"^DD",19941.21,19941.21,.01,1,1,0)
-19941.21^B
-"^DD",19941.21,19941.21,.01,1,1,1)
-S ^CIANB(19941.21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.21,.01,1,1,2)
-K ^CIANB(19941.21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.21,.01,3)
-Answer must be 3-100 characters in length.
-"^DD",19941.21,19941.21,.01,"DT")
-3030611
-"^DD",19941.21,19941.21,1,0)
-MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,1,3)
-M code to invoke monitor for this event type
-"^DD",19941.21,19941.21,1,9)
-@
-"^DD",19941.21,19941.21,1,"DT")
-3021021
-"^DD",19941.21,19941.21,2,0)
-DISABLE^S^0:NO;1:YES;^0;2^Q
-"^DD",19941.21,19941.21,2,3)
-Enter YES to disable this event type.
-"^DD",19941.21,19941.21,2,21,0)
-^.001^3^3^3030810^
-"^DD",19941.21,19941.21,2,21,1,0)
-If set to YES, this event type is disabled.  Once disabled, any attempt to 
-"^DD",19941.21,19941.21,2,21,2,0)
-enqueue the event will be ignored.  Disabling an event does not affect events
-"^DD",19941.21,19941.21,2,21,3,0)
-already in the queue. 
-"^DD",19941.21,19941.21,2,"DT")
-3030810
-"^DD",19941.21,19941.21,3,0)
-INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
-"^DD",19941.21,19941.21,3,3)
-Enter the nominal polling interval in seconds.
-"^DD",19941.21,19941.21,3,21,0)
-^^10^10^3021021.152235
-"^DD",19941.21,19941.21,3,21,1,0)
-This is the nominal polling interval for the event in seconds.
-"^DD",19941.21,19941.21,3,21,2,0)
-The actual polling interval is dependent on the event polling
-"^DD",19941.21,19941.21,3,21,3,0)
-interval set for the client application as a site parameter.
-"^DD",19941.21,19941.21,3,21,4,0)
-The nominal polling interval guarantees that polling for this
-"^DD",19941.21,19941.21,3,21,5,0)
-event will not occur more frequently than this setting.
-"^DD",19941.21,19941.21,3,21,6,0)
- 
-"^DD",19941.21,19941.21,3,21,7,0)
-For events that are infrequent and/or do not require real time
-"^DD",19941.21,19941.21,3,21,8,0)
-notification, higher values may be selected for this field to
-"^DD",19941.21,19941.21,3,21,9,0)
-mitigate impact on system load. 
-"^DD",19941.21,19941.21,3,21,10,0)
-
-"^DD",19941.21,19941.21,3,"DT")
-3021021
-"^DD",19941.21,19941.21,4,0)
-LOG EVENT^S^0:NO;1:YES;^0;4^Q
-"^DD",19941.21,19941.21,4,3)
-Enter YES to enable logging of this event.
-"^DD",19941.21,19941.21,4,"DT")
-3030611
-"^DD",19941.21,19941.21,5,0)
-LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
-"^DD",19941.21,19941.21,5,3)
-Number of days to retain log entries.
-"^DD",19941.21,19941.21,5,"DT")
-3030611
-"^DD",19941.21,19941.21,6,0)
-POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
-"^DD",19941.21,19941.21,6,3)
-Determines how a monitored event is polled.
-"^DD",19941.21,19941.21,6,21,0)
-^^11^11^3030810.175145
-"^DD",19941.21,19941.21,6,21,1,0)
-For monitored events, this setting determines how the monitor is invoked
-"^DD",19941.21,19941.21,6,21,2,0)
-when the polling interval has been reached.  PER SESSION causes the event
-"^DD",19941.21,19941.21,6,21,3,0)
-monitor to be invoked for each active session, setting the user and
-"^DD",19941.21,19941.21,6,21,4,0)
-session context prior to each call.  PER INTERVAL cause the event monitor
-"^DD",19941.21,19941.21,6,21,5,0)
-to be invoked only once per interval.  No user or session context information
-"^DD",19941.21,19941.21,6,21,6,0)
-is available to the monitor in this case.
-"^DD",19941.21,19941.21,6,21,7,0)
-
-"^DD",19941.21,19941.21,6,21,8,0)
-PER SESSION is appropriate for events that depend upon a specific user or
-"^DD",19941.21,19941.21,6,21,9,0)
-session (e.g., notifications).  PER INTERVAL is appropriate for events 
-"^DD",19941.21,19941.21,6,21,10,0)
-that are independent of a user or session (e.g., status events to display
-"^DD",19941.21,19941.21,6,21,11,0)
-the host date/time).
-"^DD",19941.21,19941.21,6,"DT")
-3030810
-"^DD",19941.21,19941.21,7,0)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
-"^DD",19941.21,19941.21,7,12)
-Restricts to Extended Action Protocols starting with CIAV
-"^DD",19941.21,19941.21,7,12.1)
-S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X"""
-"^DD",19941.21,19941.21,7,"DT")
-3091007
-"^DD",19941.21,19941.21,10,0)
-DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,10,3)
-Logic to display stub info in log viewer.
-"^DD",19941.21,19941.21,10,9)
-@
-"^DD",19941.21,19941.21,10,"DT")
-3030611
-"^DD",19941.21,19941.21,20,0)
-PUBLICATION KEY^19941.212P^^20;0
-"^DD",19941.21,19941.21,21,0)
-SUBSCRIPTION KEY^19941.2121P^^21;0
-"^DD",19941.21,19941.21,99,0)
-DESCRIPTION^19941.2199^^99;0
-"^DD",19941.21,19941.21,100,0)
-ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
-"^DD",19941.21,19941.21,100,3)
-Date and time of last error
-"^DD",19941.21,19941.21,100,"DT")
-3061129
-"^DD",19941.21,19941.21,101,0)
-ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
-"^DD",19941.21,19941.21,101,3)
-Answer must be 1-240 characters in length.
-"^DD",19941.21,19941.21,101,"DT")
-3061129
-"^DD",19941.21,19941.212,0)
-PUBLICATION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.212,0,"DT")
-3021021
-"^DD",19941.21,19941.212,0,"IX","B",19941.212,.01)
-
-"^DD",19941.21,19941.212,0,"NM","PUBLICATION KEY")
-
-"^DD",19941.21,19941.212,0,"UP")
-19941.21
-"^DD",19941.21,19941.212,.01,0)
-PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.212,.01,1,0)
-^.1
-"^DD",19941.21,19941.212,.01,1,1,0)
-19941.212^B
-"^DD",19941.21,19941.212,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.212,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.212,.01,3)
-Security keys required to fire this event.
-"^DD",19941.21,19941.212,.01,21,0)
-^^2^2^3021021.152715
-"^DD",19941.21,19941.212,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.212,.01,21,2,0)
-the listed keys in order to fire an event of this type.
-"^DD",19941.21,19941.212,.01,"DT")
-3040310
-"^DD",19941.21,19941.2121,0)
-SUBSCRIPTION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2121,0,"DT")
-3021021
-"^DD",19941.21,19941.2121,0,"IX","B",19941.2121,.01)
-
-"^DD",19941.21,19941.2121,0,"NM","SUBSCRIPTION KEY")
-
-"^DD",19941.21,19941.2121,0,"UP")
-19941.21
-"^DD",19941.21,19941.2121,.01,0)
-SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.2121,.01,1,0)
-^.1
-"^DD",19941.21,19941.2121,.01,1,1,0)
-19941.2121^B
-"^DD",19941.21,19941.2121,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.2121,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.2121,.01,3)
-Security keys required to receive this event type.
-"^DD",19941.21,19941.2121,.01,21,0)
-^^2^2^3021021.153002
-"^DD",19941.21,19941.2121,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.2121,.01,21,2,0)
-the listed keys in order subscribe to an event of this type. 
-"^DD",19941.21,19941.2121,.01,"DT")
-3040310
-"^DD",19941.21,19941.2199,0)
-DESCRIPTION SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2199,0,"DT")
-3021021
-"^DD",19941.21,19941.2199,0,"NM","DESCRIPTION")
-
-"^DD",19941.21,19941.2199,0,"UP")
-19941.21
-"^DD",19941.21,19941.2199,.01,0)
-DESCRIPTION^W^^0;1^Q
-"^DD",19941.21,19941.2199,.01,3)
-Enter a detailed description of this event type.
-"^DD",19941.21,19941.2199,.01,"DT")
-3021021
 "^DIC",998.1,998.1,0)
 SERIALIZATION CONTROL^998.1
 "^DIC",998.1,998.1,0,"GL")
@@ -48128,18 +48134,18 @@ CAREWEB NOTIFICATION CONTROL^999.201
 ^RGCWF(999.201,
 "^DIC",999.201,"B","CAREWEB NOTIFICATION CONTROL",999.201)
 
-"^DIC",19941.21,19941.21,0)
-CIA EVENT TYPE^19941.21
-"^DIC",19941.21,19941.21,0,"GL")
-^CIANB(19941.21,
-"^DIC",19941.21,"B","CIA EVENT TYPE",19941.21)
-
 **INSTALL NAME**
 CAREWEB LAB COVERSHEET 1.0
 "BLD",8491,0)
 CAREWEB LAB COVERSHEET 1.0^^0^3150522^n
 "BLD",8491,4,0)
-^9.64PA^998.1^3
+^9.64PA^996.51^3
+"BLD",8491,4,996.51,0)
+996.51
+"BLD",8491,4,996.51,222)
+n^y^f^^y^^y^o^n
+"BLD",8491,4,996.51,224)
+I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8491,4,998.1,0)
 998.1
 "BLD",8491,4,998.1,222)
@@ -48152,20 +48158,14 @@ I $$SCRN^RGCWKDTP(Y,1)
 n^y^f^^y^^y^o^n
 "BLD",8491,4,999.201,224)
 I $$SCRN^RGCWKDTP(Y,4)
-"BLD",8491,4,19941.21,0)
-19941.21
-"BLD",8491,4,19941.21,222)
-n^y^f^^y^^y^o^n
-"BLD",8491,4,19941.21,224)
-I $$SCRN^RGCWKDTP(Y,5)
+"BLD",8491,4,"B",996.51,996.51)
+
 "BLD",8491,4,"B",998.1,998.1)
 
 "BLD",8491,4,"B",999.201,999.201)
 
-"BLD",8491,4,"B",19941.21,19941.21)
-
 "BLD",8491,6.3)
-258
+259
 "BLD",8491,"INI")
 PRE^RGCWKDIN
 "BLD",8491,"INIT")
@@ -48282,6 +48282,28 @@ PRETRANS^RGCWKDTP
 ^9.62^^
 "BLD",8491,"REQB",0)
 ^9.611^^
+"FIA",996.51)
+NETSERV BROKER EVENT TYPE
+"FIA",996.51,0)
+^RGNET(996.51,
+"FIA",996.51,0,0)
+996.51
+"FIA",996.51,0,1)
+n^y^f^^y^^y^o^n
+"FIA",996.51,0,10)
+
+"FIA",996.51,0,11)
+I $$SCRN^RGCWKDTP(Y,5)
+"FIA",996.51,0,"RLRO")
+
+"FIA",996.51,996.51)
+0
+"FIA",996.51,996.5102)
+0
+"FIA",996.51,996.51021)
+0
+"FIA",996.51,996.51099)
+0
 "FIA",998.1)
 SERIALIZATION CONTROL
 "FIA",998.1,0)
@@ -48327,28 +48349,6 @@ I $$SCRN^RGCWKDTP(Y,4)
 "FIA",999.201,0,"RLRO")
 
 "FIA",999.201,999.201)
-0
-"FIA",19941.21)
-CIA EVENT TYPE
-"FIA",19941.21,0)
-^CIANB(19941.21,
-"FIA",19941.21,0,0)
-19941.21
-"FIA",19941.21,0,1)
-n^y^f^^y^^y^o^n
-"FIA",19941.21,0,10)
-
-"FIA",19941.21,0,11)
-I $$SCRN^RGCWKDTP(Y,5)
-"FIA",19941.21,0,"RLRO")
-
-"FIA",19941.21,19941.21)
-0
-"FIA",19941.21,19941.212)
-0
-"FIA",19941.21,19941.2121)
-0
-"FIA",19941.21,19941.2199)
 0
 "INI")
 PRE^RGCWKDIN
@@ -48410,8 +48410,8 @@ REMOTE PROCEDURE
 8989.51;20;;;PAR1E1^XPDTA2;PAR1F1^XPDIA3;PAR1E1^XPDIA3;PAR1F2^XPDIA3;;PAR1DEL^XPDIA3(%)
 "ORD",20,8989.51,0)
 PARAMETER DEFINITION
-"PGL",19941.21,0,7,7)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"PGL",996.51,0,7,7)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
 "PRE")
 RGCWKDIN
 "QUES","XPF1",0)
@@ -48491,7 +48491,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;01-Apr-2015 14:05;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 258
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 259
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -48817,7 +48817,7 @@ MES(MSG,QUIT) ;
 "RTN","RGCWLRCV",1,0)
 RGCWLRCV ;RI/CBMI/DKM - Support for lab cover sheet component ;18-Mar-2014 23:21;DKM
 "RTN","RGCWLRCV",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 258
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 259
 "RTN","RGCWLRCV",3,0)
  ; RPC: RGCWLRCV LIST
 "RTN","RGCWLRCV",4,0)
@@ -48854,6 +48854,18 @@ RNGLAB(DFN) ;
  S INOUT=$S($L($G(^DPT(DFN,.1))):"I",1:"O")
 "RTN","RGCWLRCV",20,0)
  Q $$GET^XPAR("ALL","RGCWLRCV DATE RANGE",INOUT,"I")
+"SEC","^DIC",996.51,996.51,0,"AUDIT")
+@
+"SEC","^DIC",996.51,996.51,0,"DD")
+@
+"SEC","^DIC",996.51,996.51,0,"DEL")
+@
+"SEC","^DIC",996.51,996.51,0,"LAYGO")
+@
+"SEC","^DIC",996.51,996.51,0,"RD")
+@
+"SEC","^DIC",996.51,996.51,0,"WR")
+@
 "SEC","^DIC",998.1,998.1,0,"AUDIT")
 @
 "SEC","^DIC",998.1,998.1,0,"DD")
@@ -48878,18 +48890,6 @@ RNGLAB(DFN) ;
 @
 "SEC","^DIC",999.201,999.201,0,"WR")
 @
-"SEC","^DIC",19941.21,19941.21,0,"AUDIT")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DEL")
-@
-"SEC","^DIC",19941.21,19941.21,0,"LAYGO")
-@
-"SEC","^DIC",19941.21,19941.21,0,"RD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"WR")
-@
 "TEMP","EC")
 
 "TEMP","FINAL")
@@ -48908,6 +48908,236 @@ RGCWLRCV DATE RANGE^I^2
 10
 "VER")
 8.0^22.0
+"^DD",996.51,996.51,0)
+FIELD^^7^14
+"^DD",996.51,996.51,0,"DT")
+3091007
+"^DD",996.51,996.51,0,"IX","B",996.51,.01)
+
+"^DD",996.51,996.51,0,"NM","NETSERV BROKER EVENT TYPE")
+
+"^DD",996.51,996.51,0,"PT",996.55,1)
+
+"^DD",996.51,996.51,0,"PT",999.995,.01)
+
+"^DD",996.51,996.51,0,"PT",19930.995,.01)
+
+"^DD",996.51,996.51,0,"VRPK")
+CAREWEB ENHANCEMENTS
+"^DD",996.51,996.51,.01,0)
+NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
+"^DD",996.51,996.51,.01,1,0)
+^.1
+"^DD",996.51,996.51,.01,1,1,0)
+996.51^B
+"^DD",996.51,996.51,.01,1,1,1)
+S ^RGNET(996.51,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51,.01,1,1,2)
+K ^RGNET(996.51,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51,.01,3)
+Answer must be 3-100 characters in length.
+"^DD",996.51,996.51,.01,"DT")
+3030611
+"^DD",996.51,996.51,1,0)
+MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,1,3)
+M code to invoke monitor for this event type
+"^DD",996.51,996.51,1,9)
+@
+"^DD",996.51,996.51,1,"DT")
+3021021
+"^DD",996.51,996.51,2,0)
+DISABLE^S^0:NO;1:YES;^0;2^Q
+"^DD",996.51,996.51,2,3)
+Enter YES to disable this event type.
+"^DD",996.51,996.51,2,21,0)
+^.001^3^3^3030810^
+"^DD",996.51,996.51,2,21,1,0)
+If set to YES, this event type is disabled.  Once disabled, any attempt to 
+"^DD",996.51,996.51,2,21,2,0)
+enqueue the event will be ignored.  Disabling an event does not affect events
+"^DD",996.51,996.51,2,21,3,0)
+already in the queue. 
+"^DD",996.51,996.51,2,"DT")
+3030810
+"^DD",996.51,996.51,3,0)
+INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
+"^DD",996.51,996.51,3,3)
+Enter the nominal polling interval in seconds.
+"^DD",996.51,996.51,3,21,0)
+^^10^10^3021021.152235
+"^DD",996.51,996.51,3,21,1,0)
+This is the nominal polling interval for the event in seconds.
+"^DD",996.51,996.51,3,21,2,0)
+The actual polling interval is dependent on the event polling
+"^DD",996.51,996.51,3,21,3,0)
+interval set for the client application as a site parameter.
+"^DD",996.51,996.51,3,21,4,0)
+The nominal polling interval guarantees that polling for this
+"^DD",996.51,996.51,3,21,5,0)
+event will not occur more frequently than this setting.
+"^DD",996.51,996.51,3,21,6,0)
+ 
+"^DD",996.51,996.51,3,21,7,0)
+For events that are infrequent and/or do not require real time
+"^DD",996.51,996.51,3,21,8,0)
+notification, higher values may be selected for this field to
+"^DD",996.51,996.51,3,21,9,0)
+mitigate impact on system load. 
+"^DD",996.51,996.51,3,21,10,0)
+
+"^DD",996.51,996.51,3,"DT")
+3021021
+"^DD",996.51,996.51,4,0)
+LOG EVENT^S^0:NO;1:YES;^0;4^Q
+"^DD",996.51,996.51,4,3)
+Enter YES to enable logging of this event.
+"^DD",996.51,996.51,4,"DT")
+3030611
+"^DD",996.51,996.51,5,0)
+LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
+"^DD",996.51,996.51,5,3)
+Number of days to retain log entries.
+"^DD",996.51,996.51,5,"DT")
+3030611
+"^DD",996.51,996.51,6,0)
+POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
+"^DD",996.51,996.51,6,3)
+Determines how a monitored event is polled.
+"^DD",996.51,996.51,6,21,0)
+^^11^11^3030810.175145
+"^DD",996.51,996.51,6,21,1,0)
+For monitored events, this setting determines how the monitor is invoked
+"^DD",996.51,996.51,6,21,2,0)
+when the polling interval has been reached.  PER SESSION causes the event
+"^DD",996.51,996.51,6,21,3,0)
+monitor to be invoked for each active session, setting the user and
+"^DD",996.51,996.51,6,21,4,0)
+session context prior to each call.  PER INTERVAL cause the event monitor
+"^DD",996.51,996.51,6,21,5,0)
+to be invoked only once per interval.  No user or session context information
+"^DD",996.51,996.51,6,21,6,0)
+is available to the monitor in this case.
+"^DD",996.51,996.51,6,21,7,0)
+
+"^DD",996.51,996.51,6,21,8,0)
+PER SESSION is appropriate for events that depend upon a specific user or
+"^DD",996.51,996.51,6,21,9,0)
+session (e.g., notifications).  PER INTERVAL is appropriate for events 
+"^DD",996.51,996.51,6,21,10,0)
+that are independent of a user or session (e.g., status events to display
+"^DD",996.51,996.51,6,21,11,0)
+the host date/time).
+"^DD",996.51,996.51,6,"DT")
+3030810
+"^DD",996.51,996.51,7,0)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"^DD",996.51,996.51,7,12)
+Restricts to Extended Action Protocols starting with RGNE
+"^DD",996.51,996.51,7,12.1)
+S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X"""
+"^DD",996.51,996.51,7,"DT")
+3091007
+"^DD",996.51,996.51,10,0)
+DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,10,3)
+Logic to display stub info in log viewer.
+"^DD",996.51,996.51,10,9)
+@
+"^DD",996.51,996.51,10,"DT")
+3030611
+"^DD",996.51,996.51,20,0)
+PUBLICATION KEY^996.5102P^^20;0
+"^DD",996.51,996.51,21,0)
+SUBSCRIPTION KEY^996.51021P^^21;0
+"^DD",996.51,996.51,99,0)
+DESCRIPTION^996.51099^^99;0
+"^DD",996.51,996.51,100,0)
+ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
+"^DD",996.51,996.51,100,3)
+Date and time of last error
+"^DD",996.51,996.51,100,"DT")
+3061129
+"^DD",996.51,996.51,101,0)
+ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
+"^DD",996.51,996.51,101,3)
+Answer must be 1-240 characters in length.
+"^DD",996.51,996.51,101,"DT")
+3061129
+"^DD",996.51,996.5102,0)
+PUBLICATION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.5102,0,"DT")
+3021021
+"^DD",996.51,996.5102,0,"IX","B",996.5102,.01)
+
+"^DD",996.51,996.5102,0,"NM","PUBLICATION KEY")
+
+"^DD",996.51,996.5102,0,"UP")
+996.51
+"^DD",996.51,996.5102,.01,0)
+PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.5102,.01,1,0)
+^.1
+"^DD",996.51,996.5102,.01,1,1,0)
+996.5102^B
+"^DD",996.51,996.5102,.01,1,1,1)
+S ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.5102,.01,1,1,2)
+K ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)
+"^DD",996.51,996.5102,.01,3)
+Security keys required to fire this event.
+"^DD",996.51,996.5102,.01,21,0)
+^^2^2^3021021.152715
+"^DD",996.51,996.5102,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.5102,.01,21,2,0)
+the listed keys in order to fire an event of this type.
+"^DD",996.51,996.5102,.01,"DT")
+3040310
+"^DD",996.51,996.51021,0)
+SUBSCRIPTION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.51021,0,"DT")
+3021021
+"^DD",996.51,996.51021,0,"IX","B",996.51021,.01)
+
+"^DD",996.51,996.51021,0,"NM","SUBSCRIPTION KEY")
+
+"^DD",996.51,996.51021,0,"UP")
+996.51
+"^DD",996.51,996.51021,.01,0)
+SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.51021,.01,1,0)
+^.1
+"^DD",996.51,996.51021,.01,1,1,0)
+996.51021^B
+"^DD",996.51,996.51021,.01,1,1,1)
+S ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51021,.01,1,1,2)
+K ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51021,.01,3)
+Security keys required to receive this event type.
+"^DD",996.51,996.51021,.01,21,0)
+^^2^2^3021021.153002
+"^DD",996.51,996.51021,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.51021,.01,21,2,0)
+the listed keys in order subscribe to an event of this type. 
+"^DD",996.51,996.51021,.01,"DT")
+3040310
+"^DD",996.51,996.51099,0)
+DESCRIPTION SUB-FIELD^^.01^1
+"^DD",996.51,996.51099,0,"DT")
+3021021
+"^DD",996.51,996.51099,0,"NM","DESCRIPTION")
+
+"^DD",996.51,996.51099,0,"UP")
+996.51
+"^DD",996.51,996.51099,.01,0)
+DESCRIPTION^W^^0;1^Q
+"^DD",996.51,996.51099,.01,3)
+Enter a detailed description of this event type.
+"^DD",996.51,996.51099,.01,"DT")
+3021021
 "^DD",998.1,998.1,0)
 FIELD^^99^7
 "^DD",998.1,998.1,0,"DDA")
@@ -49664,236 +49894,12 @@ This logic provides the opportunity to update alerts (add or delete)
 for the current user prior to retrieving them.
 "^DD",999.201,999.201,4,"DT")
 3080128
-"^DD",19941.21,19941.21,0)
-FIELD^^7^14
-"^DD",19941.21,19941.21,0,"DT")
-3091007
-"^DD",19941.21,19941.21,0,"IX","B",19941.21,.01)
+"^DIC",996.51,996.51,0)
+NETSERV BROKER EVENT TYPE^996.51
+"^DIC",996.51,996.51,0,"GL")
+^RGNET(996.51,
+"^DIC",996.51,"B","NETSERV BROKER EVENT TYPE",996.51)
 
-"^DD",19941.21,19941.21,0,"NM","CIA EVENT TYPE")
-
-"^DD",19941.21,19941.21,0,"PT",999.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19930.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19941.23,1)
-
-"^DD",19941.21,19941.21,0,"VRPK")
-CAREWEB ENHANCEMENTS
-"^DD",19941.21,19941.21,.01,0)
-NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
-"^DD",19941.21,19941.21,.01,1,0)
-^.1
-"^DD",19941.21,19941.21,.01,1,1,0)
-19941.21^B
-"^DD",19941.21,19941.21,.01,1,1,1)
-S ^CIANB(19941.21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.21,.01,1,1,2)
-K ^CIANB(19941.21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.21,.01,3)
-Answer must be 3-100 characters in length.
-"^DD",19941.21,19941.21,.01,"DT")
-3030611
-"^DD",19941.21,19941.21,1,0)
-MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,1,3)
-M code to invoke monitor for this event type
-"^DD",19941.21,19941.21,1,9)
-@
-"^DD",19941.21,19941.21,1,"DT")
-3021021
-"^DD",19941.21,19941.21,2,0)
-DISABLE^S^0:NO;1:YES;^0;2^Q
-"^DD",19941.21,19941.21,2,3)
-Enter YES to disable this event type.
-"^DD",19941.21,19941.21,2,21,0)
-^.001^3^3^3030810^
-"^DD",19941.21,19941.21,2,21,1,0)
-If set to YES, this event type is disabled.  Once disabled, any attempt to 
-"^DD",19941.21,19941.21,2,21,2,0)
-enqueue the event will be ignored.  Disabling an event does not affect events
-"^DD",19941.21,19941.21,2,21,3,0)
-already in the queue. 
-"^DD",19941.21,19941.21,2,"DT")
-3030810
-"^DD",19941.21,19941.21,3,0)
-INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
-"^DD",19941.21,19941.21,3,3)
-Enter the nominal polling interval in seconds.
-"^DD",19941.21,19941.21,3,21,0)
-^^10^10^3021021.152235
-"^DD",19941.21,19941.21,3,21,1,0)
-This is the nominal polling interval for the event in seconds.
-"^DD",19941.21,19941.21,3,21,2,0)
-The actual polling interval is dependent on the event polling
-"^DD",19941.21,19941.21,3,21,3,0)
-interval set for the client application as a site parameter.
-"^DD",19941.21,19941.21,3,21,4,0)
-The nominal polling interval guarantees that polling for this
-"^DD",19941.21,19941.21,3,21,5,0)
-event will not occur more frequently than this setting.
-"^DD",19941.21,19941.21,3,21,6,0)
- 
-"^DD",19941.21,19941.21,3,21,7,0)
-For events that are infrequent and/or do not require real time
-"^DD",19941.21,19941.21,3,21,8,0)
-notification, higher values may be selected for this field to
-"^DD",19941.21,19941.21,3,21,9,0)
-mitigate impact on system load. 
-"^DD",19941.21,19941.21,3,21,10,0)
-
-"^DD",19941.21,19941.21,3,"DT")
-3021021
-"^DD",19941.21,19941.21,4,0)
-LOG EVENT^S^0:NO;1:YES;^0;4^Q
-"^DD",19941.21,19941.21,4,3)
-Enter YES to enable logging of this event.
-"^DD",19941.21,19941.21,4,"DT")
-3030611
-"^DD",19941.21,19941.21,5,0)
-LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
-"^DD",19941.21,19941.21,5,3)
-Number of days to retain log entries.
-"^DD",19941.21,19941.21,5,"DT")
-3030611
-"^DD",19941.21,19941.21,6,0)
-POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
-"^DD",19941.21,19941.21,6,3)
-Determines how a monitored event is polled.
-"^DD",19941.21,19941.21,6,21,0)
-^^11^11^3030810.175145
-"^DD",19941.21,19941.21,6,21,1,0)
-For monitored events, this setting determines how the monitor is invoked
-"^DD",19941.21,19941.21,6,21,2,0)
-when the polling interval has been reached.  PER SESSION causes the event
-"^DD",19941.21,19941.21,6,21,3,0)
-monitor to be invoked for each active session, setting the user and
-"^DD",19941.21,19941.21,6,21,4,0)
-session context prior to each call.  PER INTERVAL cause the event monitor
-"^DD",19941.21,19941.21,6,21,5,0)
-to be invoked only once per interval.  No user or session context information
-"^DD",19941.21,19941.21,6,21,6,0)
-is available to the monitor in this case.
-"^DD",19941.21,19941.21,6,21,7,0)
-
-"^DD",19941.21,19941.21,6,21,8,0)
-PER SESSION is appropriate for events that depend upon a specific user or
-"^DD",19941.21,19941.21,6,21,9,0)
-session (e.g., notifications).  PER INTERVAL is appropriate for events 
-"^DD",19941.21,19941.21,6,21,10,0)
-that are independent of a user or session (e.g., status events to display
-"^DD",19941.21,19941.21,6,21,11,0)
-the host date/time).
-"^DD",19941.21,19941.21,6,"DT")
-3030810
-"^DD",19941.21,19941.21,7,0)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
-"^DD",19941.21,19941.21,7,12)
-Restricts to Extended Action Protocols starting with CIAV
-"^DD",19941.21,19941.21,7,12.1)
-S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X"""
-"^DD",19941.21,19941.21,7,"DT")
-3091007
-"^DD",19941.21,19941.21,10,0)
-DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,10,3)
-Logic to display stub info in log viewer.
-"^DD",19941.21,19941.21,10,9)
-@
-"^DD",19941.21,19941.21,10,"DT")
-3030611
-"^DD",19941.21,19941.21,20,0)
-PUBLICATION KEY^19941.212P^^20;0
-"^DD",19941.21,19941.21,21,0)
-SUBSCRIPTION KEY^19941.2121P^^21;0
-"^DD",19941.21,19941.21,99,0)
-DESCRIPTION^19941.2199^^99;0
-"^DD",19941.21,19941.21,100,0)
-ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
-"^DD",19941.21,19941.21,100,3)
-Date and time of last error
-"^DD",19941.21,19941.21,100,"DT")
-3061129
-"^DD",19941.21,19941.21,101,0)
-ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
-"^DD",19941.21,19941.21,101,3)
-Answer must be 1-240 characters in length.
-"^DD",19941.21,19941.21,101,"DT")
-3061129
-"^DD",19941.21,19941.212,0)
-PUBLICATION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.212,0,"DT")
-3021021
-"^DD",19941.21,19941.212,0,"IX","B",19941.212,.01)
-
-"^DD",19941.21,19941.212,0,"NM","PUBLICATION KEY")
-
-"^DD",19941.21,19941.212,0,"UP")
-19941.21
-"^DD",19941.21,19941.212,.01,0)
-PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.212,.01,1,0)
-^.1
-"^DD",19941.21,19941.212,.01,1,1,0)
-19941.212^B
-"^DD",19941.21,19941.212,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.212,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.212,.01,3)
-Security keys required to fire this event.
-"^DD",19941.21,19941.212,.01,21,0)
-^^2^2^3021021.152715
-"^DD",19941.21,19941.212,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.212,.01,21,2,0)
-the listed keys in order to fire an event of this type.
-"^DD",19941.21,19941.212,.01,"DT")
-3040310
-"^DD",19941.21,19941.2121,0)
-SUBSCRIPTION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2121,0,"DT")
-3021021
-"^DD",19941.21,19941.2121,0,"IX","B",19941.2121,.01)
-
-"^DD",19941.21,19941.2121,0,"NM","SUBSCRIPTION KEY")
-
-"^DD",19941.21,19941.2121,0,"UP")
-19941.21
-"^DD",19941.21,19941.2121,.01,0)
-SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.2121,.01,1,0)
-^.1
-"^DD",19941.21,19941.2121,.01,1,1,0)
-19941.2121^B
-"^DD",19941.21,19941.2121,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.2121,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.2121,.01,3)
-Security keys required to receive this event type.
-"^DD",19941.21,19941.2121,.01,21,0)
-^^2^2^3021021.153002
-"^DD",19941.21,19941.2121,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.2121,.01,21,2,0)
-the listed keys in order subscribe to an event of this type. 
-"^DD",19941.21,19941.2121,.01,"DT")
-3040310
-"^DD",19941.21,19941.2199,0)
-DESCRIPTION SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2199,0,"DT")
-3021021
-"^DD",19941.21,19941.2199,0,"NM","DESCRIPTION")
-
-"^DD",19941.21,19941.2199,0,"UP")
-19941.21
-"^DD",19941.21,19941.2199,.01,0)
-DESCRIPTION^W^^0;1^Q
-"^DD",19941.21,19941.2199,.01,3)
-Enter a detailed description of this event type.
-"^DD",19941.21,19941.2199,.01,"DT")
-3021021
 "^DIC",998.1,998.1,0)
 SERIALIZATION CONTROL^998.1
 "^DIC",998.1,998.1,0,"GL")
@@ -49910,18 +49916,18 @@ CAREWEB NOTIFICATION CONTROL^999.201
 ^RGCWF(999.201,
 "^DIC",999.201,"B","CAREWEB NOTIFICATION CONTROL",999.201)
 
-"^DIC",19941.21,19941.21,0)
-CIA EVENT TYPE^19941.21
-"^DIC",19941.21,19941.21,0,"GL")
-^CIANB(19941.21,
-"^DIC",19941.21,"B","CIA EVENT TYPE",19941.21)
-
 **INSTALL NAME**
 CAREWEB VITALS 1.0
 "BLD",8499,0)
 CAREWEB VITALS 1.0^^0^3150522^n
 "BLD",8499,4,0)
-^9.64PA^998.1^4
+^9.64PA^996.51^4
+"BLD",8499,4,996.51,0)
+996.51
+"BLD",8499,4,996.51,222)
+n^y^f^^y^^y^o^n
+"BLD",8499,4,996.51,224)
+I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8499,4,998.1,0)
 998.1
 "BLD",8499,4,998.1,222)
@@ -49938,22 +49944,16 @@ I $$SCRN^RGCWKDTP(Y,4)
 999.21
 "BLD",8499,4,999.21,222)
 y^y^f^^n^^y^o^n
-"BLD",8499,4,19941.21,0)
-19941.21
-"BLD",8499,4,19941.21,222)
-n^y^f^^y^^y^o^n
-"BLD",8499,4,19941.21,224)
-I $$SCRN^RGCWKDTP(Y,5)
+"BLD",8499,4,"B",996.51,996.51)
+
 "BLD",8499,4,"B",998.1,998.1)
 
 "BLD",8499,4,"B",999.201,999.201)
 
 "BLD",8499,4,"B",999.21,999.21)
 
-"BLD",8499,4,"B",19941.21,19941.21)
-
 "BLD",8499,6.3)
-255
+256
 "BLD",8499,"INI")
 PRE^RGCWKDIN
 "BLD",8499,"INIT")
@@ -53880,6 +53880,28 @@ D VALIDNUM(.X,50,100)
 Enter oxygen saturation as a percentage.  Must be an integer value between 50
 "DATA",999.21,344,99,2,0)
 and 100, inclusive. 
+"FIA",996.51)
+NETSERV BROKER EVENT TYPE
+"FIA",996.51,0)
+^RGNET(996.51,
+"FIA",996.51,0,0)
+996.51
+"FIA",996.51,0,1)
+n^y^f^^y^^y^o^n
+"FIA",996.51,0,10)
+
+"FIA",996.51,0,11)
+I $$SCRN^RGCWKDTP(Y,5)
+"FIA",996.51,0,"RLRO")
+
+"FIA",996.51,996.51)
+0
+"FIA",996.51,996.5102)
+0
+"FIA",996.51,996.51021)
+0
+"FIA",996.51,996.51099)
+0
 "FIA",998.1)
 SERIALIZATION CONTROL
 "FIA",998.1,0)
@@ -53945,28 +53967,6 @@ y^y^f^^n^^y^o^n
 "FIA",999.21,999.2109)
 0
 "FIA",999.21,999.2199)
-0
-"FIA",19941.21)
-CIA EVENT TYPE
-"FIA",19941.21,0)
-^CIANB(19941.21,
-"FIA",19941.21,0,0)
-19941.21
-"FIA",19941.21,0,1)
-n^y^f^^y^^y^o^n
-"FIA",19941.21,0,10)
-
-"FIA",19941.21,0,11)
-I $$SCRN^RGCWKDTP(Y,5)
-"FIA",19941.21,0,"RLRO")
-
-"FIA",19941.21,19941.21)
-0
-"FIA",19941.21,19941.212)
-0
-"FIA",19941.21,19941.2121)
-0
-"FIA",19941.21,19941.2199)
 0
 "INI")
 PRE^RGCWKDIN
@@ -54308,8 +54308,8 @@ REMOTE PROCEDURE
 8989.51;20;;;PAR1E1^XPDTA2;PAR1F1^XPDIA3;PAR1E1^XPDIA3;PAR1F2^XPDIA3;;PAR1DEL^XPDIA3(%)
 "ORD",20,8989.51,0)
 PARAMETER DEFINITION
-"PGL",19941.21,0,7,7)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"PGL",996.51,0,7,7)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
 "PRE")
 RGCWKDIN
 "QUES","XPF1",0)
@@ -54389,7 +54389,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;01-Apr-2015 14:05;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 255
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 256
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -54715,7 +54715,7 @@ MES(MSG,QUIT) ;
 "RTN","RGCWVM",1,0)
 RGCWVM ;MSC/IND/DKM - Cover Sheet: Vital Measurements ;01-Apr-2015 14:05;DKM
 "RTN","RGCWVM",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001003,001004,001005,001006,001009**;Sep 18, 2007;Build 255
+ ;;1.0;CAREWEB FRAMEWORK;**001003,001004,001005,001006,001009**;Sep 18, 2007;Build 256
 "RTN","RGCWVM",3,0)
  ;=================================================================
 "RTN","RGCWVM",4,0)
@@ -55553,7 +55553,7 @@ ADD(TXT,LBL,SUB) ;
 "RTN","RGCWVM2",1,0)
 RGCWVM2 ;IHS/MSC/MGH - Triage: Vital Measurements ;18-Aug-2014 17:20;DKM
 "RTN","RGCWVM2",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005,001007,001009**;Sep 18, 2007;Build 255
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005,001007,001009**;Sep 18, 2007;Build 256
 "RTN","RGCWVM2",3,0)
  ;=================================================================
 "RTN","RGCWVM2",4,0)
@@ -55977,7 +55977,7 @@ GETCATP(RESULTS,VIEN) ;EP Given a vital sign and an IEN, return the categories f
 "RTN","RGCWVMC",1,0)
 RGCWVMC ;IHS/MSC/MGH - CUMULATIVE VITALS/MEASUREMENTS FOR PATIENT OVER GIVEN DATE RANGE ;18-Aug-2014 17:20;DKM
 "RTN","RGCWVMC",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;March 20,2007;Build 255
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;March 20,2007;Build 256
 "RTN","RGCWVMC",3,0)
 DEV ;S %ZIS="Q",%ZIS("B")="" D ^%ZIS K %ZIS G:POP Q3 I $E(IOST)="P",'$D(IO("Q")),'$D(IO("S")) D ^%ZISC W !,?3,"PRINTED REPORTS MUST BE QUEUED!!",$C(7) G DEV
 "RTN","RGCWVMC",4,0)
@@ -56113,7 +56113,7 @@ PRT ;PRINT V/M BY DATE/TIME
 "RTN","RGCWVMC2",1,0)
 RGCWVMC2 ;MSC/IND/MGH - CUMMULATIVE VITALS/MEASUREMENTS CONT ;20-Jan-2015 13:23;DKM
 "RTN","RGCWVMC2",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;Mar 20, 2007;Build 255
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;Mar 20, 2007;Build 256
 "RTN","RGCWVMC2",3,0)
  ;=================================================================
 "RTN","RGCWVMC2",4,0)
@@ -56263,7 +56263,7 @@ QUAL(BEHIEN) ;Add on qualifiers
 "RTN","RGCWVMER",1,0)
 RGCWVMER ;MSC/IND/MGH - VITALS ENTERED IN ERROR REPORT ;20-Jan-2015 13:23;DKM
 "RTN","RGCWVMER",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;Mar 20, 2007;Build 255
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;Mar 20, 2007;Build 256
 "RTN","RGCWVMER",3,0)
  ;=================================================================
 "RTN","RGCWVMER",4,0)
@@ -56443,7 +56443,7 @@ RND(X) Q $S(X=+X:+$J(X,0,2),1:X)
 "RTN","RGCWVMIN",1,0)
 RGCWVMIN ;MSC/IND/DKM - Installation Support ;01-Apr-2015 14:07;DKM
 "RTN","RGCWVMIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001002**;Mar 20, 2007;Build 255
+ ;;1.0;CAREWEB FRAMEWORK;**001002**;Mar 20, 2007;Build 256
 "RTN","RGCWVMIN",3,0)
  ;=================================================================
 "RTN","RGCWVMIN",4,0)
@@ -56487,7 +56487,7 @@ CANENTER ;;PROVIDER
 "RTN","RGCWVMRP",1,0)
 RGCWVMRP ;IHS/MSC/MGH - OE/RR REPORTS FOR MEASUREMNTS AND I&O;18-Aug-2014 17:20;DKM
 "RTN","RGCWVMRP",2,0)
- ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;March 20,2007;Build 255
+ ;;1.0;CAREWEB FRAMEWORK;**001004,001005**;March 20,2007;Build 256
 "RTN","RGCWVMRP",3,0)
  ;
 "RTN","RGCWVMRP",4,0)
@@ -56608,6 +56608,18 @@ ERRPT ; Print Vitals Entered in error Report
  I DATA=1 D EN1^RGCWVMER
 "RTN","RGCWVMRP",62,0)
  Q
+"SEC","^DIC",996.51,996.51,0,"AUDIT")
+@
+"SEC","^DIC",996.51,996.51,0,"DD")
+@
+"SEC","^DIC",996.51,996.51,0,"DEL")
+@
+"SEC","^DIC",996.51,996.51,0,"LAYGO")
+@
+"SEC","^DIC",996.51,996.51,0,"RD")
+@
+"SEC","^DIC",996.51,996.51,0,"WR")
+@
 "SEC","^DIC",998.1,998.1,0,"AUDIT")
 @
 "SEC","^DIC",998.1,998.1,0,"DD")
@@ -56643,18 +56655,6 @@ ERRPT ; Print Vitals Entered in error Report
 "SEC","^DIC",999.21,999.21,0,"RD")
 @
 "SEC","^DIC",999.21,999.21,0,"WR")
-@
-"SEC","^DIC",19941.21,19941.21,0,"AUDIT")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DEL")
-@
-"SEC","^DIC",19941.21,19941.21,0,"LAYGO")
-@
-"SEC","^DIC",19941.21,19941.21,0,"RD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"WR")
 @
 "TEMP","EC")
 
@@ -56702,6 +56702,236 @@ RGCWVM VITAL LIST^90^BODY MASS INDEX
 12
 "VER")
 8.0^22.0
+"^DD",996.51,996.51,0)
+FIELD^^7^14
+"^DD",996.51,996.51,0,"DT")
+3091007
+"^DD",996.51,996.51,0,"IX","B",996.51,.01)
+
+"^DD",996.51,996.51,0,"NM","NETSERV BROKER EVENT TYPE")
+
+"^DD",996.51,996.51,0,"PT",996.55,1)
+
+"^DD",996.51,996.51,0,"PT",999.995,.01)
+
+"^DD",996.51,996.51,0,"PT",19930.995,.01)
+
+"^DD",996.51,996.51,0,"VRPK")
+CAREWEB ENHANCEMENTS
+"^DD",996.51,996.51,.01,0)
+NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
+"^DD",996.51,996.51,.01,1,0)
+^.1
+"^DD",996.51,996.51,.01,1,1,0)
+996.51^B
+"^DD",996.51,996.51,.01,1,1,1)
+S ^RGNET(996.51,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51,.01,1,1,2)
+K ^RGNET(996.51,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51,.01,3)
+Answer must be 3-100 characters in length.
+"^DD",996.51,996.51,.01,"DT")
+3030611
+"^DD",996.51,996.51,1,0)
+MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,1,3)
+M code to invoke monitor for this event type
+"^DD",996.51,996.51,1,9)
+@
+"^DD",996.51,996.51,1,"DT")
+3021021
+"^DD",996.51,996.51,2,0)
+DISABLE^S^0:NO;1:YES;^0;2^Q
+"^DD",996.51,996.51,2,3)
+Enter YES to disable this event type.
+"^DD",996.51,996.51,2,21,0)
+^.001^3^3^3030810^
+"^DD",996.51,996.51,2,21,1,0)
+If set to YES, this event type is disabled.  Once disabled, any attempt to 
+"^DD",996.51,996.51,2,21,2,0)
+enqueue the event will be ignored.  Disabling an event does not affect events
+"^DD",996.51,996.51,2,21,3,0)
+already in the queue. 
+"^DD",996.51,996.51,2,"DT")
+3030810
+"^DD",996.51,996.51,3,0)
+INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
+"^DD",996.51,996.51,3,3)
+Enter the nominal polling interval in seconds.
+"^DD",996.51,996.51,3,21,0)
+^^10^10^3021021.152235
+"^DD",996.51,996.51,3,21,1,0)
+This is the nominal polling interval for the event in seconds.
+"^DD",996.51,996.51,3,21,2,0)
+The actual polling interval is dependent on the event polling
+"^DD",996.51,996.51,3,21,3,0)
+interval set for the client application as a site parameter.
+"^DD",996.51,996.51,3,21,4,0)
+The nominal polling interval guarantees that polling for this
+"^DD",996.51,996.51,3,21,5,0)
+event will not occur more frequently than this setting.
+"^DD",996.51,996.51,3,21,6,0)
+ 
+"^DD",996.51,996.51,3,21,7,0)
+For events that are infrequent and/or do not require real time
+"^DD",996.51,996.51,3,21,8,0)
+notification, higher values may be selected for this field to
+"^DD",996.51,996.51,3,21,9,0)
+mitigate impact on system load. 
+"^DD",996.51,996.51,3,21,10,0)
+
+"^DD",996.51,996.51,3,"DT")
+3021021
+"^DD",996.51,996.51,4,0)
+LOG EVENT^S^0:NO;1:YES;^0;4^Q
+"^DD",996.51,996.51,4,3)
+Enter YES to enable logging of this event.
+"^DD",996.51,996.51,4,"DT")
+3030611
+"^DD",996.51,996.51,5,0)
+LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
+"^DD",996.51,996.51,5,3)
+Number of days to retain log entries.
+"^DD",996.51,996.51,5,"DT")
+3030611
+"^DD",996.51,996.51,6,0)
+POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
+"^DD",996.51,996.51,6,3)
+Determines how a monitored event is polled.
+"^DD",996.51,996.51,6,21,0)
+^^11^11^3030810.175145
+"^DD",996.51,996.51,6,21,1,0)
+For monitored events, this setting determines how the monitor is invoked
+"^DD",996.51,996.51,6,21,2,0)
+when the polling interval has been reached.  PER SESSION causes the event
+"^DD",996.51,996.51,6,21,3,0)
+monitor to be invoked for each active session, setting the user and
+"^DD",996.51,996.51,6,21,4,0)
+session context prior to each call.  PER INTERVAL cause the event monitor
+"^DD",996.51,996.51,6,21,5,0)
+to be invoked only once per interval.  No user or session context information
+"^DD",996.51,996.51,6,21,6,0)
+is available to the monitor in this case.
+"^DD",996.51,996.51,6,21,7,0)
+
+"^DD",996.51,996.51,6,21,8,0)
+PER SESSION is appropriate for events that depend upon a specific user or
+"^DD",996.51,996.51,6,21,9,0)
+session (e.g., notifications).  PER INTERVAL is appropriate for events 
+"^DD",996.51,996.51,6,21,10,0)
+that are independent of a user or session (e.g., status events to display
+"^DD",996.51,996.51,6,21,11,0)
+the host date/time).
+"^DD",996.51,996.51,6,"DT")
+3030810
+"^DD",996.51,996.51,7,0)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"^DD",996.51,996.51,7,12)
+Restricts to Extended Action Protocols starting with RGNE
+"^DD",996.51,996.51,7,12.1)
+S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X"""
+"^DD",996.51,996.51,7,"DT")
+3091007
+"^DD",996.51,996.51,10,0)
+DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,10,3)
+Logic to display stub info in log viewer.
+"^DD",996.51,996.51,10,9)
+@
+"^DD",996.51,996.51,10,"DT")
+3030611
+"^DD",996.51,996.51,20,0)
+PUBLICATION KEY^996.5102P^^20;0
+"^DD",996.51,996.51,21,0)
+SUBSCRIPTION KEY^996.51021P^^21;0
+"^DD",996.51,996.51,99,0)
+DESCRIPTION^996.51099^^99;0
+"^DD",996.51,996.51,100,0)
+ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
+"^DD",996.51,996.51,100,3)
+Date and time of last error
+"^DD",996.51,996.51,100,"DT")
+3061129
+"^DD",996.51,996.51,101,0)
+ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
+"^DD",996.51,996.51,101,3)
+Answer must be 1-240 characters in length.
+"^DD",996.51,996.51,101,"DT")
+3061129
+"^DD",996.51,996.5102,0)
+PUBLICATION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.5102,0,"DT")
+3021021
+"^DD",996.51,996.5102,0,"IX","B",996.5102,.01)
+
+"^DD",996.51,996.5102,0,"NM","PUBLICATION KEY")
+
+"^DD",996.51,996.5102,0,"UP")
+996.51
+"^DD",996.51,996.5102,.01,0)
+PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.5102,.01,1,0)
+^.1
+"^DD",996.51,996.5102,.01,1,1,0)
+996.5102^B
+"^DD",996.51,996.5102,.01,1,1,1)
+S ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.5102,.01,1,1,2)
+K ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)
+"^DD",996.51,996.5102,.01,3)
+Security keys required to fire this event.
+"^DD",996.51,996.5102,.01,21,0)
+^^2^2^3021021.152715
+"^DD",996.51,996.5102,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.5102,.01,21,2,0)
+the listed keys in order to fire an event of this type.
+"^DD",996.51,996.5102,.01,"DT")
+3040310
+"^DD",996.51,996.51021,0)
+SUBSCRIPTION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.51021,0,"DT")
+3021021
+"^DD",996.51,996.51021,0,"IX","B",996.51021,.01)
+
+"^DD",996.51,996.51021,0,"NM","SUBSCRIPTION KEY")
+
+"^DD",996.51,996.51021,0,"UP")
+996.51
+"^DD",996.51,996.51021,.01,0)
+SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.51021,.01,1,0)
+^.1
+"^DD",996.51,996.51021,.01,1,1,0)
+996.51021^B
+"^DD",996.51,996.51021,.01,1,1,1)
+S ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51021,.01,1,1,2)
+K ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51021,.01,3)
+Security keys required to receive this event type.
+"^DD",996.51,996.51021,.01,21,0)
+^^2^2^3021021.153002
+"^DD",996.51,996.51021,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.51021,.01,21,2,0)
+the listed keys in order subscribe to an event of this type. 
+"^DD",996.51,996.51021,.01,"DT")
+3040310
+"^DD",996.51,996.51099,0)
+DESCRIPTION SUB-FIELD^^.01^1
+"^DD",996.51,996.51099,0,"DT")
+3021021
+"^DD",996.51,996.51099,0,"NM","DESCRIPTION")
+
+"^DD",996.51,996.51099,0,"UP")
+996.51
+"^DD",996.51,996.51099,.01,0)
+DESCRIPTION^W^^0;1^Q
+"^DD",996.51,996.51099,.01,3)
+Enter a detailed description of this event type.
+"^DD",996.51,996.51099,.01,"DT")
+3021021
 "^DD",998.1,998.1,0)
 FIELD^^99^7
 "^DD",998.1,998.1,0,"DDA")
@@ -57592,236 +57822,12 @@ DESCRIPTION^WL^^0;1^Q
 Enter text to appear when help is requested.
 "^DD",999.21,999.2199,.01,"DT")
 3041102
-"^DD",19941.21,19941.21,0)
-FIELD^^7^14
-"^DD",19941.21,19941.21,0,"DT")
-3091007
-"^DD",19941.21,19941.21,0,"IX","B",19941.21,.01)
+"^DIC",996.51,996.51,0)
+NETSERV BROKER EVENT TYPE^996.51
+"^DIC",996.51,996.51,0,"GL")
+^RGNET(996.51,
+"^DIC",996.51,"B","NETSERV BROKER EVENT TYPE",996.51)
 
-"^DD",19941.21,19941.21,0,"NM","CIA EVENT TYPE")
-
-"^DD",19941.21,19941.21,0,"PT",999.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19930.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19941.23,1)
-
-"^DD",19941.21,19941.21,0,"VRPK")
-CAREWEB ENHANCEMENTS
-"^DD",19941.21,19941.21,.01,0)
-NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
-"^DD",19941.21,19941.21,.01,1,0)
-^.1
-"^DD",19941.21,19941.21,.01,1,1,0)
-19941.21^B
-"^DD",19941.21,19941.21,.01,1,1,1)
-S ^CIANB(19941.21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.21,.01,1,1,2)
-K ^CIANB(19941.21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.21,.01,3)
-Answer must be 3-100 characters in length.
-"^DD",19941.21,19941.21,.01,"DT")
-3030611
-"^DD",19941.21,19941.21,1,0)
-MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,1,3)
-M code to invoke monitor for this event type
-"^DD",19941.21,19941.21,1,9)
-@
-"^DD",19941.21,19941.21,1,"DT")
-3021021
-"^DD",19941.21,19941.21,2,0)
-DISABLE^S^0:NO;1:YES;^0;2^Q
-"^DD",19941.21,19941.21,2,3)
-Enter YES to disable this event type.
-"^DD",19941.21,19941.21,2,21,0)
-^.001^3^3^3030810^
-"^DD",19941.21,19941.21,2,21,1,0)
-If set to YES, this event type is disabled.  Once disabled, any attempt to 
-"^DD",19941.21,19941.21,2,21,2,0)
-enqueue the event will be ignored.  Disabling an event does not affect events
-"^DD",19941.21,19941.21,2,21,3,0)
-already in the queue. 
-"^DD",19941.21,19941.21,2,"DT")
-3030810
-"^DD",19941.21,19941.21,3,0)
-INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
-"^DD",19941.21,19941.21,3,3)
-Enter the nominal polling interval in seconds.
-"^DD",19941.21,19941.21,3,21,0)
-^^10^10^3021021.152235
-"^DD",19941.21,19941.21,3,21,1,0)
-This is the nominal polling interval for the event in seconds.
-"^DD",19941.21,19941.21,3,21,2,0)
-The actual polling interval is dependent on the event polling
-"^DD",19941.21,19941.21,3,21,3,0)
-interval set for the client application as a site parameter.
-"^DD",19941.21,19941.21,3,21,4,0)
-The nominal polling interval guarantees that polling for this
-"^DD",19941.21,19941.21,3,21,5,0)
-event will not occur more frequently than this setting.
-"^DD",19941.21,19941.21,3,21,6,0)
- 
-"^DD",19941.21,19941.21,3,21,7,0)
-For events that are infrequent and/or do not require real time
-"^DD",19941.21,19941.21,3,21,8,0)
-notification, higher values may be selected for this field to
-"^DD",19941.21,19941.21,3,21,9,0)
-mitigate impact on system load. 
-"^DD",19941.21,19941.21,3,21,10,0)
-
-"^DD",19941.21,19941.21,3,"DT")
-3021021
-"^DD",19941.21,19941.21,4,0)
-LOG EVENT^S^0:NO;1:YES;^0;4^Q
-"^DD",19941.21,19941.21,4,3)
-Enter YES to enable logging of this event.
-"^DD",19941.21,19941.21,4,"DT")
-3030611
-"^DD",19941.21,19941.21,5,0)
-LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
-"^DD",19941.21,19941.21,5,3)
-Number of days to retain log entries.
-"^DD",19941.21,19941.21,5,"DT")
-3030611
-"^DD",19941.21,19941.21,6,0)
-POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
-"^DD",19941.21,19941.21,6,3)
-Determines how a monitored event is polled.
-"^DD",19941.21,19941.21,6,21,0)
-^^11^11^3030810.175145
-"^DD",19941.21,19941.21,6,21,1,0)
-For monitored events, this setting determines how the monitor is invoked
-"^DD",19941.21,19941.21,6,21,2,0)
-when the polling interval has been reached.  PER SESSION causes the event
-"^DD",19941.21,19941.21,6,21,3,0)
-monitor to be invoked for each active session, setting the user and
-"^DD",19941.21,19941.21,6,21,4,0)
-session context prior to each call.  PER INTERVAL cause the event monitor
-"^DD",19941.21,19941.21,6,21,5,0)
-to be invoked only once per interval.  No user or session context information
-"^DD",19941.21,19941.21,6,21,6,0)
-is available to the monitor in this case.
-"^DD",19941.21,19941.21,6,21,7,0)
-
-"^DD",19941.21,19941.21,6,21,8,0)
-PER SESSION is appropriate for events that depend upon a specific user or
-"^DD",19941.21,19941.21,6,21,9,0)
-session (e.g., notifications).  PER INTERVAL is appropriate for events 
-"^DD",19941.21,19941.21,6,21,10,0)
-that are independent of a user or session (e.g., status events to display
-"^DD",19941.21,19941.21,6,21,11,0)
-the host date/time).
-"^DD",19941.21,19941.21,6,"DT")
-3030810
-"^DD",19941.21,19941.21,7,0)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
-"^DD",19941.21,19941.21,7,12)
-Restricts to Extended Action Protocols starting with CIAV
-"^DD",19941.21,19941.21,7,12.1)
-S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X"""
-"^DD",19941.21,19941.21,7,"DT")
-3091007
-"^DD",19941.21,19941.21,10,0)
-DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,10,3)
-Logic to display stub info in log viewer.
-"^DD",19941.21,19941.21,10,9)
-@
-"^DD",19941.21,19941.21,10,"DT")
-3030611
-"^DD",19941.21,19941.21,20,0)
-PUBLICATION KEY^19941.212P^^20;0
-"^DD",19941.21,19941.21,21,0)
-SUBSCRIPTION KEY^19941.2121P^^21;0
-"^DD",19941.21,19941.21,99,0)
-DESCRIPTION^19941.2199^^99;0
-"^DD",19941.21,19941.21,100,0)
-ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
-"^DD",19941.21,19941.21,100,3)
-Date and time of last error
-"^DD",19941.21,19941.21,100,"DT")
-3061129
-"^DD",19941.21,19941.21,101,0)
-ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
-"^DD",19941.21,19941.21,101,3)
-Answer must be 1-240 characters in length.
-"^DD",19941.21,19941.21,101,"DT")
-3061129
-"^DD",19941.21,19941.212,0)
-PUBLICATION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.212,0,"DT")
-3021021
-"^DD",19941.21,19941.212,0,"IX","B",19941.212,.01)
-
-"^DD",19941.21,19941.212,0,"NM","PUBLICATION KEY")
-
-"^DD",19941.21,19941.212,0,"UP")
-19941.21
-"^DD",19941.21,19941.212,.01,0)
-PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.212,.01,1,0)
-^.1
-"^DD",19941.21,19941.212,.01,1,1,0)
-19941.212^B
-"^DD",19941.21,19941.212,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.212,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.212,.01,3)
-Security keys required to fire this event.
-"^DD",19941.21,19941.212,.01,21,0)
-^^2^2^3021021.152715
-"^DD",19941.21,19941.212,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.212,.01,21,2,0)
-the listed keys in order to fire an event of this type.
-"^DD",19941.21,19941.212,.01,"DT")
-3040310
-"^DD",19941.21,19941.2121,0)
-SUBSCRIPTION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2121,0,"DT")
-3021021
-"^DD",19941.21,19941.2121,0,"IX","B",19941.2121,.01)
-
-"^DD",19941.21,19941.2121,0,"NM","SUBSCRIPTION KEY")
-
-"^DD",19941.21,19941.2121,0,"UP")
-19941.21
-"^DD",19941.21,19941.2121,.01,0)
-SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.2121,.01,1,0)
-^.1
-"^DD",19941.21,19941.2121,.01,1,1,0)
-19941.2121^B
-"^DD",19941.21,19941.2121,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.2121,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.2121,.01,3)
-Security keys required to receive this event type.
-"^DD",19941.21,19941.2121,.01,21,0)
-^^2^2^3021021.153002
-"^DD",19941.21,19941.2121,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.2121,.01,21,2,0)
-the listed keys in order subscribe to an event of this type. 
-"^DD",19941.21,19941.2121,.01,"DT")
-3040310
-"^DD",19941.21,19941.2199,0)
-DESCRIPTION SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2199,0,"DT")
-3021021
-"^DD",19941.21,19941.2199,0,"NM","DESCRIPTION")
-
-"^DD",19941.21,19941.2199,0,"UP")
-19941.21
-"^DD",19941.21,19941.2199,.01,0)
-DESCRIPTION^W^^0;1^Q
-"^DD",19941.21,19941.2199,.01,3)
-Enter a detailed description of this event type.
-"^DD",19941.21,19941.2199,.01,"DT")
-3021021
 "^DIC",998.1,998.1,0)
 SERIALIZATION CONTROL^998.1
 "^DIC",998.1,998.1,0,"GL")
@@ -57850,18 +57856,18 @@ This file controls which measurement types may be viewed and manipulated
 within the RPMS-EHR application.
 "^DIC",999.21,"B","CAREWEB MEASUREMENT CONTROL",999.21)
 
-"^DIC",19941.21,19941.21,0)
-CIA EVENT TYPE^19941.21
-"^DIC",19941.21,19941.21,0,"GL")
-^CIANB(19941.21,
-"^DIC",19941.21,"B","CIA EVENT TYPE",19941.21)
-
 **INSTALL NAME**
 CAREWEB SMART ADAPTER 1.0
 "BLD",8501,0)
 CAREWEB SMART ADAPTER 1.0^^0^3150522^n
 "BLD",8501,4,0)
-^9.64PA^998.1^3
+^9.64PA^996.51^3
+"BLD",8501,4,996.51,0)
+996.51
+"BLD",8501,4,996.51,222)
+n^y^f^^y^^y^o^n
+"BLD",8501,4,996.51,224)
+I $$SCRN^RGCWKDTP(Y,5)
 "BLD",8501,4,998.1,0)
 998.1
 "BLD",8501,4,998.1,222)
@@ -57874,20 +57880,14 @@ I $$SCRN^RGCWKDTP(Y,1)
 n^y^f^^y^^y^o^n
 "BLD",8501,4,999.201,224)
 I $$SCRN^RGCWKDTP(Y,4)
-"BLD",8501,4,19941.21,0)
-19941.21
-"BLD",8501,4,19941.21,222)
-n^y^f^^y^^y^o^n
-"BLD",8501,4,19941.21,224)
-I $$SCRN^RGCWKDTP(Y,5)
+"BLD",8501,4,"B",996.51,996.51)
+
 "BLD",8501,4,"B",998.1,998.1)
 
 "BLD",8501,4,"B",999.201,999.201)
 
-"BLD",8501,4,"B",19941.21,19941.21)
-
 "BLD",8501,6.3)
-250
+251
 "BLD",8501,"INI")
 PRE^RGCWKDIN
 "BLD",8501,"INIT")
@@ -57996,6 +57996,28 @@ PRETRANS^RGCWKDTP
 VISTA SMART CONTAINER 1.0^0
 "BLD",8501,"REQB","B","VISTA SMART CONTAINER 1.0",1)
 
+"FIA",996.51)
+NETSERV BROKER EVENT TYPE
+"FIA",996.51,0)
+^RGNET(996.51,
+"FIA",996.51,0,0)
+996.51
+"FIA",996.51,0,1)
+n^y^f^^y^^y^o^n
+"FIA",996.51,0,10)
+
+"FIA",996.51,0,11)
+I $$SCRN^RGCWKDTP(Y,5)
+"FIA",996.51,0,"RLRO")
+
+"FIA",996.51,996.51)
+0
+"FIA",996.51,996.5102)
+0
+"FIA",996.51,996.51021)
+0
+"FIA",996.51,996.51099)
+0
 "FIA",998.1)
 SERIALIZATION CONTROL
 "FIA",998.1,0)
@@ -58042,28 +58064,6 @@ I $$SCRN^RGCWKDTP(Y,4)
 
 "FIA",999.201,999.201)
 0
-"FIA",19941.21)
-CIA EVENT TYPE
-"FIA",19941.21,0)
-^CIANB(19941.21,
-"FIA",19941.21,0,0)
-19941.21
-"FIA",19941.21,0,1)
-n^y^f^^y^^y^o^n
-"FIA",19941.21,0,10)
-
-"FIA",19941.21,0,11)
-I $$SCRN^RGCWKDTP(Y,5)
-"FIA",19941.21,0,"RLRO")
-
-"FIA",19941.21,19941.21)
-0
-"FIA",19941.21,19941.212)
-0
-"FIA",19941.21,19941.2121)
-0
-"FIA",19941.21,19941.2199)
-0
 "INI")
 PRE^RGCWKDIN
 "INIT")
@@ -58078,8 +58078,8 @@ RGCWSMRT GET^EN^C0SMART^2^^^^1
 8994;16;1;;;;;;;RPCDEL^XPDIA1
 "ORD",16,8994,0)
 REMOTE PROCEDURE
-"PGL",19941.21,0,7,7)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"PGL",996.51,0,7,7)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
 "PRE")
 RGCWKDIN
 "QUES","XPF1",0)
@@ -58159,7 +58159,7 @@ D XPZ2^XPDIQ
 "RTN","RGCWKDIN",1,0)
 RGCKDIN ;RI/CBMI/DKM - CareWeb KIDS installation support ;01-Apr-2015 14:05;DKM
 "RTN","RGCWKDIN",2,0)
- ;;1.0;CAREWEB FRAMEWORK;;;Build 250
+ ;;1.0;CAREWEB FRAMEWORK;;;Build 251
 "RTN","RGCWKDIN",3,0)
  ; Environment check
 "RTN","RGCWKDIN",4,0)
@@ -58480,6 +58480,18 @@ MES(MSG,QUIT) ;
  S:$G(QUIT) XPDQUIT=QUIT
 "RTN","RGCWKDIN",162,0)
  Q
+"SEC","^DIC",996.51,996.51,0,"AUDIT")
+@
+"SEC","^DIC",996.51,996.51,0,"DD")
+@
+"SEC","^DIC",996.51,996.51,0,"DEL")
+@
+"SEC","^DIC",996.51,996.51,0,"LAYGO")
+@
+"SEC","^DIC",996.51,996.51,0,"RD")
+@
+"SEC","^DIC",996.51,996.51,0,"WR")
+@
 "SEC","^DIC",998.1,998.1,0,"AUDIT")
 @
 "SEC","^DIC",998.1,998.1,0,"DD")
@@ -58504,18 +58516,6 @@ MES(MSG,QUIT) ;
 @
 "SEC","^DIC",999.201,999.201,0,"WR")
 @
-"SEC","^DIC",19941.21,19941.21,0,"AUDIT")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"DEL")
-@
-"SEC","^DIC",19941.21,19941.21,0,"LAYGO")
-@
-"SEC","^DIC",19941.21,19941.21,0,"RD")
-@
-"SEC","^DIC",19941.21,19941.21,0,"WR")
-@
 "TEMP","EC")
 
 "TEMP","FINAL")
@@ -58530,6 +58530,236 @@ MES(MSG,QUIT) ;
 13
 "VER")
 8.0^22.0
+"^DD",996.51,996.51,0)
+FIELD^^7^14
+"^DD",996.51,996.51,0,"DT")
+3091007
+"^DD",996.51,996.51,0,"IX","B",996.51,.01)
+
+"^DD",996.51,996.51,0,"NM","NETSERV BROKER EVENT TYPE")
+
+"^DD",996.51,996.51,0,"PT",996.55,1)
+
+"^DD",996.51,996.51,0,"PT",999.995,.01)
+
+"^DD",996.51,996.51,0,"PT",19930.995,.01)
+
+"^DD",996.51,996.51,0,"VRPK")
+CAREWEB ENHANCEMENTS
+"^DD",996.51,996.51,.01,0)
+NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
+"^DD",996.51,996.51,.01,1,0)
+^.1
+"^DD",996.51,996.51,.01,1,1,0)
+996.51^B
+"^DD",996.51,996.51,.01,1,1,1)
+S ^RGNET(996.51,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51,.01,1,1,2)
+K ^RGNET(996.51,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51,.01,3)
+Answer must be 3-100 characters in length.
+"^DD",996.51,996.51,.01,"DT")
+3030611
+"^DD",996.51,996.51,1,0)
+MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,1,3)
+M code to invoke monitor for this event type
+"^DD",996.51,996.51,1,9)
+@
+"^DD",996.51,996.51,1,"DT")
+3021021
+"^DD",996.51,996.51,2,0)
+DISABLE^S^0:NO;1:YES;^0;2^Q
+"^DD",996.51,996.51,2,3)
+Enter YES to disable this event type.
+"^DD",996.51,996.51,2,21,0)
+^.001^3^3^3030810^
+"^DD",996.51,996.51,2,21,1,0)
+If set to YES, this event type is disabled.  Once disabled, any attempt to 
+"^DD",996.51,996.51,2,21,2,0)
+enqueue the event will be ignored.  Disabling an event does not affect events
+"^DD",996.51,996.51,2,21,3,0)
+already in the queue. 
+"^DD",996.51,996.51,2,"DT")
+3030810
+"^DD",996.51,996.51,3,0)
+INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
+"^DD",996.51,996.51,3,3)
+Enter the nominal polling interval in seconds.
+"^DD",996.51,996.51,3,21,0)
+^^10^10^3021021.152235
+"^DD",996.51,996.51,3,21,1,0)
+This is the nominal polling interval for the event in seconds.
+"^DD",996.51,996.51,3,21,2,0)
+The actual polling interval is dependent on the event polling
+"^DD",996.51,996.51,3,21,3,0)
+interval set for the client application as a site parameter.
+"^DD",996.51,996.51,3,21,4,0)
+The nominal polling interval guarantees that polling for this
+"^DD",996.51,996.51,3,21,5,0)
+event will not occur more frequently than this setting.
+"^DD",996.51,996.51,3,21,6,0)
+ 
+"^DD",996.51,996.51,3,21,7,0)
+For events that are infrequent and/or do not require real time
+"^DD",996.51,996.51,3,21,8,0)
+notification, higher values may be selected for this field to
+"^DD",996.51,996.51,3,21,9,0)
+mitigate impact on system load. 
+"^DD",996.51,996.51,3,21,10,0)
+
+"^DD",996.51,996.51,3,"DT")
+3021021
+"^DD",996.51,996.51,4,0)
+LOG EVENT^S^0:NO;1:YES;^0;4^Q
+"^DD",996.51,996.51,4,3)
+Enter YES to enable logging of this event.
+"^DD",996.51,996.51,4,"DT")
+3030611
+"^DD",996.51,996.51,5,0)
+LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
+"^DD",996.51,996.51,5,3)
+Number of days to retain log entries.
+"^DD",996.51,996.51,5,"DT")
+3030611
+"^DD",996.51,996.51,6,0)
+POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
+"^DD",996.51,996.51,6,3)
+Determines how a monitored event is polled.
+"^DD",996.51,996.51,6,21,0)
+^^11^11^3030810.175145
+"^DD",996.51,996.51,6,21,1,0)
+For monitored events, this setting determines how the monitor is invoked
+"^DD",996.51,996.51,6,21,2,0)
+when the polling interval has been reached.  PER SESSION causes the event
+"^DD",996.51,996.51,6,21,3,0)
+monitor to be invoked for each active session, setting the user and
+"^DD",996.51,996.51,6,21,4,0)
+session context prior to each call.  PER INTERVAL cause the event monitor
+"^DD",996.51,996.51,6,21,5,0)
+to be invoked only once per interval.  No user or session context information
+"^DD",996.51,996.51,6,21,6,0)
+is available to the monitor in this case.
+"^DD",996.51,996.51,6,21,7,0)
+
+"^DD",996.51,996.51,6,21,8,0)
+PER SESSION is appropriate for events that depend upon a specific user or
+"^DD",996.51,996.51,6,21,9,0)
+session (e.g., notifications).  PER INTERVAL is appropriate for events 
+"^DD",996.51,996.51,6,21,10,0)
+that are independent of a user or session (e.g., status events to display
+"^DD",996.51,996.51,6,21,11,0)
+the host date/time).
+"^DD",996.51,996.51,6,"DT")
+3030810
+"^DD",996.51,996.51,7,0)
+EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
+"^DD",996.51,996.51,7,12)
+Restricts to Extended Action Protocols starting with RGNE
+"^DD",996.51,996.51,7,12.1)
+S DIC("S")="I $E(^(0),1,4)=""RGNE"",$P(^(0),U,4)=""X"""
+"^DD",996.51,996.51,7,"DT")
+3091007
+"^DD",996.51,996.51,10,0)
+DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
+"^DD",996.51,996.51,10,3)
+Logic to display stub info in log viewer.
+"^DD",996.51,996.51,10,9)
+@
+"^DD",996.51,996.51,10,"DT")
+3030611
+"^DD",996.51,996.51,20,0)
+PUBLICATION KEY^996.5102P^^20;0
+"^DD",996.51,996.51,21,0)
+SUBSCRIPTION KEY^996.51021P^^21;0
+"^DD",996.51,996.51,99,0)
+DESCRIPTION^996.51099^^99;0
+"^DD",996.51,996.51,100,0)
+ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
+"^DD",996.51,996.51,100,3)
+Date and time of last error
+"^DD",996.51,996.51,100,"DT")
+3061129
+"^DD",996.51,996.51,101,0)
+ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
+"^DD",996.51,996.51,101,3)
+Answer must be 1-240 characters in length.
+"^DD",996.51,996.51,101,"DT")
+3061129
+"^DD",996.51,996.5102,0)
+PUBLICATION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.5102,0,"DT")
+3021021
+"^DD",996.51,996.5102,0,"IX","B",996.5102,.01)
+
+"^DD",996.51,996.5102,0,"NM","PUBLICATION KEY")
+
+"^DD",996.51,996.5102,0,"UP")
+996.51
+"^DD",996.51,996.5102,.01,0)
+PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.5102,.01,1,0)
+^.1
+"^DD",996.51,996.5102,.01,1,1,0)
+996.5102^B
+"^DD",996.51,996.5102,.01,1,1,1)
+S ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.5102,.01,1,1,2)
+K ^RGNET(996.51,DA(1),20,"B",$E(X,1,30),DA)
+"^DD",996.51,996.5102,.01,3)
+Security keys required to fire this event.
+"^DD",996.51,996.5102,.01,21,0)
+^^2^2^3021021.152715
+"^DD",996.51,996.5102,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.5102,.01,21,2,0)
+the listed keys in order to fire an event of this type.
+"^DD",996.51,996.5102,.01,"DT")
+3040310
+"^DD",996.51,996.51021,0)
+SUBSCRIPTION KEY SUB-FIELD^^.01^1
+"^DD",996.51,996.51021,0,"DT")
+3021021
+"^DD",996.51,996.51021,0,"IX","B",996.51021,.01)
+
+"^DD",996.51,996.51021,0,"NM","SUBSCRIPTION KEY")
+
+"^DD",996.51,996.51021,0,"UP")
+996.51
+"^DD",996.51,996.51021,.01,0)
+SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
+"^DD",996.51,996.51021,.01,1,0)
+^.1
+"^DD",996.51,996.51021,.01,1,1,0)
+996.51021^B
+"^DD",996.51,996.51021,.01,1,1,1)
+S ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)=""
+"^DD",996.51,996.51021,.01,1,1,2)
+K ^RGNET(996.51,DA(1),21,"B",$E(X,1,30),DA)
+"^DD",996.51,996.51021,.01,3)
+Security keys required to receive this event type.
+"^DD",996.51,996.51021,.01,21,0)
+^^2^2^3021021.153002
+"^DD",996.51,996.51021,.01,21,1,0)
+If there are entries in this multiple, the user must possess at least one of
+"^DD",996.51,996.51021,.01,21,2,0)
+the listed keys in order subscribe to an event of this type. 
+"^DD",996.51,996.51021,.01,"DT")
+3040310
+"^DD",996.51,996.51099,0)
+DESCRIPTION SUB-FIELD^^.01^1
+"^DD",996.51,996.51099,0,"DT")
+3021021
+"^DD",996.51,996.51099,0,"NM","DESCRIPTION")
+
+"^DD",996.51,996.51099,0,"UP")
+996.51
+"^DD",996.51,996.51099,.01,0)
+DESCRIPTION^W^^0;1^Q
+"^DD",996.51,996.51099,.01,3)
+Enter a detailed description of this event type.
+"^DD",996.51,996.51099,.01,"DT")
+3021021
 "^DD",998.1,998.1,0)
 FIELD^^99^7
 "^DD",998.1,998.1,0,"DDA")
@@ -59286,236 +59516,12 @@ This logic provides the opportunity to update alerts (add or delete)
 for the current user prior to retrieving them.
 "^DD",999.201,999.201,4,"DT")
 3080128
-"^DD",19941.21,19941.21,0)
-FIELD^^7^14
-"^DD",19941.21,19941.21,0,"DT")
-3091007
-"^DD",19941.21,19941.21,0,"IX","B",19941.21,.01)
+"^DIC",996.51,996.51,0)
+NETSERV BROKER EVENT TYPE^996.51
+"^DIC",996.51,996.51,0,"GL")
+^RGNET(996.51,
+"^DIC",996.51,"B","NETSERV BROKER EVENT TYPE",996.51)
 
-"^DD",19941.21,19941.21,0,"NM","CIA EVENT TYPE")
-
-"^DD",19941.21,19941.21,0,"PT",999.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19930.995,.01)
-
-"^DD",19941.21,19941.21,0,"PT",19941.23,1)
-
-"^DD",19941.21,19941.21,0,"VRPK")
-CAREWEB ENHANCEMENTS
-"^DD",19941.21,19941.21,.01,0)
-NAME^RF^^0;1^K:$L(X)>100!($L(X)<3)!'(X'?1P.E) X
-"^DD",19941.21,19941.21,.01,1,0)
-^.1
-"^DD",19941.21,19941.21,.01,1,1,0)
-19941.21^B
-"^DD",19941.21,19941.21,.01,1,1,1)
-S ^CIANB(19941.21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.21,.01,1,1,2)
-K ^CIANB(19941.21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.21,.01,3)
-Answer must be 3-100 characters in length.
-"^DD",19941.21,19941.21,.01,"DT")
-3030611
-"^DD",19941.21,19941.21,1,0)
-MONITOR^K^^1;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,1,3)
-M code to invoke monitor for this event type
-"^DD",19941.21,19941.21,1,9)
-@
-"^DD",19941.21,19941.21,1,"DT")
-3021021
-"^DD",19941.21,19941.21,2,0)
-DISABLE^S^0:NO;1:YES;^0;2^Q
-"^DD",19941.21,19941.21,2,3)
-Enter YES to disable this event type.
-"^DD",19941.21,19941.21,2,21,0)
-^.001^3^3^3030810^
-"^DD",19941.21,19941.21,2,21,1,0)
-If set to YES, this event type is disabled.  Once disabled, any attempt to 
-"^DD",19941.21,19941.21,2,21,2,0)
-enqueue the event will be ignored.  Disabling an event does not affect events
-"^DD",19941.21,19941.21,2,21,3,0)
-already in the queue. 
-"^DD",19941.21,19941.21,2,"DT")
-3030810
-"^DD",19941.21,19941.21,3,0)
-INTERVAL^NJ11,0X^^0;3^K:X<0!(X\1'=X) X
-"^DD",19941.21,19941.21,3,3)
-Enter the nominal polling interval in seconds.
-"^DD",19941.21,19941.21,3,21,0)
-^^10^10^3021021.152235
-"^DD",19941.21,19941.21,3,21,1,0)
-This is the nominal polling interval for the event in seconds.
-"^DD",19941.21,19941.21,3,21,2,0)
-The actual polling interval is dependent on the event polling
-"^DD",19941.21,19941.21,3,21,3,0)
-interval set for the client application as a site parameter.
-"^DD",19941.21,19941.21,3,21,4,0)
-The nominal polling interval guarantees that polling for this
-"^DD",19941.21,19941.21,3,21,5,0)
-event will not occur more frequently than this setting.
-"^DD",19941.21,19941.21,3,21,6,0)
- 
-"^DD",19941.21,19941.21,3,21,7,0)
-For events that are infrequent and/or do not require real time
-"^DD",19941.21,19941.21,3,21,8,0)
-notification, higher values may be selected for this field to
-"^DD",19941.21,19941.21,3,21,9,0)
-mitigate impact on system load. 
-"^DD",19941.21,19941.21,3,21,10,0)
-
-"^DD",19941.21,19941.21,3,"DT")
-3021021
-"^DD",19941.21,19941.21,4,0)
-LOG EVENT^S^0:NO;1:YES;^0;4^Q
-"^DD",19941.21,19941.21,4,3)
-Enter YES to enable logging of this event.
-"^DD",19941.21,19941.21,4,"DT")
-3030611
-"^DD",19941.21,19941.21,5,0)
-LOG RETENTION^NJ6,0^^0;5^K:+X'=X!(X>999999)!(X<1)!(X?.E1"."1N.N) X
-"^DD",19941.21,19941.21,5,3)
-Number of days to retain log entries.
-"^DD",19941.21,19941.21,5,"DT")
-3030611
-"^DD",19941.21,19941.21,6,0)
-POLLING METHOD^S^0:PER SESSION;1:PER INTERVAL;^0;6^Q
-"^DD",19941.21,19941.21,6,3)
-Determines how a monitored event is polled.
-"^DD",19941.21,19941.21,6,21,0)
-^^11^11^3030810.175145
-"^DD",19941.21,19941.21,6,21,1,0)
-For monitored events, this setting determines how the monitor is invoked
-"^DD",19941.21,19941.21,6,21,2,0)
-when the polling interval has been reached.  PER SESSION causes the event
-"^DD",19941.21,19941.21,6,21,3,0)
-monitor to be invoked for each active session, setting the user and
-"^DD",19941.21,19941.21,6,21,4,0)
-session context prior to each call.  PER INTERVAL cause the event monitor
-"^DD",19941.21,19941.21,6,21,5,0)
-to be invoked only once per interval.  No user or session context information
-"^DD",19941.21,19941.21,6,21,6,0)
-is available to the monitor in this case.
-"^DD",19941.21,19941.21,6,21,7,0)
-
-"^DD",19941.21,19941.21,6,21,8,0)
-PER SESSION is appropriate for events that depend upon a specific user or
-"^DD",19941.21,19941.21,6,21,9,0)
-session (e.g., notifications).  PER INTERVAL is appropriate for events 
-"^DD",19941.21,19941.21,6,21,10,0)
-that are independent of a user or session (e.g., status events to display
-"^DD",19941.21,19941.21,6,21,11,0)
-the host date/time).
-"^DD",19941.21,19941.21,6,"DT")
-3030810
-"^DD",19941.21,19941.21,7,0)
-EVENT PROTOCOL^*P101'^ORD(101,^0;7^S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X""" D ^DIC K DIC S DIC=$G(DIE),X=+Y K:Y<0 X
-"^DD",19941.21,19941.21,7,12)
-Restricts to Extended Action Protocols starting with CIAV
-"^DD",19941.21,19941.21,7,12.1)
-S DIC("S")="I $E(^(0),1,4)=""CIAV"",$P(^(0),U,4)=""X"""
-"^DD",19941.21,19941.21,7,"DT")
-3091007
-"^DD",19941.21,19941.21,10,0)
-DISPLAY LOGIC^K^^10;E1,245^K:$L(X)>245 X D:$D(X) ^DIM
-"^DD",19941.21,19941.21,10,3)
-Logic to display stub info in log viewer.
-"^DD",19941.21,19941.21,10,9)
-@
-"^DD",19941.21,19941.21,10,"DT")
-3030611
-"^DD",19941.21,19941.21,20,0)
-PUBLICATION KEY^19941.212P^^20;0
-"^DD",19941.21,19941.21,21,0)
-SUBSCRIPTION KEY^19941.2121P^^21;0
-"^DD",19941.21,19941.21,99,0)
-DESCRIPTION^19941.2199^^99;0
-"^DD",19941.21,19941.21,100,0)
-ERROR DATE/TIME^D^^100;1^S %DT="ESTXR" D ^%DT S X=Y K:Y<1 X
-"^DD",19941.21,19941.21,100,3)
-Date and time of last error
-"^DD",19941.21,19941.21,100,"DT")
-3061129
-"^DD",19941.21,19941.21,101,0)
-ERROR TEXT^F^^100;2^K:$L(X)>240!($L(X)<1) X
-"^DD",19941.21,19941.21,101,3)
-Answer must be 1-240 characters in length.
-"^DD",19941.21,19941.21,101,"DT")
-3061129
-"^DD",19941.21,19941.212,0)
-PUBLICATION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.212,0,"DT")
-3021021
-"^DD",19941.21,19941.212,0,"IX","B",19941.212,.01)
-
-"^DD",19941.21,19941.212,0,"NM","PUBLICATION KEY")
-
-"^DD",19941.21,19941.212,0,"UP")
-19941.21
-"^DD",19941.21,19941.212,.01,0)
-PUBLICATION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.212,.01,1,0)
-^.1
-"^DD",19941.21,19941.212,.01,1,1,0)
-19941.212^B
-"^DD",19941.21,19941.212,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.212,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),20,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.212,.01,3)
-Security keys required to fire this event.
-"^DD",19941.21,19941.212,.01,21,0)
-^^2^2^3021021.152715
-"^DD",19941.21,19941.212,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.212,.01,21,2,0)
-the listed keys in order to fire an event of this type.
-"^DD",19941.21,19941.212,.01,"DT")
-3040310
-"^DD",19941.21,19941.2121,0)
-SUBSCRIPTION KEY SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2121,0,"DT")
-3021021
-"^DD",19941.21,19941.2121,0,"IX","B",19941.2121,.01)
-
-"^DD",19941.21,19941.2121,0,"NM","SUBSCRIPTION KEY")
-
-"^DD",19941.21,19941.2121,0,"UP")
-19941.21
-"^DD",19941.21,19941.2121,.01,0)
-SUBSCRIPTION KEY^MP19.1'X^DIC(19.1,^0;1^Q
-"^DD",19941.21,19941.2121,.01,1,0)
-^.1
-"^DD",19941.21,19941.2121,.01,1,1,0)
-19941.2121^B
-"^DD",19941.21,19941.2121,.01,1,1,1)
-S ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)=""
-"^DD",19941.21,19941.2121,.01,1,1,2)
-K ^CIANB(19941.21,DA(1),21,"B",$E(X,1,30),DA)
-"^DD",19941.21,19941.2121,.01,3)
-Security keys required to receive this event type.
-"^DD",19941.21,19941.2121,.01,21,0)
-^^2^2^3021021.153002
-"^DD",19941.21,19941.2121,.01,21,1,0)
-If there are entries in this multiple, the user must possess at least one of
-"^DD",19941.21,19941.2121,.01,21,2,0)
-the listed keys in order subscribe to an event of this type. 
-"^DD",19941.21,19941.2121,.01,"DT")
-3040310
-"^DD",19941.21,19941.2199,0)
-DESCRIPTION SUB-FIELD^^.01^1
-"^DD",19941.21,19941.2199,0,"DT")
-3021021
-"^DD",19941.21,19941.2199,0,"NM","DESCRIPTION")
-
-"^DD",19941.21,19941.2199,0,"UP")
-19941.21
-"^DD",19941.21,19941.2199,.01,0)
-DESCRIPTION^W^^0;1^Q
-"^DD",19941.21,19941.2199,.01,3)
-Enter a detailed description of this event type.
-"^DD",19941.21,19941.2199,.01,"DT")
-3021021
 "^DIC",998.1,998.1,0)
 SERIALIZATION CONTROL^998.1
 "^DIC",998.1,998.1,0,"GL")
@@ -59531,12 +59537,6 @@ CAREWEB NOTIFICATION CONTROL^999.201
 "^DIC",999.201,999.201,0,"GL")
 ^RGCWF(999.201,
 "^DIC",999.201,"B","CAREWEB NOTIFICATION CONTROL",999.201)
-
-"^DIC",19941.21,19941.21,0)
-CIA EVENT TYPE^19941.21
-"^DIC",19941.21,19941.21,0,"GL")
-^CIANB(19941.21,
-"^DIC",19941.21,"B","CIA EVENT TYPE",19941.21)
 
 **END**
 **END**
