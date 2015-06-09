@@ -53,7 +53,7 @@ fi
 chmod +x gtminstall
 
 #gtm_ver=V6.0-002
-gtm_ver=V6.2-001
+gtm_ver=V6.2-002
 
 # Determine processor architecture - used to determine if we can use GT.M
 #                                    Shared Libraries
