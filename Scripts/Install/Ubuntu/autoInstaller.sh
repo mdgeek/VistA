@@ -193,7 +193,7 @@ if $isVagrant; then
     dos2unix $scriptdir/GTM/gtminstall_SHA1 > /dev/null 2>&1
 else
     scriptdir=/usr/local/src/VistA/Scripts/Install
-    if [ ! -d "$scriptdir" ]
+    if [ ! -d "$scriptdir" ] then
     	git clone -q https://github.com/mdgeek/VistA-FHIR-CWF.git /usr/local/src/VistA
     fi
 fi
