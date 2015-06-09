@@ -26,7 +26,7 @@ fi
 
 # Download gtminstall script from SourceForge
 echo "Downloading gtminstall"
-curl -s --remote-name -L http://downloads.sourceforge.net/project/fis-gtm/GT.M%20Installer/v0.12/gtminstall
+curl -s --remote-name -L http://downloads.sourceforge.net/project/fis-gtm/GT.M%20Installer/v0.13/gtminstall
 
 # Verify hash as we are going to make it executable
 sha1sum -c --status gtminstall_SHA1
@@ -52,8 +52,8 @@ fi
 # Make it executable
 chmod +x gtminstall
 
-gtm_ver=V6.0-002
-#gtm_ver=V6.2-001
+#gtm_ver=V6.0-002
+gtm_ver=V6.2-001
 
 # Determine processor architecture - used to determine if we can use GT.M
 #                                    Shared Libraries

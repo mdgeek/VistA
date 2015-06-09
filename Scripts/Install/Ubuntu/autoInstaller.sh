@@ -192,8 +192,10 @@ if $isVagrant; then
     dos2unix $scriptdir/GTM/etc/xinetd.d/vista-vistalink > /dev/null 2>&1
     dos2unix $scriptdir/GTM/gtminstall_SHA1 > /dev/null 2>&1
 else
-    git clone -q https://github.com/mdgeek/VistA-FHIR-CWF.git /usr/local/src/VistA
     scriptdir=/usr/local/src/VistA/Scripts/Install
+    if [ ! -d "$scriptdir" ]
+    	git clone -q https://github.com/mdgeek/VistA-FHIR-CWF.git /usr/local/src/VistA
+    fi
 fi
 
 # bootstrap the system
