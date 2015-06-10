@@ -162,7 +162,7 @@ echo "export instance=$instance"                >> $basedir/etc/env
 # Ensure correct permissions for env
 chown $instance:$instance $basedir/etc/env
 
-# Source envrionment in bash shell
+# Source environment in bash shell
 echo "source $basedir/etc/env" >> $basedir/.bashrc
 
 # Setup base gtmroutines

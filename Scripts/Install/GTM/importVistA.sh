@@ -42,7 +42,7 @@ echo "Done compiling routines"
 # Import globals
 echo "Importing globals"
 for global in $(cd /usr/local/src/VistA-Source && git ls-files -- \*.zwr); do
-    mupip load \"/usr/local/src/VistA-Source/${global}\" >> $basedir/log/loadGloabls.log 2>&1
+    mupip load \"/usr/local/src/VistA-Source/${global}\" >> $basedir/log/loadGlobals.log 2>&1
 done
 echo "Done importing globals"
 
