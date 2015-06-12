@@ -33,6 +33,5 @@ OTHER        S $P(^XTV(8989.3,1,"XUS"),"^",4)=1,$P(^("XUS"),"^",19)=100
         N FDA
         S FDA(8989.3,"1,",217)=2957
         D FILE^DIE(,"FDA")
-        D STARTALL^RGNETTCP
         Q
 

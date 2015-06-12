@@ -8,6 +8,12 @@ if $isVagrant; then
    dos2unix ./www/*.inp > /dev/null
 fi
 #
+# Install CWF KIDS builds
+#
+python ../../DefaultKIDSBuildInstaller.py ./kid/cwf-vista-1.0.kid -S 2
+python ../../DefaultKIDSBuildInstaller.py ./kid/rged-3.0.kid -S 2
+
+#
 #  NETSERV broker configuration
 #
 # sudo cp -r ./etc/xinetd.d/rgbroker-service /home/osehra/etc/xinetd.d/rgbroker-service
@@ -37,13 +43,7 @@ sudo cp ./www/cwf-vista.war /var/lib/tomcat7/webapps/cwf-vista.war
 #
 sudo cp -r ./etc/init.d/cwf-service /home/osehra/etc/init.d/cwf-service
 sudo ln -s /home/osehra/etc/init.d/cwf-service /etc/init.d/cwf-service
-
-#
-# Install CWF KIDS builds
-#
-python ../../DefaultKIDSBuildInstaller.py ./kid/cwf-vista-1.0.kid -S 2
-python ../../DefaultKIDSBuildInstaller.py ./kid/rged-3.0.kid -S 2
-
+sudo service cwf-service start
 #
 # Install supplemental routines
 #
