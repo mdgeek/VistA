@@ -1,3 +1,4 @@
+set(dashboard_git_M_url "http://github.com/mdgeek/VistA-M")
 # Set the site name with {randomString}.vagrant to identify all vagrant builds
 set(CTEST_SITE "$ENV{buildid}.vagrant")
 

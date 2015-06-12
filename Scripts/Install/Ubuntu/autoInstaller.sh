@@ -34,7 +34,7 @@ usage()
     This script will automatically create a VistA instance for GT.M on Ubuntu
 
     DEFAULTS:
-      Alternate VistA-M repo = https://github.com/OSEHRA/VistA-M.git
+      Alternate VistA-M repo = https://github.com/mdgeek/VistA-M.git
       Install EWD.js = false
       Install CWF = false
       Install dEWDrop globals = false
