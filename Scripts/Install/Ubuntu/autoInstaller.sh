@@ -101,7 +101,7 @@ done
 
 # Set defaults for options
 if [[ -z $repoPath ]]; then
-    repoPath="https://github.com/OSEHRA/VistA-M.git"
+    repoPath="https://github.com/mdgeek/VistA-M.git"
 fi
 
 if [[ -z $developmentDirectories ]]; then

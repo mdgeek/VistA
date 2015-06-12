@@ -35,7 +35,7 @@ usage()
     RHEL-like Distros
 
     DEFAULTS:
-      Alternate VistA-M repo = https://github.com/OSEHRA/VistA-M.git
+      Alternate VistA-M repo = https://github.com/mdgeek/VistA-M.git
       Install EWD.js = false
       Create Development Directories = false
       Instance Name = OSEHRA
@@ -94,7 +94,7 @@ done
 
 # Set defaults for options
 if [[ -z $repoPath ]]; then
-    repoPath="https://github.com/OSEHRA/VistA-M.git"
+    repoPath="https://github.com/mdgeek/VistA-M.git"
 fi
 
 if [[ -z $developmentDirectories ]]; then
