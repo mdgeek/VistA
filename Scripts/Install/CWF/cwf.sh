@@ -33,6 +33,12 @@ sudo iptables -A INPUT -p tcp --dport 9080 -j ACCEPT
 sudo cp ./www/cwf-vista.war /var/lib/tomcat7/webapps/cwf-vista.war
 
 #
+# Startup/shutdown service configuration
+#
+sudo cp -r ./etc/init.d/cwf-service /home/osehra/etc/init.d/cwf-service
+sudo ln -s /home/osehra/etc/init.d/cwf-service /etc/init.d/cwf-service
+
+#
 # Install CWF KIDS builds
 #
 python ../../DefaultKIDSBuildInstaller.py ./kid/cwf-vista-1.0.kid -S 2

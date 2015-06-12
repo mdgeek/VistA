@@ -1,0 +1,44 @@
+#!/usr/bin/env bash
+# init script for CWF
+
+# Debian LSB info
+### BEGIN INIT INFO
+# Provides:          cwf
+# Required-Start:    $remote_fs $syslog
+# Required-Stop:     $remote_fs $syslog
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: Start CWF services at boot time
+# Description:       Starts/Stops TCP listeners
+### END INIT INFO
+
+# Setup environment variables
+source /home/osehra/etc/env
+
+# Start VistA background tasks
+start() {
+    # Start Listeners
+    echo "Starting listeners"
+    su $instance -c "source $basedir/etc/env && cd $basedir/tmp && $gtm_dist/mumps -run STARTALL^RGNETTCP"
+}
+stop() {
+    # Stop Listeners
+    echo "Stopping listeners"
+    su $instance -c "source $basedir/etc/env && cd $basedir/tmp && $gtm_dist/mumps -run STOPALL^RGNETTCP"
+}
+
+case "$1" in
+    start)
+        start
+        ;;
+    stop)
+        stop
+        ;;
+    restart)
+        stop
+        start
+        ;;
+    *)
+        echo "Usage: $0 {start|stop|restart}"
+        ;;
+esac
