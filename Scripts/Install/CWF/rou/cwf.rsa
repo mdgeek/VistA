@@ -1,37 +1,63 @@
-CWF Supplemental Routines
-GT.M 02-MAR-2015 14:35:55
-RGZINIT
-RGZINIT ;RG/IND/DKM - Set up user access ;28-Mar-2015 11:23;DKM
-        ;;1.0;CAREWEB FRAMEWORK;;30-Jan-2015 15:25
-        ;=================================================================
-        D INIT($ZCM)
-        Q
-AUTO    N IEN,NM,XX
-        S U="^"
-        F IEN=0:0 S IEN=$O(^VA(200,IEN)) Q:'IEN  S NM=$P(^(IEN,0),U) D
-        .F XX="NURSE","DOCTOR","SYSTEM","COORDINATOR","USER" I NM[XX D INIT(IEN) Q
-        D OTHER
-        Q
-INIT(NAM)       ;
-        N DUZ
-        S DUZ=+$S(NAM=+NAM:NAM,1:$$FIND1^DIC(200,,"X",NAM))
-        I '$D(^VA(200,DUZ,0)) W "User not found: ",NAM,!!,"Exiting...",!!! Q
-        W "Configuring user: ",NAM,!
-        D ADDSK("RGCWF DESIGNER"),ADDSK("RGCWF COMPOSER"),ADDSK("RGCWPT PATIENT SELECT")
-        D ADDXP("RGCWENCX CREATE VISIT"),ADDXP("RGCWENCX PROVIDER")
-        Q
-ADDSK(X)        W ?5,"Assigning security key: ",X,!
-        S ^XUSEC(X,DUZ)=""
-        Q
-ADDXP(X)        N ERR
-        W ?5,"Adding permission: ",X,!
-        D ADD^XPAR("USR",X,1,1,.ERR)
-        W:ERR ?7,"Error adding permission.",!
-        Q
-OTHER        S $P(^XTV(8989.3,1,"XUS"),"^",4)=1,$P(^("XUS"),"^",19)=100
-        S $P(^VA(200,1,.1),U)="99999,99999"
-        N FDA
-        S FDA(8989.3,"1,",217)=2957
-        D FILE^DIE(,"FDA")
-        Q
+Cache for UNIX^INT^Configure Environment^~Format=Cache.S~^RAW
+%RO on 16 Jun 2015   3:26 PM
+RGZINIT^INT^1^63719,55501^0
+RGZINIT ;RG/IND/DKM - Configure Environment;16-Jun-2015 15:25;DKM
+ ;;1.0;CAREWEB FRAMEWORK;;30-Jan-2015 15:25
+ ;=================================================================
+ D INIT($ZCM)
+ Q
+AUTO N IEN,NM,XX
+ S U="^"
+ F IEN=0:0 S IEN=$O(^VA(200,IEN)) Q:'IEN  S NM=$P(^(IEN,0),U) D
+ .F XX="NURSE","DOCTOR","SYSTEM","COORDINATOR","USER" I NM[XX D INIT(IEN) Q
+ D OTHER
+ Q
+INIT(NAM) ;
+ N DUZ
+ S DUZ=+$S(NAM=+NAM:NAM,1:$$FIND1^DIC(200,,"X",NAM))
+ I '$D(^VA(200,DUZ,0)) W "User not found: ",NAM,!!,"Exiting...",!!! Q
+ W "Configuring user: ",NAM,!
+ D ADDSK("RGCWF DESIGNER"),ADDSK("RGCWF COMPOSER"),ADDSK("RGCWPT PATIENT SELECT")
+ D ADDXP("RGCWENCX CREATE VISIT"),ADDXP("RGCWENCX PROVIDER")
+ Q
+ADDSK(X) W ?5,"Assigning security key: ",X,!
+ S ^XUSEC(X,DUZ)=""
+ Q
+ADDXP(X) N ERR
+ W ?5,"Adding permission: ",X,!
+ D ADD^XPAR("USR",X,1,1,.ERR)
+ W:ERR ?7,"Error adding permission.",!
+ Q
+OTHER S $P(^XTV(8989.3,1,"XUS"),"^",4)=1,$P(^("XUS"),"^",19)=100
+ S $P(^VA(200,1,.1),U)="99999,99999"
+ N FDA,ERR,IEN,IENS,DIV
+ S DIV=2957
+ S FDA(8989.3,"1,",217)=DIV
+ S FDA(150.9,"1,",.04)=DIV
+ D FILE^DIE(,"FDA","ERR")
+ D CHKERR
+ K FDA,ERR
+ S FDA(150.93,"+1,1,",.01)="RGCW"
+ S FDA(150.93,"+1,1,",4)=1
+ D UPDATE^DIE("E","FDA",,"ERR")
+ D CHKERR
+ F IEN=0:0 S IEN=$O(^VA(200,IEN)) Q:'IEN  D
+ .K FDA,ERR
+ .S IENS="+1,"_IEN_","
+ .S FDA(200.02,IENS,.01)=DIV
+ .S FDA(200.02,IENS,1)=1
+ .D UPDATE^DIE(,"FDA",,"ERR")
+ .D CHKERR
+ F IEN=0:0 S IEN=$O(^SC(IEN)) Q:'IEN  D
+ .K FDA,ERR
+ .S FDA(44,IEN_",",3)=DIV
+ .D FILE^DIE(,"FDA","ERR")
+ .D CHKERR
+ Q
+CHKERR I $D(ERR) D
+ .I ^%ZOSF("OS")["GT.M" ZWR ERR Q
+ .ZW ERR
+ Q
+
+
 
