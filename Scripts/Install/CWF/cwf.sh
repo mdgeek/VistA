@@ -8,10 +8,13 @@ if $isVagrant; then
    dos2unix ./www/*.inp > /dev/null
 fi
 #
-# Install CWF KIDS builds
+# Install KIDS builds
 #
-python ../../DefaultKIDSBuildInstaller.py ./kid/cwf-vista-1.0.kid -S 2
-python ../../DefaultKIDSBuildInstaller.py ./kid/rged-3.0.kid -S 2
+for f in ./kid/*
+do
+echo "Installing build $f..."
+python ../../DefaultKIDSBuildInstaller.py $f -S 2
+done
 
 #
 #  NETSERV broker configuration
