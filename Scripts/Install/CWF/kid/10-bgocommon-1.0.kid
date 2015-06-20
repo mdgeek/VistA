@@ -1,15 +1,15 @@
-KIDS Distribution saved on Jun 19, 2015@14:12:23
+KIDS Distribution saved on Jun 20, 2015@08:16:56
 BGO COMMON 1.0
 **KIDS**:BGO COMMON 1.0^
 
 **INSTALL NAME**
 BGO COMMON 1.0
 "BLD",8514,0)
-BGO COMMON 1.0^^0^3150619^n
+BGO COMMON 1.0^^0^3150620^n
 "BLD",8514,4,0)
 ^9.64PA^^
 "BLD",8514,6.3)
-7
+9
 "BLD",8514,"KRN",0)
 ^9.67PA^9002226^21
 "BLD",8514,"KRN",.4,0)
@@ -895,7 +895,7 @@ D XPZ2^XPDIQ
 "RTN","BGOUTL",1,0)
 BGOUTL ; IHS/BAO/TMD - Utilities ;18-Jun-2015 17:13;DKM
 "RTN","BGOUTL",2,0)
- ;;1.1;BGO COMPONENTS;**1,3,4,5,6,13**;Mar 20, 2007;Build 7
+ ;;1.1;BGO COMPONENTS;**1,3,4,5,6,13**;Mar 20, 2007;Build 9
 "RTN","BGOUTL",3,0)
  ; Compute patient's age
 "RTN","BGOUTL",4,0)
@@ -1751,7 +1751,7 @@ XSCRN(IEN,SCRN) ;EP
 "RTN","BGOUTL2",1,0)
 BGOUTL2 ; IHS/BAO/TMD - Utilities (continued)  ;18-Jun-2015 17:13;DKM
 "RTN","BGOUTL2",2,0)
- ;;1.1;BGO COMPONENTS;**1,3,5,6,10,11,12,13**;Mar 20, 2007;Build 7
+ ;;1.1;BGO COMPONENTS;**1,3,5,6,10,11,12,13**;Mar 20, 2007;Build 9
 "RTN","BGOUTL2",3,0)
  ; Add refusals to output stream
 "RTN","BGOUTL2",4,0)
@@ -2351,7 +2351,7 @@ SNMDCONC(RET,CONCID) ; EP
 "RTN","BGOUTL3",1,0)
 BGOUTL3 ; IHS/BAO/TMD - Utilities (continued)  ;18-Jun-2015 17:13;DKM
 "RTN","BGOUTL3",2,0)
- ;;1.1;BGO COMPONENTS;**11,13**;Mar 20, 2007;Build 7
+ ;;1.1;BGO COMPONENTS;**11,13**;Mar 20, 2007;Build 9
 "RTN","BGOUTL3",3,0)
 GETSET(RET,BGOFILE,BGOFLD,BGOCHK) ;gets set of codes
 "RTN","BGOUTL3",4,0)
@@ -2433,7 +2433,7 @@ EXAM ;Check exam codes
 "RTN","BGOUTL4",1,0)
 BGOUTL4 ; IHS/RI/DKM Bridge utilities;18-Jun-2015 17:13;DKM
 "RTN","BGOUTL4",2,0)
- ;;1.1;BGO COMPONENTS;;;Build 7
+ ;;1.1;BGO COMPONENTS;;;Build 9
 "RTN","BGOUTL4",3,0)
 HASKEY(KEY,USR) ;
 "RTN","BGOUTL4",4,0)
