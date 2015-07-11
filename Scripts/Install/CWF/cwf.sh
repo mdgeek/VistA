@@ -42,7 +42,10 @@ sudo iptables -A INPUT -p tcp --dport 9080 -j ACCEPT
 #
 # Web app installation
 #
-sudo cp ./www/cwf-vista.war /var/lib/tomcat7/webapps/cwf-vista.war
+cd www
+unzip *.zip
+sudo cp *.war /var/lib/tomcat7/webapps
+cd ..
 
 #
 # Startup/shutdown service configuration
