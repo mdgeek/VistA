@@ -15,7 +15,7 @@ unzip *.zip
 for f in *.kid
 do
 echo "Installing build $f..."
-python ../../DefaultKIDSBuildInstaller.py $f -S 2
+python ../../../DefaultKIDSBuildInstaller.py $f -S 2
 done
 cd ..
 
