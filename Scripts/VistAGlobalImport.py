@@ -76,7 +76,7 @@ def testMain():
   testClient = VistATestClientFactory.createVistATestClientWithArgs(result)
   assert testClient
   with testClient as vistAClient:
-    logFilename = getTempLogFile(DEFAULT_GLOBAL_IMPORT_TIMEOUT)
+    logFilename = getTempLogFile(DEFAULT_OUTPUT_LOG_FILE_NAME)
     print "Log File is %s" % logFilename
     vistAClient.setLogFile(logFilename)
     vistAGlobalImport = VistAGlobalImport()

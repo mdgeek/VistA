@@ -27,7 +27,7 @@ unzip *.zip
 for f in *.glo
 do
 echo "Importing globals from $f..."
-python ../../../VistAGlobalImport.py $f -S 2
+python ../../../VistAGlobalImport.py $f -S 2 -t 999999
 done
 cd ..
 
