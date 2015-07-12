@@ -20,6 +20,18 @@ done
 cd ..
 
 #
+# Install globals
+#
+cd glo
+unzip *.zip
+for f in *.glo
+do
+echo "Importing globals from $f..."
+python ../../../VistAGlobalImport.py $f -S 2
+done
+cd ..
+
+#
 #  NETSERV broker configuration
 #
 # sudo cp -r ./etc/xinetd.d/rgbroker-service /home/osehra/etc/xinetd.d/rgbroker-service
