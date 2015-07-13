@@ -74,7 +74,7 @@ do
             ;;
         c)
             installCWF=true
-            developmentDirectories=true
+            #developmentDirectories=true
             ;;
         e)
             installEWD=true
