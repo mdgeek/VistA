@@ -1,11 +1,11 @@
-KIDS Distribution saved on Jul 11, 2015@09:10:08
+KIDS Distribution saved on Jul 12, 2015@20:26:14
 FAMILY HISTORY 1.0
 **KIDS**:FAMILY HISTORY 1.0^
 
 **INSTALL NAME**
 FAMILY HISTORY 1.0
 "BLD",8515,0)
-FAMILY HISTORY 1.0^^0^3150711^n
+FAMILY HISTORY 1.0^^0^3150712^n
 "BLD",8515,4,0)
 ^9.64PA^9999999.27^4
 "BLD",8515,4,9000014,0)
@@ -33,7 +33,7 @@ y^y^f^^n^^y^o^n
 "BLD",8515,4,"B",9999999.36,9999999.36)
 
 "BLD",8515,6.3)
-6
+8
 "BLD",8515,"KRN",0)
 ^9.67PA^9002226^21
 "BLD",8515,"KRN",.4,0)
@@ -63,7 +63,7 @@ y^y^f^^n^^y^o^n
 "BLD",8515,"KRN",9.8,"NM",1,0)
 BGOFHLK^^0^B5199565
 "BLD",8515,"KRN",9.8,"NM",2,0)
-BGOFHX^^0^B29190565
+BGOFHX^^0^B29196793
 "BLD",8515,"KRN",9.8,"NM",3,0)
 BGOREL^^0^B10927542
 "BLD",8515,"KRN",9.8,"NM","B","BGOFHLK",1)
@@ -1099,7 +1099,7 @@ D XPZ2^XPDIQ
 "RTN","BGOFHLK",1,0)
 BGOFHLK ; IHS/BAO/TMD - FHL - PROGRAM TO GET LIST OF DIAGNOSES ;02-Apr-2013 09:12;MGH
 "RTN","BGOFHLK",2,0)
- ;;1.1;BGO COMPONENTS;**6,12**;Mar 20, 2007;Build 6
+ ;;1.1;BGO COMPONENTS;**6,12**;Mar 20, 2007;Build 8
 "RTN","BGOFHLK",3,0)
  ;---------------------------------------------------------------
 "RTN","BGOFHLK",4,0)
@@ -1231,11 +1231,11 @@ CHKHITS ;Q:$D(@RET@(0,ICD))  S ^(ICD)=""
 "RTN","BGOFHLK",67,0)
 CHKFH ;Family history lookup
 "RTN","BGOFHX")
-0^2^B29190565
+0^2^B29196793
 "RTN","BGOFHX",1,0)
-BGOFHX ; IHS/MSC/MGH - New family history component ;28-May-2015 22:40;AA
+BGOFHX ; IHS/MSC/MGH - New family history component ;12-Jul-2015 18:27;DKM
 "RTN","BGOFHX",2,0)
- ;;1.1;BGO COMPONENTS;**6,13**;Mar 20, 2007;Build 6
+ ;;1.1;BGO COMPONENTS;**6,13**;Mar 20, 2007;Build 8
 "RTN","BGOFHX",3,0)
  ;---------------------------------------------
 "RTN","BGOFHX",4,0)
@@ -1559,15 +1559,17 @@ EVT(RIEN,FHIEN,OPR,X) ;EP
 "RTN","BGOFHX",163,0)
  S DFN=$P(X,U,2),DATA=RIEN_U_FHIEN_$G(CIA("UID"))_U_OPR
 "RTN","BGOFHX",164,0)
- D:DFN BRDCAST^CIANBEVT("PCC."_DFN_".FHH",DATA)
+ ;D:DFN BRDCAST^CIANBEVT("PCC."_DFN_".FHH",DATA)
 "RTN","BGOFHX",165,0)
+ D:DFN BRDCAST^RGNETBEV("PCC."_DFN_".FHH",DATA)
+"RTN","BGOFHX",166,0)
  Q
 "RTN","BGOREL")
 0^3^B10927542
 "RTN","BGOREL",1,0)
 BGOREL ; IHS/MSC/MGH - New family history component ;09-Jul-2015 22:28;DKM
 "RTN","BGOREL",2,0)
- ;;1.1;BGO COMPONENTS;**6,13**;Mar 20, 2007;Build 6
+ ;;1.1;BGO COMPONENTS;**6,13**;Mar 20, 2007;Build 8
 "RTN","BGOREL",3,0)
  ;---------------------------------------------
 "RTN","BGOREL",4,0)
