@@ -38,20 +38,23 @@ OTHER S $P(^XTV(8989.3,1,"XUS"),"^",4)=1,$P(^("XUS"),"^",19)=100
  D CHKERR
  K FDA,ERR
  S FDA(9999999.06,"+1,",.01)="`"_DIV
+ D UPDATE^DIE("E","FDA",,"ERR")
+ D CHKERR
+ K FDA,ERR
  S FDA(150.93,"+1,1,",.01)="RGCW"
  S FDA(150.93,"+1,1,",4)=1
  D UPDATE^DIE("E","FDA",,"ERR")
  D CHKERR
- F IEN=0:0 S IEN=$O(^VA(200,IEN)) Q:'IEN  S X=$P(^(IEN,0),U) D
+ F IEN=0:0 S IEN=$O(^VA(200,IEN)) Q:'IEN  D
  .K FDA,ERR
  .S IENS="+1,"_IEN_","
  .S FDA(200.02,IENS,.01)=DIV
  .S FDA(200.02,IENS,1)=1
- .S FDA(44,IEN_",",15)=$S(+X:"I",$E(X)="Z":"",X["ICU":"I",1:"A")
  .D UPDATE^DIE(,"FDA",,"ERR")
  .D CHKERR
- F IEN=0:0 S IEN=$O(^SC(IEN)) Q:'IEN  D
+ F IEN=0:0 S IEN=$O(^SC(IEN)) Q:'IEN  S X=$P(^(IEN,0),U) D
  .K FDA,ERR
+ .S FDA(44,IEN_",",15)=$S(+X:"I",$E(X)="Z":"",X["ICU":"I",1:"A")
  .S FDA(44,IEN_",",3)=DIV
  .D FILE^DIE(,"FDA","ERR")
  .D CHKERR
