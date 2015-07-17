@@ -15,6 +15,7 @@
 # limitations under the License.
 #---------------------------------------------------------------------------
 
+set -e
 # Install GT.M using gtminstall script
 # This utility requires root privliges
 
@@ -57,8 +58,6 @@ fi
 # --ucaseonly-utils - override default to install only uppercase utilities
 #                     this follows VistA convention of uppercase only routines
 ./gtminstall --ucaseonly-utils --installdir /opt/lsb-gtm/"$gtm_ver"_"$gtm_arch" $gtm_ver
-# Remove installgtm script as it is unnecessary
-rm ./gtminstall
 
 # Link GT.M shared library where the linker can find it and refresh the cache
 if [[ $RHEL || -z $ubuntu ]]; then
@@ -67,3 +66,4 @@ fi
 ln -s /opt/lsb-gtm/"$gtm_ver"_"$gtm_arch"/libgtmshr.so /usr/local/lib
 ldconfig
 echo "Done installing GT.M"
+set +e
