@@ -24,17 +24,6 @@ if [[ $EUID -ne 0 ]]; then
     exit 1
 fi
 
-# Download gtminstall script from SourceForge
-echo "Downloading gtminstall"
-curl -s --remote-name -L http://downloads.sourceforge.net/project/fis-gtm/GT.M%20Installer/v0.13/gtminstall
-
-# Verify hash as we are going to make it executable
-sha1sum -c --status gtminstall_SHA1
-if [ $? -gt 0 ]; then
-    echo "Something went wrong downloading gtminstall"
-    exit $?
-fi
-
 # Get kernel.shmmax to determine if we can use 32k strings
 shmmax=$(sysctl -n kernel.shmmax)
 
@@ -49,10 +38,9 @@ else
     sysctl -w kernel.shmmax=67108864
 fi
 
-# Make it executable
+# Make installer executable
 chmod +x gtminstall
 
-#gtm_ver=V6.0-002
 gtm_ver=V6.2-002
 
 # Determine processor architecture - used to determine if we can use GT.M
