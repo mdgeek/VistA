@@ -65,6 +65,7 @@ cd ..
 sudo cp -r ./etc/init.d/cwf-service /home/osehra/etc/init.d/cwf-service
 sudo ln -s /home/osehra/etc/init.d/cwf-service /etc/init.d/cwf-service
 sudo service cwf-service start
+sudo update-rc.d cwf-service defaults
 #
 # Install supplemental routines
 #
