@@ -1,4 +1,4 @@
-PX*1*209 TEST v2
+Released PX*1*209 SEQ #159
 Extracted from mail message
 **KIDS**:PX*1.0*209^
 
@@ -1613,8 +1613,7 @@ DATA2PCE ;
 "VER")
 8.0^22.0
 "BLD",9185,6)
-2^
+^159
 **END**
 **END**
-
 
