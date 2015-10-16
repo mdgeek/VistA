@@ -270,22 +270,6 @@ PX SAVE DATA^^0
 
 "BLD",9275,"KRN","B",8994,8994)
 
-"BLD",9275,"QDEF")
-^^^^^^^^YES
-"BLD",9275,"QUES",0)
-^9.62^1^1
-"BLD",9275,"QUES",1,0)
-POS1
-"BLD",9275,"QUES",1,1)
-DOA^NOW::%DT
-"BLD",9275,"QUES",1,"A")
-Queue time to rebuild V Immunization Clinical Reminders index: 
-"BLD",9275,"QUES",1,"B")
-T+1@01
-"BLD",9275,"QUES",1,"M")
-S $P(DIR(0),":",2)=$$FMADD^XLFDT(DT,8) K:$D(^PXRMINDX(9000010.11,"CVX")) DIR
-"BLD",9275,"QUES","B","POS1",1)
-
 "BLD",9275,"REQB",0)
 ^9.611^11^10
 "BLD",9275,"REQB",1,0)
@@ -11840,5 +11824,3 @@ to that day's date, or has passed, that entry's STATUS is set to EXPIRED.
 3^
 **END**
 **END**
-
-
