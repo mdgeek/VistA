@@ -806,14 +806,6 @@ Patient Care Encounter (PCE) package.
  
 "PKG",507,22,1,"PAH",1,1,7,0)
 See the National Patch Module for a more detailed description.
-"QUES","POS1",0)
-DOA^NOW::%DT
-"QUES","POS1","A")
-Queue time to rebuild V Immunization Clinical Reminders index: 
-"QUES","POS1","B")
-T+1@01
-"QUES","POS1","M")
-S $P(DIR(0),":",2)=$$FMADD^XLFDT(DT,8) K:$D(^PXRMINDX(9000010.11,"CVX")) DIR
 "QUES","XPF1",0)
 Y
 "QUES","XPF1","??")
