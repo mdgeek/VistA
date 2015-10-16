@@ -6,19 +6,25 @@ RGZINIT ;RG/IND/DKM - Configure Environment;16-Jun-2015 15:25;DKM
  ;=================================================================
  D INIT($ZCM)
  Q
-AUTO N IEN,NM,XX
+AUTO N IEN,NM,XX,PC
+ S PC("NURSE")="163W00000X"
+ S PC("DOCTOR")="207R00000X"
+ S PC("SYSTEM")="246YR1600X"
+ S PC("COORDINATOR")="163WA2000X"
+ S PC("USER")="363LF0000X"
  S U="^"
- F IEN=0:0 S IEN=$O(^VA(200,IEN)) Q:'IEN  S NM=$P(^(IEN,0),U) D
- .F XX="NURSE","DOCTOR","SYSTEM","COORDINATOR","USER" I NM[XX D INIT(IEN) Q
+ F IEN=0:0 S IEN=$O(^VA(200,IEN)) Q:'IEN  S NM=$P(^(IEN,0),U),XX="" D
+ .F XX=$O(PC(XX)) Q:'$L(XX)  I NM[XX D INIT(IEN,PC(XX)) Q
  D OTHER
  Q
-INIT(NAM) ;
+INIT(NAM,PC) ;
  N DUZ
  S DUZ=+$S(NAM=+NAM:NAM,1:$$FIND1^DIC(200,,"X",NAM))
  I '$D(^VA(200,DUZ,0)) W "User not found: ",NAM,!!,"Exiting...",!!! Q
  W "Configuring user: ",NAM,!
  D ADDSK("RGCWF DESIGNER"),ADDSK("RGCWF COMPOSER"),ADDSK("RGCWPT PATIENT SELECT"),ADDSK("BIZ EDIT PATIENTS"),ADDSK("BIZ MANAGER")
  D ADDXP("RGCWENCX CREATE VISIT"),ADDXP("RGCWENCX PROVIDER")
+ D:$L($G(PC)) ADDPC(PC)
  Q
 ADDSK(X) W ?5,"Assigning security key: ",X,!
  S ^XUSEC(X,DUZ)=""
@@ -27,6 +33,15 @@ ADDXP(X) N ERR
  W ?5,"Adding permission: ",X,!
  D ADD^XPAR("USR",X,1,1,.ERR)
  W:ERR ?7,"Error adding permission.",!
+ Q
+ADDPC(X) Q:$O(^VA(200,DUZ,"USC1",0))
+ W ?5,"Adding person class: ",X,!
+ N FDA,ERR,IENS
+ S IENS="+1,"_DUZ_","
+ S FDA(200.05,IENS,.01)=X
+ S FDA(200.05,IENS,2)="T-999"
+ D UPDATE^DIE("E","FDA",,"ERR")
+ D CHKERR
  Q
 OTHER S $P(^XTV(8989.3,1,"XUS"),"^",4)=1,$P(^("XUS"),"^",19)=100
  S $P(^VA(200,1,.1),U)="99999,99999"
